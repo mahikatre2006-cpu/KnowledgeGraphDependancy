@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from app.core.config import settings
+from app.db.session import engine, Base
+from app.db.postgres_models import User, SyllabusDocument, UserProgress, ConceptEmbedding
 from app.api.graph_router import router as graph_router
 from app.api.sequence_router import router as sequence_router
 from app.api.parser_router import router as parser_router
@@ -7,6 +9,10 @@ from app.api.builder_router import router as builder_router
 from app.api.inference_router import router as inference_router
 from app.api.analytics_router import router as analytics_router
 from app.api.recommendation_router import router as recommendation_router
+from app.api.persistence_router import router as persistence_router
+
+# Create database tables automatically
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -21,6 +27,8 @@ app.include_router(builder_router, prefix=settings.API_V1_STR)
 app.include_router(inference_router, prefix=settings.API_V1_STR)
 app.include_router(analytics_router, prefix=settings.API_V1_STR)
 app.include_router(recommendation_router, prefix=settings.API_V1_STR)
+app.include_router(persistence_router, prefix=settings.API_V1_STR)
+
 
 
 
