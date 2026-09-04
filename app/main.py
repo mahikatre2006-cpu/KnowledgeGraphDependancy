@@ -6,6 +6,7 @@ from app.api.parser_router import router as parser_router
 from app.api.builder_router import router as builder_router
 from app.api.inference_router import router as inference_router
 from app.api.analytics_router import router as analytics_router
+from app.api.recommendation_router import router as recommendation_router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -19,6 +20,8 @@ app.include_router(parser_router, prefix=settings.API_V1_STR)
 app.include_router(builder_router, prefix=settings.API_V1_STR)
 app.include_router(inference_router, prefix=settings.API_V1_STR)
 app.include_router(analytics_router, prefix=settings.API_V1_STR)
+app.include_router(recommendation_router, prefix=settings.API_V1_STR)
+
 
 
 
