@@ -1,122 +1,146 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import React, { useState, useEffect } from "react";
+import Header from "./components/Header";
+import FileUpload from "./components/FileUpload";
+import GraphCanvas from "./components/GraphCanvas";
+import AnalyticsPanel from "./components/AnalyticsPanel";
+import {
+  getGraphSummary,
+  inferRelationships,
+  getMissingPrerequisites,
+  getBottlenecks,
+  getRecommendations,
+} from "./services/api";
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [summary, setSummary] = useState(null);
+  const [knownConceptIds, setKnownConceptIds] = useState([]);
+  const [targetConceptId, setTargetConceptId] = useState(null);
+  const [recommendations, setRecommendations] = useState(null);
+  const [missingPrereqs, setMissingPrereqs] = useState(null);
+  const [bottlenecks, setBottlenecks] = useState(null);
+  const [inferring, setInferring] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const refreshData = async () => {
+    try {
+      const summaryData = await getGraphSummary();
+      setSummary(summaryData);
+
+      if (summaryData.nodes && summaryData.nodes.length > 0) {
+        const [recs, bts] = await Promise.all([
+          getRecommendations(knownConceptIds, targetConceptId),
+          getBottlenecks(10),
+        ]);
+        setRecommendations(recs);
+        setBottlenecks(bts);
+
+        if (targetConceptId) {
+          const miss = await getMissingPrerequisites(targetConceptId, knownConceptIds);
+          setMissingPrereqs(miss);
+        }
+      }
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  useEffect(() => {
+    refreshData();
+  }, [knownConceptIds, targetConceptId]);
+
+  const handlePipelineComplete = (data) => {
+    setErrorMessage("");
+    refreshData();
+  };
+
+  const handleInferRelationships = async () => {
+    setInferring(true);
+    setErrorMessage("");
+    try {
+      await inferRelationships(0.25, 0.45);
+      await refreshData();
+    } catch (err) {
+      setErrorMessage(err.message || "Failed to run AI inference.");
+    } finally {
+      setInferring(false);
+    }
+  };
+
+  const handleToggleMastery = (conceptId) => {
+    setKnownConceptIds((prev) =>
+      prev.includes(conceptId) ? prev.filter((id) => id !== conceptId) : [...prev, conceptId]
+    );
+  };
+
+  const handleSelectTarget = (conceptId) => {
+    setTargetConceptId((prev) => (prev === conceptId ? null : conceptId));
+  };
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <div className="min-h-screen bg-neutral-100 text-neutral-900 font-sans flex flex-col antialiased selection:bg-neutral-900 selection:text-white">
+      <Header
+        onInferRelationships={handleInferRelationships}
+        inferring={inferring}
+        nodeCount={summary?.node_count || 0}
+        edgeCount={summary?.edge_count || 0}
+        courseTitle={summary?.nodes?.[0]?.metadata?.course_title || ""}
+      />
 
-      <div className="ticks"></div>
+      <main className="flex-1 max-w-7xl w-full mx-auto p-6 space-y-6">
+        {errorMessage && (
+          <div className="p-3.5 rounded-lg border border-neutral-300 bg-neutral-900 text-white text-xs flex items-center justify-between shadow-xs">
+            <span>{errorMessage}</span>
+            <button
+              onClick={() => setErrorMessage("")}
+              className="text-neutral-400 hover:text-white text-xs font-mono"
+            >
+              Dismiss
+            </button>
+          </div>
+        )}
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        {/* Top Control Section: File Upload & Instructions */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+          <div className="lg:col-span-1">
+            <FileUpload
+              onPipelineComplete={handlePipelineComplete}
+              onError={(msg) => setErrorMessage(msg)}
+            />
+          </div>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+          <div className="lg:col-span-2 bg-white border border-neutral-200 rounded-lg p-5 shadow-sm space-y-3">
+            <h2 className="text-sm font-semibold text-neutral-900">
+              Interactive Concept Graph Navigator
+            </h2>
+            <p className="text-xs text-neutral-500 leading-relaxed">
+              Click <span className="font-semibold text-neutral-900 font-mono">Mark Mastered</span> on any topic node to record your progress. Click <span className="font-semibold text-neutral-900 font-mono">Set Target Goal</span> to calculate exact missing prerequisites. Click <span className="font-semibold text-neutral-900 font-mono">Infer Relationships</span> above to trigger open-source AI prerequisite inference.
+            </p>
+
+            <GraphCanvas
+              summary={summary}
+              knownConceptIds={knownConceptIds}
+              targetConceptId={targetConceptId}
+              onToggleMastery={handleToggleMastery}
+              onSelectTarget={handleSelectTarget}
+            />
+          </div>
+        </div>
+
+        {/* Bottom Section: Analytics & Recommendations Panel */}
+        <AnalyticsPanel
+          recommendations={recommendations}
+          missingPrereqs={missingPrereqs}
+          bottlenecks={bottlenecks}
+          nodes={summary?.nodes || []}
+          targetConceptId={targetConceptId}
+          onSelectTarget={handleSelectTarget}
+          onToggleMastery={handleToggleMastery}
+        />
+      </main>
+
+      <footer className="w-full border-t border-neutral-200 bg-white py-4 px-6 text-center text-xs text-neutral-400 font-mono">
+        Knowledge Dependency Graph V1 &bull; Powered by FastAPI & React Flow
+      </footer>
+    </div>
+  );
 }
-
-export default App
