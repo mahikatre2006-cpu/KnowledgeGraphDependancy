@@ -4,6 +4,7 @@ from app.api.graph_router import router as graph_router
 from app.api.sequence_router import router as sequence_router
 from app.api.parser_router import router as parser_router
 from app.api.builder_router import router as builder_router
+from app.api.inference_router import router as inference_router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -15,6 +16,8 @@ app.include_router(graph_router, prefix=settings.API_V1_STR)
 app.include_router(sequence_router, prefix=settings.API_V1_STR)
 app.include_router(parser_router, prefix=settings.API_V1_STR)
 app.include_router(builder_router, prefix=settings.API_V1_STR)
+app.include_router(inference_router, prefix=settings.API_V1_STR)
+
 
 
 
