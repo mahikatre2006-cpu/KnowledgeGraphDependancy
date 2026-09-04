@@ -27,3 +27,11 @@ class SelfLoopError(InvalidDependencyError):
     def __init__(self, concept_id: str):
         self.concept_id = concept_id
         super().__init__(f"Self-loop detected: Concept '{concept_id}' cannot be a prerequisite of itself.")
+
+
+class CycleDetectedError(GraphException):
+    """Raised when a graph operation requires an acyclic graph (DAG), but a cycle was detected."""
+    def __init__(self, cycle_path: list):
+        self.cycle_path = cycle_path
+        path_str = " -> ".join(cycle_path)
+        super().__init__(f"Circular dependency cycle detected in graph: {path_str}")

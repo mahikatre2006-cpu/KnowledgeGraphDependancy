@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from app.core.config import settings
 from app.api.graph_router import router as graph_router
+from app.api.sequence_router import router as sequence_router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -9,6 +10,8 @@ app = FastAPI(
 )
 
 app.include_router(graph_router, prefix=settings.API_V1_STR)
+app.include_router(sequence_router, prefix=settings.API_V1_STR)
+
 
 
 @app.get("/")
