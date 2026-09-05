@@ -23,6 +23,7 @@ class SyllabusExtractor:
     )
 
     COURSE_CODE_REGEX = re.compile(r'\b([A-Z]{2,4}\s*[-:]?\s*\d{3,4})\b', re.IGNORECASE)
+    COURSE_CODE_REGEX = re.compile(r'\b(\d{7}|[A-Z]{2,4}\s*[-:]?\s*\d{3,4})\b', re.IGNORECASE)
 
     @classmethod
     def parse(cls, text: str) -> ParsedSyllabus:

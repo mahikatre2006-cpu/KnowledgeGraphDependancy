@@ -10,6 +10,7 @@ from app.api.inference_router import router as inference_router
 from app.api.analytics_router import router as analytics_router
 from app.api.recommendation_router import router as recommendation_router
 from app.api.persistence_router import router as persistence_router
+from app.api.metrics_router import router as metrics_router
 
 # Create database tables automatically
 Base.metadata.create_all(bind=engine)
@@ -28,6 +29,7 @@ app.include_router(inference_router, prefix=settings.API_V1_STR)
 app.include_router(analytics_router, prefix=settings.API_V1_STR)
 app.include_router(recommendation_router, prefix=settings.API_V1_STR)
 app.include_router(persistence_router, prefix=settings.API_V1_STR)
+app.include_router(metrics_router, prefix=settings.API_V1_STR)
 
 
 

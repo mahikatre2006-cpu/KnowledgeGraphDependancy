@@ -48,3 +48,4 @@ htmlcov/
 # Project temporary PDF uploads
 uploads/
 scratch/
+*.db

@@ -1,0 +1,251 @@
+concept_a,concept_b,Course_Code,source_syllabus,embedding_similarity,order_delta,domain_match,keyword_overlap,label
+Properties of Pure Substances,Dimensional Analysis and Similitude,MECH101,MECH101.pdf,0.1016,10,1,0.0,0
+Bipolar Junction Transistor Biasing,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.2333,3,1,0.0,1
+Field Effect Transistors,Inverting and Non-inverting Op-Amps,ELEC101,ELEC101.pdf,0.2099,2,1,0.0,1
+Zeroth Law and Temperature,Carnot Cycle,MECH101,MECH101.pdf,0.045,5,1,0.0,1
+Maximum Power Transfer Theorem,Bipolar Junction Transistor Biasing,ELEC101,ELEC101.pdf,0.0859,9,1,0.0,0
+Carnot Cycle,Viscous Flow in Pipes,MECH101,MECH101.pdf,0.0473,8,1,0.0,0
+Hooke Law and Elastic Constants,Compaction and Consolidation,CIVIL101,CIVIL101.pdf,0.0507,12,1,0.1429,0
+Second Law and Heat Engines,Laminar and Turbulent Flow,MECH101,MECH101.pdf,0.168,12,1,0.125,0
+Semiconductor Physics and Doping,Field Effect Transistors,ELEC101,ELEC101.pdf,0.3614,6,1,0.0,1
+Phasors and Impedance,Diode Rectifiers and Wave Shaping,ELEC101,ELEC101.pdf,0.275,4,1,0.1429,0
+Ohm Law and Kirchhoff Laws,Phasors and Impedance,ELEC101,ELEC101.pdf,0.3461,7,1,0.1429,0
+Steam Tables and Mollier Chart,Hydraulic Turbines and Pumps,MECH101,MECH101.pdf,0.1286,10,1,0.125,0
+Superposition Theorem,BJT Small Signal Analysis,ELEC101,ELEC101.pdf,0.2661,12,1,0.0,0
+Index Properties and Soil Classification,Mohr Coulomb Shear Strength,CIVIL101,CIVIL101.pdf,0.077,4,1,0.0,0
+Permeability and Darcy Law,Seepage Analysis and Flow Nets,CIVIL101,CIVIL101.pdf,0.2201,1,1,0.125,1
+Zeroth Law and Temperature,Bernoulli Equation and Applications,MECH101,MECH101.pdf,0.1275,12,1,0.1429,0
+Superposition Theorem,Phasors and Impedance,ELEC101,ELEC101.pdf,0.2263,5,1,0.0,0
+Steam Tables and Mollier Chart,Rankine Cycle,MECH101,MECH101.pdf,0.2118,1,1,0.0,1
+Bernoulli Equation and Applications,Dimensional Analysis and Similitude,MECH101,MECH101.pdf,0.0097,4,1,0.1429,0
+Steam Tables and Mollier Chart,Fluid Statics and Pressure Measurement,MECH101,MECH101.pdf,0.1385,2,1,0.1111,1
+PN Junction Diode Characteristics,Inverting and Non-inverting Op-Amps,ELEC101,ELEC101.pdf,0.091,7,1,0.0,0
+Second Law and Heat Engines,Carnot Cycle,MECH101,MECH101.pdf,0.2311,2,1,0.0,1
+Nodal and Mesh Analysis,PN Junction Diode Characteristics,ELEC101,ELEC101.pdf,0.1396,9,1,0.0,0
+Ohm Law and Kirchhoff Laws,Superposition Theorem,ELEC101,ELEC101.pdf,0.2411,2,1,0.0,1
+Thevenin and Norton Theorems,Resonance in RLC Circuits,ELEC101,ELEC101.pdf,0.2088,5,1,0.0,0
+Fluid Statics and Pressure Measurement,Buoyancy and Floatation,MECH101,MECH101.pdf,0.2752,1,1,0.1429,1
+Properties of Pure Substances,Steam Tables and Mollier Chart,MECH101,MECH101.pdf,0.2013,1,1,0.0,1
+Second Law and Heat Engines,Rankine Cycle,MECH101,MECH101.pdf,0.3345,5,1,0.0,1
+Resonance in RLC Circuits,Diode Rectifiers and Wave Shaping,ELEC101,ELEC101.pdf,0.1736,3,1,0.0,1
+Entropy and Reversibility,Bernoulli Equation and Applications,MECH101,MECH101.pdf,0.1783,8,1,0.1667,0
+Hooke Law and Elastic Constants,Permeability and Darcy Law,CIVIL101,CIVIL101.pdf,0.314,10,1,0.2857,0
+Euler Column Theory,Truss Analysis and Method of Joints,CIVIL101,CIVIL101.pdf,0.1015,1,1,0.0,1
+Index Properties and Soil Classification,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.2252,6,1,0.0,0
+Thevenin and Norton Theorems,Inverting and Non-inverting Op-Amps,ELEC101,ELEC101.pdf,0.146,14,1,0.125,0
+Bipolar Junction Transistor Biasing,BJT Small Signal Analysis,ELEC101,ELEC101.pdf,0.4202,1,1,0.0,1
+Superposition Theorem,Zener Diode Voltage Regulators,ELEC101,ELEC101.pdf,0.1359,10,1,0.0,0
+Zener Diode Voltage Regulators,Bipolar Junction Transistor Biasing,ELEC101,ELEC101.pdf,0.2059,1,1,0.0,1
+RL and RC Transient Response,Zener Diode Voltage Regulators,ELEC101,ELEC101.pdf,0.0528,7,1,0.0,0
+Soil Composition and Phase Relations,Lateral Earth Pressure,CIVIL101,CIVIL101.pdf,0.3028,6,1,0.0,0
+Buoyancy and Floatation,Boundary Layer Theory,MECH101,MECH101.pdf,0.131,4,1,0.0,0
+Superposition Theorem,Sinusoidal Steady State Analysis,ELEC101,ELEC101.pdf,0.1388,4,1,0.0,0
+Stress and Strain Fundamentals,Deflection of Beams,CIVIL101,CIVIL101.pdf,0.2182,6,1,0.0,1
+Resonance in RLC Circuits,Field Effect Transistors,ELEC101,ELEC101.pdf,0.2301,7,1,0.0,0
+Truss Analysis and Method of Joints,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.1377,8,1,0.1,0
+Torsion of Circular Shafts,Seepage Analysis and Flow Nets,CIVIL101,CIVIL101.pdf,0.0522,7,1,0.0,0
+Sinusoidal Steady State Analysis,Resonance in RLC Circuits,ELEC101,ELEC101.pdf,0.3017,2,1,0.0,1
+First Law of Thermodynamics,Dimensional Analysis and Similitude,MECH101,MECH101.pdf,0.0865,15,1,0.0,0
+Zeroth Law and Temperature,First Law of Thermodynamics,MECH101,MECH101.pdf,0.5123,1,1,0.1429,1
+Rankine Cycle,Boundary Layer Theory,MECH101,MECH101.pdf,0.1821,6,1,0.0,0
+Shear Force and Bending Moment,Bending Stresses in Beams,CIVIL101,CIVIL101.pdf,0.5213,1,1,0.125,1
+Internal Energy and Enthalpy,Fluid Statics and Pressure Measurement,MECH101,MECH101.pdf,0.0225,7,1,0.125,0
+Shear Force and Bending Moment,Euler Column Theory,CIVIL101,CIVIL101.pdf,0.0199,5,1,0.0,0
+Carnot Cycle,Fluid Statics and Pressure Measurement,MECH101,MECH101.pdf,-0.0749,4,1,0.0,0
+RL and RC Transient Response,Field Effect Transistors,ELEC101,ELEC101.pdf,0.0634,10,1,0.0,0
+Maximum Power Transfer Theorem,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.0692,12,1,0.0,0
+First Law of Thermodynamics,Properties of Pure Substances,MECH101,MECH101.pdf,0.2091,5,1,0.1429,1
+Bending Stresses in Beams,Truss Analysis and Method of Joints,CIVIL101,CIVIL101.pdf,0.3391,5,1,0.0,0
+Deflection of Beams,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.2317,10,1,0.1429,0
+Bending Stresses in Beams,Compaction and Consolidation,CIVIL101,CIVIL101.pdf,0.0264,10,1,0.0,0
+Properties of Pure Substances,Laminar and Turbulent Flow,MECH101,MECH101.pdf,0.0196,9,1,0.0,0
+First Law of Thermodynamics,Fluid Statics and Pressure Measurement,MECH101,MECH101.pdf,0.057,8,1,0.0,0
+Resonance in RLC Circuits,Zener Diode Voltage Regulators,ELEC101,ELEC101.pdf,0.0765,4,1,0.0,0
+Properties of Pure Substances,Buoyancy and Floatation,MECH101,MECH101.pdf,0.1992,4,1,0.0,0
+Soil Composition and Phase Relations,Index Properties and Soil Classification,CIVIL101,CIVIL101.pdf,0.5569,1,1,0.25,1
+Superposition Theorem,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.2142,14,1,0.0,0
+Properties of Pure Substances,Hydraulic Turbines and Pumps,MECH101,MECH101.pdf,0.0263,11,1,0.0,0
+Shear Stresses in Beams,Truss Analysis and Method of Joints,CIVIL101,CIVIL101.pdf,0.2156,4,1,0.0,0
+Shear Stresses in Beams,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.2578,12,1,0.0,0
+Resonance in RLC Circuits,BJT Small Signal Analysis,ELEC101,ELEC101.pdf,0.2164,6,1,0.0,0
+Second Law and Heat Engines,Bernoulli Equation and Applications,MECH101,MECH101.pdf,0.0979,9,1,0.125,0
+Fluid Kinematics and Continuity,Boundary Layer Theory,MECH101,MECH101.pdf,0.148,3,1,0.0,1
+Second Law and Heat Engines,Buoyancy and Floatation,MECH101,MECH101.pdf,0.1316,7,1,0.1429,0
+Hooke Law and Elastic Constants,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.1098,15,1,0.0,0
+Properties of Pure Substances,Rankine Cycle,MECH101,MECH101.pdf,0.0195,2,1,0.0,1
+Shear Stresses in Beams,Permeability and Darcy Law,CIVIL101,CIVIL101.pdf,0.1014,7,1,0.0,0
+Torsion of Circular Shafts,Euler Column Theory,CIVIL101,CIVIL101.pdf,0.1425,2,1,0.0,1
+BJT Small Signal Analysis,Inverting and Non-inverting Op-Amps,ELEC101,ELEC101.pdf,0.1796,3,1,0.0,1
+Fluid Statics and Pressure Measurement,Dimensional Analysis and Similitude,MECH101,MECH101.pdf,0.0731,7,1,0.125,0
+Entropy and Reversibility,Steam Tables and Mollier Chart,MECH101,MECH101.pdf,0.0122,3,1,0.1429,1
+BJT Small Signal Analysis,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.2564,2,1,0.0,1
+Properties of Pure Substances,Fluid Statics and Pressure Measurement,MECH101,MECH101.pdf,0.2014,3,1,0.0,1
+Shear Stresses in Beams,Deflection of Beams,CIVIL101,CIVIL101.pdf,0.5526,2,1,0.1667,1
+Shear Stresses in Beams,Lateral Earth Pressure,CIVIL101,CIVIL101.pdf,0.2382,11,1,0.0,0
+Fluid Statics and Pressure Measurement,Hydraulic Turbines and Pumps,MECH101,MECH101.pdf,0.3144,8,1,0.125,0
+Shear Force and Bending Moment,Deflection of Beams,CIVIL101,CIVIL101.pdf,0.3619,4,1,0.0,0
+Hooke Law and Elastic Constants,Euler Column Theory,CIVIL101,CIVIL101.pdf,0.0843,6,1,0.0,1
+Entropy and Reversibility,Viscous Flow in Pipes,MECH101,MECH101.pdf,0.0935,9,1,0.0,0
+Zener Diode Voltage Regulators,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.114,4,1,0.0,0
+Torsion of Circular Shafts,Permeability and Darcy Law,CIVIL101,CIVIL101.pdf,0.1164,6,1,0.0,0
+Soil Composition and Phase Relations,Mohr Coulomb Shear Strength,CIVIL101,CIVIL101.pdf,0.135,5,1,0.0,0
+Torsion of Circular Shafts,Deflection of Beams,CIVIL101,CIVIL101.pdf,0.2017,1,1,0.1667,1
+Second Law and Heat Engines,Entropy and Reversibility,MECH101,MECH101.pdf,0.2194,1,1,0.1429,1
+Index Properties and Soil Classification,Seepage Analysis and Flow Nets,CIVIL101,CIVIL101.pdf,0.1313,2,1,0.1111,1
+Phasors and Impedance,Resonance in RLC Circuits,ELEC101,ELEC101.pdf,0.3532,1,1,0.0,1
+Nodal and Mesh Analysis,Thevenin and Norton Theorems,ELEC101,ELEC101.pdf,0.1773,2,1,0.1429,1
+Internal Energy and Enthalpy,Boundary Layer Theory,MECH101,MECH101.pdf,0.1279,12,1,0.0,0
+Internal Energy and Enthalpy,Second Law and Heat Engines,MECH101,MECH101.pdf,0.3532,1,1,0.125,1
+Ohm Law and Kirchhoff Laws,Thevenin and Norton Theorems,ELEC101,ELEC101.pdf,0.2369,3,1,0.125,1
+Shear Force and Bending Moment,Truss Analysis and Method of Joints,CIVIL101,CIVIL101.pdf,0.238,6,1,0.1,0
+Bending Stresses in Beams,Euler Column Theory,CIVIL101,CIVIL101.pdf,0.081,4,1,0.0,0
+First Law of Thermodynamics,Steam Tables and Mollier Chart,MECH101,MECH101.pdf,0.096,6,1,0.0,1
+RL and RC Transient Response,Sinusoidal Steady State Analysis,ELEC101,ELEC101.pdf,0.3151,1,1,0.0,1
+Internal Energy and Enthalpy,Buoyancy and Floatation,MECH101,MECH101.pdf,0.1555,8,1,0.1667,0
+Hooke Law and Elastic Constants,Index Properties and Soil Classification,CIVIL101,CIVIL101.pdf,0.1082,9,1,0.1111,0
+Buoyancy and Floatation,Bernoulli Equation and Applications,MECH101,MECH101.pdf,0.1359,2,1,0.1667,1
+Semiconductor Physics and Doping,Diode Rectifiers and Wave Shaping,ELEC101,ELEC101.pdf,0.2154,2,1,0.125,1
+Stress and Strain Fundamentals,Seepage Analysis and Flow Nets,CIVIL101,CIVIL101.pdf,0.0731,12,1,0.125,0
+Resonance in RLC Circuits,Bipolar Junction Transistor Biasing,ELEC101,ELEC101.pdf,0.1094,5,1,0.0,0
+Carnot Cycle,Steam Tables and Mollier Chart,MECH101,MECH101.pdf,0.0726,2,1,0.0,1
+Fluid Statics and Pressure Measurement,Boundary Layer Theory,MECH101,MECH101.pdf,0.0592,5,1,0.0,0
+Permeability and Darcy Law,Mohr Coulomb Shear Strength,CIVIL101,CIVIL101.pdf,0.1146,3,1,0.0,1
+Diode Rectifiers and Wave Shaping,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.1487,5,1,0.0,0
+First Law of Thermodynamics,Viscous Flow in Pipes,MECH101,MECH101.pdf,0.1354,12,1,0.0,0
+RL and RC Transient Response,Bipolar Junction Transistor Biasing,ELEC101,ELEC101.pdf,0.0352,8,1,0.0,0
+RL and RC Transient Response,Semiconductor Physics and Doping,ELEC101,ELEC101.pdf,0.0152,4,1,0.125,0
+Phasors and Impedance,Semiconductor Physics and Doping,ELEC101,ELEC101.pdf,0.1713,2,1,0.1667,1
+Sinusoidal Steady State Analysis,Phasors and Impedance,ELEC101,ELEC101.pdf,0.285,1,1,0.0,1
+Ohm Law and Kirchhoff Laws,RL and RC Transient Response,ELEC101,ELEC101.pdf,0.1093,5,1,0.1111,1
+Deflection of Beams,Truss Analysis and Method of Joints,CIVIL101,CIVIL101.pdf,0.1895,2,1,0.125,1
+Internal Energy and Enthalpy,Laminar and Turbulent Flow,MECH101,MECH101.pdf,0.1287,13,1,0.1429,0
+Entropy and Reversibility,Fluid Statics and Pressure Measurement,MECH101,MECH101.pdf,0.0318,5,1,0.1429,0
+Fluid Kinematics and Continuity,Laminar and Turbulent Flow,MECH101,MECH101.pdf,0.346,4,1,0.1429,0
+Shear Stresses in Beams,Compaction and Consolidation,CIVIL101,CIVIL101.pdf,-0.0115,9,1,0.0,0
+Stress and Strain Fundamentals,Torsion of Circular Shafts,CIVIL101,CIVIL101.pdf,0.2187,5,1,0.0,1
+Mohr Coulomb Shear Strength,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.1857,2,1,0.0,1
+Nodal and Mesh Analysis,Phasors and Impedance,ELEC101,ELEC101.pdf,0.1199,6,1,0.1667,0
+Shear Force and Bending Moment,Permeability and Darcy Law,CIVIL101,CIVIL101.pdf,0.2191,9,1,0.125,0
+Permeability and Darcy Law,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.2503,5,1,0.0,1
+Bernoulli Equation and Applications,Viscous Flow in Pipes,MECH101,MECH101.pdf,0.2416,1,1,0.0,1
+Resonance in RLC Circuits,PN Junction Diode Characteristics,ELEC101,ELEC101.pdf,0.121,2,1,0.0,1
+Second Law and Heat Engines,Boundary Layer Theory,MECH101,MECH101.pdf,0.1598,11,1,0.0,0
+Steam Tables and Mollier Chart,Fluid Kinematics and Continuity,MECH101,MECH101.pdf,0.0957,4,1,0.125,0
+Euler Column Theory,Soil Composition and Phase Relations,CIVIL101,CIVIL101.pdf,0.0734,2,1,0.0,1
+Ohm Law and Kirchhoff Laws,Zener Diode Voltage Regulators,ELEC101,ELEC101.pdf,-0.0432,12,1,0.0,0
+Ohm Law and Kirchhoff Laws,Bipolar Junction Transistor Biasing,ELEC101,ELEC101.pdf,0.1378,13,1,0.0,0
+Dimensional Analysis and Similitude,Hydraulic Turbines and Pumps,MECH101,MECH101.pdf,0.0264,1,1,0.1429,1
+Zeroth Law and Temperature,Hydraulic Turbines and Pumps,MECH101,MECH101.pdf,-0.0415,17,1,0.1429,0
+Index Properties and Soil Classification,Compaction and Consolidation,CIVIL101,CIVIL101.pdf,0.0678,3,1,0.1429,1
+Ohm Law and Kirchhoff Laws,PN Junction Diode Characteristics,ELEC101,ELEC101.pdf,0.0995,10,1,0.0,0
+Stress and Strain Fundamentals,Shear Stresses in Beams,CIVIL101,CIVIL101.pdf,0.5861,4,1,0.0,1
+Shear Force and Bending Moment,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.2265,14,1,0.0,0
+Shear Force and Bending Moment,Index Properties and Soil Classification,CIVIL101,CIVIL101.pdf,0.1074,8,1,0.1111,0
+Zeroth Law and Temperature,Viscous Flow in Pipes,MECH101,MECH101.pdf,0.0243,13,1,0.0,0
+Steam Tables and Mollier Chart,Buoyancy and Floatation,MECH101,MECH101.pdf,0.2259,3,1,0.1429,1
+Rankine Cycle,Bernoulli Equation and Applications,MECH101,MECH101.pdf,0.128,4,1,0.0,0
+Zeroth Law and Temperature,Dimensional Analysis and Similitude,MECH101,MECH101.pdf,0.1025,16,1,0.1429,0
+Carnot Cycle,Boundary Layer Theory,MECH101,MECH101.pdf,0.0096,9,1,0.0,0
+Zeroth Law and Temperature,Fluid Statics and Pressure Measurement,MECH101,MECH101.pdf,0.0853,9,1,0.125,0
+Thevenin and Norton Theorems,Maximum Power Transfer Theorem,ELEC101,ELEC101.pdf,0.2312,1,1,0.0,1
+Phasors and Impedance,BJT Small Signal Analysis,ELEC101,ELEC101.pdf,0.1716,7,1,0.0,0
+Lateral Earth Pressure,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.3088,1,1,0.0,1
+Sinusoidal Steady State Analysis,Semiconductor Physics and Doping,ELEC101,ELEC101.pdf,-0.009,3,1,0.0,1
+Nodal and Mesh Analysis,Resonance in RLC Circuits,ELEC101,ELEC101.pdf,0.0541,7,1,0.0,0
+Carnot Cycle,Rankine Cycle,MECH101,MECH101.pdf,0.3927,3,1,0.3333,1
+Phasors and Impedance,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.2564,9,1,0.0,0
+First Law of Thermodynamics,Bernoulli Equation and Applications,MECH101,MECH101.pdf,0.2288,11,1,0.0,0
+First Law of Thermodynamics,Carnot Cycle,MECH101,MECH101.pdf,0.1074,4,1,0.0,1
+Stress and Strain Fundamentals,Euler Column Theory,CIVIL101,CIVIL101.pdf,0.0439,7,1,0.0,0
+Superposition Theorem,Bipolar Junction Transistor Biasing,ELEC101,ELEC101.pdf,0.2495,11,1,0.0,0
+Deflection of Beams,Euler Column Theory,CIVIL101,CIVIL101.pdf,0.0487,1,1,0.0,1
+Zener Diode Voltage Regulators,BJT Small Signal Analysis,ELEC101,ELEC101.pdf,0.0192,2,1,0.0,1
+Torsion of Circular Shafts,Index Properties and Soil Classification,CIVIL101,CIVIL101.pdf,0.1218,5,1,0.0,0
+Entropy and Reversibility,Properties of Pure Substances,MECH101,MECH101.pdf,0.1569,2,1,0.0,1
+Superposition Theorem,Maximum Power Transfer Theorem,ELEC101,ELEC101.pdf,0.2723,2,1,0.2,1
+Seepage Analysis and Flow Nets,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.1074,4,1,0.0,0
+Thevenin and Norton Theorems,Bipolar Junction Transistor Biasing,ELEC101,ELEC101.pdf,0.091,10,1,0.0,0
+Index Properties and Soil Classification,Permeability and Darcy Law,CIVIL101,CIVIL101.pdf,0.1845,1,1,0.125,1
+Euler Column Theory,Lateral Earth Pressure,CIVIL101,CIVIL101.pdf,0.0283,8,1,0.0,0
+Sinusoidal Steady State Analysis,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.1805,10,1,0.0,0
+Laminar and Turbulent Flow,Hydraulic Turbines and Pumps,MECH101,MECH101.pdf,0.2572,2,1,0.1429,1
+RL and RC Transient Response,PN Junction Diode Characteristics,ELEC101,ELEC101.pdf,0.0712,5,1,0.0,0
+Euler Column Theory,Index Properties and Soil Classification,CIVIL101,CIVIL101.pdf,0.1285,3,1,0.0,1
+Truss Analysis and Method of Joints,Mohr Coulomb Shear Strength,CIVIL101,CIVIL101.pdf,0.1778,6,1,0.0,0
+Deflection of Beams,Mohr Coulomb Shear Strength,CIVIL101,CIVIL101.pdf,0.2217,8,1,0.0,0
+Rankine Cycle,Laminar and Turbulent Flow,MECH101,MECH101.pdf,0.3282,7,1,0.0,0
+Ohm Law and Kirchhoff Laws,Resonance in RLC Circuits,ELEC101,ELEC101.pdf,0.16,8,1,0.0,0
+Hooke Law and Elastic Constants,Deflection of Beams,CIVIL101,CIVIL101.pdf,0.1331,5,1,0.0,1
+Shear Stresses in Beams,Seepage Analysis and Flow Nets,CIVIL101,CIVIL101.pdf,0.0787,8,1,0.0,0
+Superposition Theorem,Thevenin and Norton Theorems,ELEC101,ELEC101.pdf,0.3517,1,1,0.0,1
+Zeroth Law and Temperature,Second Law and Heat Engines,MECH101,MECH101.pdf,0.3571,3,1,0.2857,1
+Stress and Strain Fundamentals,Lateral Earth Pressure,CIVIL101,CIVIL101.pdf,0.2232,15,1,0.0,0
+Boundary Layer Theory,Laminar and Turbulent Flow,MECH101,MECH101.pdf,0.3109,1,1,0.0,1
+Shear Stresses in Beams,Soil Composition and Phase Relations,CIVIL101,CIVIL101.pdf,0.1136,5,1,0.0,0
+Rankine Cycle,Dimensional Analysis and Similitude,MECH101,MECH101.pdf,-0.0432,8,1,0.0,0
+Bending Stresses in Beams,Torsion of Circular Shafts,CIVIL101,CIVIL101.pdf,0.2716,2,1,0.0,1
+Buoyancy and Floatation,Fluid Kinematics and Continuity,MECH101,MECH101.pdf,0.3806,1,1,0.1667,1
+Semiconductor Physics and Doping,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.1765,7,1,0.0,0
+Ohm Law and Kirchhoff Laws,Diode Rectifiers and Wave Shaping,ELEC101,ELEC101.pdf,0.0522,11,1,0.1111,0
+Thevenin and Norton Theorems,Sinusoidal Steady State Analysis,ELEC101,ELEC101.pdf,0.0701,3,1,0.0,1
+Seepage Analysis and Flow Nets,Compaction and Consolidation,CIVIL101,CIVIL101.pdf,0.1169,1,1,0.1429,1
+Hooke Law and Elastic Constants,Torsion of Circular Shafts,CIVIL101,CIVIL101.pdf,0.1721,4,1,0.0,1
+Buoyancy and Floatation,Viscous Flow in Pipes,MECH101,MECH101.pdf,0.183,3,1,0.0,1
+Thevenin and Norton Theorems,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.1402,13,1,0.0,0
+Deflection of Beams,Seepage Analysis and Flow Nets,CIVIL101,CIVIL101.pdf,0.0883,6,1,0.0,0
+Compaction and Consolidation,Lateral Earth Pressure,CIVIL101,CIVIL101.pdf,0.0713,2,1,0.0,1
+RL and RC Transient Response,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.0716,11,1,0.0,0
+Hooke Law and Elastic Constants,Bending Stresses in Beams,CIVIL101,CIVIL101.pdf,0.2638,2,1,0.0,1
+Nodal and Mesh Analysis,Inverting and Non-inverting Op-Amps,ELEC101,ELEC101.pdf,0.0938,16,1,0.125,0
+Maximum Power Transfer Theorem,Resonance in RLC Circuits,ELEC101,ELEC101.pdf,0.1689,4,1,0.0,0
+Hooke Law and Elastic Constants,Lateral Earth Pressure,CIVIL101,CIVIL101.pdf,0.1756,14,1,0.0,0
+Euler Column Theory,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.1303,9,1,0.0,0
+Semiconductor Physics and Doping,BJT Small Signal Analysis,ELEC101,ELEC101.pdf,0.2123,5,1,0.0,1
+First Law of Thermodynamics,Internal Energy and Enthalpy,MECH101,MECH101.pdf,0.4117,1,1,0.0,1
+Superposition Theorem,Semiconductor Physics and Doping,ELEC101,ELEC101.pdf,0.2075,7,1,0.0,0
+Permeability and Darcy Law,Compaction and Consolidation,CIVIL101,CIVIL101.pdf,0.1174,2,1,0.1667,1
+Viscous Flow in Pipes,Hydraulic Turbines and Pumps,MECH101,MECH101.pdf,0.2825,4,1,0.0,0
+First Law of Thermodynamics,Laminar and Turbulent Flow,MECH101,MECH101.pdf,0.0722,14,1,0.0,0
+Hooke Law and Elastic Constants,Mohr Coulomb Shear Strength,CIVIL101,CIVIL101.pdf,0.1801,13,1,0.0,0
+Thevenin and Norton Theorems,PN Junction Diode Characteristics,ELEC101,ELEC101.pdf,0.1003,7,1,0.0,0
+Internal Energy and Enthalpy,Fluid Kinematics and Continuity,MECH101,MECH101.pdf,0.0599,9,1,0.1429,0
+Rankine Cycle,Viscous Flow in Pipes,MECH101,MECH101.pdf,0.2328,5,1,0.0,0
+RL and RC Transient Response,Inverting and Non-inverting Op-Amps,ELEC101,ELEC101.pdf,0.0208,12,1,0.1111,0
+Deflection of Beams,Permeability and Darcy Law,CIVIL101,CIVIL101.pdf,0.07,5,1,0.0,0
+Fluid Statics and Pressure Measurement,Bernoulli Equation and Applications,MECH101,MECH101.pdf,0.1694,3,1,0.125,1
+Maximum Power Transfer Theorem,Sinusoidal Steady State Analysis,ELEC101,ELEC101.pdf,0.1315,2,1,0.0,1
+Bernoulli Equation and Applications,Laminar and Turbulent Flow,MECH101,MECH101.pdf,0.1376,3,1,0.1429,1
+Second Law and Heat Engines,Steam Tables and Mollier Chart,MECH101,MECH101.pdf,0.099,4,1,0.1111,1
+Semiconductor Physics and Doping,Zener Diode Voltage Regulators,ELEC101,ELEC101.pdf,0.1297,3,1,0.0,1
+Steam Tables and Mollier Chart,Bernoulli Equation and Applications,MECH101,MECH101.pdf,0.0385,5,1,0.125,0
+Resonance in RLC Circuits,Operational Amplifier Basics,ELEC101,ELEC101.pdf,0.1714,8,1,0.0,0
+Entropy and Reversibility,Rankine Cycle,MECH101,MECH101.pdf,0.1143,4,1,0.0,0
+Carnot Cycle,Laminar and Turbulent Flow,MECH101,MECH101.pdf,0.0688,10,1,0.0,0
+Internal Energy and Enthalpy,Dimensional Analysis and Similitude,MECH101,MECH101.pdf,0.0371,14,1,0.1429,0
+Shear Force and Bending Moment,Soil Composition and Phase Relations,CIVIL101,CIVIL101.pdf,0.1355,7,1,0.1111,0
+Fluid Kinematics and Continuity,Bernoulli Equation and Applications,MECH101,MECH101.pdf,0.1725,1,1,0.1429,1
+Shear Force and Bending Moment,Lateral Earth Pressure,CIVIL101,CIVIL101.pdf,0.2879,13,1,0.0,0
+Internal Energy and Enthalpy,Viscous Flow in Pipes,MECH101,MECH101.pdf,0.0941,11,1,0.0,0
+Ohm Law and Kirchhoff Laws,Sinusoidal Steady State Analysis,ELEC101,ELEC101.pdf,0.1911,6,1,0.0,1
+Hooke Law and Elastic Constants,Shear Stresses in Beams,CIVIL101,CIVIL101.pdf,0.2373,3,1,0.0,1
+Zener Diode Voltage Regulators,Inverting and Non-inverting Op-Amps,ELEC101,ELEC101.pdf,0.1426,5,1,0.0,0
+Internal Energy and Enthalpy,Steam Tables and Mollier Chart,MECH101,MECH101.pdf,0.1267,5,1,0.125,0
+Torsion of Circular Shafts,Bearing Capacity of Shallow Foundations,CIVIL101,CIVIL101.pdf,0.1855,11,1,0.125,0
+Shear Stresses in Beams,Mohr Coulomb Shear Strength,CIVIL101,CIVIL101.pdf,0.4746,10,1,0.1429,0
+Compaction and Consolidation,Mohr Coulomb Shear Strength,CIVIL101,CIVIL101.pdf,-0.0307,1,1,0.0,1
+Nodal and Mesh Analysis,Semiconductor Physics and Doping,ELEC101,ELEC101.pdf,0.0086,8,1,0.1429,0
+Resonance in RLC Circuits,Semiconductor Physics and Doping,ELEC101,ELEC101.pdf,0.1675,1,1,0.0,1
+PN Junction Diode Characteristics,Field Effect Transistors,ELEC101,ELEC101.pdf,0.3128,5,1,0.0,0
+PN Junction Diode Characteristics,Diode Rectifiers and Wave Shaping,ELEC101,ELEC101.pdf,0.4154,1,1,0.125,1
+Ohm Law and Kirchhoff Laws,Semiconductor Physics and Doping,ELEC101,ELEC101.pdf,0.1919,9,1,0.125,0
+Deflection of Beams,Lateral Earth Pressure,CIVIL101,CIVIL101.pdf,0.2073,9,1,0.0,0
+Steam Tables and Mollier Chart,Dimensional Analysis and Similitude,MECH101,MECH101.pdf,0.176,9,1,0.125,0
+Truss Analysis and Method of Joints,Compaction and Consolidation,CIVIL101,CIVIL101.pdf,0.1421,5,1,0.125,0
+Shear Stresses in Beams,Torsion of Circular Shafts,CIVIL101,CIVIL101.pdf,0.2762,1,1,0.0,1
+Semiconductor Physics and Doping,Inverting and Non-inverting Op-Amps,ELEC101,ELEC101.pdf,0.1118,8,1,0.125,0
+Thevenin and Norton Theorems,RL and RC Transient Response,ELEC101,ELEC101.pdf,0.1603,2,1,0.125,1
+Stress and Strain Fundamentals,Truss Analysis and Method of Joints,CIVIL101,CIVIL101.pdf,0.223,8,1,0.1111,0
+Carnot Cycle,Properties of Pure Substances,MECH101,MECH101.pdf,-0.0195,1,1,0.0,1
+Rankine Cycle,Fluid Statics and Pressure Measurement,MECH101,MECH101.pdf,0.095,1,1,0.0,1
+Fluid Kinematics and Continuity,Hydraulic Turbines and Pumps,MECH101,MECH101.pdf,0.2616,6,1,0.1429,0
+Nodal and Mesh Analysis,BJT Small Signal Analysis,ELEC101,ELEC101.pdf,0.2982,13,1,0.1429,0

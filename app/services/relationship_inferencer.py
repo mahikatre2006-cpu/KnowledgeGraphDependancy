@@ -5,6 +5,8 @@ from app.graph.engine import KnowledgeGraph
 from app.graph.models import DependencyEdge, ConceptNode
 from app.services.embedding_service import LocalEmbeddingService
 from app.services.sequence_engine import SequenceEngine
+from app.ml.feature_engineering import compute_features
+from app.services.classifier_inference_service import ClassifierInferenceService
 
 
 FOUNDATIONAL_KEYWORDS = {
@@ -150,18 +152,23 @@ class RelationshipInferencer:
         src_words = set(re.findall(r'\w+', src_node.name.lower()))
         foundational_score = 0.7 if (src_words & FOUNDATIONAL_KEYWORDS) else 0.5
 
-        # Weighted Confidence Score Formula
-        confidence = (
-            0.40 * sim_score +
-            0.30 * unit_score +
-            0.15 * lexical_score +
-            0.15 * foundational_score
+        # Trained Prerequisite Classifier Inference
+        order_delta = abs(unit_a - unit_b) if (unit_a != 999 and unit_b != 999) else 1
+        features = compute_features(
+            concept_a=src_node.name,
+            concept_b=tgt_node.name,
+            order_delta=order_delta,
+            domain_a=src_node.unit or "",
+            domain_b=tgt_node.unit or ""
         )
-        confidence = min(1.0, max(0.0, confidence))
+        features["embedding_similarity"] = round(float(sim_score), 4)
+        confidence = ClassifierInferenceService.predict_edge_probability(features)
 
         reason = (
             f"Inferred via local SentenceTransformer embeddings (similarity: {sim_score:.2f}) "
             f"and unit precedence ({src_node.unit or 'Unit 1'} -> {tgt_node.unit or 'Unit 2'})."
+            f"Predicted via trained XGBoost prerequisite classifier with SentenceTransformer embeddings (p={confidence:.2f}, "
+            f"sim: {sim_score:.2f}, delta: {order_delta})."
         )
 
         return direction, confidence, reason
