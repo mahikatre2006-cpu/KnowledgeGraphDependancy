@@ -6,82 +6,59 @@
     "domain_match",
     "keyword_overlap"
   ],
-  "n_train": 2456,
-  "n_val": 329,
-  "n_test": 680,
-  "cv_5fold_mean_f1": 0.9207,
-  "cv_5fold_std_f1": 0.0046,
+  "n_train": 797,
+  "n_val": 128,
+  "n_test": 140,
+  "cv_5fold_mean_f1": 0.9344,
+  "cv_5fold_std_f1": 0.0292,
   "baseline_logistic_regression": {
-    "accuracy": 0.9483,
-    "precision": 0.9091,
-    "recall": 0.96,
-    "f1": 0.9339,
-    "roc_auc": 0.9803,
+    "accuracy": 0.9375,
+    "precision": 1.0,
+    "recall": 0.4667,
+    "f1": 0.6364,
+    "roc_auc": 0.99,
     "confusion_matrix": [
       [
-        192,
-        12
+        113,
+        0
       ],
       [
-        5,
-        120
+        8,
+        7
       ]
     ]
   },
   "validation_metrics": {
-    "accuracy": 0.9635,
-    "precision": 0.9593,
-    "recall": 0.944,
-    "f1": 0.9516,
-    "roc_auc": 0.9969,
+    "accuracy": 0.9531,
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1": 0.75,
+    "roc_auc": 0.9587,
     "confusion_matrix": [
       [
-        199,
-        5
+        113,
+        0
       ],
       [
-        7,
-        118
+        6,
+        9
       ]
     ]
   },
   "test_metrics": {
-    "accuracy": 0.9441,
-    "precision": 0.9554,
-    "recall": 0.9081,
-    "f1": 0.9312,
-    "roc_auc": 0.992,
+    "accuracy": 0.9857,
+    "precision": 0.9737,
+    "recall": 0.9737,
+    "f1": 0.9737,
+    "roc_auc": 0.9995,
     "confusion_matrix": [
       [
-        385,
-        12
+        101,
+        1
       ],
       [
-        26,
-        257
-      ]
-    ]
-  },
-  "cross_domain_metrics": {
-    "n_samples": 250,
-    "subjects": [
-      "MECH101",
-      "ELEC101",
-      "CIVIL101"
-    ],
-    "accuracy": 0.736,
-    "precision": 0.8864,
-    "recall": 0.39,
-    "f1": 0.5417,
-    "roc_auc": 0.8535,
-    "confusion_matrix": [
-      [
-        145,
-        5
-      ],
-      [
-        61,
-        39
+        1,
+        37
       ]
     ]
   }

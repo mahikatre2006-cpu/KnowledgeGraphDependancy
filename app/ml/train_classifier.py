@@ -33,7 +33,7 @@ project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-DATA_PATH = Path(project_root) / "Cleaned_Files" / "labeling_dataset.csv"
+DATA_PATH = Path(project_root) / "True_Cleaned_Dataset" / "final_training_dataset.csv"
 if not DATA_PATH.exists():
     DATA_PATH = Path(project_root) / "data" / "labeling_dataset.csv"
 ARTIFACT_PATH = Path(project_root) / "app" / "ml" / "model_artifact.joblib"
@@ -60,7 +60,7 @@ def concept_aware_split(
     """
     # Since candidate pairs are strictly localized by Course_Code, partitioning by Course_Code
     # naturally produces disjoint concept sets across subjects without breaking pairs.
-    unique_courses = df["Course_Code"].drop_duplicates().sample(frac=1.0, random_state=random_state).tolist()
+    unique_courses = df["source_syllabus"].drop_duplicates().sample(frac=1.0, random_state=random_state).tolist()
     
     total_rows = len(df)
     train_target = int(total_rows * train_ratio)
@@ -74,7 +74,7 @@ def concept_aware_split(
     current_val = 0
     
     for course in unique_courses:
-        course_rows = len(df[df["Course_Code"] == course])
+        course_rows = len(df[df["source_syllabus"] == course])
         if current_train + course_rows <= train_target or not train_courses:
             train_courses.append(course)
             current_train += course_rows
@@ -84,9 +84,9 @@ def concept_aware_split(
         else:
             test_courses.append(course)
             
-    train_df = df[df["Course_Code"].isin(train_courses)].reset_index(drop=True)
-    val_df = df[df["Course_Code"].isin(val_courses)].reset_index(drop=True)
-    test_df = df[df["Course_Code"].isin(test_courses)].reset_index(drop=True)
+    train_df = df[df["source_syllabus"].isin(train_courses)].reset_index(drop=True)
+    val_df = df[df["source_syllabus"].isin(val_courses)].reset_index(drop=True)
+    test_df = df[df["source_syllabus"].isin(test_courses)].reset_index(drop=True)
 
     # Formal Leakage Verification
     train_concepts = set(train_df["concept_a"]).union(set(train_df["concept_b"]))

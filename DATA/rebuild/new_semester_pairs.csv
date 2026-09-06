@@ -1,0 +1,520 @@
+concept_a,concept_b,source_syllabus,Course_Code,course_name,order_delta,domain_match,embedding_similarity,keyword_overlap,ai_suggested_label
+Circuits: (Only independent sources) Kirchhoff’s,Ideal and Practical Voltage and Current,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.284,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Mesh and Nodal,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.2285,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Analysis (no super node and super mesh) Star-Delta /,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1934,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Delta-Star Transformations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1475,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Thevenin’s Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.2025,0.125,0
+Circuits: (Only independent sources) Kirchhoff’s,Maximum Power Transfer Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.2153,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,AC Circuits: Generation of alternating voltage,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.3304,0.0909,0
+Circuits: (Only independent sources) Kirchhoff’s,Single-phase ac series,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.2464,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,RLC combinations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.2475,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.1963,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.1232,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.1149,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,13,1,0.0924,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,14,1,0.1938,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,15,1,0.2824,0.0,0
+Ideal and Practical Voltage and Current,Mesh and Nodal,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1116,0.1429,0
+Ideal and Practical Voltage and Current,Analysis (no super node and super mesh) Star-Delta /,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0492,0.0833,0
+Ideal and Practical Voltage and Current,Delta-Star Transformations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0173,0.0,0
+Ideal and Practical Voltage and Current,Thevenin’s Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.168,0.0,0
+Ideal and Practical Voltage and Current,Maximum Power Transfer Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.3391,0.0,0
+Ideal and Practical Voltage and Current,AC Circuits: Generation of alternating voltage,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.4062,0.1,0
+Ideal and Practical Voltage and Current,Single-phase ac series,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.2346,0.0,0
+Ideal and Practical Voltage and Current,RLC combinations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.0247,0.0,0
+Ideal and Practical Voltage and Current,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.065,0.1429,0
+Ideal and Practical Voltage and Current,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.2195,0.0,0
+Ideal and Practical Voltage and Current,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.2392,0.0,0
+Ideal and Practical Voltage and Current,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.1962,0.0,0
+Ideal and Practical Voltage and Current,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,13,1,0.3021,0.0,0
+Ideal and Practical Voltage and Current,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,14,1,0.3381,0.0,0
+Mesh and Nodal,Analysis (no super node and super mesh) Star-Delta /,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.3998,0.2222,1
+Mesh and Nodal,Delta-Star Transformations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1649,0.0,0
+Mesh and Nodal,Thevenin’s Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1148,0.0,0
+Mesh and Nodal,Maximum Power Transfer Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.0443,0.0,0
+Mesh and Nodal,AC Circuits: Generation of alternating voltage,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1006,0.0,0
+Mesh and Nodal,Single-phase ac series,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.1045,0.0,0
+Mesh and Nodal,RLC combinations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.0277,0.0,0
+Mesh and Nodal,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.1062,0.2,0
+Mesh and Nodal,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.1186,0.0,0
+Mesh and Nodal,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.063,0.0,0
+Mesh and Nodal,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.0782,0.0,0
+Mesh and Nodal,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.106,0.0,0
+Mesh and Nodal,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,13,1,0.1098,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Delta-Star Transformations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.5966,0.2222,1
+Analysis (no super node and super mesh) Star-Delta /,Thevenin’s Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0843,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Maximum Power Transfer Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1129,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,AC Circuits: Generation of alternating voltage,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,-0.0009,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Single-phase ac series,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1483,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,RLC combinations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.0157,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.1179,0.1,0
+Analysis (no super node and super mesh) Star-Delta /,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.142,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.0472,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.0145,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.0969,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.1385,0.0,0
+Delta-Star Transformations,Thevenin’s Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.0964,0.0,0
+Delta-Star Transformations,Maximum Power Transfer Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0988,0.0,0
+Delta-Star Transformations,AC Circuits: Generation of alternating voltage,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0306,0.0,0
+Delta-Star Transformations,Single-phase ac series,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1581,0.0,0
+Delta-Star Transformations,RLC combinations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.0863,0.0,0
+Delta-Star Transformations,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.0908,0.0,0
+Delta-Star Transformations,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.2168,0.0,0
+Delta-Star Transformations,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.2051,0.0,0
+Delta-Star Transformations,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.0699,0.0,0
+Delta-Star Transformations,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.1204,0.0,0
+Delta-Star Transformations,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.0989,0.0,0
+Thevenin’s Theorem,Maximum Power Transfer Theorem,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.2807,0.1667,0
+Thevenin’s Theorem,AC Circuits: Generation of alternating voltage,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1226,0.0,0
+Thevenin’s Theorem,Single-phase ac series,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1501,0.0,0
+Thevenin’s Theorem,RLC combinations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1016,0.0,0
+Thevenin’s Theorem,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1857,0.0,0
+Thevenin’s Theorem,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.0179,0.0,0
+Thevenin’s Theorem,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.0522,0.0,0
+Thevenin’s Theorem,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.0626,0.0,0
+Thevenin’s Theorem,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.0841,0.0,0
+Thevenin’s Theorem,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.0536,0.0,0
+Maximum Power Transfer Theorem,AC Circuits: Generation of alternating voltage,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.2214,0.0,0
+Maximum Power Transfer Theorem,Single-phase ac series,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1733,0.0,0
+Maximum Power Transfer Theorem,RLC combinations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0918,0.0,0
+Maximum Power Transfer Theorem,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.0517,0.0,0
+Maximum Power Transfer Theorem,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1601,0.0,0
+Maximum Power Transfer Theorem,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.2756,0.0,0
+Maximum Power Transfer Theorem,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.1115,0.0,0
+Maximum Power Transfer Theorem,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.1177,0.0,0
+Maximum Power Transfer Theorem,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.145,0.0,0
+AC Circuits: Generation of alternating voltage,Single-phase ac series,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.4646,0.1111,1
+AC Circuits: Generation of alternating voltage,RLC combinations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1959,0.0,0
+AC Circuits: Generation of alternating voltage,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1012,0.0,0
+AC Circuits: Generation of alternating voltage,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.2237,0.0,0
+AC Circuits: Generation of alternating voltage,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.2132,0.0,0
+AC Circuits: Generation of alternating voltage,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.2498,0.0,0
+AC Circuits: Generation of alternating voltage,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.1928,0.0,0
+AC Circuits: Generation of alternating voltage,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.2077,0.0,0
+Single-phase ac series,RLC combinations,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.2361,0.0,0
+Single-phase ac series,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.3735,0.1667,1
+Single-phase ac series,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.5158,0.25,0
+Single-phase ac series,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1714,0.0,0
+Single-phase ac series,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.5232,0.3333,1
+Single-phase ac series,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.1128,0.0,0
+Single-phase ac series,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.0548,0.0,0
+RLC combinations,Series and parallel,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1097,0.0,0
+RLC combinations,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0544,0.0,0
+RLC combinations,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1141,0.0,0
+RLC combinations,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,-0.0099,0.0,0
+RLC combinations,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.0662,0.0,0
+RLC combinations,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,-0.0515,0.0,0
+Series and parallel,Single Phase Transformer: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1058,0.0,0
+Series and parallel,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1353,0.0,0
+Series and parallel,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1831,0.0,0
+Series and parallel,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.0044,0.0,0
+Series and parallel,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.0553,0.0,0
+Single Phase Transformer: (Numerical are not,Transformer losses,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.44,0.1429,1
+Single Phase Transformer: (Numerical are not,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.4492,0.25,1
+Single Phase Transformer: (Numerical are not,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.3061,0.3333,1
+Single Phase Transformer: (Numerical are not,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.2263,0.3333,1
+Transformer losses,Single-Phase induction motors,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.0906,0.0,0
+Transformer losses,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1698,0.0,0
+Transformer losses,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0575,0.0,0
+Single-Phase induction motors,Special Purpose Diodes: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1096,0.0,0
+Single-Phase induction motors,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0742,0.0,0
+Special Purpose Diodes: (Numerical are not,Introduction to Transistors: (Numerical are not,6.14N-CSE-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.4065,0.3333,1
+Fundamentals of Communication,1. Situational Application of Fundamentals of  Communication 1.2. Case Studies on Fundamentals of Communication,6.14N-CSE-AIML.pdf,AEL101,Professional Communication and Ethics,1,1,0.8124,0.3,1
+Fundamentals of Communication,Developing Basic Listening Skills,6.14N-CSE-AIML.pdf,AEL101,Professional Communication and Ethics,2,1,0.3633,0.0,1
+1. Situational Application of Fundamentals of  Communication 1.2. Case Studies on Fundamentals of Communication,Developing Basic Listening Skills,6.14N-CSE-AIML.pdf,AEL101,Professional Communication and Ethics,1,1,0.2679,0.0,0
+Linear Differential Equation with constant coefficient‐,Method of variation ofparameters,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,1,1,0.0107,0.0,0
+Linear Differential Equation with constant coefficient‐,# Self learning topics: Cauchy’s homogeneous linear differential,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,2,1,0.2437,0.1667,0
+Linear Differential Equation with constant coefficient‐,Applications of Higher,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,3,1,-0.0993,0.0,0
+Linear Differential Equation with constant coefficient‐,Designing Nano computer,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,4,1,-0.0176,0.0,0
+Linear Differential Equation with constant coefficient‐,Digital Image Processing - Rafael C. Gonzalez,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,5,1,0.0007,0.0,0
+Linear Differential Equation with constant coefficient‐,A Textbook of Nanoscience and Nanotechnology,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,6,1,0.0542,0.0,0
+Method of variation ofparameters,# Self learning topics: Cauchy’s homogeneous linear differential,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,1,1,0.1925,0.0,0
+Method of variation ofparameters,Applications of Higher,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,2,1,0.066,0.1667,0
+Method of variation ofparameters,Designing Nano computer,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,3,1,0.0177,0.0,0
+Method of variation ofparameters,Digital Image Processing - Rafael C. Gonzalez,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,4,1,0.202,0.0,0
+Method of variation ofparameters,A Textbook of Nanoscience and Nanotechnology,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,5,1,0.0363,0.1111,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Applications of Higher,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,1,1,0.1304,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Designing Nano computer,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,2,1,0.1306,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Digital Image Processing - Rafael C. Gonzalez,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,3,1,0.2283,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,A Textbook of Nanoscience and Nanotechnology,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,4,1,0.3315,0.0,0
+Applications of Higher,Designing Nano computer,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,1,1,0.157,0.0,0
+Applications of Higher,Digital Image Processing - Rafael C. Gonzalez,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,2,1,0.1803,0.0,0
+Applications of Higher,A Textbook of Nanoscience and Nanotechnology,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,3,1,0.1598,0.125,0
+Designing Nano computer,Digital Image Processing - Rafael C. Gonzalez,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,1,1,0.1155,0.0,0
+Designing Nano computer,A Textbook of Nanoscience and Nanotechnology,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,2,1,0.4999,0.0,1
+Digital Image Processing - Rafael C. Gonzalez,A Textbook of Nanoscience and Nanotechnology,6.14N-CSE-AIML.pdf,BSC201,Course Code Course Name,1,1,0.1625,0.0,0
+Divide a line into equal number of parts,Divide a circle into equal number of parts,6.14N-CSE-AIML.pdf,ESC201,Engineering Graphics,1,1,0.6874,0.7778,1
+Divide a line into equal number of parts,Comment (Prerequisite syllabus should not be,6.14N-CSE-AIML.pdf,ESC201,Engineering Graphics,2,1,0.0261,0.0,0
+Divide a circle into equal number of parts,Comment (Prerequisite syllabus should not be,6.14N-CSE-AIML.pdf,ESC201,Engineering Graphics,1,1,0.041,0.0,0
+Introduction to Python,Input and output,6.14N-CSE-AIML.pdf,VSEC202,Python Programming,1,1,0.2758,0.0,0
+Introduction to Python,Data Structures- list,6.14N-CSE-AIML.pdf,VSEC202,Python Programming,2,1,0.2755,0.0,0
+Introduction to Python,"Advanced Python Concepts 5.1   Regular Expressions, Pattern matching, Regex functions",6.14N-CSE-AIML.pdf,VSEC202,Python Programming,3,1,0.5833,0.0769,1
+Input and output,Data Structures- list,6.14N-CSE-AIML.pdf,VSEC202,Python Programming,1,1,0.195,0.0,0
+Input and output,"Advanced Python Concepts 5.1   Regular Expressions, Pattern matching, Regex functions",6.14N-CSE-AIML.pdf,VSEC202,Python Programming,2,1,0.1779,0.0,0
+Data Structures- list,"Advanced Python Concepts 5.1   Regular Expressions, Pattern matching, Regex functions",6.14N-CSE-AIML.pdf,VSEC202,Python Programming,1,1,0.2232,0.0,0
+1. Circular functions of complex number and Hyperbolic,Electrical circuits,6.19-N-EXTC.pdf,BSC101,Course Code Course Name,1,1,0.1172,0.0,0
+Fundamentals of Communication,1. Situational Application of Fundamentals of  Communication 1.2. Case Studies on Fundamentals of Communication,6.19-N-EXTC.pdf,AEL101,Professional Communication and Ethics,1,1,0.8124,0.3,1
+Fundamentals of Communication,Developing Basic Listening Skills,6.19-N-EXTC.pdf,AEL101,Professional Communication and Ethics,2,1,0.3633,0.0,1
+1. Situational Application of Fundamentals of  Communication 1.2. Case Studies on Fundamentals of Communication,Developing Basic Listening Skills,6.19-N-EXTC.pdf,AEL101,Professional Communication and Ethics,1,1,0.2679,0.0,0
+Linear Differential Equation with constant coefficient‐,Method of variation ofparameters,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,1,1,0.0107,0.0,0
+Linear Differential Equation with constant coefficient‐,# Self learning topics: Cauchy’s homogeneous linear differential,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,2,1,0.2437,0.1667,0
+Linear Differential Equation with constant coefficient‐,Applications of Higher,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,3,1,-0.0993,0.0,0
+Linear Differential Equation with constant coefficient‐,Designing Nano computer,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,4,1,-0.0176,0.0,0
+Linear Differential Equation with constant coefficient‐,Digital Image Processing - Rafael C. Gonzalez,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,5,1,0.0007,0.0,0
+Linear Differential Equation with constant coefficient‐,A Textbook of Nanoscience and Nanotechnology,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,6,1,0.0542,0.0,0
+Method of variation ofparameters,# Self learning topics: Cauchy’s homogeneous linear differential,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,1,1,0.1925,0.0,0
+Method of variation ofparameters,Applications of Higher,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,2,1,0.066,0.1667,0
+Method of variation ofparameters,Designing Nano computer,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,3,1,0.0177,0.0,0
+Method of variation ofparameters,Digital Image Processing - Rafael C. Gonzalez,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,4,1,0.202,0.0,0
+Method of variation ofparameters,A Textbook of Nanoscience and Nanotechnology,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,5,1,0.0363,0.1111,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Applications of Higher,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,1,1,0.1304,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Designing Nano computer,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,2,1,0.1306,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Digital Image Processing - Rafael C. Gonzalez,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,3,1,0.2283,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,A Textbook of Nanoscience and Nanotechnology,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,4,1,0.3315,0.0,0
+Applications of Higher,Designing Nano computer,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,1,1,0.157,0.0,0
+Applications of Higher,Digital Image Processing - Rafael C. Gonzalez,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,2,1,0.1803,0.0,0
+Applications of Higher,A Textbook of Nanoscience and Nanotechnology,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,3,1,0.1598,0.125,0
+Designing Nano computer,Digital Image Processing - Rafael C. Gonzalez,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,1,1,0.1155,0.0,0
+Designing Nano computer,A Textbook of Nanoscience and Nanotechnology,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,2,1,0.4999,0.0,1
+Digital Image Processing - Rafael C. Gonzalez,A Textbook of Nanoscience and Nanotechnology,6.19-N-EXTC.pdf,BSC201,Course Code Course Name,1,1,0.1625,0.0,0
+Divide a line into equal number of parts,Divide a circle into equal number of parts,6.19-N-EXTC.pdf,ESC201,Engineering Graphics,1,1,0.6874,0.7778,1
+Divide a line into equal number of parts,Comment (Prerequisite syllabus should not be,6.19-N-EXTC.pdf,ESC201,Engineering Graphics,2,1,0.0261,0.0,0
+Divide a circle into equal number of parts,Comment (Prerequisite syllabus should not be,6.19-N-EXTC.pdf,ESC201,Engineering Graphics,1,1,0.041,0.0,0
+) For NSS /NCC,The students shall earn marks for all relevant activities,6.19-N-EXTC.pdf,CC201,Social Science and Community Services 2*+2,1,1,0.2276,0.0909,0
+Introduction to Python,Input and output,6.19-N-EXTC.pdf,VSEC202,Python Programming,1,1,0.2758,0.0,0
+Introduction to Python,Data Structures- list,6.19-N-EXTC.pdf,VSEC202,Python Programming,2,1,0.2755,0.0,0
+Input and output,Data Structures- list,6.19-N-EXTC.pdf,VSEC202,Python Programming,1,1,0.195,0.0,0
+1. Circular functions of complex number and Hyperbolic,Electrical circuits,6.28N-DS.pdf,BSC101,Course Code Course Name,1,1,0.1172,0.0,0
+1. Circular functions of complex number and Hyperbolic,1.Partial Differentiation: Function of two and three,6.28N-DS.pdf,BSC101,Course Code Course Name,2,1,0.2988,0.2308,0
+1. Circular functions of complex number and Hyperbolic,Partial derivatives of first and higher order,6.28N-DS.pdf,BSC101,Course Code Course Name,3,1,0.1685,0.1538,0
+1. Circular functions of complex number and Hyperbolic,Differentiation of composite function,6.28N-DS.pdf,BSC101,Course Code Course Name,4,1,0.1104,0.0909,0
+1. Circular functions of complex number and Hyperbolic,2.Euler’s Theorem on Homogeneous functions with two,6.28N-DS.pdf,BSC101,Course Code Course Name,5,1,0.3291,0.0625,0
+1. Circular functions of complex number and Hyperbolic,# Self-learning topics:Total differentials,6.28N-DS.pdf,BSC101,Course Code Course Name,6,1,0.0552,0.0,0
+1. Circular functions of complex number and Hyperbolic,Euler’s Theorem,6.28N-DS.pdf,BSC101,Course Code Course Name,7,1,0.2599,0.0,0
+Electrical circuits,1.Partial Differentiation: Function of two and three,6.28N-DS.pdf,BSC101,Course Code Course Name,1,1,0.2336,0.0,0
+Electrical circuits,Partial derivatives of first and higher order,6.28N-DS.pdf,BSC101,Course Code Course Name,2,1,0.1135,0.0,0
+Electrical circuits,Differentiation of composite function,6.28N-DS.pdf,BSC101,Course Code Course Name,3,1,0.1095,0.0,0
+Electrical circuits,2.Euler’s Theorem on Homogeneous functions with two,6.28N-DS.pdf,BSC101,Course Code Course Name,4,1,0.1503,0.0,0
+Electrical circuits,# Self-learning topics:Total differentials,6.28N-DS.pdf,BSC101,Course Code Course Name,5,1,0.1275,0.0,0
+Electrical circuits,Euler’s Theorem,6.28N-DS.pdf,BSC101,Course Code Course Name,6,1,0.1646,0.0,0
+1.Partial Differentiation: Function of two and three,Partial derivatives of first and higher order,6.28N-DS.pdf,BSC101,Course Code Course Name,1,1,0.6491,0.25,1
+1.Partial Differentiation: Function of two and three,Differentiation of composite function,6.28N-DS.pdf,BSC101,Course Code Course Name,2,1,0.5364,0.3333,1
+1.Partial Differentiation: Function of two and three,2.Euler’s Theorem on Homogeneous functions with two,6.28N-DS.pdf,BSC101,Course Code Course Name,3,1,0.3256,0.0625,0
+1.Partial Differentiation: Function of two and three,# Self-learning topics:Total differentials,6.28N-DS.pdf,BSC101,Course Code Course Name,4,1,0.24,0.0,0
+1.Partial Differentiation: Function of two and three,Euler’s Theorem,6.28N-DS.pdf,BSC101,Course Code Course Name,5,1,0.1931,0.0,0
+Partial derivatives of first and higher order,Differentiation of composite function,6.28N-DS.pdf,BSC101,Course Code Course Name,1,1,0.4749,0.1,1
+Partial derivatives of first and higher order,2.Euler’s Theorem on Homogeneous functions with two,6.28N-DS.pdf,BSC101,Course Code Course Name,2,1,0.1752,0.0,0
+Partial derivatives of first and higher order,# Self-learning topics:Total differentials,6.28N-DS.pdf,BSC101,Course Code Course Name,3,1,0.147,0.0,0
+Partial derivatives of first and higher order,Euler’s Theorem,6.28N-DS.pdf,BSC101,Course Code Course Name,4,1,0.0637,0.0,0
+Differentiation of composite function,2.Euler’s Theorem on Homogeneous functions with two,6.28N-DS.pdf,BSC101,Course Code Course Name,1,1,0.2742,0.0,0
+Differentiation of composite function,# Self-learning topics:Total differentials,6.28N-DS.pdf,BSC101,Course Code Course Name,2,1,0.187,0.0,0
+Differentiation of composite function,Euler’s Theorem,6.28N-DS.pdf,BSC101,Course Code Course Name,3,1,0.1732,0.0,0
+2.Euler’s Theorem on Homogeneous functions with two,# Self-learning topics:Total differentials,6.28N-DS.pdf,BSC101,Course Code Course Name,1,1,0.1773,0.0,0
+2.Euler’s Theorem on Homogeneous functions with two,Euler’s Theorem,6.28N-DS.pdf,BSC101,Course Code Course Name,2,1,0.6269,0.3333,1
+# Self-learning topics:Total differentials,Euler’s Theorem,6.28N-DS.pdf,BSC101,Course Code Course Name,1,1,0.1443,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Ideal and Practical Voltage and Current,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.3338,0.0,1
+DC Circuits: (Only independent sources) Kirchhoff’s,Mesh and Nodal,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.2037,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Analysis (no super node and super mesh) Star-Delta /,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1681,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Delta-Star Transformations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1338,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Thevenin’s Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.196,0.1111,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Maximum Power Transfer Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.2494,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,AC Circuits: Generation of alternating voltage,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.4181,0.0833,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Single-phase ac series,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.2921,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,RLC combinations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.273,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.1773,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.1625,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.1848,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,13,1,0.1053,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,14,1,0.2175,0.0,0
+DC Circuits: (Only independent sources) Kirchhoff’s,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,15,1,0.2639,0.0,0
+Ideal and Practical Voltage and Current,Mesh and Nodal,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1116,0.1429,0
+Ideal and Practical Voltage and Current,Analysis (no super node and super mesh) Star-Delta /,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0492,0.0833,0
+Ideal and Practical Voltage and Current,Delta-Star Transformations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0173,0.0,0
+Ideal and Practical Voltage and Current,Thevenin’s Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.168,0.0,0
+Ideal and Practical Voltage and Current,Maximum Power Transfer Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.3391,0.0,0
+Ideal and Practical Voltage and Current,AC Circuits: Generation of alternating voltage,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.4062,0.1,0
+Ideal and Practical Voltage and Current,Single-phase ac series,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.2346,0.0,0
+Ideal and Practical Voltage and Current,RLC combinations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.0247,0.0,0
+Ideal and Practical Voltage and Current,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.065,0.1429,0
+Ideal and Practical Voltage and Current,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.2195,0.0,0
+Ideal and Practical Voltage and Current,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.2392,0.0,0
+Ideal and Practical Voltage and Current,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.1962,0.0,0
+Ideal and Practical Voltage and Current,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,13,1,0.3021,0.0,0
+Ideal and Practical Voltage and Current,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,14,1,0.3381,0.0,0
+Mesh and Nodal,Analysis (no super node and super mesh) Star-Delta /,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.3998,0.2222,1
+Mesh and Nodal,Delta-Star Transformations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1649,0.0,0
+Mesh and Nodal,Thevenin’s Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1148,0.0,0
+Mesh and Nodal,Maximum Power Transfer Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.0443,0.0,0
+Mesh and Nodal,AC Circuits: Generation of alternating voltage,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1006,0.0,0
+Mesh and Nodal,Single-phase ac series,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.1045,0.0,0
+Mesh and Nodal,RLC combinations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.0277,0.0,0
+Mesh and Nodal,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.1062,0.2,0
+Mesh and Nodal,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.1186,0.0,0
+Mesh and Nodal,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.063,0.0,0
+Mesh and Nodal,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.0782,0.0,0
+Mesh and Nodal,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.106,0.0,0
+Mesh and Nodal,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,13,1,0.1098,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Delta-Star Transformations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.5966,0.2222,1
+Analysis (no super node and super mesh) Star-Delta /,Thevenin’s Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0843,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Maximum Power Transfer Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1129,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,AC Circuits: Generation of alternating voltage,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,-0.0009,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Single-phase ac series,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1483,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,RLC combinations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.0157,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.1179,0.1,0
+Analysis (no super node and super mesh) Star-Delta /,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.142,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.0472,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.0145,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.0969,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.1385,0.0,0
+Delta-Star Transformations,Thevenin’s Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.0964,0.0,0
+Delta-Star Transformations,Maximum Power Transfer Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0988,0.0,0
+Delta-Star Transformations,AC Circuits: Generation of alternating voltage,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0306,0.0,0
+Delta-Star Transformations,Single-phase ac series,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1581,0.0,0
+Delta-Star Transformations,RLC combinations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.0863,0.0,0
+Delta-Star Transformations,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.0908,0.0,0
+Delta-Star Transformations,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.2168,0.0,0
+Delta-Star Transformations,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.2051,0.0,0
+Delta-Star Transformations,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.0699,0.0,0
+Delta-Star Transformations,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.1204,0.0,0
+Delta-Star Transformations,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.0989,0.0,0
+Thevenin’s Theorem,Maximum Power Transfer Theorem,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.2807,0.1667,0
+Thevenin’s Theorem,AC Circuits: Generation of alternating voltage,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1226,0.0,0
+Thevenin’s Theorem,Single-phase ac series,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1501,0.0,0
+Thevenin’s Theorem,RLC combinations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1016,0.0,0
+Thevenin’s Theorem,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1857,0.0,0
+Thevenin’s Theorem,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.0179,0.0,0
+Thevenin’s Theorem,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.0522,0.0,0
+Thevenin’s Theorem,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.0626,0.0,0
+Thevenin’s Theorem,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.0841,0.0,0
+Thevenin’s Theorem,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.0536,0.0,0
+Maximum Power Transfer Theorem,AC Circuits: Generation of alternating voltage,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.2214,0.0,0
+Maximum Power Transfer Theorem,Single-phase ac series,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1733,0.0,0
+Maximum Power Transfer Theorem,RLC combinations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0918,0.0,0
+Maximum Power Transfer Theorem,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.0517,0.0,0
+Maximum Power Transfer Theorem,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1601,0.0,0
+Maximum Power Transfer Theorem,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.2756,0.0,0
+Maximum Power Transfer Theorem,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.1115,0.0,0
+Maximum Power Transfer Theorem,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.1177,0.0,0
+Maximum Power Transfer Theorem,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.145,0.0,0
+AC Circuits: Generation of alternating voltage,Single-phase ac series,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.4646,0.1111,1
+AC Circuits: Generation of alternating voltage,RLC combinations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1959,0.0,0
+AC Circuits: Generation of alternating voltage,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1012,0.0,0
+AC Circuits: Generation of alternating voltage,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.2237,0.0,0
+AC Circuits: Generation of alternating voltage,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.2132,0.0,0
+AC Circuits: Generation of alternating voltage,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.2498,0.0,0
+AC Circuits: Generation of alternating voltage,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.1928,0.0,0
+AC Circuits: Generation of alternating voltage,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.2077,0.0,0
+Single-phase ac series,RLC combinations,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.2361,0.0,0
+Single-phase ac series,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.3735,0.1667,1
+Single-phase ac series,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.5158,0.25,0
+Single-phase ac series,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1714,0.0,0
+Single-phase ac series,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.5232,0.3333,1
+Single-phase ac series,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.1128,0.0,0
+Single-phase ac series,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.0548,0.0,0
+RLC combinations,Series and parallel,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1097,0.0,0
+RLC combinations,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0544,0.0,0
+RLC combinations,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1141,0.0,0
+RLC combinations,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,-0.0099,0.0,0
+RLC combinations,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.0662,0.0,0
+RLC combinations,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,-0.0515,0.0,0
+Series and parallel,Single Phase Transformer: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1058,0.0,0
+Series and parallel,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1353,0.0,0
+Series and parallel,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1831,0.0,0
+Series and parallel,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.0044,0.0,0
+Series and parallel,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.0553,0.0,0
+Single Phase Transformer: (Numerical are not,Transformer losses,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.44,0.1429,1
+Single Phase Transformer: (Numerical are not,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.4492,0.25,1
+Single Phase Transformer: (Numerical are not,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.3061,0.3333,1
+Single Phase Transformer: (Numerical are not,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.2263,0.3333,1
+Transformer losses,Single-Phase induction motors,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.0906,0.0,0
+Transformer losses,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1698,0.0,0
+Transformer losses,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0575,0.0,0
+Single-Phase induction motors,Special Purpose Diodes: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1096,0.0,0
+Single-Phase induction motors,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0742,0.0,0
+Special Purpose Diodes: (Numerical are not,Introduction to Transistors: (Numerical are not,6.28N-DS.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.4065,0.3333,1
+Fundamentals of Communication,1. Situational Application of Fundamentals of  Communication 1.2. Case Studies on Fundamentals of Communication,6.28N-DS.pdf,AEL101,Professional Communication and Ethics,1,1,0.8124,0.3,1
+Fundamentals of Communication,Developing Basic Listening Skills,6.28N-DS.pdf,AEL101,Professional Communication and Ethics,2,1,0.3633,0.0,1
+1. Situational Application of Fundamentals of  Communication 1.2. Case Studies on Fundamentals of Communication,Developing Basic Listening Skills,6.28N-DS.pdf,AEL101,Professional Communication and Ethics,1,1,0.2679,0.0,0
+Linear Differential Equation with constant coefficient‐,Method of variation ofparameters,6.28N-DS.pdf,BSC201,Course Code Course Name,1,1,0.0107,0.0,0
+Linear Differential Equation with constant coefficient‐,# Self learning topics: Cauchy’s homogeneous linear differential,6.28N-DS.pdf,BSC201,Course Code Course Name,2,1,0.2437,0.1667,0
+Linear Differential Equation with constant coefficient‐,Applications of Higher,6.28N-DS.pdf,BSC201,Course Code Course Name,3,1,-0.0993,0.0,0
+Linear Differential Equation with constant coefficient‐,Designing Nano computer,6.28N-DS.pdf,BSC201,Course Code Course Name,4,1,-0.0176,0.0,0
+Linear Differential Equation with constant coefficient‐,Digital Image Processing - Rafael C. Gonzalez,6.28N-DS.pdf,BSC201,Course Code Course Name,5,1,0.0007,0.0,0
+Linear Differential Equation with constant coefficient‐,A Textbook of Nanoscience and Nanotechnology,6.28N-DS.pdf,BSC201,Course Code Course Name,6,1,0.0542,0.0,0
+Method of variation ofparameters,# Self learning topics: Cauchy’s homogeneous linear differential,6.28N-DS.pdf,BSC201,Course Code Course Name,1,1,0.1925,0.0,0
+Method of variation ofparameters,Applications of Higher,6.28N-DS.pdf,BSC201,Course Code Course Name,2,1,0.066,0.1667,0
+Method of variation ofparameters,Designing Nano computer,6.28N-DS.pdf,BSC201,Course Code Course Name,3,1,0.0177,0.0,0
+Method of variation ofparameters,Digital Image Processing - Rafael C. Gonzalez,6.28N-DS.pdf,BSC201,Course Code Course Name,4,1,0.202,0.0,0
+Method of variation ofparameters,A Textbook of Nanoscience and Nanotechnology,6.28N-DS.pdf,BSC201,Course Code Course Name,5,1,0.0363,0.1111,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Applications of Higher,6.28N-DS.pdf,BSC201,Course Code Course Name,1,1,0.1304,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Designing Nano computer,6.28N-DS.pdf,BSC201,Course Code Course Name,2,1,0.1306,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Digital Image Processing - Rafael C. Gonzalez,6.28N-DS.pdf,BSC201,Course Code Course Name,3,1,0.2283,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,A Textbook of Nanoscience and Nanotechnology,6.28N-DS.pdf,BSC201,Course Code Course Name,4,1,0.3315,0.0,0
+Applications of Higher,Designing Nano computer,6.28N-DS.pdf,BSC201,Course Code Course Name,1,1,0.157,0.0,0
+Applications of Higher,Digital Image Processing - Rafael C. Gonzalez,6.28N-DS.pdf,BSC201,Course Code Course Name,2,1,0.1803,0.0,0
+Applications of Higher,A Textbook of Nanoscience and Nanotechnology,6.28N-DS.pdf,BSC201,Course Code Course Name,3,1,0.1598,0.125,0
+Designing Nano computer,Digital Image Processing - Rafael C. Gonzalez,6.28N-DS.pdf,BSC201,Course Code Course Name,1,1,0.1155,0.0,0
+Designing Nano computer,A Textbook of Nanoscience and Nanotechnology,6.28N-DS.pdf,BSC201,Course Code Course Name,2,1,0.4999,0.0,1
+Digital Image Processing - Rafael C. Gonzalez,A Textbook of Nanoscience and Nanotechnology,6.28N-DS.pdf,BSC201,Course Code Course Name,1,1,0.1625,0.0,0
+Divide a line into equal number of parts,Divide a circle into equal number of parts,6.28N-DS.pdf,ESC201,Engineering Graphics,1,1,0.6874,0.7778,1
+Divide a line into equal number of parts,Comment (Prerequisite syllabus should not be,6.28N-DS.pdf,ESC201,Engineering Graphics,2,1,0.0261,0.0,0
+Divide a circle into equal number of parts,Comment (Prerequisite syllabus should not be,6.28N-DS.pdf,ESC201,Engineering Graphics,1,1,0.041,0.0,0
+Introduction to Python,Input and output,6.28N-DS.pdf,VSEC202,Python Programming,1,1,0.2758,0.0,0
+Introduction to Python,Data Structures- list,6.28N-DS.pdf,VSEC202,Python Programming,2,1,0.2755,0.0,0
+Introduction to Python,"Advanced Python Concepts 5.1   Regular Expressions, Pattern matching, Regex functions",6.28N-DS.pdf,VSEC202,Python Programming,3,1,0.5833,0.0769,1
+Input and output,Data Structures- list,6.28N-DS.pdf,VSEC202,Python Programming,1,1,0.195,0.0,0
+Input and output,"Advanced Python Concepts 5.1   Regular Expressions, Pattern matching, Regex functions",6.28N-DS.pdf,VSEC202,Python Programming,2,1,0.1779,0.0,0
+Data Structures- list,"Advanced Python Concepts 5.1   Regular Expressions, Pattern matching, Regex functions",6.28N-DS.pdf,VSEC202,Python Programming,1,1,0.2232,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Ideal and Practical Voltage and Current,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.284,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Mesh and Nodal,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.2285,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Analysis (no super node and super mesh) Star-Delta /,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1934,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Delta-Star Transformations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1475,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Thevenin’s Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.2025,0.125,0
+Circuits: (Only independent sources) Kirchhoff’s,Maximum Power Transfer Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.2153,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,AC Circuits: Generation of alternating voltage,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.3304,0.0909,0
+Circuits: (Only independent sources) Kirchhoff’s,Single-phase ac series,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.2464,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,RLC combinations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.2475,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.1963,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.1232,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.1149,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,13,1,0.0924,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,14,1,0.1938,0.0,0
+Circuits: (Only independent sources) Kirchhoff’s,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,15,1,0.2824,0.0,0
+Ideal and Practical Voltage and Current,Mesh and Nodal,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1116,0.1429,0
+Ideal and Practical Voltage and Current,Analysis (no super node and super mesh) Star-Delta /,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0492,0.0833,0
+Ideal and Practical Voltage and Current,Delta-Star Transformations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0173,0.0,0
+Ideal and Practical Voltage and Current,Thevenin’s Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.168,0.0,0
+Ideal and Practical Voltage and Current,Maximum Power Transfer Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.3391,0.0,0
+Ideal and Practical Voltage and Current,AC Circuits: Generation of alternating voltage,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.4062,0.1,0
+Ideal and Practical Voltage and Current,Single-phase ac series,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.2346,0.0,0
+Ideal and Practical Voltage and Current,RLC combinations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.0247,0.0,0
+Ideal and Practical Voltage and Current,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.065,0.1429,0
+Ideal and Practical Voltage and Current,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.2195,0.0,0
+Ideal and Practical Voltage and Current,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.2392,0.0,0
+Ideal and Practical Voltage and Current,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.1962,0.0,0
+Ideal and Practical Voltage and Current,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,13,1,0.3021,0.0,0
+Ideal and Practical Voltage and Current,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,14,1,0.3381,0.0,0
+Mesh and Nodal,Analysis (no super node and super mesh) Star-Delta /,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.3998,0.2222,1
+Mesh and Nodal,Delta-Star Transformations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1649,0.0,0
+Mesh and Nodal,Thevenin’s Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1148,0.0,0
+Mesh and Nodal,Maximum Power Transfer Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.0443,0.0,0
+Mesh and Nodal,AC Circuits: Generation of alternating voltage,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1006,0.0,0
+Mesh and Nodal,Single-phase ac series,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.1045,0.0,0
+Mesh and Nodal,RLC combinations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.0277,0.0,0
+Mesh and Nodal,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.1062,0.2,0
+Mesh and Nodal,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.1186,0.0,0
+Mesh and Nodal,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.063,0.0,0
+Mesh and Nodal,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.0782,0.0,0
+Mesh and Nodal,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.106,0.0,0
+Mesh and Nodal,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,13,1,0.1098,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Delta-Star Transformations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.5966,0.2222,1
+Analysis (no super node and super mesh) Star-Delta /,Thevenin’s Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0843,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Maximum Power Transfer Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1129,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,AC Circuits: Generation of alternating voltage,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,-0.0009,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Single-phase ac series,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1483,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,RLC combinations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.0157,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.1179,0.1,0
+Analysis (no super node and super mesh) Star-Delta /,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.142,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.0472,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.0145,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.0969,0.0,0
+Analysis (no super node and super mesh) Star-Delta /,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,12,1,0.1385,0.0,0
+Delta-Star Transformations,Thevenin’s Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.0964,0.0,0
+Delta-Star Transformations,Maximum Power Transfer Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0988,0.0,0
+Delta-Star Transformations,AC Circuits: Generation of alternating voltage,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0306,0.0,0
+Delta-Star Transformations,Single-phase ac series,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1581,0.0,0
+Delta-Star Transformations,RLC combinations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.0863,0.0,0
+Delta-Star Transformations,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.0908,0.0,0
+Delta-Star Transformations,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.2168,0.0,0
+Delta-Star Transformations,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.2051,0.0,0
+Delta-Star Transformations,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.0699,0.0,0
+Delta-Star Transformations,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.1204,0.0,0
+Delta-Star Transformations,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,11,1,0.0989,0.0,0
+Thevenin’s Theorem,Maximum Power Transfer Theorem,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.2807,0.1667,0
+Thevenin’s Theorem,AC Circuits: Generation of alternating voltage,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1226,0.0,0
+Thevenin’s Theorem,Single-phase ac series,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1501,0.0,0
+Thevenin’s Theorem,RLC combinations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1016,0.0,0
+Thevenin’s Theorem,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1857,0.0,0
+Thevenin’s Theorem,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.0179,0.0,0
+Thevenin’s Theorem,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.0522,0.0,0
+Thevenin’s Theorem,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.0626,0.0,0
+Thevenin’s Theorem,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.0841,0.0,0
+Thevenin’s Theorem,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,10,1,0.0536,0.0,0
+Maximum Power Transfer Theorem,AC Circuits: Generation of alternating voltage,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.2214,0.0,0
+Maximum Power Transfer Theorem,Single-phase ac series,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1733,0.0,0
+Maximum Power Transfer Theorem,RLC combinations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0918,0.0,0
+Maximum Power Transfer Theorem,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.0517,0.0,0
+Maximum Power Transfer Theorem,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.1601,0.0,0
+Maximum Power Transfer Theorem,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.2756,0.0,0
+Maximum Power Transfer Theorem,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.1115,0.0,0
+Maximum Power Transfer Theorem,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.1177,0.0,0
+Maximum Power Transfer Theorem,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,9,1,0.145,0.0,0
+AC Circuits: Generation of alternating voltage,Single-phase ac series,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.4646,0.1111,1
+AC Circuits: Generation of alternating voltage,RLC combinations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1959,0.0,0
+AC Circuits: Generation of alternating voltage,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1012,0.0,0
+AC Circuits: Generation of alternating voltage,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.2237,0.0,0
+AC Circuits: Generation of alternating voltage,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.2132,0.0,0
+AC Circuits: Generation of alternating voltage,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.2498,0.0,0
+AC Circuits: Generation of alternating voltage,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.1928,0.0,0
+AC Circuits: Generation of alternating voltage,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,8,1,0.2077,0.0,0
+Single-phase ac series,RLC combinations,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.2361,0.0,0
+Single-phase ac series,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.3735,0.1667,1
+Single-phase ac series,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.5158,0.25,0
+Single-phase ac series,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.1714,0.0,0
+Single-phase ac series,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.5232,0.3333,1
+Single-phase ac series,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,0.1128,0.0,0
+Single-phase ac series,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,7,1,0.0548,0.0,0
+RLC combinations,Series and parallel,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1097,0.0,0
+RLC combinations,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0544,0.0,0
+RLC combinations,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1141,0.0,0
+RLC combinations,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,-0.0099,0.0,0
+RLC combinations,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.0662,0.0,0
+RLC combinations,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,6,1,-0.0515,0.0,0
+Series and parallel,Single Phase Transformer: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1058,0.0,0
+Series and parallel,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1353,0.0,0
+Series and parallel,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.1831,0.0,0
+Series and parallel,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.0044,0.0,0
+Series and parallel,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,5,1,0.0553,0.0,0
+Single Phase Transformer: (Numerical are not,Transformer losses,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.44,0.1429,1
+Single Phase Transformer: (Numerical are not,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.4492,0.25,1
+Single Phase Transformer: (Numerical are not,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.3061,0.3333,1
+Single Phase Transformer: (Numerical are not,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,4,1,0.2263,0.3333,1
+Transformer losses,Single-Phase induction motors,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.0906,0.0,0
+Transformer losses,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.1698,0.0,0
+Transformer losses,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,3,1,0.0575,0.0,0
+Single-Phase induction motors,Special Purpose Diodes: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.1096,0.0,0
+Single-Phase induction motors,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,2,1,0.0742,0.0,0
+Special Purpose Diodes: (Numerical are not,Introduction to Transistors: (Numerical are not,6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,1,1,0.4065,0.3333,1
+Fundamentals of Communication,1. Situational Application of Fundamentals of  Communication 1.2. Case Studies on Fundamentals of Communication,6.9N-AIML.pdf,AEL101,Professional Communication and Ethics,1,1,0.8124,0.3,1
+Fundamentals of Communication,Developing Basic Listening Skills,6.9N-AIML.pdf,AEL101,Professional Communication and Ethics,2,1,0.3633,0.0,1
+1. Situational Application of Fundamentals of  Communication 1.2. Case Studies on Fundamentals of Communication,Developing Basic Listening Skills,6.9N-AIML.pdf,AEL101,Professional Communication and Ethics,1,1,0.2679,0.0,0
+Linear Differential Equation with constant coefficient‐,Method of variation ofparameters,6.9N-AIML.pdf,BSC201,Course Code Course Name,1,1,0.0107,0.0,0
+Linear Differential Equation with constant coefficient‐,# Self learning topics: Cauchy’s homogeneous linear differential,6.9N-AIML.pdf,BSC201,Course Code Course Name,2,1,0.2437,0.1667,0
+Linear Differential Equation with constant coefficient‐,Applications of Higher,6.9N-AIML.pdf,BSC201,Course Code Course Name,3,1,-0.0993,0.0,0
+Linear Differential Equation with constant coefficient‐,Designing Nano computer,6.9N-AIML.pdf,BSC201,Course Code Course Name,4,1,-0.0176,0.0,0
+Linear Differential Equation with constant coefficient‐,Digital Image Processing - Rafael C. Gonzalez,6.9N-AIML.pdf,BSC201,Course Code Course Name,5,1,0.0007,0.0,0
+Linear Differential Equation with constant coefficient‐,A Textbook of Nanoscience and Nanotechnology,6.9N-AIML.pdf,BSC201,Course Code Course Name,6,1,0.0542,0.0,0
+Method of variation ofparameters,# Self learning topics: Cauchy’s homogeneous linear differential,6.9N-AIML.pdf,BSC201,Course Code Course Name,1,1,0.1925,0.0,0
+Method of variation ofparameters,Applications of Higher,6.9N-AIML.pdf,BSC201,Course Code Course Name,2,1,0.066,0.1667,0
+Method of variation ofparameters,Designing Nano computer,6.9N-AIML.pdf,BSC201,Course Code Course Name,3,1,0.0177,0.0,0
+Method of variation ofparameters,Digital Image Processing - Rafael C. Gonzalez,6.9N-AIML.pdf,BSC201,Course Code Course Name,4,1,0.202,0.0,0
+Method of variation ofparameters,A Textbook of Nanoscience and Nanotechnology,6.9N-AIML.pdf,BSC201,Course Code Course Name,5,1,0.0363,0.1111,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Applications of Higher,6.9N-AIML.pdf,BSC201,Course Code Course Name,1,1,0.1304,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Designing Nano computer,6.9N-AIML.pdf,BSC201,Course Code Course Name,2,1,0.1306,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,Digital Image Processing - Rafael C. Gonzalez,6.9N-AIML.pdf,BSC201,Course Code Course Name,3,1,0.2283,0.0,0
+# Self learning topics: Cauchy’s homogeneous linear differential,A Textbook of Nanoscience and Nanotechnology,6.9N-AIML.pdf,BSC201,Course Code Course Name,4,1,0.3315,0.0,0
+Applications of Higher,Designing Nano computer,6.9N-AIML.pdf,BSC201,Course Code Course Name,1,1,0.157,0.0,0
+Applications of Higher,Digital Image Processing - Rafael C. Gonzalez,6.9N-AIML.pdf,BSC201,Course Code Course Name,2,1,0.1803,0.0,0
+Applications of Higher,A Textbook of Nanoscience and Nanotechnology,6.9N-AIML.pdf,BSC201,Course Code Course Name,3,1,0.1598,0.125,0
+Designing Nano computer,Digital Image Processing - Rafael C. Gonzalez,6.9N-AIML.pdf,BSC201,Course Code Course Name,1,1,0.1155,0.0,0
+Designing Nano computer,A Textbook of Nanoscience and Nanotechnology,6.9N-AIML.pdf,BSC201,Course Code Course Name,2,1,0.4999,0.0,1
+Digital Image Processing - Rafael C. Gonzalez,A Textbook of Nanoscience and Nanotechnology,6.9N-AIML.pdf,BSC201,Course Code Course Name,1,1,0.1625,0.0,0
+Divide a line into equal number of parts,Divide a circle into equal number of parts,6.9N-AIML.pdf,ESC201,Engineering Graphics,1,1,0.6874,0.7778,1
+Divide a line into equal number of parts,Comment (Prerequisite syllabus should not be,6.9N-AIML.pdf,ESC201,Engineering Graphics,2,1,0.0261,0.0,0
+Divide a circle into equal number of parts,Comment (Prerequisite syllabus should not be,6.9N-AIML.pdf,ESC201,Engineering Graphics,1,1,0.041,0.0,0
+Introduction to Python,Input and output,6.9N-AIML.pdf,VSEC202,Python Programming,1,1,0.2758,0.0,0
+Introduction to Python,Data Structures- list,6.9N-AIML.pdf,VSEC202,Python Programming,2,1,0.2755,0.0,0
+Introduction to Python,"Advanced Python Concepts 5.1   Regular Expressions, Pattern matching, Regex functions",6.9N-AIML.pdf,VSEC202,Python Programming,3,1,0.5833,0.0769,1
+Input and output,Data Structures- list,6.9N-AIML.pdf,VSEC202,Python Programming,1,1,0.195,0.0,0
+Input and output,"Advanced Python Concepts 5.1   Regular Expressions, Pattern matching, Regex functions",6.9N-AIML.pdf,VSEC202,Python Programming,2,1,0.1779,0.0,0
+Data Structures- list,"Advanced Python Concepts 5.1   Regular Expressions, Pattern matching, Regex functions",6.9N-AIML.pdf,VSEC202,Python Programming,1,1,0.2232,0.0,0

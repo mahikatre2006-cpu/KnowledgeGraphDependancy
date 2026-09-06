@@ -1,0 +1,58 @@
+[
+  {
+    "code": "2013111",
+    "name": "Mathematics for Computer Engineering",
+    "topics": [
+      "Cayley-Hamilton",
+      "Linear Algebra (Theory of Matrices) verification and reduction of higher degree polynomials",
+      "Similarity of matrices",
+      "Quadratic forms",
+      "Linear and Non-Linear Programming Problems",
+      "Types of solutions",
+      "Standard and Canonical of LPP",
+      "Basic and Feasible solutions",
+      "Simplex method",
+      "Artificial variables",
+      "Kuhn-Tucker conditions",
+      "Introduction to Congruence",
+      "Linear congruence",
+      "Application of congruence-RSA algorithm",
+      "Dirichlet\u2019s conditions",
+      "Fourier series of periodic",
+      "Fourier series of even and odd functions",
+      "Complex form of Fourier Series",
+      "Lines of regression",
+      "Moment generating function",
+      "Raw moments"
+    ]
+  },
+  {
+    "code": "2014111",
+    "name": "Computational",
+    "topics": [
+      "Regular operations",
+      "Arden's theorem",
+      "Decision properties of RLs",
+      "Pumping lemma",
+      "RE in text search and replace",
+      "Application of Regular",
+      "Languages in Compiler Design",
+      "Nondeterministic Finite Automata (NFA): Definitions",
+      "Equivalence between NFA with and \u03f5- transitions",
+      "Minimization of DFA"
+    ]
+  },
+  {
+    "code": "2014113",
+    "name": "Operating System",
+    "topics": [
+      "Special-purpose",
+      "Open-source and Proprietary Operating System",
+      "Fundamentals of Distributed Operating System",
+      "Network Operating System",
+      "Real-Time",
+      "Mobile Operating System",
+      "Special-purpose Operating Systems"
+    ]
+  }
+]

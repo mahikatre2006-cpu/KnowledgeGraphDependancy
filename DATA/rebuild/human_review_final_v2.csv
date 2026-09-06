@@ -1,0 +1,101 @@
+concept_a,concept_b,source_syllabus,order_delta,ai_suggested_label,confirmed_label,reason,embedding_similarity,keyword_overlap
+Fourier series of even and odd functions,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,4,0,0,Insufficient signal,0.0454,0.0
+Quadratic forms,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,10,0,0,Insufficient signal,0.1161,0.0
+Dirichlet’s conditions,Fourier series of periodic,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,1,Insufficient signal,0.1715,0.0
+Linear Block Code,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,0,0,Insufficient signal,0.1731,0.0
+Selection of Scheduling,Algorithms  for  different  situations,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,1,1,99,sim=0.456>=0.45 + delta=1<=5,0.4562,0.0
+Introduction to Congruence,Moment generating function,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,8,0,0,Insufficient signal,0.0546,0.0
+Fourier series of periodic,Moment generating function,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,4,0,0,Insufficient signal,0.1743,0.0
+Functions ofSquare Matrix,Theorem to evaluate realintegrations,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,0,0,Insufficient signal,0.0648,0.0
+Basic and Feasible solutions,Fourier series of periodic,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,8,0,0,Insufficient signal,-0.0731,0.0
+Linear Algebra (Theory of Matrices) verification and reduction of higher degree polynomials,Fourier series of periodic,6.41N-A-I-AI-DS-Sem-III-IV.pdf,14,0,0,Insufficient signal,0.0501,0.0714
+Inspired and Multi,Objective Swarm Optimization,SEM-V.pdf,1,1,99,Adjacent same-course topics: delta=1 + sim=0.230,0.2301,0.0
+"Overview of SQL, Data Definition Commands","Concurrent Executions, Serializability",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,4,0,0,Insufficient signal,0.1166,0.0
+Application of congruence-RSA algorithm,Raw moments,6.41N-A-I-AI-DS-Sem-III-IV.pdf,7,0,0,Insufficient signal,0.0321,0.0
+Linear congruence,Complex form of Fourier Series,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,5,0,0,Insufficient signal,0.0738,0.0
+Relationship (EER) Model,"Overview of SQL, Data Definition Commands",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,4,0,0,Insufficient signal,0.1176,0.0
+Cayley-Hamilton,Linear and Non-Linear Programming Problems,6.41N-A-I-AI-DS-Sem-III-IV.pdf,4,0,0,Insufficient signal,-0.0703,0.0
+Relationship (EER) Model,"Pitfalls in relational database designs, Concept",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,7,1,0,Foundational kw in A + sim=0.327 + delta=7,0.3273,0.0
+React DevTools,Custom Hooks creation,SEM-V.pdf,1,0,0,Insufficient signal,0.0819,0.0
+Fundamentals of Distributed Operating System,Real-Time,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2,1,0,Foundational kw in A + sim=0.259 + delta=2,0.2594,0.0
+Quadratic forms,Simplex method,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,5,0,0,Insufficient signal,0.1793,0.0
+Cayley-Hamilton,Linear congruence,6.41N-A-I-AI-DS-Sem-III-IV.pdf,12,0,0,Insufficient signal,0.2145,0.0
+Relationship (EER) Model,"Introduction to the Relational Model, relational",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,1,0,sim=0.518>=0.45 + delta=2<=5,0.5185,0.1429
+Real-time,Implementation of Page,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,1,0,0,Insufficient signal,0.1423,0.0
+"DevOps: Introduction, DevOps - Importance","Agility, DevOps and Continuous Testing",SEM-V.pdf,2,1,0,High sim=0.618 + delta=2,0.618,0.1429
+Kuhn-Tucker conditions,Linear congruence,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,2,0,0,Insufficient signal,-0.0388,0.0
+Screening equipment – Vibrating screen,Solid mixing – Introduction to solid mixing,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,5,0,0,Insufficient signal,-0.0396,0.0
+Medium Access Control,Self-Study Topics,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,5,0,0,Insufficient signal,0.0534,0.0
+Types of solutions,Basic and Feasible solutions,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,1,,sim=0.479>=0.45 + delta=2<=5,0.479,0.1667
+Linear and Non-Linear Programming Problems,Simplex method,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,4,0,0,Insufficient signal,0.2234,0.0
+Cayley-Hamilton,Dirichlet’s conditions,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,14,0,0,Insufficient signal,-0.0433,0.0
+Basic and Feasible solutions,Complex form of Fourier Series,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,10,0,0,Insufficient signal,-0.0442,0.0
+Go-Back-N ARQ,Self-Study Topics,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,6,0,0,Insufficient signal,0.0588,0.0
+Introduction to Data Analytics,Background and Overview of Data,SEM-V.pdf,1,1,0,sim=0.490>=0.45 + delta=1<=5,0.4901,0.125
+Basic and Feasible solutions,Artificial variables,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,2,1,0,Foundational kw in A + sim=0.427 + delta=2,0.4269,0.0
+Application of congruence-RSA algorithm,Fourier series of even and odd functions,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,3,0,0,Insufficient signal,0.0774,0.0909
+Types of solutions,Introduction to Congruence,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,6,0,0,Insufficient signal,0.0776,0.0
+"EER Model to the Relational Model, Relational","Concurrent Executions, Serializability",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,5,0,0,Insufficient signal,0.1145,0.0
+"Generalization, Specialization and Aggregation","Integrity constraints: key constraints, Domain",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,4,0,0,Insufficient signal,0.2391,0.0
+Fourier series of even and odd functions,Moment generating function,6.41N-A-I-AI-DS-Sem-III-IV.pdf,3,0,0,Insufficient signal,0.1755,0.0
+Types of solutions,Introduction to Congruence,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,6,0,0,Insufficient signal,0.0776,0.0
+Standard and Canonical of LPP,Application of congruence-RSA algorithm,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,7,0,0,Insufficient signal,0.0824,0.1111
+Linear and Non-Linear Programming Problems,Lines of regression,6.41N-A-I-AI-DS-Sem-III-IV.pdf,14,0,0,Insufficient signal,0.2796,0.0
+Similarity of matrices,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,3,0,0,Insufficient signal,0.0718,0.2
+RE in text search and replace,Application of Regular,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,0,Insufficient signal,0.1369,0.0
+"Overview of SQL, Data Definition Commands","Pitfalls in relational database designs, Concept",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,3,1,0,Foundational kw in A + sim=0.329 + delta=3,0.3288,0.0
+Types of solutions,Dirichlet’s conditions,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,9,0,0,Insufficient signal,0.1982,0.0
+Nondeterministic Finite Automata (NFA): Definitions,Minimization of DFA,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,2,1,0,sim=0.516>=0.45 + delta=2<=5,0.5158,0.0
+Study – Selenium/ Jira,"Postman, and JMeter",SEM-V.pdf,1,1,0,Adjacent same-course topics: delta=1 + sim=0.207,0.2072,0.0
+"Introduction to the Relational Model, relational","Overview of SQL, Data Definition Commands",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,1,0,Adjacent same-course topics: delta=2 + sim=0.229,0.2286,0.0
+Simplex method,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,3,0,0,Insufficient signal,0.0279,0.0
+"Testing: Functionality Testing, UI Testing",C’s of DevOps Lifecycle for Business,SEM-V.pdf,6,0,0,Insufficient signal,0.1888,0.0
+Basic and Feasible solutions,Application of congruence-RSA algorithm,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,6,0,0,Insufficient signal,0.1536,0.0
+"Generalization, Specialization and Aggregation","Concurrent Executions, Serializability",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,7,0,0,Insufficient signal,0.2549,0.0
+Kuhn-Tucker conditions,Moment generating function,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,9,0,0,Insufficient signal,0.0264,0.0
+Fourier series of periodic,Lines of regression,6.41N-A-I-AI-DS-Sem-III-IV.pdf,3,0,0,Insufficient signal,-0.0031,0.1667
+Determining risk,"Counting Pigeonhole Principle, Inclusion-Exclusion Principle. Recurrence relations, Solving recurrence relations",6.21-N-B.E.-AI-ML-sem-III-IV.pdf,3,0,0,Insufficient signal,-0.0421,0.0
+Linear and Non-Linear Programming Problems,Application of congruence-RSA algorithm,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,9,0,0,Insufficient signal,0.0412,0.0
+Introduction to Congruence,Lines of regression,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,7,0,0,Insufficient signal,0.0511,0.0
+Application of Regular,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,4,0,0,Insufficient signal,0.289,0.2
+Algorithm  Bat Algorithm,Objective Swarm Optimization,SEM-V.pdf,3,1,99,sim=0.565>=0.45 + delta=3<=5,0.565,0.0
+Simplex method,Artificial variables,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,1,1,0,Adjacent same-course topics: delta=1 + sim=0.267,0.267,0.0
+Linear and Non-Linear Programming Problems,Fourier series of periodic,6.41N-A-I-AI-DS-Sem-III-IV.pdf,11,0,0,Insufficient signal,-0.127,0.0
+Cayley-Hamilton,Artificial variables,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,9,0,0,Insufficient signal,0.0767,0.0
+Relationship (EER) Model,"Triggers, Introduction to Pl/SQL Block Structure",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,6,0,0,Insufficient signal,0.1301,0.0
+Kuhn-Tucker conditions,Dirichlet’s conditions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,4,0,0,Insufficient signal,0.4166,0.2
+Simplex method,Application of congruence-RSA algorithm,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,5,0,0,Insufficient signal,0.155,0.0
+"Optimization, Particle Swarm Optimizer , ABC",Learning : Quantum,SEM-V.pdf,2,0,0,Insufficient signal,0.1854,0.0
+Linear and Non-Linear Programming Problems,Simplex method,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,4,0,0,Insufficient signal,0.2234,0.0
+Application of Regular,Nondeterministic Finite Automata (NFA): Definitions,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2,1,0,Adjacent same-course topics: delta=2 + sim=0.205,0.2048,0.0
+Algorithms  for  different  situations,Implementation of Page,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,1,0,Adjacent same-course topics: delta=2 + sim=0.230,0.2304,0.0
+Shift operator E,Relation between E,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,1,1,0,sim=0.536>=0.45 + delta=1<=5,0.536,0.2
+Standard and Canonical of LPP,Application of congruence-RSA algorithm,6.41N-A-I-AI-DS-Sem-III-IV.pdf,7,0,0,Insufficient signal,0.0824,0.1111
+Basic and Feasible solutions,Linear congruence,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,5,0,0,Insufficient signal,0.1608,0.0
+Decision properties of RLs,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,6,0,0,Insufficient signal,0.1531,0.0
+Diagonalization of matrices,Relation between E,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,9,0,0,Insufficient signal,0.0144,0.0
+Size reduction equipment – Jaw crusher,Mixing equipment for cohesive solids,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,3,0,0,Insufficient signal,0.2999,0.1111
+Propositional and Predicate Logic,"Counting Pigeonhole Principle, Inclusion-Exclusion Principle. Recurrence relations, Solving recurrence relations",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,4,0,0,Insufficient signal,0.0888,0.0
+Solid mixing – Introduction to solid mixing,Solid fluid,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,6,1,0,Foundational kw in A + sim=0.492 + delta=6,0.492,0.2
+"Generalization, Specialization and Aggregation","Cloud Database, Introduction of Distributed",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,8,0,0,Insufficient signal,0.2213,0.0
+Quadratic forms,Kuhn-Tucker conditions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,7,0,0,Insufficient signal,0.2002,0.0
+Linear Algebra (Theory of Matrices) verification and reduction of higher degree polynomials,Standard and Canonical of LPP,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,5,0,0,Insufficient signal,0.1691,0.1429
+Kuhn-Tucker conditions,Fourier series of even and odd functions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,6,0,0,Insufficient signal,0.0022,0.0
+Fundamentals of Distributed Operating System,Network Operating System,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,1,0,High sim=0.647 + delta=1,0.647,0.3333
+Choosing the right DevOps tools and challenges,Assessment. Study of various Open,SEM-V.pdf,1,0,0,Insufficient signal,0.1265,0.0
+Languages in Compiler Design,Minimization of DFA,6.41N-A-I-AI-DS-Sem-III-IV.pdf,3,0,0,Insufficient signal,0.146,0.0
+"Database System Concepts, Architecture",File system v/s Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,1,0,sim=0.586>=0.45 + delta=2<=5,0.5864,0.2857
+RE in text search and replace,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,4,0,0,Insufficient signal,0.0344,0.0833
+Testing: Principles of Agile Testers,"DevOps: Introduction, DevOps - Importance",SEM-V.pdf,4,1,0,Foundational kw in A + sim=0.312 + delta=4,0.3125,0.0
+Regular operations,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,7,0,0,Insufficient signal,0.2046,0.0
+Linear Algebra (Theory of Matrices) verification and reduction of higher degree polynomials,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,11,0,0,Insufficient signal,0.2843,0.0833
+Fourier series of even and odd functions,Complex form of Fourier Series,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,1,0,High sim=0.631 + delta=1,0.6314,0.3333
+"Triggers, Introduction to Pl/SQL Block Structure","Pitfalls in relational database designs, Concept",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,1,0,Foundational kw in A + sim=0.397 + delta=1,0.397,0.0
+Linear and Non-Linear Programming Problems,Introduction to Congruence,6.41N-A-I-AI-DS-Sem-III-IV.pdf,7,0,0,Insufficient signal,-0.0405,0.0
+Fourier series of even and odd functions,Lines of regression,6.41N-A-I-AI-DS-Sem-III-IV.pdf,2,0,0,Insufficient signal,-0.005,0.1111
+Basic and Feasible solutions,Dirichlet’s conditions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,7,0,0,Insufficient signal,0.143,0.0
+Real-Time,Mobile Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,1,1,0,Adjacent same-course topics: delta=1 + sim=0.281,0.2806,0.0
+Linear congruence,Complex form of Fourier Series,6.41N-A-I-AI-DS-Sem-III-IV.pdf,5,0,0,Insufficient signal,0.0738,0.0
+Error Control: Stop-and-Wait ARQ,Random Access (ALOHA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,4,0,0,Insufficient signal,0.1215,0.0
+Simplex method,Introduction to Congruence,6.41N-A-I-AI-DS-Sem-III-IV.pdf,3,0,0,Insufficient signal,0.0279,0.0
+Quadratic forms,Dirichlet’s conditions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,11,0,0,Insufficient signal,0.1331,0.0

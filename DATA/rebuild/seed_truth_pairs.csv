@@ -1,0 +1,139 @@
+concept_a,concept_b,source_syllabus,order_delta,domain_match,label
+Complex Numbers,Polar & Exponential Forms,ASCEND_seed_truth_layer,0,1,1
+Complex Numbers,De Moivre's Theorem,ASCEND_seed_truth_layer,0,1,1
+Matrices & Determinants,Eigenvalues & Eigenvectors,ASCEND_seed_truth_layer,0,1,1
+Eigenvalues & Eigenvectors,Cayley-Hamilton Theorem,ASCEND_seed_truth_layer,0,1,1
+Differential Calculus,Successive Differentiation,ASCEND_seed_truth_layer,0,1,1
+Successive Differentiation,Leibnitz's Theorem,ASCEND_seed_truth_layer,0,1,1
+Partial Differentiation,Euler's Theorem (Homogeneous),ASCEND_seed_truth_layer,0,1,1
+Integration Techniques,Beta & Gamma Functions,ASCEND_seed_truth_layer,0,1,1
+Integration Techniques,Double & Triple Integrals,ASCEND_seed_truth_layer,1,1,1
+Crystal Structure,Miller Indices,ASCEND_seed_truth_layer,0,1,1
+Wave Optics,Interference & Diffraction,ASCEND_seed_truth_layer,0,1,1
+Quantum Mechanics Basics,Schrödinger Wave Equation,ASCEND_seed_truth_layer,0,1,1
+Semiconductor Physics,PN Junction & Diodes,ASCEND_seed_truth_layer,0,1,1
+Water Treatment,Hardness & Softening,ASCEND_seed_truth_layer,0,1,1
+Corrosion Science,Types of Corrosion,ASCEND_seed_truth_layer,0,1,1
+Fuels & Combustion,Calorific Value Calculations,ASCEND_seed_truth_layer,0,1,1
+Ordinary Differential Equations,First Order ODE,ASCEND_seed_truth_layer,0,1,1
+First Order ODE,Higher Order Linear ODE,ASCEND_seed_truth_layer,0,1,1
+Laplace Transforms,Inverse Laplace Transforms,ASCEND_seed_truth_layer,0,1,1
+Fourier Series,Half Range Expansions,ASCEND_seed_truth_layer,0,1,1
+Vector Calculus,"Gradient, Divergence, Curl",ASCEND_seed_truth_layer,0,1,1
+Vector Calculus,Line & Surface Integrals,ASCEND_seed_truth_layer,1,1,1
+DC Circuit Analysis,Kirchhoff's Laws (KVL/KCL),ASCEND_seed_truth_layer,0,1,1
+DC Circuit Analysis,Network Theorems,ASCEND_seed_truth_layer,1,1,1
+AC Fundamentals,Phasor Diagrams,ASCEND_seed_truth_layer,0,1,1
+Variables & Data Types,Control Flow (if/else/loops),ASCEND_seed_truth_layer,0,1,1
+Control Flow (if/else/loops),Functions,ASCEND_seed_truth_layer,1,1,1
+Variables & Data Types,Pointers (C),ASCEND_seed_truth_layer,2,1,1
+Pointers (C),Structures & Unions (C),ASCEND_seed_truth_layer,0,1,1
+Functions,Recursion,ASCEND_seed_truth_layer,2,1,1
+Algorithm Analysis,Time Complexity (Big-O),ASCEND_seed_truth_layer,0,1,1
+Algorithm Analysis,Space Complexity,ASCEND_seed_truth_layer,0,1,1
+Linked Lists,Singly Linked List,ASCEND_seed_truth_layer,0,1,1
+Linked Lists,Doubly Linked List,ASCEND_seed_truth_layer,0,1,1
+Stacks,Stack Applications (Infix/Postfix),ASCEND_seed_truth_layer,0,1,1
+Queues,Circular Queue,ASCEND_seed_truth_layer,0,1,1
+Queues,Priority Queue,ASCEND_seed_truth_layer,0,1,1
+Trees,Binary Tree,ASCEND_seed_truth_layer,0,1,1
+Binary Tree,Binary Search Tree,ASCEND_seed_truth_layer,0,1,1
+Binary Search Tree,AVL Tree,ASCEND_seed_truth_layer,0,1,1
+Binary Tree,Tree Traversals (In/Pre/Post),ASCEND_seed_truth_layer,0,1,1
+Graphs,BFS & DFS,ASCEND_seed_truth_layer,0,1,1
+Graphs,Dijkstra's Algorithm,ASCEND_seed_truth_layer,0,1,1
+Graphs,Minimum Spanning Tree,ASCEND_seed_truth_layer,0,1,1
+Sorting Algorithms,Bubble/Selection/Insertion Sort,ASCEND_seed_truth_layer,0,1,1
+Sorting Algorithms,Merge Sort,ASCEND_seed_truth_layer,0,1,1
+Sorting Algorithms,Quick Sort,ASCEND_seed_truth_layer,0,1,1
+Hashing,Collision Resolution,ASCEND_seed_truth_layer,0,1,1
+Introduction to DBMS,Data Models (ER Model),ASCEND_seed_truth_layer,0,1,1
+Data Models (ER Model),ER Diagrams,ASCEND_seed_truth_layer,0,1,1
+SQL Fundamentals,SQL Joins,ASCEND_seed_truth_layer,0,1,1
+SQL Fundamentals,SQL Aggregation & Subqueries,ASCEND_seed_truth_layer,0,1,1
+Normalization,"1NF, 2NF, 3NF",ASCEND_seed_truth_layer,0,1,1
+"1NF, 2NF, 3NF",BCNF,ASCEND_seed_truth_layer,0,1,1
+Normalization,Functional Dependencies,ASCEND_seed_truth_layer,0,1,1
+Transaction Management,ACID Properties,ASCEND_seed_truth_layer,0,1,1
+Transaction Management,Concurrency Control,ASCEND_seed_truth_layer,0,1,1
+Concurrency Control,Deadlock Handling,ASCEND_seed_truth_layer,0,1,1
+Indexing,B-Tree & B+ Tree,ASCEND_seed_truth_layer,0,1,1
+Classes & Objects,Constructors & Destructors,ASCEND_seed_truth_layer,0,1,1
+Encapsulation,Access Modifiers,ASCEND_seed_truth_layer,0,1,1
+Inheritance,Single & Multiple Inheritance,ASCEND_seed_truth_layer,0,1,1
+Polymorphism,Method Overloading,ASCEND_seed_truth_layer,0,1,1
+Polymorphism,Method Overriding,ASCEND_seed_truth_layer,0,1,1
+Polymorphism,Operator Overloading,ASCEND_seed_truth_layer,0,1,1
+Abstraction,Abstract Classes,ASCEND_seed_truth_layer,0,1,1
+Abstraction,Interfaces,ASCEND_seed_truth_layer,0,1,1
+Design Patterns (Intro),Singleton Pattern,ASCEND_seed_truth_layer,0,1,1
+Design Patterns (Intro),Factory Pattern,ASCEND_seed_truth_layer,0,1,1
+Integration Techniques,Successive Differentiation,ASCEND_seed_truth_layer,-2,1,0
+Polar & Exponential Forms,Matrices & Determinants,ASCEND_seed_truth_layer,1,1,0
+Complex Numbers,Cayley-Hamilton Theorem,ASCEND_seed_truth_layer,1,1,0
+Double & Triple Integrals,Euler's Theorem (Homogeneous),ASCEND_seed_truth_layer,-2,1,0
+De Moivre's Theorem,Beta & Gamma Functions,ASCEND_seed_truth_layer,4,1,0
+De Moivre's Theorem,Leibnitz's Theorem,ASCEND_seed_truth_layer,2,1,0
+Cayley-Hamilton Theorem,De Moivre's Theorem,ASCEND_seed_truth_layer,-1,1,0
+Differential Calculus,Polar & Exponential Forms,ASCEND_seed_truth_layer,-2,1,0
+Euler's Theorem (Homogeneous),Double & Triple Integrals,ASCEND_seed_truth_layer,2,1,0
+Quantum Mechanics Basics,Semiconductor Physics,ASCEND_seed_truth_layer,1,1,0
+Schrödinger Wave Equation,Crystal Structure,ASCEND_seed_truth_layer,-2,1,0
+Wave Optics,Crystal Structure,ASCEND_seed_truth_layer,-1,1,0
+PN Junction & Diodes,Schrödinger Wave Equation,ASCEND_seed_truth_layer,-1,1,0
+Fuels & Combustion,Water Treatment,ASCEND_seed_truth_layer,-3,1,0
+Corrosion Science,Water Treatment,ASCEND_seed_truth_layer,-1,1,0
+Fuels & Combustion,Hardness & Softening,ASCEND_seed_truth_layer,-3,1,0
+Ordinary Differential Equations,Line & Surface Integrals,ASCEND_seed_truth_layer,4,1,0
+Laplace Transforms,Ordinary Differential Equations,ASCEND_seed_truth_layer,-1,1,0
+Fourier Series,Higher Order Linear ODE,ASCEND_seed_truth_layer,-2,1,0
+Laplace Transforms,Higher Order Linear ODE,ASCEND_seed_truth_layer,-1,1,0
+First Order ODE,Line & Surface Integrals,ASCEND_seed_truth_layer,4,1,0
+Laplace Transforms,First Order ODE,ASCEND_seed_truth_layer,-1,1,0
+Three Phase Systems,DC Circuit Analysis,ASCEND_seed_truth_layer,-4,1,0
+AC Fundamentals,DC Circuit Analysis,ASCEND_seed_truth_layer,-2,1,0
+Three Phase Systems,Kirchhoff's Laws (KVL/KCL),ASCEND_seed_truth_layer,-4,1,0
+Structures & Unions (C),File I/O,ASCEND_seed_truth_layer,1,1,0
+File I/O,Variables & Data Types,ASCEND_seed_truth_layer,-3,1,0
+Functions,Variables & Data Types,ASCEND_seed_truth_layer,-1,1,0
+File I/O,Control Flow (if/else/loops),ASCEND_seed_truth_layer,-3,1,0
+Structures & Unions (C),Control Flow (if/else/loops),ASCEND_seed_truth_layer,-2,1,0
+Bubble/Selection/Insertion Sort,Collision Resolution,ASCEND_seed_truth_layer,1,1,0
+Space Complexity,Priority Queue,ASCEND_seed_truth_layer,2,1,0
+AVL Tree,Algorithm Analysis,ASCEND_seed_truth_layer,-3,1,0
+Circular Queue,Doubly Linked List,ASCEND_seed_truth_layer,-1,1,0
+Singly Linked List,AVL Tree,ASCEND_seed_truth_layer,2,1,0
+Linked Lists,Hashing,ASCEND_seed_truth_layer,5,1,0
+Space Complexity,Hashing,ASCEND_seed_truth_layer,6,1,0
+Space Complexity,Doubly Linked List,ASCEND_seed_truth_layer,1,1,0
+AVL Tree,Sorting Algorithms,ASCEND_seed_truth_layer,2,1,0
+Bubble/Selection/Insertion Sort,Time Complexity (Big-O),ASCEND_seed_truth_layer,-5,1,0
+BFS & DFS,Minimum Spanning Tree,ASCEND_seed_truth_layer,0,1,0
+Circular Queue,Dijkstra's Algorithm,ASCEND_seed_truth_layer,2,1,0
+Algorithm Analysis,Dijkstra's Algorithm,ASCEND_seed_truth_layer,4,1,0
+Algorithm Analysis,BFS & DFS,ASCEND_seed_truth_layer,4,1,0
+Hashing,Time Complexity (Big-O),ASCEND_seed_truth_layer,-6,1,0
+Bubble/Selection/Insertion Sort,Linked Lists,ASCEND_seed_truth_layer,-4,1,0
+Singly Linked List,Queues,ASCEND_seed_truth_layer,1,1,0
+Bubble/Selection/Insertion Sort,Binary Tree,ASCEND_seed_truth_layer,-2,1,0
+Transaction Management,SQL Aggregation & Subqueries,ASCEND_seed_truth_layer,-2,1,0
+Introduction to DBMS,B-Tree & B+ Tree,ASCEND_seed_truth_layer,4,1,0
+Introduction to DBMS,SQL Joins,ASCEND_seed_truth_layer,1,1,0
+Functional Dependencies,"1NF, 2NF, 3NF",ASCEND_seed_truth_layer,0,1,0
+ER Diagrams,BCNF,ASCEND_seed_truth_layer,2,1,0
+ER Diagrams,SQL Joins,ASCEND_seed_truth_layer,1,1,0
+B-Tree & B+ Tree,Data Models (ER Model),ASCEND_seed_truth_layer,-4,1,0
+SQL Joins,Data Models (ER Model),ASCEND_seed_truth_layer,-1,1,0
+"1NF, 2NF, 3NF",Functional Dependencies,ASCEND_seed_truth_layer,0,1,0
+Introduction to DBMS,Indexing,ASCEND_seed_truth_layer,4,1,0
+B-Tree & B+ Tree,SQL Aggregation & Subqueries,ASCEND_seed_truth_layer,-3,1,0
+Exception Handling,Constructors & Destructors,ASCEND_seed_truth_layer,-5,1,0
+Classes & Objects,Method Overriding,ASCEND_seed_truth_layer,3,1,0
+Inheritance,Interfaces,ASCEND_seed_truth_layer,2,1,0
+Singleton Pattern,Access Modifiers,ASCEND_seed_truth_layer,-5,1,0
+Access Modifiers,Interfaces,ASCEND_seed_truth_layer,3,1,0
+Single & Multiple Inheritance,Encapsulation,ASCEND_seed_truth_layer,-1,1,0
+Constructors & Destructors,Abstract Classes,ASCEND_seed_truth_layer,4,1,0
+Design Patterns (Intro),Abstract Classes,ASCEND_seed_truth_layer,-2,1,0
+Constructors & Destructors,Method Overloading,ASCEND_seed_truth_layer,3,1,0
+Exception Handling,Singleton Pattern,ASCEND_seed_truth_layer,1,1,0

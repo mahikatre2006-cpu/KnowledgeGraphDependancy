@@ -1,0 +1,57 @@
+[
+  {
+    "code": "2113111",
+    "name": "Mathematics for Computer Engineering",
+    "topics": [
+      "Cayley-Hamilton",
+      "Linear Algebra (Theory of Matrices) verification and reduction of higher degree polynomials",
+      "Similarity of matrices",
+      "Quadratic forms",
+      "Linear and Non-Linear Programming Problems",
+      "Types of solutions",
+      "Standard and Canonical of LPP",
+      "Basic and Feasible solutions",
+      "Simplex method",
+      "Artificial variables",
+      "Kuhn-Tucker conditions",
+      "Introduction to Congruence",
+      "Linear congruence",
+      "Application of congruence-RSA algorithm",
+      "Dirichlet\u2019s conditions",
+      "Fourier series of periodic",
+      "Fourier series of even and odd functions",
+      "Complex form of Fourier Series",
+      "Lines of regression",
+      "Moment generating function",
+      "Raw moments"
+    ]
+  },
+  {
+    "code": "2114111",
+    "name": "Computational",
+    "topics": [
+      "RE in text search and replace",
+      "Application of Regular",
+      "Languages in Compiler Design",
+      "Nondeterministic Finite Automata (NFA): Definitions",
+      "Equivalence between NFA with and \u03f5- transitions",
+      "Minimization of DFA"
+    ]
+  },
+  {
+    "code": "2114112",
+    "name": "Database Management System",
+    "topics": [
+      "Relationship (EER) Model",
+      "Generalization, Specialization and Aggregation",
+      "Introduction to the Relational Model, relational",
+      "EER Model to the Relational Model, Relational",
+      "Overview of SQL, Data Definition Commands",
+      "Integrity constraints: key constraints, Domain",
+      "Triggers, Introduction to Pl/SQL Block Structure",
+      "Pitfalls in relational database designs, Concept",
+      "Concurrent Executions, Serializability",
+      "Cloud Database, Introduction of Distributed"
+    ]
+  }
+]

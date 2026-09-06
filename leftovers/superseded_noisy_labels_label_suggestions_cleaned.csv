@@ -1,0 +1,430 @@
+concept_a,concept_b,source_syllabus,Course_Code,course_name,order_delta,domain_match,embedding_similarity,keyword_overlap,suggested_label,reason
+Cayley-Hamilton,Similarity of matrices,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1,0.2718,0.0,1,Adjacent topics: delta=2 + sim=0.272
+Cayley-Hamilton,Quadratic forms,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1,0.1908,0.0,0,No signal: sim=0.191 delta=5 kw=0.000
+Cayley-Hamilton,Linear and Non-Linear Programming Problems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1,-0.0703,0.0,0,Low sim=-0.070
+Cayley-Hamilton,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1,0.0693,0.0,0,Low sim=0.069
+Cayley-Hamilton,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1,0.0414,0.0,0,Low sim=0.041
+Similarity of matrices,Quadratic forms,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1,0.1835,0.0,0,No signal: sim=0.184 delta=3 kw=0.000
+Similarity of matrices,Linear and Non-Linear Programming Problems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1,0.0555,0.0,0,Low sim=0.056
+Similarity of matrices,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1,0.0718,0.2,0,Low sim=0.072
+Similarity of matrices,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.0153,0.0,0,Low sim=0.015
+Similarity of matrices,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1,-0.0045,0.0,0,Low sim=-0.004
+Similarity of matrices,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1,0.0595,0.0,0,Low sim=0.060
+Quadratic forms,Linear and Non-Linear Programming Problems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.161,0.0,0,No signal: sim=0.161 delta=1 kw=0.000
+Quadratic forms,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1,0.2615,0.0,1,Adjacent topics: delta=2 + sim=0.262
+Quadratic forms,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1,0.1793,0.0,0,No signal: sim=0.179 delta=7 kw=0.000
+Quadratic forms,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.1713,0.0,0,No signal: sim=0.171 delta=10 kw=0.000
+Quadratic forms,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1,0.2002,0.0,0,No signal: sim=0.200 delta=11 kw=0.000
+Quadratic forms,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1,0.1974,0.0,0,Far apart: delta=12 + sim=0.197
+Quadratic forms,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1,0.2168,0.0,0,Far apart: delta=13 + sim=0.217
+Quadratic forms,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1,0.2821,0.0,0,Far apart: delta=14 + sim=0.282
+Linear and Non-Linear Programming Problems,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.2528,0.0,1,Adjacent topics: delta=1 + sim=0.253
+Linear and Non-Linear Programming Problems,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1,0.2234,0.0,0,No signal: sim=0.223 delta=6 kw=0.000
+Linear and Non-Linear Programming Problems,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1,0.3948,0.0,0,No signal: sim=0.395 delta=9 kw=0.000
+Linear and Non-Linear Programming Problems,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.2473,0.0,0,No signal: sim=0.247 delta=10 kw=0.000
+Linear and Non-Linear Programming Problems,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1,-0.022,0.0,0,Low sim=-0.022
+Linear and Non-Linear Programming Problems,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1,-0.0405,0.0,0,Low sim=-0.041
+Linear and Non-Linear Programming Problems,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1,0.1338,0.1667,0,Low sim=0.134
+Types of solutions,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1,0.1297,0.0,0,Low sim=0.130
+Types of solutions,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,8,1,0.2761,0.0,1,Foundational kw + sim=0.276 + delta=8
+Types of solutions,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1,0.1889,0.0,0,No signal: sim=0.189 delta=9 kw=0.000
+Types of solutions,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.0625,0.0,0,Low sim=0.062
+Types of solutions,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1,0.0776,0.0,0,Low sim=0.078
+Types of solutions,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1,0.1037,0.0,0,Low sim=0.104
+Simplex method,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1,0.267,0.0,0,No signal: sim=0.267 delta=3 kw=0.000
+Simplex method,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1,0.0561,0.0,0,Low sim=0.056
+Simplex method,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1,0.0886,0.0,0,Low sim=0.089
+Simplex method,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1,0.0279,0.0,0,Low sim=0.028
+Simplex method,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1,0.1412,0.0,0,Low sim=0.141
+Simplex method,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.155,0.0,0,No signal: sim=0.155 delta=10 kw=0.000
+Simplex method,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1,0.1043,0.0,0,Low sim=0.104
+Artificial variables,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.208,0.0,1,Adjacent topics: delta=1 + sim=0.208
+Artificial variables,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1,0.0752,0.0,0,Low sim=0.075
+Artificial variables,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1,0.0703,0.0,0,Low sim=0.070
+Artificial variables,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1,0.0242,0.0,0,Low sim=0.024
+Artificial variables,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1,0.1005,0.0,0,Low sim=0.101
+Artificial variables,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.0404,0.0,0,Low sim=0.040
+Artificial variables,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1,-0.0434,0.0,0,Low sim=-0.043
+Kuhn-Tucker conditions,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.0065,0.0,0,Low sim=0.007
+Kuhn-Tucker conditions,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1,0.0039,0.0,0,Low sim=0.004
+Kuhn-Tucker conditions,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1,-0.0388,0.0,0,Low sim=-0.039
+Kuhn-Tucker conditions,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1,-0.0484,0.0,0,Low sim=-0.048
+Kuhn-Tucker conditions,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1,0.0302,0.0,0,Low sim=0.030
+Kuhn-Tucker conditions,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1,0.0022,0.0,0,Low sim=0.002
+Kuhn-Tucker conditions,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1,0.057,0.0,0,Low sim=0.057
+Modular Arithmetic,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.6281,0.0,1,High sim=0.628 + delta=1
+Modular Arithmetic,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1,0.6376,0.0,1,High sim=0.638 + delta=2
+Modular Arithmetic,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1,0.5821,0.0,1,sim=0.582>=0.45 + delta=5<=5
+Modular Arithmetic,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,8,1,0.1274,0.0,0,Low sim=0.127
+Modular Arithmetic,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1,0.0528,0.0,0,Low sim=0.053
+Modular Arithmetic,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1,0.1296,0.0,0,Low sim=0.130
+Introduction to Congruence,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.6781,0.25,1,High sim=0.678 + delta=1
+Introduction to Congruence,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1,0.6881,0.1429,1,High sim=0.688 + delta=4
+Introduction to Congruence,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1,0.1214,0.0,0,Low sim=0.121
+Introduction to Congruence,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1,0.0929,0.0,0,Low sim=0.093
+Introduction to Congruence,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1,0.0916,0.0,0,Low sim=0.092
+Introduction to Congruence,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1,0.1542,0.0,0,Far apart: delta=14 + sim=0.154
+Linear congruence,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1,0.5786,0.1667,1,sim=0.579>=0.45 + delta=3<=5
+Linear congruence,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1,0.1269,0.0,0,Low sim=0.127
+Linear congruence,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.0794,0.0,0,Low sim=0.079
+Linear congruence,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1,0.0738,0.0,0,Low sim=0.074
+Linear congruence,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1,-0.0002,0.0,0,Low sim=-0.000
+Application of congruence-RSA algorithm,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1,0.1098,0.0,0,Low sim=0.110
+Application of congruence-RSA algorithm,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1,0.0774,0.0909,0,Low sim=0.077
+Application of congruence-RSA algorithm,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,8,1,0.1121,0.1111,0,Low sim=0.112
+Application of congruence-RSA algorithm,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.1927,0.0,0,No signal: sim=0.193 delta=10 kw=0.000
+Application of congruence-RSA algorithm,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1,0.0278,0.1429,0,Low sim=0.028
+Fourier Series,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1,0.7312,0.2857,1,Lexical containment + delta=4
+Fourier Series,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1,0.7554,0.4,1,Lexical containment + delta=5
+Fourier Series,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1,0.1611,0.0,0,No signal: sim=0.161 delta=7 kw=0.000
+Fourier Series,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1,0.0946,0.0,0,Low sim=0.095
+Fourier Series,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1,0.2224,0.0,0,Far apart: delta=14 + sim=0.222
+Fourier series of even and odd functions,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.6314,0.3333,1,High sim=0.631 + delta=1
+Fourier series of even and odd functions,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1,0.1019,0.0,0,Low sim=0.102
+Fourier series of even and odd functions,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1,-0.005,0.1111,0,Low sim=-0.005
+Fourier series of even and odd functions,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.1755,0.0,0,No signal: sim=0.176 delta=10 kw=0.000
+Fourier series of even and odd functions,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1,0.0454,0.0,0,Low sim=0.045
+Fourier series of even and odd functions,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1,0.0486,0.0,0,Low sim=0.049
+Fourier series of even and odd functions,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1,0.1065,0.0,0,Low sim=0.106
+Complex form of Fourier Series,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1,0.1051,0.0,0,Low sim=0.105
+Complex form of Fourier Series,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1,0.0088,0.1429,0,Low sim=0.009
+Complex form of Fourier Series,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1,0.2589,0.0,0,No signal: sim=0.259 delta=9 kw=0.000
+Complex form of Fourier Series,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.0211,0.0,0,Low sim=0.021
+Complex form of Fourier Series,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1,0.1241,0.0,0,Low sim=0.124
+Complex form of Fourier Series,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1,0.115,0.0,0,Low sim=0.115
+Statistical Techniques,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1,0.3029,0.0,0,No signal: sim=0.303 delta=4 kw=0.000
+Statistical Techniques,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1,0.1456,0.0,0,Low sim=0.146
+Statistical Techniques,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,8,1,0.2129,0.0,0,No signal: sim=0.213 delta=8 kw=0.000
+Statistical Techniques,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1,0.1872,0.0,0,No signal: sim=0.187 delta=9 kw=0.000
+Statistical Techniques,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1,0.2314,0.0,0,No signal: sim=0.231 delta=10 kw=0.000
+Lines of regression,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1,0.0172,0.0,0,Low sim=0.017
+Lines of regression,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1,0.0828,0.0,0,Low sim=0.083
+Lines of regression,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1,0.0969,0.0,0,Low sim=0.097
+Lines of regression,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1,0.1516,0.0,0,No signal: sim=0.152 delta=6 kw=0.000
+Moment generating function,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.4099,0.0,1,Adjacent topics: delta=1 + sim=0.410
+Moment generating function,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1,0.3184,0.0,1,Adjacent topics: delta=2 + sim=0.318
+Moment generating function,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1,0.3543,0.0,0,No signal: sim=0.354 delta=3 kw=0.000
+Raw moments,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.1619,0.0,0,No signal: sim=0.162 delta=1 kw=0.000
+Raw moments,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1,0.211,0.0,1,Adjacent topics: delta=2 + sim=0.211
+Poisson Distribution,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1,0.4918,0.3333,1,sim=0.492>=0.45 + delta=1<=5
+Regular operations,Regular Expression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.5542,0.3333,1,sim=0.554>=0.45 + delta=1<=5
+Regular operations,Arden's theorem,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.2053,0.0,1,Adjacent topics: delta=2 + sim=0.205
+Regular operations,Regular Language,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.463,0.3333,1,sim=0.463>=0.45 + delta=3<=5
+Regular operations,Closure properties,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1,0.2366,0.0,0,No signal: sim=0.237 delta=4 kw=0.000
+Regular operations,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1,0.1942,0.0,0,No signal: sim=0.194 delta=5 kw=0.000
+Regular operations,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1,0.1283,0.0,0,Low sim=0.128
+Regular operations,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1,0.178,0.0,0,No signal: sim=0.178 delta=7 kw=0.000
+Regular operations,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1,0.2045,0.0,0,No signal: sim=0.205 delta=9 kw=0.000
+Regular operations,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1,0.2699,0.0,0,No signal: sim=0.270 delta=10 kw=0.000
+Regular operations,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,11,1,0.1915,0.0,0,No signal: sim=0.191 delta=11 kw=0.000
+Regular operations,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,13,1,0.2046,0.0,0,Far apart: delta=13 + sim=0.205
+Regular operations,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,14,1,0.0974,0.0,0,Low sim=0.097
+Regular Expression,Arden's theorem,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.149,0.0,0,Low sim=0.149
+Regular Expression,Regular Language,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.61,0.3333,1,High sim=0.610 + delta=2
+Regular Expression,Closure properties,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.1251,0.0,0,Low sim=0.125
+Regular Expression,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1,0.0792,0.0,0,Low sim=0.079
+Regular Expression,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1,0.2392,0.0,0,No signal: sim=0.239 delta=5 kw=0.000
+Regular Expression,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1,0.3946,0.0,0,No signal: sim=0.395 delta=6 kw=0.000
+Regular Expression,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1,0.1574,0.0,0,No signal: sim=0.157 delta=8 kw=0.000
+Regular Expression,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1,0.3603,0.0,0,No signal: sim=0.360 delta=9 kw=0.000
+Regular Expression,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1,0.299,0.0,0,No signal: sim=0.299 delta=10 kw=0.000
+Regular Expression,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,12,1,0.2177,0.0,0,Far apart: delta=12 + sim=0.218
+Regular Expression,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,13,1,0.1447,0.0,0,Low sim=0.145
+Arden's theorem,Regular Language,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.1452,0.0,0,Low sim=0.145
+Arden's theorem,Closure properties,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.2196,0.0,1,Adjacent topics: delta=2 + sim=0.220
+Arden's theorem,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.0956,0.0,0,Low sim=0.096
+Arden's theorem,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1,0.3108,0.0,0,No signal: sim=0.311 delta=4 kw=0.000
+Arden's theorem,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1,0.0297,0.0,0,Low sim=0.030
+Arden's theorem,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1,0.0519,0.0,0,Low sim=0.052
+Arden's theorem,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1,-0.0167,0.0,0,Low sim=-0.017
+Arden's theorem,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1,0.0206,0.0,0,Low sim=0.021
+Arden's theorem,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,11,1,0.074,0.0,0,Low sim=0.074
+Arden's theorem,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,12,1,0.1255,0.0,0,Low sim=0.125
+Arden's theorem,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,14,1,0.0896,0.0,0,Low sim=0.090
+Regular Language,Closure properties,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.1607,0.0,0,No signal: sim=0.161 delta=1 kw=0.000
+Regular Language,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.1382,0.0,0,Low sim=0.138
+Regular Language,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.3847,0.0,0,No signal: sim=0.385 delta=3 kw=0.000
+Regular Language,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1,0.1966,0.0,0,No signal: sim=0.197 delta=4 kw=0.000
+Regular Language,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1,0.4872,0.0,0,No signal: sim=0.487 delta=6 kw=0.000
+Regular Language,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1,0.3593,0.0,0,No signal: sim=0.359 delta=7 kw=0.000
+Regular Language,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1,0.3957,0.2,0,No signal: sim=0.396 delta=8 kw=0.200
+Regular Language,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1,0.3418,0.0,0,No signal: sim=0.342 delta=10 kw=0.000
+Regular Language,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,11,1,0.2235,0.0,0,No signal: sim=0.223 delta=11 kw=0.000
+Regular Language,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,13,1,0.3101,0.0,0,Far apart: delta=13 + sim=0.310
+Closure properties,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.2896,0.2,1,Adjacent topics: delta=1 + sim=0.290
+Closure properties,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.1373,0.0,0,Low sim=0.137
+Closure properties,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.018,0.0,0,Low sim=0.018
+Closure properties,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1,0.21,0.0,0,No signal: sim=0.210 delta=5 kw=0.000
+Closure properties,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1,0.0902,0.0,0,Low sim=0.090
+Closure properties,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1,0.1043,0.0,0,Low sim=0.104
+Closure properties,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1,0.0738,0.0,0,Low sim=0.074
+Closure properties,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1,0.1239,0.0,0,Low sim=0.124
+Closure properties,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,12,1,0.0235,0.0,0,Low sim=0.023
+Decision properties of RLs,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.0197,0.0,0,Low sim=0.020
+Decision properties of RLs,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.032,0.0,0,Low sim=0.032
+Decision properties of RLs,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1,0.1739,0.0,0,No signal: sim=0.174 delta=4 kw=0.000
+Decision properties of RLs,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1,0.0379,0.0,0,Low sim=0.038
+Decision properties of RLs,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1,0.1308,0.0,0,Low sim=0.131
+Decision properties of RLs,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1,0.2488,0.0,0,No signal: sim=0.249 delta=8 kw=0.000
+Decision properties of RLs,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1,0.1531,0.0,0,No signal: sim=0.153 delta=9 kw=0.000
+Decision properties of RLs,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,11,1,0.1913,0.1667,0,No signal: sim=0.191 delta=11 kw=0.167
+Pumping lemma,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.1683,0.0,0,No signal: sim=0.168 delta=1 kw=0.000
+Pumping lemma,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.2239,0.0,0,No signal: sim=0.224 delta=3 kw=0.000
+Pumping lemma,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1,0.1676,0.0,0,No signal: sim=0.168 delta=4 kw=0.000
+Pumping lemma,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1,0.143,0.0,0,Low sim=0.143
+Pumping lemma,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1,0.1155,0.0,0,Low sim=0.116
+Pumping lemma,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1,0.1623,0.0,0,No signal: sim=0.162 delta=8 kw=0.000
+Pumping lemma,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1,0.1527,0.0,0,No signal: sim=0.153 delta=10 kw=0.000
+RE in text search and replace,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.0087,0.1111,0,Low sim=0.009
+RE in text search and replace,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.4097,0.1429,0,No signal: sim=0.410 delta=3 kw=0.143
+RE in text search and replace,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1,0.2024,0.0,0,No signal: sim=0.202 delta=4 kw=0.000
+RE in text search and replace,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1,0.0547,0.0,0,Low sim=0.055
+RE in text search and replace,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1,0.0344,0.0833,0,Low sim=0.034
+RE in text search and replace,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1,0.056,0.0,0,Low sim=0.056
+Languages in Compiler Design,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.2119,0.0,1,Adjacent topics: delta=1 + sim=0.212
+Languages in Compiler Design,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.2383,0.0,1,Adjacent topics: delta=2 + sim=0.238
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1,0.2147,0.0,0,No signal: sim=0.215 delta=4 kw=0.000
+Languages in Compiler Design,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1,0.1073,0.0,0,Low sim=0.107
+Languages in Compiler Design,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1,0.146,0.0,0,Low sim=0.146
+Text Processing,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.6256,0.2,1,High sim=0.626 + delta=1
+Text Processing,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.1074,0.0,0,Low sim=0.107
+Text Processing,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1,0.0416,0.0,0,Low sim=0.042
+Text Processing,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1,0.1814,0.0,0,No signal: sim=0.181 delta=6 kw=0.000
+Natural Language Processing (NLP),Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.2025,0.0,1,Adjacent topics: delta=2 + sim=0.203
+Natural Language Processing (NLP),Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.0632,0.0,0,Low sim=0.063
+Natural Language Processing (NLP),Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1,0.1112,0.0,0,Low sim=0.111
+Nondeterministic Finite Automata (NFA): Definitions,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1,0.5904,0.0909,1,sim=0.590>=0.45 + delta=1<=5
+Nondeterministic Finite Automata (NFA): Definitions,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1,0.5158,0.0,1,sim=0.516>=0.45 + delta=3<=5
+Equivalence between NFA with and ϵ- transitions,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1,0.4193,0.0,1,Adjacent topics: delta=2 + sim=0.419
+Open-source and Proprietary Operating System,Fundamentals of Distributed Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,1,1,0.5654,0.2222,1,sim=0.565>=0.45 + delta=1<=5
+Open-source and Proprietary Operating System,Network Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,2,1,0.5509,0.2857,1,sim=0.551>=0.45 + delta=2<=5
+Open-source and Proprietary Operating System,Mobile Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,7,1,0.531,0.2857,0,No signal: sim=0.531 delta=7 kw=0.286
+Open-source and Proprietary Operating System,Special-purpose Operating Systems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,9,1,0.6814,0.1111,1,High sim=0.681 + delta=9
+Fundamentals of Distributed Operating System,Network Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,1,1,0.647,0.3333,1,High sim=0.647 + delta=1
+Fundamentals of Distributed Operating System,Mobile Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,6,1,0.5512,0.3333,1,kw_overlap=0.333 + delta=6<=6
+Fundamentals of Distributed Operating System,Special-purpose Operating Systems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,8,1,0.6744,0.125,1,High sim=0.674 + delta=8
+Network Operating System,Mobile Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,5,1,0.6214,0.5,1,High sim=0.621 + delta=5
+Network Operating System,Special-purpose Operating Systems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,7,1,0.6075,0.1667,1,High sim=0.608 + delta=7
+Mobile Operating System,Special-purpose Operating Systems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,2,1,0.5923,0.1667,1,sim=0.592>=0.45 + delta=2<=5
+Inverse Laplace transform using Convolution theorem,Laplace transform using derivatives and its properties,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,6,1,0.6608,0.3,1,High sim=0.661 + delta=6
+Inverse Laplace transform using Convolution theorem,Fourier Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,7,1,0.1411,0.0,0,Low sim=0.141
+Inverse Laplace transform using Convolution theorem,Hal Frange Sine and Cosine Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,13,1,0.081,0.0,0,Low sim=0.081
+Laplace transform using derivatives and its properties,Fourier Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,1,1,0.184,0.0,0,No signal: sim=0.184 delta=1 kw=0.000
+Laplace transform using derivatives and its properties,Hal Frange Sine and Cosine Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,7,1,0.2036,0.0833,0,No signal: sim=0.204 delta=7 kw=0.083
+Fourier Series,Hal Frange Sine and Cosine Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,6,1,0.5124,0.1429,0,No signal: sim=0.512 delta=6 kw=0.143
+"Database System Concepts, Architecture",Characteristics of Databases,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1,0.7484,0.0,1,High sim=0.748 + delta=1
+"Database System Concepts, Architecture",File system v/s Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1,0.5864,0.2857,1,sim=0.586>=0.45 + delta=2<=5
+"Database System Concepts, Architecture",Data abstraction and Data Independence,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,3,1,0.3827,0.0,1,Foundational kw + sim=0.383 + delta=3
+"Database System Concepts, Architecture",DBMS system,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,4,1,0.7267,0.2,1,High sim=0.727 + delta=4
+"Database System Concepts, Architecture",Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,5,1,0.4349,0.1667,1,Foundational kw + sim=0.435 + delta=5
+"Database System Concepts, Architecture",Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,6,1,0.5539,0.0,1,Foundational kw + sim=0.554 + delta=6
+Characteristics of Databases,File system v/s Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1,0.5019,0.0,1,sim=0.502>=0.45 + delta=1<=5
+Characteristics of Databases,Data abstraction and Data Independence,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1,0.4165,0.0,1,Adjacent topics: delta=2 + sim=0.417
+Characteristics of Databases,DBMS system,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,3,1,0.6196,0.0,1,High sim=0.620 + delta=3
+Characteristics of Databases,Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,4,1,0.3928,0.0,0,No signal: sim=0.393 delta=4 kw=0.000
+Characteristics of Databases,Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,5,1,0.5379,0.2,1,sim=0.538>=0.45 + delta=5<=5
+File system v/s Database,Data abstraction and Data Independence,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1,0.2011,0.0,1,Adjacent topics: delta=1 + sim=0.201
+File system v/s Database,DBMS system,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1,0.5268,0.1667,1,sim=0.527>=0.45 + delta=2<=5
+File system v/s Database,Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,3,1,0.2889,0.1429,0,No signal: sim=0.289 delta=3 kw=0.143
+File system v/s Database,Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,4,1,0.3606,0.0,0,No signal: sim=0.361 delta=4 kw=0.000
+Data abstraction and Data Independence,DBMS system,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1,0.2582,0.0,1,Adjacent topics: delta=1 + sim=0.258
+Data abstraction and Data Independence,Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1,0.1414,0.0,0,Low sim=0.141
+Data abstraction and Data Independence,Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,3,1,0.2486,0.0,0,No signal: sim=0.249 delta=3 kw=0.000
+DBMS system,Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1,0.4609,0.0,1,sim=0.461>=0.45 + delta=1<=5
+DBMS system,Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1,0.525,0.0,1,sim=0.525>=0.45 + delta=2<=5
+Database Administrator (DBA),Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1,0.7026,0.2,1,High sim=0.703 + delta=1
+Linear Transformations,Quadratic forms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344111,Applied,1,1,0.233,0.0,1,Adjacent topics: delta=1 + sim=0.233
+Linear Transformations,Inverse of Transform by Binomial,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344111,Applied,6,1,0.3241,0.0,0,No signal: sim=0.324 delta=6 kw=0.000
+Quadratic forms,Inverse of Transform by Binomial,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344111,Applied,5,1,0.0334,0.0,0,Low sim=0.033
+System calls with examples for different OS,Scheduling Algorithms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,2,1,0.1449,0.0,0,Low sim=0.145
+System calls with examples for different OS,Deadlock detection and recovery,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,7,1,0.1323,0.0,0,Low sim=0.132
+System calls with examples for different OS,Replacement Algorithms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,11,1,0.0882,0.0,0,Low sim=0.088
+System calls with examples for different OS,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,13,1,0.4898,0.25,0,No signal: sim=0.490 delta=13 kw=0.250
+Scheduling Algorithms,Deadlock detection and recovery,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,5,1,0.2412,0.0,0,No signal: sim=0.241 delta=5 kw=0.000
+Scheduling Algorithms,Replacement Algorithms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,9,1,0.4883,0.3333,0,No signal: sim=0.488 delta=9 kw=0.333
+Scheduling Algorithms,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,11,1,0.1945,0.0,0,No signal: sim=0.194 delta=11 kw=0.000
+Deadlock detection and recovery,Replacement Algorithms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,4,1,0.1788,0.0,0,No signal: sim=0.179 delta=4 kw=0.000
+Deadlock detection and recovery,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,6,1,0.1843,0.0,0,No signal: sim=0.184 delta=6 kw=0.000
+Replacement Algorithms,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,2,1,0.1183,0.0,0,Low sim=0.118
+Structure of a switch,Space Division Switching,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.3131,0.0,1,Foundational kw + sim=0.313 + delta=1
+Structure of a switch,Packet Switch,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.4673,0.2,1,sim=0.467>=0.45 + delta=3<=5
+Structure of a switch,Error Detection & Correction: basic concept,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1,0.0282,0.0,0,Low sim=0.028
+Structure of a switch,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1,0.272,0.0,1,Foundational kw + sim=0.272 + delta=6
+Structure of a switch,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1,0.0783,0.0,0,Low sim=0.078
+Structure of a switch,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1,0.1327,0.0,0,Low sim=0.133
+Structure of a switch,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1,0.1564,0.0,0,No signal: sim=0.156 delta=10 kw=0.000
+Structure of a switch,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1,0.0427,0.0,0,Low sim=0.043
+Structure of a switch,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1,0.0511,0.0,0,Low sim=0.051
+Space Division Switching,Packet Switch,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.3184,0.0,1,Adjacent topics: delta=2 + sim=0.318
+Space Division Switching,Error Detection & Correction: basic concept,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1,0.1297,0.0,0,Low sim=0.130
+Space Division Switching,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1,0.2066,0.0,0,No signal: sim=0.207 delta=5 kw=0.000
+Space Division Switching,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1,0.1672,0.0,0,No signal: sim=0.167 delta=6 kw=0.000
+Space Division Switching,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1,0.1945,0.0,0,No signal: sim=0.194 delta=8 kw=0.000
+Space Division Switching,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1,0.1995,0.0,0,No signal: sim=0.199 delta=9 kw=0.000
+Space Division Switching,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1,0.0481,0.0,0,Low sim=0.048
+Space Division Switching,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1,0.1059,0.0,0,Low sim=0.106
+Space Division Switching,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1,0.2054,0.0,0,Far apart: delta=14 + sim=0.205
+Packet Switch,Error Detection & Correction: basic concept,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.1572,0.0,0,No signal: sim=0.157 delta=2 kw=0.000
+Packet Switch,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.2465,0.0,0,No signal: sim=0.247 delta=3 kw=0.000
+Packet Switch,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1,0.1511,0.0,0,No signal: sim=0.151 delta=4 kw=0.000
+Packet Switch,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1,0.293,0.0,0,No signal: sim=0.293 delta=6 kw=0.000
+Packet Switch,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1,0.1489,0.0,0,Low sim=0.149
+Packet Switch,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1,0.2215,0.0,0,No signal: sim=0.221 delta=9 kw=0.000
+Packet Switch,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1,0.1861,0.0,0,No signal: sim=0.186 delta=10 kw=0.000
+Packet Switch,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1,0.3039,0.0,0,Far apart: delta=12 + sim=0.304
+Error Detection & Correction: basic concept,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.1963,0.0,0,No signal: sim=0.196 delta=1 kw=0.000
+Error Detection & Correction: basic concept,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.3216,0.0,1,Foundational kw + sim=0.322 + delta=2
+Error Detection & Correction: basic concept,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1,0.1497,0.0,0,Low sim=0.150
+Error Detection & Correction: basic concept,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1,0.0167,0.0,0,Low sim=0.017
+Error Detection & Correction: basic concept,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1,0.241,0.1,0,No signal: sim=0.241 delta=7 kw=0.100
+Error Detection & Correction: basic concept,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1,0.0712,0.0,0,Low sim=0.071
+Error Detection & Correction: basic concept,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1,0.1425,0.0,0,Low sim=0.142
+Linear Block Code,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.3981,0.25,1,Adjacent topics: delta=1 + sim=0.398
+Linear Block Code,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.1731,0.0,0,No signal: sim=0.173 delta=3 kw=0.000
+Linear Block Code,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1,0.0476,0.0,0,Low sim=0.048
+Linear Block Code,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1,0.0706,0.0,0,Low sim=0.071
+Linear Block Code,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1,0.0246,0.0,0,Low sim=0.025
+Linear Block Code,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1,0.1435,0.0,0,Low sim=0.144
+Linear Block Code,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1,0.2449,0.0,0,Far apart: delta=14 + sim=0.245
+CRC code,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.1772,0.0,0,No signal: sim=0.177 delta=2 kw=0.000
+CRC code,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,-0.0067,0.0,0,Low sim=-0.007
+CRC code,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1,0.1052,0.0,0,Low sim=0.105
+CRC code,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1,0.1025,0.0,0,Low sim=0.102
+CRC code,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1,0.1827,0.0,0,No signal: sim=0.183 delta=8 kw=0.000
+CRC code,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1,0.1388,0.0,0,Low sim=0.139
+Flow Control: Stop-and-Wait Flow Control,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.2308,0.0,1,Adjacent topics: delta=1 + sim=0.231
+Flow Control: Stop-and-Wait Flow Control,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.5758,0.5714,1,sim=0.576>=0.45 + delta=3<=5
+Flow Control: Stop-and-Wait Flow Control,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1,0.1993,0.0,0,No signal: sim=0.199 delta=4 kw=0.000
+Flow Control: Stop-and-Wait Flow Control,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1,0.3332,0.1429,0,No signal: sim=0.333 delta=6 kw=0.143
+Flow Control: Stop-and-Wait Flow Control,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1,0.1342,0.0,0,Low sim=0.134
+Flow Control: Stop-and-Wait Flow Control,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1,0.1849,0.0,0,Far apart: delta=13 + sim=0.185
+Flow Control: Stop-and-Wait Flow Control,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1,0.0459,0.0,0,Low sim=0.046
+Sliding Window,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.0956,0.0,0,Low sim=0.096
+Sliding Window,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.1683,0.0,0,No signal: sim=0.168 delta=3 kw=0.000
+Sliding Window,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1,0.1783,0.0,0,No signal: sim=0.178 delta=5 kw=0.000
+Sliding Window,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1,0.0089,0.0,0,Low sim=0.009
+Sliding Window,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1,-0.0105,0.0,0,Low sim=-0.010
+Sliding Window,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1,-0.0448,0.0,0,Low sim=-0.045
+Sliding Window,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1,-0.0068,0.0,0,Low sim=-0.007
+Error Control: Stop-and-Wait ARQ,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.4047,0.1111,1,Adjacent topics: delta=1 + sim=0.405
+Error Control: Stop-and-Wait ARQ,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.1437,0.125,0,Low sim=0.144
+Error Control: Stop-and-Wait ARQ,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1,0.0152,0.0,0,Low sim=0.015
+Error Control: Stop-and-Wait ARQ,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1,0.0908,0.0,0,Low sim=0.091
+Error Control: Stop-and-Wait ARQ,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1,0.0081,0.0,0,Low sim=0.008
+Error Control: Stop-and-Wait ARQ,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1,0.0524,0.0,0,Low sim=0.052
+Error Control: Stop-and-Wait ARQ,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1,0.0073,0.0,0,Low sim=0.007
+Error Control: Stop-and-Wait ARQ,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1,0.0322,0.0,0,Low sim=0.032
+Go-Back-N ARQ,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.0127,0.0,0,Low sim=0.013
+Go-Back-N ARQ,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1,0.0544,0.0,0,Low sim=0.054
+Go-Back-N ARQ,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1,0.1204,0.0,0,Low sim=0.120
+Go-Back-N ARQ,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1,0.1362,0.0,0,Low sim=0.136
+Go-Back-N ARQ,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1,0.1067,0.0,0,Low sim=0.107
+Go-Back-N ARQ,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1,0.0703,0.0,0,Low sim=0.070
+Go-Back-N ARQ,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1,0.0783,0.0,0,Low sim=0.078
+Medium Access Control,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1,0.2033,0.0,0,No signal: sim=0.203 delta=5 kw=0.000
+Medium Access Control,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1,0.2563,0.0,0,No signal: sim=0.256 delta=7 kw=0.000
+Medium Access Control,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1,0.2743,0.0,0,No signal: sim=0.274 delta=8 kw=0.000
+Medium Access Control,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1,0.1875,0.0,0,No signal: sim=0.188 delta=9 kw=0.000
+Medium Access Control,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1,0.156,0.0,0,No signal: sim=0.156 delta=10 kw=0.000
+Medium Access Control,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1,0.1796,0.0,0,No signal: sim=0.180 delta=11 kw=0.000
+Medium Access Control,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1,0.3793,0.0,0,Far apart: delta=13 + sim=0.379
+Medium Access Control,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1,0.2109,0.0,0,Far apart: delta=14 + sim=0.211
+Link Layer Addressing,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.3566,0.0,1,Adjacent topics: delta=2 + sim=0.357
+Link Layer Addressing,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.3274,0.0,0,No signal: sim=0.327 delta=3 kw=0.000
+Link Layer Addressing,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1,0.2086,0.0,0,No signal: sim=0.209 delta=4 kw=0.000
+Link Layer Addressing,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1,0.2577,0.0,0,No signal: sim=0.258 delta=5 kw=0.000
+Link Layer Addressing,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1,0.2799,0.0,0,No signal: sim=0.280 delta=6 kw=0.000
+Link Layer Addressing,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1,0.224,0.0,0,No signal: sim=0.224 delta=8 kw=0.000
+Link Layer Addressing,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1,0.188,0.0,0,No signal: sim=0.188 delta=9 kw=0.000
+Ethernet Protocol,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.7288,0.3333,1,High sim=0.729 + delta=1
+Ethernet Protocol,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.5341,0.2,1,sim=0.534>=0.45 + delta=2<=5
+Ethernet Protocol,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.6121,0.3333,1,High sim=0.612 + delta=3
+Ethernet Protocol,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1,0.5342,0.25,1,sim=0.534>=0.45 + delta=4<=5
+Ethernet Protocol,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1,0.4338,0.3333,1,kw_overlap=0.333 + delta=6<=6
+Ethernet Protocol,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1,0.409,0.0,0,No signal: sim=0.409 delta=7 kw=0.000
+Standard Ethernet,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.6018,0.2,1,High sim=0.602 + delta=1
+Standard Ethernet,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.6922,0.3333,1,High sim=0.692 + delta=2
+Standard Ethernet,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.6443,0.25,1,High sim=0.644 + delta=3
+Standard Ethernet,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1,0.217,0.0,0,No signal: sim=0.217 delta=5 kw=0.000
+Standard Ethernet,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1,0.3313,0.0,0,No signal: sim=0.331 delta=6 kw=0.000
+Fast Ethernet (100 Mbps),Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.7058,0.2,1,High sim=0.706 + delta=1
+Fast Ethernet (100 Mbps),10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.7027,0.1667,1,High sim=0.703 + delta=2
+Fast Ethernet (100 Mbps),HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1,0.1748,0.0,0,No signal: sim=0.175 delta=4 kw=0.000
+Fast Ethernet (100 Mbps),IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1,0.2798,0.0,0,No signal: sim=0.280 delta=5 kw=0.000
+Gigabit Ethernet,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.8869,0.6667,1,Lexical containment + delta=1
+Gigabit Ethernet,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.1306,0.0,0,Low sim=0.131
+Gigabit Ethernet,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1,0.3044,0.0,0,No signal: sim=0.304 delta=4 kw=0.000
+10-Gigabit Ethernet,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1,0.0984,0.0,0,Low sim=0.098
+10-Gigabit Ethernet,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1,0.3096,0.0,0,No signal: sim=0.310 delta=3 kw=0.000
+HDLC Protocol,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1,0.16,0.0,0,No signal: sim=0.160 delta=1 kw=0.000
+Text Books,Packet analysis with Wire shark,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344115,Network Design,6,1,0.0484,0.0,0,Low sim=0.048
+ChatGPT-like models,Search Techniques,SEM-V.pdf,2165112,Artificial,3,1,0.1838,0.0,0,No signal: sim=0.184 delta=3 kw=0.000
+Agile Quality,"Agile Metrics, Agile Approach to Quality",SEM-V.pdf,2165113,Agile Software,1,1,0.845,0.4,1,High sim=0.845 + delta=1
+Agile Quality,"Testing: Functionality Testing, UI Testing",SEM-V.pdf,2165113,Agile Software,2,1,0.2169,0.0,1,Adjacent topics: delta=2 + sim=0.217
+Agile Quality,Testing: Principles of Agile Testers,SEM-V.pdf,2165113,Agile Software,4,1,0.6001,0.1667,1,High sim=0.600 + delta=4
+Agile Quality,"Testing Quadrants, Test Driven Development",SEM-V.pdf,2165113,Agile Software,6,1,0.2716,0.0,0,No signal: sim=0.272 delta=6 kw=0.000
+"Agile Metrics, Agile Approach to Quality","Testing: Functionality Testing, UI Testing",SEM-V.pdf,2165113,Agile Software,1,1,0.2052,0.0,1,Adjacent topics: delta=1 + sim=0.205
+"Agile Metrics, Agile Approach to Quality",Testing: Principles of Agile Testers,SEM-V.pdf,2165113,Agile Software,3,1,0.506,0.1111,1,sim=0.506>=0.45 + delta=3<=5
+"Agile Metrics, Agile Approach to Quality","Testing Quadrants, Test Driven Development",SEM-V.pdf,2165113,Agile Software,5,1,0.27,0.0,0,No signal: sim=0.270 delta=5 kw=0.000
+"Agile Metrics, Agile Approach to Quality","Agility, DevOps and Continuous Testing",SEM-V.pdf,2165113,Agile Software,14,1,0.3508,0.0,0,Far apart: delta=14 + sim=0.351
+"Testing: Functionality Testing, UI Testing",Testing: Principles of Agile Testers,SEM-V.pdf,2165113,Agile Software,2,1,0.5561,0.1429,1,sim=0.556>=0.45 + delta=2<=5
+"Testing: Functionality Testing, UI Testing","Testing Quadrants, Test Driven Development",SEM-V.pdf,2165113,Agile Software,4,1,0.4938,0.1429,1,sim=0.494>=0.45 + delta=4<=5
+"Testing: Functionality Testing, UI Testing","Agility, DevOps and Continuous Testing",SEM-V.pdf,2165113,Agile Software,13,1,0.3721,0.1429,0,Far apart: delta=13 + sim=0.372
+Testing: Principles of Agile Testers,"Testing Quadrants, Test Driven Development",SEM-V.pdf,2165113,Agile Software,2,1,0.5293,0.1111,1,sim=0.529>=0.45 + delta=2<=5
+Testing: Principles of Agile Testers,"Agility, DevOps and Continuous Testing",SEM-V.pdf,2165113,Agile Software,11,1,0.5555,0.1111,0,No signal: sim=0.555 delta=11 kw=0.111
+"Testing Quadrants, Test Driven Development","Agility, DevOps and Continuous Testing",SEM-V.pdf,2165113,Agile Software,9,1,0.4524,0.1111,0,No signal: sim=0.452 delta=9 kw=0.111
+"Testing Quadrants, Test Driven Development",Source Tools in DevOps,SEM-V.pdf,2165113,Agile Software,13,1,0.2443,0.0,0,Far apart: delta=13 + sim=0.244
+"Agility, DevOps and Continuous Testing",Source Tools in DevOps,SEM-V.pdf,2165113,Agile Software,4,1,0.5209,0.125,1,sim=0.521>=0.45 + delta=4<=5
+"Agility, DevOps and Continuous Testing",Text Books,SEM-V.pdf,2165113,Agile Software,9,1,0.0021,0.0,0,Low sim=0.002
+Source Tools in DevOps,Text Books,SEM-V.pdf,2165113,Agile Software,5,1,0.1,0.0,0,Low sim=0.100
+1/blob/master/book/Practical%20DevOps.pdf,University of Mumbai,SEM-V.pdf,2165113,Agile Software,12,1,0.2336,0.0,0,Far apart: delta=12 + sim=0.234
+University of Mumbai,(b) must be from any other Module,SEM-V.pdf,2165113,Agile Software,10,1,0.1261,0.0,0,Low sim=0.126
+Custom Hooks creation,Low-code/No-code development,SEM-V.pdf,2165114,Web and,2,1,0.1549,0.0,0,No signal: sim=0.155 delta=2 kw=0.000
+User Experience,Design with VR,SEM-V.pdf,2165115,User Experience,1,1,0.4292,0.0,1,Adjacent topics: delta=1 + sim=0.429
+Supervised Learning,Learning Techniques,SEM-V.pdf,2166111,Machine,2,1,0.598,0.3333,1,sim=0.598>=0.45 + delta=2<=5
+Supervised Learning,Multi-class SVMs,SEM-V.pdf,2166111,Machine,4,1,0.4467,0.0,0,No signal: sim=0.447 delta=4 kw=0.000
+Supervised Learning,Principal Component Analysis,SEM-V.pdf,2166111,Machine,6,1,0.4363,0.0,0,No signal: sim=0.436 delta=6 kw=0.000
+Supervised Learning,Model Accuracy,SEM-V.pdf,2166111,Machine,9,1,0.3085,0.0,0,No signal: sim=0.308 delta=9 kw=0.000
+Learning Techniques,Multi-class SVMs,SEM-V.pdf,2166111,Machine,2,1,0.3602,0.0,1,Adjacent topics: delta=2 + sim=0.360
+Learning Techniques,Principal Component Analysis,SEM-V.pdf,2166111,Machine,4,1,0.3603,0.0,0,No signal: sim=0.360 delta=4 kw=0.000
+Learning Techniques,Model Accuracy,SEM-V.pdf,2166111,Machine,7,1,0.286,0.0,0,No signal: sim=0.286 delta=7 kw=0.000
+Multi-class SVMs,Principal Component Analysis,SEM-V.pdf,2166111,Machine,2,1,0.372,0.0,1,Adjacent topics: delta=2 + sim=0.372
+Multi-class SVMs,Model Accuracy,SEM-V.pdf,2166111,Machine,5,1,0.1955,0.0,0,No signal: sim=0.196 delta=5 kw=0.000
+Principal Component Analysis,Model Accuracy,SEM-V.pdf,2166111,Machine,3,1,0.2405,0.0,0,No signal: sim=0.241 delta=3 kw=0.000
+Introduction to Data Analytics,Data Analytics life cycle,SEM-V.pdf,2166112,Data Analytics,3,1,0.5806,0.3333,1,sim=0.581>=0.45 + delta=3<=5
+Introduction to Data Analytics,Types of analytics,SEM-V.pdf,2166112,Data Analytics,5,1,0.5219,0.1667,1,sim=0.522>=0.45 + delta=5<=5
+Introduction to Data Analytics,Data Analytics,SEM-V.pdf,2166112,Data Analytics,10,1,0.7129,0.5,1,High sim=0.713 + delta=10
+Data Analytics life cycle,Types of analytics,SEM-V.pdf,2166112,Data Analytics,2,1,0.5176,0.1667,1,sim=0.518>=0.45 + delta=2<=5
+Data Analytics life cycle,Data Analytics,SEM-V.pdf,2166112,Data Analytics,7,1,0.6709,0.5,1,High sim=0.671 + delta=7
+Types of analytics,Data Analytics,SEM-V.pdf,2166112,Data Analytics,5,1,0.6715,0.25,1,High sim=0.672 + delta=5
+Block Ciphers,Digital Certificates,SEM-V.pdf,2166114,Security,2,1,0.1887,0.0,0,No signal: sim=0.189 delta=2 kw=0.000
+Block Ciphers,Real-World Case Studies,SEM-V.pdf,2166114,Security,4,1,0.0288,0.0,0,Low sim=0.029
+Block Ciphers,Secure Coding Practices,SEM-V.pdf,2166114,Security,6,1,0.3795,0.0,0,No signal: sim=0.380 delta=6 kw=0.000
+Digital Certificates,Real-World Case Studies,SEM-V.pdf,2166114,Security,2,1,0.1585,0.0,0,No signal: sim=0.159 delta=2 kw=0.000
+Digital Certificates,Secure Coding Practices,SEM-V.pdf,2166114,Security,4,1,0.1823,0.0,0,No signal: sim=0.182 delta=4 kw=0.000
+Real-World Case Studies,Secure Coding Practices,SEM-V.pdf,2166114,Security,2,1,0.1644,0.0,0,No signal: sim=0.164 delta=2 kw=0.000
+Metrics: Measuring performance,Convergence Speed,SEM-V.pdf,2166115,Nature-,2,1,0.2441,0.0,1,Adjacent topics: delta=2 + sim=0.244
+Metrics: Measuring performance,Evolution Strategies and Evolutionary Programming,SEM-V.pdf,2166115,Nature-,8,1,0.1529,0.0,0,No signal: sim=0.153 delta=8 kw=0.000
+Metrics: Measuring performance,Edge Systems: Application in feature selection,SEM-V.pdf,2166115,Nature-,11,1,0.1944,0.0,0,No signal: sim=0.194 delta=11 kw=0.000
+Metrics: Measuring performance,Edge resource optimization,SEM-V.pdf,2166115,Nature-,14,1,0.2601,0.0,0,Far apart: delta=14 + sim=0.260
+Convergence Speed,Evolution Strategies and Evolutionary Programming,SEM-V.pdf,2166115,Nature-,6,1,0.1279,0.0,0,Low sim=0.128
+Convergence Speed,Edge Systems: Application in feature selection,SEM-V.pdf,2166115,Nature-,9,1,0.1086,0.0,0,Low sim=0.109
+Convergence Speed,Edge resource optimization,SEM-V.pdf,2166115,Nature-,12,1,0.1788,0.0,0,Far apart: delta=12 + sim=0.179
+Evolution Strategies and Evolutionary Programming,Edge Systems: Application in feature selection,SEM-V.pdf,2166115,Nature-,3,1,0.1451,0.0,0,Low sim=0.145
+Evolution Strategies and Evolutionary Programming,Edge resource optimization,SEM-V.pdf,2166115,Nature-,6,1,0.2344,0.0,0,No signal: sim=0.234 delta=6 kw=0.000
+Edge Systems: Application in feature selection,Edge resource optimization,SEM-V.pdf,2166115,Nature-,3,1,0.5775,0.125,1,sim=0.577>=0.45 + delta=3<=5
+Enhancement techniques,Morphological watersheds,SEM-V.pdf,2166117,Digital Imaging,4,1,0.234,0.0,0,No signal: sim=0.234 delta=4 kw=0.000
+"Blockchain, UTXO and double spending problem",Common security threats in Blockchain,SEM-V.pdf,2166118,Blockchain,1,1,0.3931,0.1,1,Adjacent topics: delta=1 + sim=0.393
+"Blockchain, UTXO and double spending problem",Cryptocurrency Valuation Models,SEM-V.pdf,2166118,Blockchain,4,1,0.3104,0.0,0,No signal: sim=0.310 delta=4 kw=0.000
+"Blockchain, UTXO and double spending problem",Models on Blockchain: decentralized AI,SEM-V.pdf,2166118,Blockchain,10,1,0.3429,0.1,0,No signal: sim=0.343 delta=10 kw=0.100
+Common security threats in Blockchain,Cryptocurrency Valuation Models,SEM-V.pdf,2166118,Blockchain,3,1,0.3077,0.0,0,No signal: sim=0.308 delta=3 kw=0.000
+Common security threats in Blockchain,Models on Blockchain: decentralized AI,SEM-V.pdf,2166118,Blockchain,9,1,0.4405,0.1111,0,No signal: sim=0.440 delta=9 kw=0.111
+Cryptocurrency Valuation Models,Models on Blockchain: decentralized AI,SEM-V.pdf,2166118,Blockchain,6,1,0.4882,0.1429,0,No signal: sim=0.488 delta=6 kw=0.143
+Models on Blockchain: decentralized AI,Text Books,SEM-V.pdf,2166118,Blockchain,10,1,0.1251,0.0,0,Low sim=0.125
+Text Books,"Depth: Learn, Build and Deploy Blockchain",SEM-V.pdf,2166118,Blockchain,11,1,0.1344,0.0,0,Low sim=0.134
+Smart City (Parking or Waste Management),Connected Car System,SEM-V.pdf,2166121,Internet of Things,1,1,0.2898,0.0,1,Adjacent topics: delta=1 + sim=0.290
+Smart City (Parking or Waste Management),Smart Agriculture (Irrigation or Environmental Monitoring),SEM-V.pdf,2166121,Internet of Things,2,1,0.3476,0.2,1,Adjacent topics: delta=2 + sim=0.348
+Connected Car System,Smart Agriculture (Irrigation or Environmental Monitoring),SEM-V.pdf,2166121,Internet of Things,1,1,0.1212,0.0,0,Low sim=0.121
+IoT data processing,Task offloading strategies: local vs cloud,SEM-V.pdf,2166124,Edge Computing,1,1,0.21,0.0,1,Adjacent topics: delta=1 + sim=0.210
+IoT data processing,Edge and Fog Computing platforms and Services,SEM-V.pdf,2166124,Edge Computing,2,1,0.3743,0.0,1,Adjacent topics: delta=2 + sim=0.374
+Task offloading strategies: local vs cloud,Edge and Fog Computing platforms and Services,SEM-V.pdf,2166124,Edge Computing,1,1,0.3932,0.0,1,Adjacent topics: delta=1 + sim=0.393

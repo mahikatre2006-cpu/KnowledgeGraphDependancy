@@ -1,0 +1,168 @@
+    concept_a,concept_b,source_syllabus,order_delta,ai_suggested_label,confirmed_label,reason,embedding_similarity,keyword_overlap
+Kutta second Order method,Method and Adam Bashford Predictor,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2409,0.125
+Applications of Runge-Kutta Fourth order,Method and Adam Bashford Predictor,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2847,0.0
+Applications of Runge-Kutta Fourth order,Corrector Method to chemical engineering,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2338,0.0
+Method and Adam Bashford Predictor,Corrector Method to chemical engineering,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2992,0.1111
+"Hammer mill, Ball mill and Roll crusher",Solid mixing – Introduction to solid mixing,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2432,0.0
+"Hammer mill, Ball mill and Roll crusher",Mixing equipment for cohesive solids,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2854,0.0
+Solid mixing – Introduction to solid mixing,Flow of a single fluid through a packed bed,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,3,0,,Insufficient signal,0.2667,0.0
+Solid mixing – Introduction to solid mixing,Fluidization: conditions for fluidization,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,5,0,,Insufficient signal,0.3326,0.0
+Mixing equipment for cohesive solids,Flow of a single fluid through a packed bed,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2133,0.0
+Mixers for free flowing solids: Ribbon,Flow of a single fluid through a packed bed,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2954,0.0
+Flow of a single fluid through a packed bed,Solid fluid,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,3,0,,Insufficient signal,0.464,0.1111
+Fluidization: conditions for fluidization,Sedimentation: Batch sedimentation. Kynch,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2386,0.0
+Sedimentation: Batch sedimentation. Kynch,Storage of solids: Properties of particulate,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.266,0.0
+Gas solid separation equipment: Cyclone,"Conveying, of solids: Belt conveyer, bucket",6.40-N-Chemical-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2696,0.0
+Cayley-Hamilton,Similarity of matrices,6.41N-A-I-AI-DS-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2718,0.0
+Quadratic forms,Types of solutions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2615,0.0
+Linear and Non-Linear Programming Problems,Types of solutions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2528,0.0
+Linear and Non-Linear Programming Problems,Standard and Canonical of LPP,6.41N-A-I-AI-DS-Sem-III-IV.pdf,2,0,1,Insufficient signal,0.2497,0.1111
+Types of solutions,Artificial variables,6.41N-A-I-AI-DS-Sem-III-IV.pdf,4,0,,Insufficient signal,0.2761,0.0
+Standard and Canonical of LPP,Basic and Feasible solutions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,1,0,,Insufficient signal,0.224,0.125
+Basic and Feasible solutions,Kuhn-Tucker conditions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,3,0,,Insufficient signal,0.2568,0.0
+Simplex method,Artificial variables,6.41N-A-I-AI-DS-Sem-III-IV.pdf,1,0,,Insufficient signal,0.267,0.0
+Artificial variables,Kuhn-Tucker conditions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,1,0,,Insufficient signal,0.208,0.0
+Complex form of Fourier Series,Moment generating function,6.41N-A-I-AI-DS-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2589,0.0
+Regular operations,Arden's theorem,6.41N-A-I-AI-DS-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2053,0.0
+Pumping lemma,Application of Regular,6.41N-A-I-AI-DS-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2143,0.0
+Application of Regular,Nondeterministic Finite Automata (NFA): Definitions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2048,0.0
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,6.41N-A-I-AI-DS-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2147,0.0
+Cayley-Hamilton,Similarity of matrices,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,2,0,,Insufficient signal,0.2718,0.0
+Quadratic forms,Types of solutions,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,2,0,,Insufficient signal,0.2615,0.0
+Linear and Non-Linear Programming Problems,Types of solutions,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,1,0,,Insufficient signal,0.2528,0.0
+Linear and Non-Linear Programming Problems,Standard and Canonical of LPP,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,2,0,,Insufficient signal,0.2497,0.1111
+Types of solutions,Artificial variables,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,4,0,,Insufficient signal,0.2761,0.0
+Standard and Canonical of LPP,Basic and Feasible solutions,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,1,0,,Insufficient signal,0.224,0.125
+Basic and Feasible solutions,Kuhn-Tucker conditions,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,3,0,,Insufficient signal,0.2568,0.0
+Simplex method,Artificial variables,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,1,0,,Insufficient signal,0.267,0.0
+Artificial variables,Kuhn-Tucker conditions,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,1,0,,Insufficient signal,0.208,0.0
+Complex form of Fourier Series,Moment generating function,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,2,0,,Insufficient signal,0.2589,0.0
+Vending machines,"Counting Pigeonhole Principle, Inclusion-Exclusion Principle. Recurrence relations, Solving recurrence relations",6.21-N-B.E.-AI-ML-sem-III-IV.pdf,1,0,,Insufficient signal,0.2789,0.0
+Application of Regular,Nondeterministic Finite Automata (NFA): Definitions,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,2,0,,Insufficient signal,0.2048,0.0
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,1,0,,Insufficient signal,0.2147,0.0
+Vending machines,"Counting Pigeonhole Principle, Inclusion-Exclusion Principle. Recurrence relations, Solving recurrence relations",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,0,,Insufficient signal,0.2789,0.0
+Regular operations,Arden's theorem,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,0,,Insufficient signal,0.2053,0.0
+Arden's theorem,Pumping lemma for RLs,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2,0,,Insufficient signal,0.2223,0.0
+Application of Regular,Nondeterministic Finite Automata (NFA): Definitions,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2,0,,Insufficient signal,0.2048,0.0
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,0,,Insufficient signal,0.2147,0.0
+Relationship (EER) Model,"Pitfalls in relational database designs, Concept",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,7,0,,Insufficient signal,0.3273,0.0
+"Generalization, Specialization and Aggregation","Introduction to the Relational Model, relational",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,0,,Insufficient signal,0.2568,0.0
+"Generalization, Specialization and Aggregation","EER Model to the Relational Model, Relational",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2,0,,Insufficient signal,0.2326,0.0
+"Introduction to the Relational Model, relational","Overview of SQL, Data Definition Commands",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2,0,,Insufficient signal,0.2286,0.0
+"Introduction to the Relational Model, relational","Integrity constraints: key constraints, Domain",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,3,0,,Insufficient signal,0.3045,0.0
+"Introduction to the Relational Model, relational","Cloud Database, Introduction of Distributed",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,7,0,,Insufficient signal,0.2594,0.1111
+"EER Model to the Relational Model, Relational","Overview of SQL, Data Definition Commands",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,0,,Insufficient signal,0.2588,0.0
+"EER Model to the Relational Model, Relational","Integrity constraints: key constraints, Domain",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2,0,,Insufficient signal,0.2939,0.0
+"Overview of SQL, Data Definition Commands","Integrity constraints: key constraints, Domain",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,0,,Insufficient signal,0.2471,0.0
+"Overview of SQL, Data Definition Commands","Pitfalls in relational database designs, Concept",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,3,0,,Insufficient signal,0.3288,0.0
+"Overview of SQL, Data Definition Commands","Cloud Database, Introduction of Distributed",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,5,0,,Insufficient signal,0.2886,0.1
+"Triggers, Introduction to Pl/SQL Block Structure","Concurrent Executions, Serializability",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2,0,,Insufficient signal,0.2327,0.0
+"Triggers, Introduction to Pl/SQL Block Structure","Cloud Database, Introduction of Distributed",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,3,0,,Insufficient signal,0.2646,0.0909
+"Concurrent Executions, Serializability","Cloud Database, Introduction of Distributed",6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,0,,Insufficient signal,0.2068,0.0
+Open-source and Proprietary Operating System,Mobile Operating System,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,4,0,,Insufficient signal,0.531,0.2857
+Fundamentals of Distributed Operating System,Real-Time,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2,0,,Insufficient signal,0.2594,0.0
+Network Operating System,Real-Time,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,0,,Insufficient signal,0.2475,0.0
+Real-Time,Mobile Operating System,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,1,0,,Insufficient signal,0.2806,0.0
+Cayley-Hamilton,Similarity of matrices,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2718,0.0
+Quadratic forms,Types of solutions,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2615,0.0
+Linear and Non-Linear Programming Problems,Types of solutions,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2528,0.0
+Linear and Non-Linear Programming Problems,Standard and Canonical of LPP,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2497,0.1111
+Types of solutions,Artificial variables,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,4,0,,Insufficient signal,0.2761,0.0
+Standard and Canonical of LPP,Basic and Feasible solutions,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.224,0.125
+Basic and Feasible solutions,Kuhn-Tucker conditions,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,3,0,,Insufficient signal,0.2568,0.0
+Simplex method,Artificial variables,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.267,0.0
+Artificial variables,Kuhn-Tucker conditions,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.208,0.0
+Complex form of Fourier Series,Moment generating function,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2589,0.0
+Application of Regular,Nondeterministic Finite Automata (NFA): Definitions,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2048,0.0
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2147,0.0
+Relationship (EER) Model,"Pitfalls in relational database designs, Concept",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,7,0,,Insufficient signal,0.3273,0.0
+"Generalization, Specialization and Aggregation","Introduction to the Relational Model, relational",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2568,0.0
+"Generalization, Specialization and Aggregation","EER Model to the Relational Model, Relational",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2326,0.0
+"Introduction to the Relational Model, relational","Overview of SQL, Data Definition Commands",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2286,0.0
+"Introduction to the Relational Model, relational","Integrity constraints: key constraints, Domain",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,3,0,,Insufficient signal,0.3045,0.0
+"Introduction to the Relational Model, relational","Cloud Database, Introduction of Distributed",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,7,0,,Insufficient signal,0.2594,0.1111
+"EER Model to the Relational Model, Relational","Overview of SQL, Data Definition Commands",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2588,0.0
+"EER Model to the Relational Model, Relational","Integrity constraints: key constraints, Domain",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2939,0.0
+"Overview of SQL, Data Definition Commands","Integrity constraints: key constraints, Domain",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2471,0.0
+"Overview of SQL, Data Definition Commands","Pitfalls in relational database designs, Concept",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,3,0,,Insufficient signal,0.3288,0.0
+"Overview of SQL, Data Definition Commands","Cloud Database, Introduction of Distributed",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,5,0,,Insufficient signal,0.2886,0.1
+"Triggers, Introduction to Pl/SQL Block Structure","Concurrent Executions, Serializability",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2327,0.0
+"Triggers, Introduction to Pl/SQL Block Structure","Cloud Database, Introduction of Distributed",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,3,0,,Insufficient signal,0.2646,0.0909
+"Concurrent Executions, Serializability","Cloud Database, Introduction of Distributed",6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2068,0.0
+Cayley-Hamilton,Similarity of matrices,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2718,0.0
+Quadratic forms,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2615,0.0
+Linear and Non-Linear Programming Problems,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2528,0.0
+Linear and Non-Linear Programming Problems,Standard and Canonical of LPP,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2497,0.1111
+Types of solutions,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,4,0,,Insufficient signal,0.2761,0.0
+Standard and Canonical of LPP,Basic and Feasible solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,1,0,,Insufficient signal,0.224,0.125
+Basic and Feasible solutions,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,3,0,,Insufficient signal,0.2568,0.0
+Simplex method,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,1,0,,Insufficient signal,0.267,0.0
+Artificial variables,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,1,0,,Insufficient signal,0.208,0.0
+Complex form of Fourier Series,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2589,0.0
+Regular operations,Arden's theorem,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2053,0.0
+Pumping lemma,Application of Regular,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2143,0.0
+Application of Regular,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2048,0.0
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2147,0.0
+Open-source and Proprietary Operating System,Mobile Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,4,0,,Insufficient signal,0.531,0.2857
+Fundamentals of Distributed Operating System,Real-Time,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2594,0.0
+Network Operating System,Real-Time,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2475,0.0
+Real-Time,Mobile Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2806,0.0
+Testing: Principles of Agile Testers,"DevOps: Introduction, DevOps - Importance",SEM-V.pdf,4,0,,Insufficient signal,0.3125,0.0
+Testing: Principles of Agile Testers,C’s of DevOps Lifecycle for Business,SEM-V.pdf,5,0,,Insufficient signal,0.2559,0.0909
+Testing: Principles of Agile Testers,Choosing the right DevOps tools and challenges,SEM-V.pdf,7,0,,Insufficient signal,0.3265,0.0
+"Automation, Test Automation Pyramid. Case",Study – Selenium/ Jira,SEM-V.pdf,1,0,,Insufficient signal,0.2309,0.0
+"Automation, Test Automation Pyramid. Case","Postman, and JMeter",SEM-V.pdf,2,0,,Insufficient signal,0.209,0.0
+Study – Selenium/ Jira,"Postman, and JMeter",SEM-V.pdf,1,0,,Insufficient signal,0.2072,0.0
+"Agility, DevOps and Continuous Testing",Source Tools in DevOps,SEM-V.pdf,3,0,,Insufficient signal,0.5209,0.125
+Learning : Quantum,Inspired and Multi,SEM-V.pdf,1,0,,Insufficient signal,0.2228,0.0
+Types of analytics,Roles in Industry,SEM-V.pdf,1,0,,Insufficient signal,0.205,0.0
+Metrics: Measuring performance,Applications and variants,SEM-V.pdf,2,0,,Insufficient signal,0.2507,0.0
+"ERC721 Tokens, ICO: basics and related terms","Metaverse, Cryptocurrency wallets: Hot and cold",SEM-V.pdf,1,0,,Insufficient signal,0.2219,0.0833
+"Metaverse, Cryptocurrency wallets: Hot and cold","Blockchain, UTXO and double spending problem",SEM-V.pdf,1,0,,Insufficient signal,0.2289,0.0909
+"Blockchain, UTXO and double spending problem","Mitigating attacks: 51% attack, Sybil attack, replay",SEM-V.pdf,2,0,,Insufficient signal,0.2384,0.0
+"Mitigating attacks: 51% attack, Sybil attack, replay",Cryptocurrency Valuation Models,SEM-V.pdf,1,0,,Insufficient signal,0.2102,0.0
+Fourier series of even and odd functions (simple functions,"Harmonic function, Harmonic conjugate, and orthogonal",6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2839,0.0833
+Hal Frange Sine and Cosine Series,Kar lPearson’s Coefficient of correlation(r) Spearman’s,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,0,,Insufficient signal,0.262,0.0
+Characteristics of Databases,Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,3,0,,Insufficient signal,0.5379,0.2
+System calls with examples for different OS,Algorithms  for  different  situations,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2163,0.2222
+System calls with examples for different OS,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,5,0,,Insufficient signal,0.4898,0.25
+Selection of Scheduling,Real-time,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2926,0.0
+Algorithms  for  different  situations,Implementation of Page,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2304,0.0
+Real-time,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2171,0.0
+Structure of a switch,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,3,0,,Insufficient signal,0.272,0.0
+Space Division Switching,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2066,0.0
+Link Layer Addressing,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2799,0.0
+Cayley-Hamilton,Similarity of matrices,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2718,0.0
+Quadratic forms,Types of solutions,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2615,0.0
+Linear and Non-Linear Programming Problems,Types of solutions,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2528,0.0
+Linear and Non-Linear Programming Problems,Standard and Canonical of LPP,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2497,0.1111
+Types of solutions,Artificial variables,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,4,0,,Insufficient signal,0.2761,0.0
+Standard and Canonical of LPP,Basic and Feasible solutions,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.224,0.125
+Basic and Feasible solutions,Kuhn-Tucker conditions,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,3,0,,Insufficient signal,0.2568,0.0
+Simplex method,Artificial variables,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.267,0.0
+Artificial variables,Kuhn-Tucker conditions,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.208,0.0
+Complex form of Fourier Series,Moment generating function,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2589,0.0
+Vending machines,"Counting Pigeonhole Principle, Inclusion-Exclusion Principle. Recurrence relations, Solving recurrence relations",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2789,0.0
+Regular operations,Arden's theorem,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2053,0.0
+Arden's theorem,Pumping lemma for RLs,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2223,0.0
+Application of Regular,Nondeterministic Finite Automata (NFA): Definitions,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2048,0.0
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2147,0.0
+Relationship (EER) Model,"Pitfalls in relational database designs, Concept",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,7,0,,Insufficient signal,0.3273,0.0
+"Generalization, Specialization and Aggregation","Introduction to the Relational Model, relational",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2568,0.0
+"Generalization, Specialization and Aggregation","EER Model to the Relational Model, Relational",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2326,0.0
+"Introduction to the Relational Model, relational","Overview of SQL, Data Definition Commands",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2286,0.0
+"Introduction to the Relational Model, relational","Integrity constraints: key constraints, Domain",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,3,0,,Insufficient signal,0.3045,0.0
+"Introduction to the Relational Model, relational","Cloud Database, Introduction of Distributed",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,7,0,,Insufficient signal,0.2594,0.1111
+"EER Model to the Relational Model, Relational","Overview of SQL, Data Definition Commands",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2588,0.0
+"EER Model to the Relational Model, Relational","Integrity constraints: key constraints, Domain",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2939,0.0
+"Overview of SQL, Data Definition Commands","Integrity constraints: key constraints, Domain",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2471,0.0
+"Overview of SQL, Data Definition Commands","Pitfalls in relational database designs, Concept",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,3,0,,Insufficient signal,0.3288,0.0
+"Overview of SQL, Data Definition Commands","Cloud Database, Introduction of Distributed",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,5,0,,Insufficient signal,0.2886,0.1
+"Triggers, Introduction to Pl/SQL Block Structure","Concurrent Executions, Serializability",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2327,0.0
+"Triggers, Introduction to Pl/SQL Block Structure","Cloud Database, Introduction of Distributed",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,3,0,,Insufficient signal,0.2646,0.0909
+"Concurrent Executions, Serializability","Cloud Database, Introduction of Distributed",6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2068,0.0
+Open-source and Proprietary Operating System,Mobile Operating System,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,4,0,,Insufficient signal,0.531,0.2857
+Fundamentals of Distributed Operating System,Real-Time,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,2,0,,Insufficient signal,0.2594,0.0
+Network Operating System,Real-Time,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2475,0.0
+Real-Time,Mobile Operating System,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,1,0,,Insufficient signal,0.2806,0.0
+Motion of particle with variable acceleration,Principle of linear impulse and momentum. Impact,NEW EM SYLLABUS 2024-25.pdf,2,0,,Insufficient signal,0.2735,0.0833

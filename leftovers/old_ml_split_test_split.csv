@@ -1,0 +1,54 @@
+concept_a,concept_b,Course_Code,course_name,source_syllabus,embedding_similarity,order_delta,domain_match,keyword_overlap,label
+Agile Quality,Testing: Principles of Agile Testers,2165113,Agile Software,SEM-V.pdf,0.6001,4,1,0.1667,1
+"Testing: Functionality Testing, UI Testing",Testing: Principles of Agile Testers,2165113,Agile Software,SEM-V.pdf,0.5561,2,1,0.1429,1
+Testing: Principles of Agile Testers,"Agility, DevOps and Continuous Testing",2165113,Agile Software,SEM-V.pdf,0.5555,11,1,0.1111,0
+"Agile Metrics, Agile Approach to Quality","Testing: Functionality Testing, UI Testing",2165113,Agile Software,SEM-V.pdf,0.2052,1,1,0.0,1
+"Agility, DevOps and Continuous Testing",Source Tools in DevOps,2165113,Agile Software,SEM-V.pdf,0.5209,4,1,0.125,1
+Agile Quality,"Testing: Functionality Testing, UI Testing",2165113,Agile Software,SEM-V.pdf,0.2169,2,1,0.0,1
+"Agility, DevOps and Continuous Testing",Text Books,2165113,Agile Software,SEM-V.pdf,0.0021,9,1,0.0,0
+"Testing: Functionality Testing, UI Testing","Agility, DevOps and Continuous Testing",2165113,Agile Software,SEM-V.pdf,0.3721,13,1,0.1429,0
+"Testing: Functionality Testing, UI Testing","Testing Quadrants, Test Driven Development",2165113,Agile Software,SEM-V.pdf,0.4938,4,1,0.1429,1
+Testing: Principles of Agile Testers,"Testing Quadrants, Test Driven Development",2165113,Agile Software,SEM-V.pdf,0.5293,2,1,0.1111,1
+Agile Quality,"Agile Metrics, Agile Approach to Quality",2165113,Agile Software,SEM-V.pdf,0.845,1,1,0.4,1
+Source Tools in DevOps,Text Books,2165113,Agile Software,SEM-V.pdf,0.1,5,1,0.0,0
+"Agile Metrics, Agile Approach to Quality",Testing: Principles of Agile Testers,2165113,Agile Software,SEM-V.pdf,0.506,3,1,0.1111,1
+Regular operations,Regular Language,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.463,3,1,0.3333,1
+Decision properties of RLs,Natural Language Processing (NLP),2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1308,6,1,0.0,0
+Regular Expression,Languages in Compiler Design,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1574,8,1,0.0,0
+Pumping lemma,Text Processing,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1676,4,1,0.0,0
+Regular operations,Languages in Compiler Design,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2045,9,1,0.0,0
+Nondeterministic Finite Automata (NFA): Definitions,Equivalence between NFA with and ϵ- transitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5904,1,1,0.0909,1
+Equivalence between NFA with and ϵ- transitions,Minimization of DFA,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.4193,2,1,0.0,1
+Regular operations,Regular Expression,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5542,1,1,0.3333,1
+Decision properties of RLs,Text Processing,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0379,5,1,0.0,0
+RE in text search and replace,Text Processing,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.4097,3,1,0.1429,0
+Regular operations,Closure properties,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2366,4,1,0.0,0
+Regular Language,Minimization of DFA,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.3101,13,1,0.0,0
+Decision properties of RLs,Pumping lemma,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0197,1,1,0.0,0
+Regular operations,Arden's theorem,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2053,2,1,0.0,1
+Closure properties,Decision properties of RLs,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2896,1,1,0.2,1
+Regular operations,Equivalence between NFA with and ϵ- transitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0974,14,1,0.0,0
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2147,4,1,0.0,0
+Regular Expression,RE in text search and replace,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.3946,6,1,0.0,0
+Closure properties,Nondeterministic Finite Automata (NFA): Definitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0738,9,1,0.0,0
+Decision properties of RLs,RE in text search and replace,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.032,2,1,0.0,0
+Regular Expression,Regular Language,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.61,2,1,0.3333,1
+Regular Expression,Natural Language Processing (NLP),2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.299,10,1,0.0,0
+Regular Language,Languages in Compiler Design,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.4872,6,1,0.0,0
+Text Processing,Natural Language Processing (NLP),2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6256,1,1,0.2,1
+Arden's theorem,Decision properties of RLs,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0956,3,1,0.0,0
+Languages in Compiler Design,Natural Language Processing (NLP),2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2383,2,1,0.0,1
+Nondeterministic Finite Automata (NFA): Definitions,Minimization of DFA,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5158,3,1,0.0,1
+RE in text search and replace,Languages in Compiler Design,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0087,2,1,0.1111,0
+Arden's theorem,Closure properties,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2196,2,1,0.0,1
+Regular Expression,Pumping lemma,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2392,5,1,0.0,0
+Closure properties,Equivalence between NFA with and ϵ- transitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1239,10,1,0.0,0
+Natural Language Processing (NLP),Nondeterministic Finite Automata (NFA): Definitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2025,2,1,0.0,1
+Languages in Compiler Design,Text Processing,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2119,1,1,0.0,1
+Decision properties of RLs,Nondeterministic Finite Automata (NFA): Definitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.248779,5,1,0.000000,0
+Arden's theorem,Pumping lemma for RLs,2174111,Computational,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,0.222323,2,1,0.000000,0
+Decision properties of RLs,Minimization of DFA,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.191272,7,1,0.000000,0
+User Experience,Design with VR,2165115,User Experience,SEM-V.pdf,0.4292,1,1,0.0,1
+Learning Techniques,Multi-class SVMs,2166111,Machine,SEM-V.pdf,0.3602,2,1,0.0,1
+Supervised Learning,Learning Techniques,2166111,Machine,SEM-V.pdf,0.598,2,1,0.3333,1
+Multi-class SVMs,Principal Component Analysis,2166111,Machine,SEM-V.pdf,0.372,2,1,0.0,1

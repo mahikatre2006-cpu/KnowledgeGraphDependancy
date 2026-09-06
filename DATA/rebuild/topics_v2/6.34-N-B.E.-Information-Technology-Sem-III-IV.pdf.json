@@ -1,0 +1,81 @@
+[
+  {
+    "code": "2343111",
+    "name": "Applied Mathematics Thinking-I",
+    "topics": [
+      "Inverse Laplace transform using Convolution theorem",
+      "Applications to solve initial and boundary value problems",
+      "Parseval\u2019s Identity (without proof) Fourier series of periodic",
+      "Fourier series of even and odd functions (simple functions",
+      "Hal Frange Sine and Cosine Series",
+      "Harmonic function, Harmonic conjugate, and orthogonal",
+      "Kar lPearson\u2019s Coefficient of correlation(r) Spearman\u2019s",
+      "Rank correlation coefficient (R) (with repeated and non",
+      "Advanced Engineering Mathematics, R.K. Jainand S.R.K. Iyengar, Narosapublication"
+    ]
+  },
+  {
+    "code": "2343112",
+    "name": "Advance Data Structure & Analysis",
+    "topics": [
+      "Overview of Data Structures: Revision of basic data structures (arrays",
+      "Introduction to Analysis of Algorithms Fundamentals of the analysis of algorithms: Time and Space",
+      "Asymptotic notation"
+    ]
+  },
+  {
+    "code": "2343113",
+    "name": "Database Management System & Application",
+    "topics": [
+      "Database System Concepts, Architecture",
+      "Characteristics of Databases",
+      "File system v/s Database",
+      "DBMS system",
+      "Role of DBA"
+    ]
+  },
+  {
+    "code": "2344111",
+    "name": "Applied Mathematics Thinking-II",
+    "topics": [
+      "Functions ofSquare Matrix",
+      "Quadratic forms",
+      "Theorem to evaluate realintegrations",
+      "Inverse of Transform by Binomial"
+    ]
+  },
+  {
+    "code": "2344112",
+    "name": "Operating System",
+    "topics": [
+      "System calls with examples for different OS",
+      "Selection of Scheduling",
+      "Algorithms  for  different  situations",
+      "Real-time",
+      "Implementation of Page",
+      "Features of I/O facility for different OS"
+    ]
+  },
+  {
+    "code": "2344113",
+    "name": "Computer Network & Network Design",
+    "topics": [
+      "Structure of a switch",
+      "Space Division Switching",
+      "Data Link Layer Data Link Control: \uf0b7 Framing \uf0b7",
+      "Linear Block Code",
+      "CRC code",
+      "Flow Control: Stop-and-Wait Flow Control",
+      "Error Control: Stop-and-Wait ARQ",
+      "Go-Back-N ARQ",
+      "Medium Access Control",
+      "Scheduled Access (Reservation",
+      "Random Access (ALOHA",
+      "Link Layer Addressing",
+      "10-Gigabit Ethernet",
+      "Self-Study Topics",
+      "HDLC Protocol",
+      "IEEE 802.11 Wireless LAN"
+    ]
+  }
+]

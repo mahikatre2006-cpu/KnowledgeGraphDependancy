@@ -1,0 +1,58 @@
+[
+  {
+    "code": "2493112",
+    "name": "Discrete Structures and Graph Theory",
+    "topics": [
+      "Propositional and Predicate Logic",
+      "Determining risk",
+      "Taxes and tax brackets",
+      "Vending machines",
+      "Counting Pigeonhole Principle, Inclusion-Exclusion Principle. Recurrence relations, Solving recurrence relations"
+    ]
+  },
+  {
+    "code": "2494111",
+    "name": "Computational",
+    "topics": [
+      "Regular operations",
+      "Arden's theorem",
+      "Decision properties of RLs",
+      "Pumping lemma for RLs",
+      "RE in text search and replace",
+      "Application of Regular",
+      "Languages in Compiler Design",
+      "Nondeterministic Finite Automata (NFA): Definitions",
+      "Equivalence between NFA with and \u03f5- transitions",
+      "Minimization of DFA"
+    ]
+  },
+  {
+    "code": "2494112",
+    "name": "Database Management System",
+    "topics": [
+      "Relationship (EER) Model",
+      "Generalization, Specialization and Aggregation",
+      "Introduction to the Relational Model, relational",
+      "EER Model to the Relational Model, Relational",
+      "Overview of SQL, Data Definition Commands",
+      "Integrity constraints: key constraints, Domain",
+      "Triggers, Introduction to Pl/SQL Block Structure",
+      "Pitfalls in relational database designs, Concept",
+      "Concurrent Executions, Serializability",
+      "Cloud Database, Introduction of Distributed"
+    ]
+  },
+  {
+    "code": "2494113",
+    "name": "Operating System",
+    "topics": [
+      "Special-purpose",
+      "Open-source and Proprietary Operating System",
+      "Fundamentals of Distributed Operating System",
+      "Network Operating System",
+      "Real-Time",
+      "Mobile Operating System",
+      "Special-purpose Operating Systems"
+    ]
+  }
+]

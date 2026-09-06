@@ -1,0 +1,121 @@
+
+======================================================================
+PDF: 6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf
+======================================================================
+
+  [2343111] Applied
+  --------------------------------------------------
+      1. Inverse Laplace transform using Convolution theorem
+      2. Applications to solve initial and boundary value problems
+      3. Parseval’s Identity (without proof) Fourier series of periodic
+      4. Fourier series of even and odd functions (simple functions
+      5. Hal Frange Sine and Cosine Series
+      6. Thomson method to determine analytic function
+      7. Harmonic function, Harmonic conjugate, and orthogonal
+      8. Kar lPearson’s Coefficient of correlation(r) Spearman’s
+      9. Rank correlation coefficient (R) (with repeated and non
+     10. Advanced Engineering Mathematics, R.K. Jainand S.R.K. Iyengar, Narosapublication
+
+  [2343112] Advance Data
+  --------------------------------------------------
+      1. Overview of Data Structures: Revision of basic data structures (arrays
+      2. Introduction to Analysis of Algorithms Fundamentals of the analysis of algorithms: Time and Space
+      3. Asymptotic notation
+
+  [2343113] Database
+  --------------------------------------------------
+      1. Database System Concepts, Architecture
+      2. Characteristics of Databases
+      3. File system v/s Database
+      4. Data abstraction and Data Independence
+      5. DBMS system
+      6. Role of DBA
+
+  [2344111] Applied
+  --------------------------------------------------
+      1. Functions ofSquare Matrix
+      2. Quadratic forms
+      3. Theorem to evaluate realintegrations
+      4. Inverse of Transform by Binomial
+
+  [2344112] Operating System
+  --------------------------------------------------
+      1. System calls with examples for different OS
+      2. Selection of Scheduling
+      3. Algorithms  for  different  situations
+      4. Real-time
+      5. Deadlock detection and recovery
+      6. Implementation of Page
+      7. Features of I/O facility for different OS
+
+  [2344113] Computer Network
+  --------------------------------------------------
+      1. Structure of a switch
+      2. Space Division Switching
+      3. Data Link Layer Data Link Control:  Framing 
+      4. Error Detection & Correction: basic concept
+      5. Linear Block Code
+      6. CRC code
+      7. Flow Control: Stop-and-Wait Flow Control
+      8. Error Control: Stop-and-Wait ARQ
+      9. Go-Back-N ARQ
+     10. Medium Access Control
+     11. Scheduled Access (Reservation
+     12. Random Access (ALOHA
+     13. Link Layer Addressing
+     14. 10-Gigabit Ethernet
+     15. Self-Study Topics
+     16. HDLC Protocol
+     17. IEEE 802.11 Wireless LAN
+
+  Total subjects: 6
+  Total topics  : 47
+
+======================================================================
+PDF: 6.40-N-Chemical-Engineering-Sem-III-IV.pdf
+======================================================================
+
+  [2073111] Chemical
+  --------------------------------------------------
+      1. Eigen values and Eigen vectors
+      2. Properties of Eigen
+      3. Similarity of matrices
+      4. Diagonalization of matrices
+      5. Applying to chemical engineering problems related
+      6. Eulers method
+      7. Kutta second Order method
+      8. Applications of Runge-Kutta Fourth order
+      9. Method and Adam Bashford Predictor
+     10. Corrector Method to chemical engineering
+     11. Forward and Backward difference operators ∆
+     12. Shift operator E
+     13. Relation between E
+
+  [2073115] Fluid Flow
+  --------------------------------------------------
+      1. Viscosity Properties of fluids, Viscosity and its Measurement. Various units of viscosity
+      2. Fluid Flow Phenomena Types of flow (Laminar/Turbulent), Reynolds experiment
+      3. Pumps Classification and types, power required and efficiency of various pumps. Characteristics of a pump
+
+  [2074112] Solid Fluid
+  --------------------------------------------------
+      1. Screening equipment – Vibrating screen
+      2. Grizzlies and Trommels
+      3. Size reduction of solids. Mechanism of size
+      4. Size reduction equipment – Jaw crusher
+      5. Hammer mill, Ball mill and Roll crusher
+      6. Solid mixing – Introduction to solid mixing
+      7. Mixing equipment for cohesive solids
+      8. Muller mixer and kneaders
+      9. Mixers for free flowing solids: Ribbon
+     10. Flow of a single fluid through a packed bed
+     11. Ergun’s equation
+     12. Fluidization: conditions for fluidization
+     13. Solid fluid
+     14. Sedimentation: Batch sedimentation. Kynch
+     15. Gas solid separation equipment: Cyclone
+     16. Storage of solids: Properties of particulate
+     17. Conveying, of solids: Belt conveyer, bucket
+
+  Total subjects: 3
+  Total topics  : 33

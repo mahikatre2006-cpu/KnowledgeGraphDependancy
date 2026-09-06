@@ -49,3 +49,5 @@ htmlcov/
 uploads/
 scratch/
 *.db
+*.KDG_PRD.md
+*.KDG_REPO_RETROFIT_PLAN.md

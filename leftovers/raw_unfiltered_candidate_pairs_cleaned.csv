@@ -1,0 +1,430 @@
+concept_a,concept_b,source_syllabus,Course_Code,course_name,order_delta,domain_match
+Cayley-Hamilton,Similarity of matrices,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1
+Cayley-Hamilton,Quadratic forms,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1
+Cayley-Hamilton,Linear and Non-Linear Programming Problems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1
+Cayley-Hamilton,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1
+Cayley-Hamilton,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1
+Similarity of matrices,Quadratic forms,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1
+Similarity of matrices,Linear and Non-Linear Programming Problems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1
+Similarity of matrices,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1
+Similarity of matrices,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Similarity of matrices,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1
+Similarity of matrices,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1
+Quadratic forms,Linear and Non-Linear Programming Problems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Quadratic forms,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1
+Quadratic forms,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1
+Quadratic forms,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Quadratic forms,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1
+Quadratic forms,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1
+Quadratic forms,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1
+Quadratic forms,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1
+Linear and Non-Linear Programming Problems,Types of solutions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Linear and Non-Linear Programming Problems,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1
+Linear and Non-Linear Programming Problems,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1
+Linear and Non-Linear Programming Problems,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Linear and Non-Linear Programming Problems,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1
+Linear and Non-Linear Programming Problems,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1
+Linear and Non-Linear Programming Problems,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1
+Types of solutions,Simplex method,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1
+Types of solutions,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,8,1
+Types of solutions,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1
+Types of solutions,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Types of solutions,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1
+Types of solutions,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1
+Simplex method,Artificial variables,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1
+Simplex method,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1
+Simplex method,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1
+Simplex method,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1
+Simplex method,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1
+Simplex method,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Simplex method,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1
+Artificial variables,Kuhn-Tucker conditions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Artificial variables,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1
+Artificial variables,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1
+Artificial variables,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1
+Artificial variables,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1
+Artificial variables,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Artificial variables,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1
+Kuhn-Tucker conditions,Modular Arithmetic,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Kuhn-Tucker conditions,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1
+Kuhn-Tucker conditions,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1
+Kuhn-Tucker conditions,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1
+Kuhn-Tucker conditions,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1
+Kuhn-Tucker conditions,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1
+Kuhn-Tucker conditions,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1
+Modular Arithmetic,Introduction to Congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Modular Arithmetic,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1
+Modular Arithmetic,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1
+Modular Arithmetic,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,8,1
+Modular Arithmetic,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1
+Modular Arithmetic,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1
+Introduction to Congruence,Linear congruence,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Introduction to Congruence,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1
+Introduction to Congruence,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1
+Introduction to Congruence,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1
+Introduction to Congruence,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1
+Introduction to Congruence,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1
+Linear congruence,Application of congruence-RSA algorithm,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1
+Linear congruence,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1
+Linear congruence,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Linear congruence,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1
+Linear congruence,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1
+Application of congruence-RSA algorithm,Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1
+Application of congruence-RSA algorithm,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1
+Application of congruence-RSA algorithm,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,8,1
+Application of congruence-RSA algorithm,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Application of congruence-RSA algorithm,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1
+Fourier Series,Fourier series of even and odd functions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1
+Fourier Series,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1
+Fourier Series,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1
+Fourier Series,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1
+Fourier Series,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,14,1
+Fourier series of even and odd functions,Complex form of Fourier Series,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Fourier series of even and odd functions,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1
+Fourier series of even and odd functions,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1
+Fourier series of even and odd functions,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Fourier series of even and odd functions,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1
+Fourier series of even and odd functions,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1
+Fourier series of even and odd functions,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,13,1
+Complex form of Fourier Series,Statistical Techniques,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1
+Complex form of Fourier Series,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1
+Complex form of Fourier Series,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1
+Complex form of Fourier Series,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Complex form of Fourier Series,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,11,1
+Complex form of Fourier Series,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,12,1
+Statistical Techniques,Lines of regression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1
+Statistical Techniques,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,7,1
+Statistical Techniques,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,8,1
+Statistical Techniques,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,9,1
+Statistical Techniques,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,10,1
+Lines of regression,Moment generating function,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1
+Lines of regression,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,4,1
+Lines of regression,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,5,1
+Lines of regression,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,6,1
+Moment generating function,Raw moments,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Moment generating function,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1
+Moment generating function,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,3,1
+Raw moments,Poisson Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Raw moments,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,2,1
+Poisson Distribution,Normal Distribution,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for,1,1
+Regular operations,Regular Expression,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Regular operations,Arden's theorem,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+Regular operations,Regular Language,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+Regular operations,Closure properties,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1
+Regular operations,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1
+Regular operations,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1
+Regular operations,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1
+Regular operations,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1
+Regular operations,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1
+Regular operations,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,11,1
+Regular operations,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,13,1
+Regular operations,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,14,1
+Regular Expression,Arden's theorem,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Regular Expression,Regular Language,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+Regular Expression,Closure properties,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+Regular Expression,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1
+Regular Expression,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1
+Regular Expression,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1
+Regular Expression,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1
+Regular Expression,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1
+Regular Expression,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1
+Regular Expression,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,12,1
+Regular Expression,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,13,1
+Arden's theorem,Regular Language,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Arden's theorem,Closure properties,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+Arden's theorem,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+Arden's theorem,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1
+Arden's theorem,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1
+Arden's theorem,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1
+Arden's theorem,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1
+Arden's theorem,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1
+Arden's theorem,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,11,1
+Arden's theorem,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,12,1
+Arden's theorem,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,14,1
+Regular Language,Closure properties,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Regular Language,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+Regular Language,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+Regular Language,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1
+Regular Language,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1
+Regular Language,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1
+Regular Language,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1
+Regular Language,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1
+Regular Language,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,11,1
+Regular Language,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,13,1
+Closure properties,Decision properties of RLs,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Closure properties,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+Closure properties,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+Closure properties,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1
+Closure properties,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1
+Closure properties,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1
+Closure properties,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1
+Closure properties,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1
+Closure properties,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,12,1
+Decision properties of RLs,Pumping lemma,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Decision properties of RLs,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+Decision properties of RLs,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1
+Decision properties of RLs,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1
+Decision properties of RLs,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1
+Decision properties of RLs,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1
+Decision properties of RLs,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1
+Decision properties of RLs,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,11,1
+Pumping lemma,RE in text search and replace,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Pumping lemma,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+Pumping lemma,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1
+Pumping lemma,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1
+Pumping lemma,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1
+Pumping lemma,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,8,1
+Pumping lemma,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,10,1
+RE in text search and replace,Languages in Compiler Design,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+RE in text search and replace,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+RE in text search and replace,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1
+RE in text search and replace,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1
+RE in text search and replace,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1
+RE in text search and replace,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,9,1
+Languages in Compiler Design,Text Processing,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Languages in Compiler Design,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1
+Languages in Compiler Design,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1
+Languages in Compiler Design,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,7,1
+Text Processing,Natural Language Processing (NLP),6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Text Processing,Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+Text Processing,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,4,1
+Text Processing,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,6,1
+Natural Language Processing (NLP),Nondeterministic Finite Automata (NFA): Definitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+Natural Language Processing (NLP),Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+Natural Language Processing (NLP),Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,5,1
+Nondeterministic Finite Automata (NFA): Definitions,Equivalence between NFA with and ϵ- transitions,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,1,1
+Nondeterministic Finite Automata (NFA): Definitions,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,3,1
+Equivalence between NFA with and ϵ- transitions,Minimization of DFA,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,2,1
+Open-source and Proprietary Operating System,Fundamentals of Distributed Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,1,1
+Open-source and Proprietary Operating System,Network Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,2,1
+Open-source and Proprietary Operating System,Mobile Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,7,1
+Open-source and Proprietary Operating System,Special-purpose Operating Systems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,9,1
+Fundamentals of Distributed Operating System,Network Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,1,1
+Fundamentals of Distributed Operating System,Mobile Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,6,1
+Fundamentals of Distributed Operating System,Special-purpose Operating Systems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,8,1
+Network Operating System,Mobile Operating System,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,5,1
+Network Operating System,Special-purpose Operating Systems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,7,1
+Mobile Operating System,Special-purpose Operating Systems,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating,2,1
+Inverse Laplace transform using Convolution theorem,Laplace transform using derivatives and its properties,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,6,1
+Inverse Laplace transform using Convolution theorem,Fourier Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,7,1
+Inverse Laplace transform using Convolution theorem,Hal Frange Sine and Cosine Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,13,1
+Laplace transform using derivatives and its properties,Fourier Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,1,1
+Laplace transform using derivatives and its properties,Hal Frange Sine and Cosine Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,7,1
+Fourier Series,Hal Frange Sine and Cosine Series,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied,6,1
+"Database System Concepts, Architecture",Characteristics of Databases,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1
+"Database System Concepts, Architecture",File system v/s Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1
+"Database System Concepts, Architecture",Data abstraction and Data Independence,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,3,1
+"Database System Concepts, Architecture",DBMS system,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,4,1
+"Database System Concepts, Architecture",Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,5,1
+"Database System Concepts, Architecture",Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,6,1
+Characteristics of Databases,File system v/s Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1
+Characteristics of Databases,Data abstraction and Data Independence,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1
+Characteristics of Databases,DBMS system,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,3,1
+Characteristics of Databases,Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,4,1
+Characteristics of Databases,Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,5,1
+File system v/s Database,Data abstraction and Data Independence,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1
+File system v/s Database,DBMS system,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1
+File system v/s Database,Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,3,1
+File system v/s Database,Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,4,1
+Data abstraction and Data Independence,DBMS system,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1
+Data abstraction and Data Independence,Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1
+Data abstraction and Data Independence,Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,3,1
+DBMS system,Database Administrator (DBA),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1
+DBMS system,Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,2,1
+Database Administrator (DBA),Role of DBA,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343113,Database,1,1
+Linear Transformations,Quadratic forms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344111,Applied,1,1
+Linear Transformations,Inverse of Transform by Binomial,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344111,Applied,6,1
+Quadratic forms,Inverse of Transform by Binomial,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344111,Applied,5,1
+System calls with examples for different OS,Scheduling Algorithms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,2,1
+System calls with examples for different OS,Deadlock detection and recovery,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,7,1
+System calls with examples for different OS,Replacement Algorithms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,11,1
+System calls with examples for different OS,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,13,1
+Scheduling Algorithms,Deadlock detection and recovery,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,5,1
+Scheduling Algorithms,Replacement Algorithms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,9,1
+Scheduling Algorithms,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,11,1
+Deadlock detection and recovery,Replacement Algorithms,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,4,1
+Deadlock detection and recovery,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,6,1
+Replacement Algorithms,Features of I/O facility for different OS,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344112,Operating System,2,1
+Structure of a switch,Space Division Switching,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Structure of a switch,Packet Switch,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Structure of a switch,Error Detection & Correction: basic concept,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1
+Structure of a switch,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1
+Structure of a switch,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1
+Structure of a switch,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1
+Structure of a switch,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1
+Structure of a switch,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1
+Structure of a switch,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1
+Space Division Switching,Packet Switch,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+Space Division Switching,Error Detection & Correction: basic concept,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1
+Space Division Switching,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1
+Space Division Switching,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1
+Space Division Switching,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1
+Space Division Switching,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1
+Space Division Switching,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1
+Space Division Switching,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1
+Space Division Switching,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1
+Packet Switch,Error Detection & Correction: basic concept,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+Packet Switch,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Packet Switch,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1
+Packet Switch,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1
+Packet Switch,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1
+Packet Switch,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1
+Packet Switch,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1
+Packet Switch,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1
+Error Detection & Correction: basic concept,Linear Block Code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Error Detection & Correction: basic concept,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+Error Detection & Correction: basic concept,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1
+Error Detection & Correction: basic concept,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1
+Error Detection & Correction: basic concept,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1
+Error Detection & Correction: basic concept,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1
+Error Detection & Correction: basic concept,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1
+Linear Block Code,CRC code,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Linear Block Code,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Linear Block Code,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1
+Linear Block Code,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1
+Linear Block Code,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1
+Linear Block Code,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1
+Linear Block Code,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1
+CRC code,Flow Control: Stop-and-Wait Flow Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+CRC code,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+CRC code,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1
+CRC code,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1
+CRC code,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1
+CRC code,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1
+Flow Control: Stop-and-Wait Flow Control,Sliding Window,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Flow Control: Stop-and-Wait Flow Control,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Flow Control: Stop-and-Wait Flow Control,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1
+Flow Control: Stop-and-Wait Flow Control,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1
+Flow Control: Stop-and-Wait Flow Control,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1
+Flow Control: Stop-and-Wait Flow Control,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1
+Flow Control: Stop-and-Wait Flow Control,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1
+Sliding Window,Error Control: Stop-and-Wait ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+Sliding Window,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Sliding Window,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1
+Sliding Window,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1
+Sliding Window,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1
+Sliding Window,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1
+Sliding Window,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1
+Error Control: Stop-and-Wait ARQ,Go-Back-N ARQ,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Error Control: Stop-and-Wait ARQ,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Error Control: Stop-and-Wait ARQ,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1
+Error Control: Stop-and-Wait ARQ,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1
+Error Control: Stop-and-Wait ARQ,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1
+Error Control: Stop-and-Wait ARQ,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1
+Error Control: Stop-and-Wait ARQ,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1
+Error Control: Stop-and-Wait ARQ,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1
+Go-Back-N ARQ,Medium Access Control,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+Go-Back-N ARQ,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1
+Go-Back-N ARQ,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1
+Go-Back-N ARQ,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1
+Go-Back-N ARQ,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1
+Go-Back-N ARQ,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,12,1
+Go-Back-N ARQ,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1
+Medium Access Control,Link Layer Addressing,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1
+Medium Access Control,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1
+Medium Access Control,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1
+Medium Access Control,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1
+Medium Access Control,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,10,1
+Medium Access Control,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,11,1
+Medium Access Control,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,13,1
+Medium Access Control,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,14,1
+Link Layer Addressing,Ethernet Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+Link Layer Addressing,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Link Layer Addressing,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1
+Link Layer Addressing,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1
+Link Layer Addressing,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1
+Link Layer Addressing,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,8,1
+Link Layer Addressing,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,9,1
+Ethernet Protocol,Standard Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Ethernet Protocol,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+Ethernet Protocol,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Ethernet Protocol,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1
+Ethernet Protocol,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1
+Ethernet Protocol,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,7,1
+Standard Ethernet,Fast Ethernet (100 Mbps),6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Standard Ethernet,Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+Standard Ethernet,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Standard Ethernet,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1
+Standard Ethernet,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,6,1
+Fast Ethernet (100 Mbps),Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Fast Ethernet (100 Mbps),10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+Fast Ethernet (100 Mbps),HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1
+Fast Ethernet (100 Mbps),IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,5,1
+Gigabit Ethernet,10-Gigabit Ethernet,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Gigabit Ethernet,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+Gigabit Ethernet,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,4,1
+10-Gigabit Ethernet,HDLC Protocol,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,2,1
+10-Gigabit Ethernet,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,3,1
+HDLC Protocol,IEEE 802.11 Wireless LAN,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344113,Computer Network,1,1
+Text Books,Packet analysis with Wire shark,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2344115,Network Design,6,1
+ChatGPT-like models,Search Techniques,SEM-V.pdf,2165112,Artificial,3,1
+Agile Quality,"Agile Metrics, Agile Approach to Quality",SEM-V.pdf,2165113,Agile Software,1,1
+Agile Quality,"Testing: Functionality Testing, UI Testing",SEM-V.pdf,2165113,Agile Software,2,1
+Agile Quality,Testing: Principles of Agile Testers,SEM-V.pdf,2165113,Agile Software,4,1
+Agile Quality,"Testing Quadrants, Test Driven Development",SEM-V.pdf,2165113,Agile Software,6,1
+"Agile Metrics, Agile Approach to Quality","Testing: Functionality Testing, UI Testing",SEM-V.pdf,2165113,Agile Software,1,1
+"Agile Metrics, Agile Approach to Quality",Testing: Principles of Agile Testers,SEM-V.pdf,2165113,Agile Software,3,1
+"Agile Metrics, Agile Approach to Quality","Testing Quadrants, Test Driven Development",SEM-V.pdf,2165113,Agile Software,5,1
+"Agile Metrics, Agile Approach to Quality","Agility, DevOps and Continuous Testing",SEM-V.pdf,2165113,Agile Software,14,1
+"Testing: Functionality Testing, UI Testing",Testing: Principles of Agile Testers,SEM-V.pdf,2165113,Agile Software,2,1
+"Testing: Functionality Testing, UI Testing","Testing Quadrants, Test Driven Development",SEM-V.pdf,2165113,Agile Software,4,1
+"Testing: Functionality Testing, UI Testing","Agility, DevOps and Continuous Testing",SEM-V.pdf,2165113,Agile Software,13,1
+Testing: Principles of Agile Testers,"Testing Quadrants, Test Driven Development",SEM-V.pdf,2165113,Agile Software,2,1
+Testing: Principles of Agile Testers,"Agility, DevOps and Continuous Testing",SEM-V.pdf,2165113,Agile Software,11,1
+"Testing Quadrants, Test Driven Development","Agility, DevOps and Continuous Testing",SEM-V.pdf,2165113,Agile Software,9,1
+"Testing Quadrants, Test Driven Development",Source Tools in DevOps,SEM-V.pdf,2165113,Agile Software,13,1
+"Agility, DevOps and Continuous Testing",Source Tools in DevOps,SEM-V.pdf,2165113,Agile Software,4,1
+"Agility, DevOps and Continuous Testing",Text Books,SEM-V.pdf,2165113,Agile Software,9,1
+Source Tools in DevOps,Text Books,SEM-V.pdf,2165113,Agile Software,5,1
+1/blob/master/book/Practical%20DevOps.pdf,University of Mumbai,SEM-V.pdf,2165113,Agile Software,12,1
+University of Mumbai,(b) must be from any other Module,SEM-V.pdf,2165113,Agile Software,10,1
+Custom Hooks creation,Low-code/No-code development,SEM-V.pdf,2165114,Web and,2,1
+User Experience,Design with VR,SEM-V.pdf,2165115,User Experience,1,1
+Supervised Learning,Learning Techniques,SEM-V.pdf,2166111,Machine,2,1
+Supervised Learning,Multi-class SVMs,SEM-V.pdf,2166111,Machine,4,1
+Supervised Learning,Principal Component Analysis,SEM-V.pdf,2166111,Machine,6,1
+Supervised Learning,Model Accuracy,SEM-V.pdf,2166111,Machine,9,1
+Learning Techniques,Multi-class SVMs,SEM-V.pdf,2166111,Machine,2,1
+Learning Techniques,Principal Component Analysis,SEM-V.pdf,2166111,Machine,4,1
+Learning Techniques,Model Accuracy,SEM-V.pdf,2166111,Machine,7,1
+Multi-class SVMs,Principal Component Analysis,SEM-V.pdf,2166111,Machine,2,1
+Multi-class SVMs,Model Accuracy,SEM-V.pdf,2166111,Machine,5,1
+Principal Component Analysis,Model Accuracy,SEM-V.pdf,2166111,Machine,3,1
+Introduction to Data Analytics,Data Analytics life cycle,SEM-V.pdf,2166112,Data Analytics,3,1
+Introduction to Data Analytics,Types of analytics,SEM-V.pdf,2166112,Data Analytics,5,1
+Introduction to Data Analytics,Data Analytics,SEM-V.pdf,2166112,Data Analytics,10,1
+Data Analytics life cycle,Types of analytics,SEM-V.pdf,2166112,Data Analytics,2,1
+Data Analytics life cycle,Data Analytics,SEM-V.pdf,2166112,Data Analytics,7,1
+Types of analytics,Data Analytics,SEM-V.pdf,2166112,Data Analytics,5,1
+Block Ciphers,Digital Certificates,SEM-V.pdf,2166114,Security,2,1
+Block Ciphers,Real-World Case Studies,SEM-V.pdf,2166114,Security,4,1
+Block Ciphers,Secure Coding Practices,SEM-V.pdf,2166114,Security,6,1
+Digital Certificates,Real-World Case Studies,SEM-V.pdf,2166114,Security,2,1
+Digital Certificates,Secure Coding Practices,SEM-V.pdf,2166114,Security,4,1
+Real-World Case Studies,Secure Coding Practices,SEM-V.pdf,2166114,Security,2,1
+Metrics: Measuring performance,Convergence Speed,SEM-V.pdf,2166115,Nature-,2,1
+Metrics: Measuring performance,Evolution Strategies and Evolutionary Programming,SEM-V.pdf,2166115,Nature-,8,1
+Metrics: Measuring performance,Edge Systems: Application in feature selection,SEM-V.pdf,2166115,Nature-,11,1
+Metrics: Measuring performance,Edge resource optimization,SEM-V.pdf,2166115,Nature-,14,1
+Convergence Speed,Evolution Strategies and Evolutionary Programming,SEM-V.pdf,2166115,Nature-,6,1
+Convergence Speed,Edge Systems: Application in feature selection,SEM-V.pdf,2166115,Nature-,9,1
+Convergence Speed,Edge resource optimization,SEM-V.pdf,2166115,Nature-,12,1
+Evolution Strategies and Evolutionary Programming,Edge Systems: Application in feature selection,SEM-V.pdf,2166115,Nature-,3,1
+Evolution Strategies and Evolutionary Programming,Edge resource optimization,SEM-V.pdf,2166115,Nature-,6,1
+Edge Systems: Application in feature selection,Edge resource optimization,SEM-V.pdf,2166115,Nature-,3,1
+Enhancement techniques,Morphological watersheds,SEM-V.pdf,2166117,Digital Imaging,4,1
+"Blockchain, UTXO and double spending problem",Common security threats in Blockchain,SEM-V.pdf,2166118,Blockchain,1,1
+"Blockchain, UTXO and double spending problem",Cryptocurrency Valuation Models,SEM-V.pdf,2166118,Blockchain,4,1
+"Blockchain, UTXO and double spending problem",Models on Blockchain: decentralized AI,SEM-V.pdf,2166118,Blockchain,10,1
+Common security threats in Blockchain,Cryptocurrency Valuation Models,SEM-V.pdf,2166118,Blockchain,3,1
+Common security threats in Blockchain,Models on Blockchain: decentralized AI,SEM-V.pdf,2166118,Blockchain,9,1
+Cryptocurrency Valuation Models,Models on Blockchain: decentralized AI,SEM-V.pdf,2166118,Blockchain,6,1
+Models on Blockchain: decentralized AI,Text Books,SEM-V.pdf,2166118,Blockchain,10,1
+Text Books,"Depth: Learn, Build and Deploy Blockchain",SEM-V.pdf,2166118,Blockchain,11,1
+Smart City (Parking or Waste Management),Connected Car System,SEM-V.pdf,2166121,Internet of Things,1,1
+Smart City (Parking or Waste Management),Smart Agriculture (Irrigation or Environmental Monitoring),SEM-V.pdf,2166121,Internet of Things,2,1
+Connected Car System,Smart Agriculture (Irrigation or Environmental Monitoring),SEM-V.pdf,2166121,Internet of Things,1,1
+IoT data processing,Task offloading strategies: local vs cloud,SEM-V.pdf,2166124,Edge Computing,1,1
+IoT data processing,Edge and Fog Computing platforms and Services,SEM-V.pdf,2166124,Edge Computing,2,1
+Task offloading strategies: local vs cloud,Edge and Fog Computing platforms and Services,SEM-V.pdf,2166124,Edge Computing,1,1

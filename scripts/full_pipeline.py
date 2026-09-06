@@ -99,12 +99,173 @@ _NOISE_PATS = [
     re.compile(r'^self-learning$', re.I),
     re.compile(r'^only\s+up\s+to', re.I),            # math denominator noise
     re.compile(r'^\(without\s*proof\)$', re.I),
+
+    # ── New: textbook / reference list lines ─────────────────────────────────
+    # "Text Books", "Text Books and References", "Online References"
+    re.compile(r'^text\s*books?(\s*(and\s*)?references?)?:?\s*$', re.I),
+    re.compile(r'^online\s+references?:?\s*$', re.I),
+    re.compile(r'^(books?\s*)?references?:?\s*$', re.I),
+    re.compile(r'^suggested\s+(list|reading)', re.I),
+    # Lines that look like bibliographic citations: "Author, Title, Publisher, Year"
+    # Heuristic: contains 2+ of (edition, publication, press, publisher, vol, ISBN)
+    re.compile(r'\b(edition|publication|press|publisher|vol\.|ISBN|reprint)\b', re.I),
+    # Publisher name fragments
+    re.compile(r'\b(McGraw[\s\-]?Hill|Pearson|Wiley|PHI|BPB|Springer|Oxford|Cambridge|'
+               r'Tata\s*McGraw|Khanna|Narosa|Prentice[\s\-]?Hall|PACKT|Cengage|'
+               r'Elsevier|CRC\s*Press|Addison[\s\-]?Wesley|O\'Reilly|Manning)\b', re.I),
+    # "by Author Name" pattern — "by Behrouz A. Forouzan"
+    re.compile(r'\bby\s+[A-Z][a-z]+(\s+[A-Z]\.?)?\s+[A-Z][a-z]+', re.I),
+
+    # ── New: exam / assessment scheme bleed-in ────────────────────────────────
+    re.compile(r'internal\s+assessment', re.I),
+    re.compile(r'question\s+paper\s+(format|will|comprise)', re.I),
+    re.compile(r'term\s+work\s+(shall|marks|consists?)', re.I),
+    re.compile(r'\bIA\s+will\s+consist', re.I),
+    re.compile(r'compulsory\s+internal\s+assessment', re.I),
+    re.compile(r'syllabus\s+content\s+must\s+be\s+covered', re.I),
+    re.compile(r'oral\s+exam\s+will\s+be\s+held', re.I),
+    re.compile(r'(university|mumbai)\s+of\s+mumbai', re.I),
+    re.compile(r'^rev\d{4}\s+scheme', re.I),
+
+    # ── New: mini-project / capstone guidelines prose ─────────────────────────
+    re.compile(r'students?\s+shall\s+(form|submit|understand|complete)', re.I),
+    re.compile(r'faculty\s+(supervisor|guide)', re.I),
+    re.compile(r'capstone\s+(mini|project)', re.I),
+    re.compile(r'gantt\s*/\s*pert', re.I),
+    re.compile(r'log\s*book\s+to\s+be\s+prepared', re.I),
+    re.compile(r'(assessment|evaluation)\s+criteria\s+of', re.I),
+    re.compile(r'guidelines\s+for\s+(labs?|assessment|capstone|conducting)', re.I),
+    re.compile(r'two\s+reviews\s+will\s+be\s+conducted', re.I),
+
+    # ── New: URL/domain fragments without http ────────────────────────────────
+    re.compile(r'\b\w+\.(org|com|edu|net|gov)/\S*'),
+
+    # ── New: self-learning preamble fragments ─────────────────────────────────
+    # "Self-learning Topics: Derogatory and non" (truncated line)
+    re.compile(r'^(self[\s-]?learning|learning)\s+topics?:', re.I),
+    # "learning Topics: Cauchy"  — starts with "learning Topics"
+    re.compile(r'^learning\s+topics?:', re.I),
+    # "Note: No questions will be asked..."
+    re.compile(r'^note:\s*no\s+questions', re.I),
+    re.compile(r'students\s+are\s+encouraged\s+to\s+explore', re.I),
+
+    # ── New: mid-sentence fragment detection ─────────────────────────────────
+    # Starts with a bare lowercase conjunction/preposition (not a topic opener)
+    re.compile(r'^(and|or|of|in|to|for|with|from|by|on|at|as|but|nor|so|yet|'
+               r'involving|including|using|through|than|that|which|where|when|'
+               r'however|thus|hence|therefore|also|moreover|furthermore|'
+               r'derogatory|repeated|degree)\b', re.I),
+    # Ends with a dangling preposition/conjunction indicating page-wrap split
+    re.compile(r'\b(and|or|of|in|to|for|with|from|by|on|at|as|the|a|an|'
+               r'types|methods|applications|introduction|'
+               r'concepts|properties|overview|principles)\s*[.,]?\s*$', re.I),
+    # Starts with "(" — likely a parenthetical fragment "(up to 2nd order"
+    re.compile(r'^\((?!e\.g\.|i\.e\.)'),
+
+    # ── New: Website/URL name labels ─────────────────────────────────────────
+    re.compile(r'^website\s+name', re.I),
+    re.compile(r'^online\s+ref', re.I),
+
+    # ── New: additional missed publishers ────────────────────────────────────
+    re.compile(r'\b(Harper\s*Business|Penguin\s*Random\s*House|Random\s*House|'
+               r'Reprint\s*Edition|First\s*Edition|Second\s*Edition|Third\s*Edition|'
+               r'4th\s*Edition|7th\s*Edition|8th\s*Edition|'
+               r'BPB\s*Publication|PACKT\s*publishing)\b', re.I),
+
+    # ── New: em-dash / en-dash book citation  "Title" – Author Name ──────────
+    # e.g. '"Innovation and Entrepreneurship" – Peter F. Drucker'
+    re.compile(r'["\u201c\u201d].{5,80}["\u201c\u201d]\s*[\u2013\u2014\-]\s*[A-Z]'),
+    # bare em-dash followed by a name: "– Poornima M", "– Rajeev Roy"
+    re.compile(r'^[\u2013\u2014]\s*[A-Z][a-z]'),
+
+    # ── New: author-name-only lines ──────────────────────────────────────────
+    # 2-3 Title Case words with no technical content, possibly with "Dr." / "Prof."
+    # Matches: "Singh Rathore", "Anish Nath", "Pavan Soni", "Dr. Ritu Bhargava"
+    re.compile(r'^(Dr\.|Prof\.|Mr\.|Ms\.|Mrs\.)?\s*[A-Z][a-z]+(\s+[A-Z][A-Z]?\.)?\s+[A-Z][a-z]+$'),
+    # Publisher/person line with trailing initial: "Poornima M"
+    re.compile(r'^[A-Z][a-z]+\s+[A-Z]\.?\s*$'),
+
+    # ── New: Self -Learning (space variant) ──────────────────────────────────
+    re.compile(r'^self\s+-\s*learning\s*topics?', re.I),
+    re.compile(r'^self\s*-?\s*learning$', re.I),
+
+    # ── New: special bullet / exam bleed chars ────────────────────────────────
+    # Lines starting with ⮚, ●, ○, o followed by space (checkbox/bullet)
+    re.compile(r'^[\u2022\u25cf\u25cb\u2192\u27a4\u2BAB\u25ba\u2912]'),  # bullet symbols
+    re.compile(r'^\s*o\s+[A-Z]'),   # "o Identification of need/problem"
+    # "compulsory and should cover maximum contents"
+    re.compile(r'compulsory\s+and\s+should\s+cover', re.I),
+    # "A total of four questions need to be answered"
+    re.compile(r'total\s+of\s+\w+\s+questions\s+need', re.I),
+    re.compile(r'questions?\s+need\s+to\s+be\s+answered', re.I),
+    # Review/progress monitoring committee
+    re.compile(r'review\s*/?\s*progress\s+monitoring', re.I),
+    # "project as mentioned in general guidelines"
+    re.compile(r'as\s+mentioned\s+in\s+(general\s+)?guidelines', re.I),
+
+    # ── New: lines that are only noise trailing fragments ─────────────────────
+    # Ends with ")" suggesting split: "differential equation)", "Master theorem)"
+    re.compile(r'\)\s*$'),
+    # Starts with lowercase — strongest fragment signal (after all other checks)
+    re.compile(r'^[a-z]'),
+
+    # ── New: "Second Year Chemical Engineering", university/scheme labels ─────
+    re.compile(r'^(first|second|third|final)\s+year\s+\w+\s+engineering', re.I),
+    re.compile(r'^REV\d{4}', re.I),
+
+    # ── New: Assignment / Quiz / Exam questions (Q1:, Q2:, etc.) ─────────────
+    re.compile(r'^(Q\d+|Question\s*\d*|Que\.?\s*\d*)\s*[:\.\-]', re.I),
+
+    # ── New: Residual citations with '&' + name or author pair ───────────────
+    re.compile(r'[A-Z][a-z]+.*&\s*(Dr\.|Prof\.)?\s*[A-Z][a-z]+'),
+    re.compile(r'\b(and|&)\s+(Dr\.|Prof\.)\s+[A-Z][a-z]+', re.I),
+    re.compile(r'&\s*$'),                                       # ends with dangling '&'
+    re.compile(r'\bet\s+al\b', re.I),
+    re.compile(r'\b(O[\'’]?Reilly|Universities\s*Press|Packt|Beginner\'s\s*Guide|Learn,\s*Build)\b', re.I),
+    re.compile(r'[\u201c\u201d\u2018\u2019"\'\u0093\u0094\ufffd](Mastering|Building|Solidity|Blockchain|Ethereum)', re.I),
+
+    # ── New: Grading scale / appendix bleed-in ────────────────────────────────
+    re.compile(r'\b(letter\s+grades?|grade\s+points?|semester\s+gpa|cgpa|faculty\s+of)\b', re.I),
+
+    # ── New: Question Paper / Exam instructions bleed-in ─────────────────────
+    re.compile(r'\b(note\s+for\s+qp|qp\s+setters?|question\s+paper\s+should)\b', re.I),
+    re.compile(r'\b(date\s+of\s+exam|duration:\s*\d+|max\.?\s*marks)\b', re.I),
+    re.compile(r'\b(question\s+\d+\s+is\s+compulsory|remaining\s+questions)\b', re.I),
+    re.compile(r'\bpart\s*\([a-z]\)\s*and\s*part\s*\([a-z]\)', re.I),
+    re.compile(r'\b(all\s+cos\s+should\s+be\s+mapped|module\s+weightage)\b', re.I),
+
+    # ── New: Bibliographic citations & author formats ─────────────────────────
+    re.compile(r'^[A-Z][a-z]+\s+[A-Z]\.?\s+[A-Z][a-z]+,\s*["\u201c\u201d\u2018\u2019\u2015]'),
+    re.compile(r'^[A-Z][a-z]+\s+[A-Z][a-z]+,\s*[A-Z][a-z]+\s+[A-Z][a-z]+\b'),
+    re.compile(r'^[A-Z][a-z]+(\s+[A-Z]\.?)?\s+[A-Z][a-z]+\s+and\s+[A-Z][a-z]+', re.I),
+    re.compile(r'\b(Addison[\s\-]?Wesley|O[\'’]?Reilly|Prentice[\s\-]?Hall|Pearson|McGraw)\b', re.I),
+    re.compile(r'\.pdf\b', re.I),
+    re.compile(r'\b(Practitioner\'s\s*Viewpoint|Manager[’\']s\s*Guide)\b', re.I),
+    re.compile(r'["\u201c\u201d\u2018\u2019\u2015][A-Z].{8,80}["\u201c\u201d\u2018\u2019\u2015]'),
+    re.compile(r',\s*[A-Z][a-z]+\s+[A-Z][a-z]+\s*$'),  # ends with ", Author Name" e.g. ", Sondra Ashmore"
+    re.compile(r'^[A-Z][a-z]+\s+[A-Z][a-z]+,\s*[A-Z]\s+[A-Z][a-z]+'),  # "Christian Vecchiola, S ThamaraiSelvi"
+
+    # ── New: NPTEL, Online tutorials, and IIT/institution affiliations ───────
+    re.compile(r'\b(NPTEL|W3Schools?|Coursera|edX|GeeksforGeeks|TutorialsPoint)\b', re.I),
+    re.compile(r'\b(IIT|NIT|IIIT)\s+[A-Z][a-z]+', re.I),
+    re.compile(r'\|\s*(IIT|NIT|IIIT|University)', re.I),
+    re.compile(r'\b(Thomson\s*Learning|Thomson)\b', re.I),
+    re.compile(r'\b\d+(st|nd|rd|th)\s*Edition\b', re.I),
+
+    # ── New: Exam marks / internal assessment scheme strings ──────────────────
+    re.compile(r'end\s*semester\s*(internal\s*)?exam', re.I),
+    re.compile(r'internal\s*examination', re.I),
+    re.compile(r'\bfor\s+\d+\s*marks\b', re.I),
+    re.compile(r'^self[\s\-]learning\s*(topics?|toics?):?', re.I),
+    re.compile(r'^self[\s\-]learning\s*:', re.I),
+    re.compile(r'([A-Z][a-z]+,\s+){2,}[A-Z]'),                     # 3+ comma-separated names
+    re.compile(r'[\u2015\u2014]\s*[A-Z]'),                        # horizontal bar / em-dash title separator
 ]
 
 
 def is_noise(text: str) -> bool:
     t = text.strip()
-    if not t or len(t) < 5 or len(t) > 150:
+    if not t or len(t) < 6 or len(t) > 150:
         return True
     if re.fullmatch(r'[\d\s\-\u2013\u2014\.\,\(\)\*\+\/]+', t):
         return True
@@ -112,6 +273,17 @@ def is_noise(text: str) -> bool:
     words = re.findall(r'[A-Za-z]{3,}', t)
     if len(words) < 2:
         return True
+    # Prose sentence: more than 15 words is too long to be a topic name
+    all_words = t.split()
+    if len(all_words) > 15:
+        return True
+    # Question prompts (e.g. Q1:, Q2:, What is..., etc.)
+    if re.match(r'^(Q\d+|Question\s*\d*|Que\.?\s*\d*)\s*[:\.\-]', t, re.I):
+        return True
+    # Residual citation with '&' (e.g. "Author A & Dr. Author B")
+    if '&' in t and re.search(r'\b(Dr\.|Prof\.|[A-Z][a-z]+)\b', t):
+        if re.search(r'(&|\band\b)\s+(Dr\.|Prof\.)?\s*[A-Z][a-z]+', t):
+            return True
     for pat in _NOISE_PATS:
         if pat.search(t):
             return True
@@ -120,8 +292,9 @@ def is_noise(text: str) -> bool:
 
 def clean_topic(text: str) -> str:
     t = text.strip()
-    # Strip leading numbering: "1.", "I.", "a)", "(2)", "•", "-"
+    # Strip leading numbering: "1.", "I.", "a)", "(2)", "3 ", "•", "-"
     t = re.sub(r'^[\d]+[\.\)]\s*', '', t)
+    t = re.sub(r'^\d+\s+', '', t)
     t = re.sub(r'^[ivxlcdmIVXLCDM]+[\.\)]\s*', '', t)
     t = re.sub(r'^[•\-–—\*►▶◆]\s*', '', t)
     # Strip trailing hours/marks e.g. "(5 hrs)", "[CO1]", "CO1,CO2"
@@ -318,6 +491,7 @@ def extract_course_blocks_from_pdf(pdf_path: Path) -> List[Tuple[str, str, List[
 
             # Extract course name: look for meaningful text near the code
             name = ""
+            name_parts = []
             lines = [l.strip() for l in text.split('\n') if l.strip()]
             code_seen = False
             for line in lines:
@@ -328,7 +502,16 @@ def extract_course_blocks_from_pdf(pdf_path: Path) -> List[Tuple[str, str, List[
                     if not re.fullmatch(r'[\d\s\-–—\.\,]+', line):
                         if not re.match(r'^(course\s*code|theory|practical|tutorial|teaching|credits|exam|test|iat)', line, re.I):
                             name = line
+                if code_seen:
+                    if re.match(r'^(course\s*code|theory|practical|tutorial|teaching|credits|exam|test|iat|\-|\–|\—|\d+$)', line, re.I):
+                        if name_parts:
                             break
+                        continue
+                    if len(line) > 2 and len(line) < 100 and not re.fullmatch(r'[\d\s\-–—\.\,]+', line):
+                        name_parts.append(line)
+                        if len(name_parts) >= 3 or re.search(r'\b(Lab|Laboratory|Project|Workshop)\b', line, re.I):
+                            break
+            name = " ".join(name_parts)
 
             subject_pages.append((i, code, name or f"Subject_{code}"))
 
@@ -342,12 +525,21 @@ def extract_course_blocks_from_pdf(pdf_path: Path) -> List[Tuple[str, str, List[
 
     # Step 2: For each subject, collect DETAILED SYLLABUS content from subsequent pages
     results = []
+    _SKIP_SUBJECT_RE = re.compile(
+        r'\b(mini[\s\-]?project|capstone|lab\b|laboratory|workshop|'
+        r'term\s*work|practical\s*exam|oral\s*exam|project\s*work)\b',
+        re.I
+    )
     for k, (header_pg, code, name) in enumerate(unique_subjects):
         # Search range: from header page to the next subject's header page (max 10 pages)
         next_header_pg = unique_subjects[k + 1][0] if k + 1 < len(unique_subjects) else len(pages_text)
         search_end = min(header_pg + 10, next_header_pg, len(pages_text))
         next_pg = unique_subjects[k + 1][0] if k + 1 < len(unique_subjects) else len(pages_text)
         search_end = min(header_pg + 12, next_pg, len(pages_text))
+        # Skip Mini-Project, Lab, Workshop subjects — they contain only guidelines text
+        if _SKIP_SUBJECT_RE.search(name):
+            print(f"    [{code}] {name[:55]:<55}: SKIPPED (lab/project subject)")
+            continue
 
         topics: List[str] = []
 

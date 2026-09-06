@@ -1,0 +1,42 @@
+[
+  {
+    "code": "2073111",
+    "name": "Chemical Engineering Mathematics",
+    "topics": [
+      "Properties of Eigen",
+      "Similarity of matrices",
+      "Diagonalization of matrices",
+      "Applying to chemical engineering problems related",
+      "Eulers method",
+      "Kutta second Order method",
+      "Applications of Runge-Kutta Fourth order",
+      "Method and Adam Bashford Predictor",
+      "Corrector Method to chemical engineering",
+      "Forward and Backward difference operators \u2206",
+      "Shift operator E",
+      "Relation between E"
+    ]
+  },
+  {
+    "code": "2074112",
+    "name": "Solid Fluid Mechanical Operations",
+    "topics": [
+      "Screening equipment \u2013 Vibrating screen",
+      "Grizzlies and Trommels",
+      "Size reduction of solids. Mechanism of size",
+      "Size reduction equipment \u2013 Jaw crusher",
+      "Hammer mill, Ball mill and Roll crusher",
+      "Solid mixing \u2013 Introduction to solid mixing",
+      "Mixing equipment for cohesive solids",
+      "Mixers for free flowing solids: Ribbon",
+      "Flow of a single fluid through a packed bed",
+      "Ergun\u2019s equation",
+      "Fluidization: conditions for fluidization",
+      "Solid fluid",
+      "Sedimentation: Batch sedimentation. Kynch",
+      "Gas solid separation equipment: Cyclone",
+      "Storage of solids: Properties of particulate",
+      "Conveying, of solids: Belt conveyer, bucket"
+    ]
+  }
+]

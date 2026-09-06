@@ -1,0 +1,220 @@
+{
+  "dataset": "cross_domain_test.csv",
+  "n_samples": 250,
+  "n_positives": 100,
+  "n_negatives": 150,
+  "baseline_threshold_0_50": {
+    "threshold": 0.5,
+    "precision": 0.8864,
+    "recall": 0.39,
+    "f1": 0.5417,
+    "accuracy": 0.736,
+    "true_negatives": 145,
+    "false_positives": 5,
+    "false_negatives": 61,
+    "true_positives": 39,
+    "confusion_matrix": [
+      [
+        145,
+        5
+      ],
+      [
+        61,
+        39
+      ]
+    ]
+  },
+  "threshold_evaluations": [
+    {
+      "threshold": 0.3,
+      "precision": 0.8511,
+      "recall": 0.4,
+      "f1": 0.5442,
+      "accuracy": 0.732,
+      "true_negatives": 143,
+      "false_positives": 7,
+      "false_negatives": 60,
+      "true_positives": 40,
+      "confusion_matrix": [
+        [
+          143,
+          7
+        ],
+        [
+          60,
+          40
+        ]
+      ]
+    },
+    {
+      "threshold": 0.35,
+      "precision": 0.8696,
+      "recall": 0.4,
+      "f1": 0.5479,
+      "accuracy": 0.736,
+      "true_negatives": 144,
+      "false_positives": 6,
+      "false_negatives": 60,
+      "true_positives": 40,
+      "confusion_matrix": [
+        [
+          144,
+          6
+        ],
+        [
+          60,
+          40
+        ]
+      ]
+    },
+    {
+      "threshold": 0.4,
+      "precision": 0.8667,
+      "recall": 0.39,
+      "f1": 0.5379,
+      "accuracy": 0.732,
+      "true_negatives": 144,
+      "false_positives": 6,
+      "false_negatives": 61,
+      "true_positives": 39,
+      "confusion_matrix": [
+        [
+          144,
+          6
+        ],
+        [
+          61,
+          39
+        ]
+      ]
+    },
+    {
+      "threshold": 0.45,
+      "precision": 0.8864,
+      "recall": 0.39,
+      "f1": 0.5417,
+      "accuracy": 0.736,
+      "true_negatives": 145,
+      "false_positives": 5,
+      "false_negatives": 61,
+      "true_positives": 39,
+      "confusion_matrix": [
+        [
+          145,
+          5
+        ],
+        [
+          61,
+          39
+        ]
+      ]
+    },
+    {
+      "threshold": 0.5,
+      "precision": 0.8864,
+      "recall": 0.39,
+      "f1": 0.5417,
+      "accuracy": 0.736,
+      "true_negatives": 145,
+      "false_positives": 5,
+      "false_negatives": 61,
+      "true_positives": 39,
+      "confusion_matrix": [
+        [
+          145,
+          5
+        ],
+        [
+          61,
+          39
+        ]
+      ]
+    },
+    {
+      "threshold": 0.55,
+      "precision": 0.9286,
+      "recall": 0.39,
+      "f1": 0.5493,
+      "accuracy": 0.744,
+      "true_negatives": 147,
+      "false_positives": 3,
+      "false_negatives": 61,
+      "true_positives": 39,
+      "confusion_matrix": [
+        [
+          147,
+          3
+        ],
+        [
+          61,
+          39
+        ]
+      ]
+    },
+    {
+      "threshold": 0.6,
+      "precision": 0.9268,
+      "recall": 0.38,
+      "f1": 0.539,
+      "accuracy": 0.74,
+      "true_negatives": 147,
+      "false_positives": 3,
+      "false_negatives": 62,
+      "true_positives": 38,
+      "confusion_matrix": [
+        [
+          147,
+          3
+        ],
+        [
+          62,
+          38
+        ]
+      ]
+    }
+  ],
+  "qualifying_thresholds_precision_ge_80_higher_recall": [
+    {
+      "threshold": 0.3,
+      "precision": 0.8511,
+      "recall": 0.4,
+      "f1": 0.5442,
+      "accuracy": 0.732,
+      "true_negatives": 143,
+      "false_positives": 7,
+      "false_negatives": 60,
+      "true_positives": 40,
+      "confusion_matrix": [
+        [
+          143,
+          7
+        ],
+        [
+          60,
+          40
+        ]
+      ]
+    },
+    {
+      "threshold": 0.35,
+      "precision": 0.8696,
+      "recall": 0.4,
+      "f1": 0.5479,
+      "accuracy": 0.736,
+      "true_negatives": 144,
+      "false_positives": 6,
+      "false_negatives": 60,
+      "true_positives": 40,
+      "confusion_matrix": [
+        [
+          144,
+          6
+        ],
+        [
+          60,
+          40
+        ]
+      ]
+    }
+  ]
+}

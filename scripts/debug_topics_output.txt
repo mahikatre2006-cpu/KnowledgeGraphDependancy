@@ -1,0 +1,580 @@
+
+======================================================================
+PDF: 6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf
+======================================================================
+
+  [2343111] Applied
+  --------------------------------------------------
+      1. (only up to s3 in denominator)
+      2. Inverse Laplace transform using Convolution theorem
+      3. Applications to solve initial and boundary value problems
+      4. involving ordinary differential equations (up to 2nd order
+      5. differential equation)
+      6. learning Topics: Partial fractions method to find
+      7. inverse Laplace transform. (with s4 in denominator), Inverse
+      8. Laplace transform using derivatives and its properties
+      9. Fourier Series
+     10. Dirichlet’s conditions, Definition of Fourier series and
+     11. Parseval’s Identity (without proof) Fourier series of periodic
+     12. function with period2  and2l
+     13. Fourier series of even and odd functions (simple functions
+     14. only, piecewise continuous function not to be included)
+     15. Hal Frange Sine and Cosine Series
+     16. learning Topics: Complex form of Fourier Series
+     17. orthogonal and orthonormal set of functions, Fourier
+     18. Analytic function, necessary and sufficient conditions for
+     19. f(z) to be analytic (without proof)
+     20. (without proof, Polar form not included)
+     21. Thomson method to determine analytic function
+     22. f(z) when real (u)or imaginary part (v) is given
+     23. Harmonic function, Harmonic conjugate, and orthogonal
+     24. learning Topics: Cauchy
+     25. Riemann equations in
+     26. polar coordinates, conformal mapping, linear, bilinear
+     27. mapping,  cross  ratio,  fixed  points,  and  standard
+     28. Kar lPearson’s Coefficient of correlation(r) Spearman’s
+     29. Rank correlation coefficient (R) (with repeated and non
+     30. repeated ranks) Lines of regression Fitting of first- and
+     31. degree curves
+     32. learning Topics: Covariance, fitting of exponential
+     33. probability distribution and probability density function
+     34. Expectation of random variable with mean, variance and
+     35. standard deviation, moment generating function up to
+     36. two moments
+     37. learning topics: Total probability theorem, Bayes’
+     38. theorem, Skewness and Kurtosis of distribution (data)
+     39. Note: No questions will be asked in the end
+     40. semester exam from self
+     41. study topics. However, students are
+     42. encouraged to explore these topics for a better understanding of the subject
+     43. Text Books
+     44. Higher Engineering Mathematics, Dr. B.S. Grewal, Khanna Publication
+     45. Advanced Engineering Mathematics, Erwin Kreyszig, Wiley Eastern Limited
+     46. Advanced Engineering Mathematics, R.K. Jainand S.R.K. Iyengar, Narosapublication
+
+  [2343112] Advance Data
+  --------------------------------------------------
+      1. Overview of Data Structures: Revision of basic data structures (arrays
+      2. linked lists
+      3. Introduction to Analysis of Algorithms Fundamentals of the analysis of algorithms: Time and Space
+      4. Asymptotic notation
+      5. Recurrence Relations: Methods
+      6. to solve recurrence relations in algorithms (Substitution
+      7. Master theorem)
+
+  [2343113] Database
+  --------------------------------------------------
+      1. Database System Concepts, Architecture
+      2. Characteristics of Databases
+      3. File system v/s Database
+      4. Data abstraction and Data Independence
+      5. DBMS system
+      6. Database Administrator (DBA)
+      7. Role of DBA
+
+  [2343115] ADSA Lab
+  --------------------------------------------------
+      1. Introduction to Analysis of Algorithms
+      2. Implement Merge sort and Quicksort for the given list of
+      3. integer values and find space and time complexity
+      4. Implementation of randomized quicksort algorithm and
+      5. find space and time complexity
+      6. Implementation of hash functions and its associated
+      7. Advanced Data Structures
+      8. Construct Binary Search Tree for given sequence of
+      9. integers and perform Pre-order
+     10. In-order and Post-order
+     11. traversal of constructed tree. Analyze complexities
+     12. Implement Insert
+     13. Search and Display operations
+     14. on Binary Search Tree and analyze space and time
+     15. Implementation of operations on B/B+-trees
+     16. Greedy algorithms and Applications
+     17. Implement solution for a 0-1 knapsack problem using
+     18. dynamic programming
+     19. Implement Prim’s and Kruskal’s algorithms
+     20. Implement solution for job sequencing with deadlines
+     21. Backtracking and Maximum flow Networks
+     22. Implement N-Queen's problem using Back Tracking
+     23. Implement Sum of subsets problem for a given set of
+     24. distinct numbers using backtracking
+     25. Implement graph coloring
+     26. Implement Hamiltonian cycles
+     27. Implementation of Ford-Fulkerson algorithm
+     28. Dynamic Algorithms
+     29. Implementation of Bellman-Ford algorithm
+     30. Implement Floyd Warshall Algorithm
+     31. Implement Travelling salesman problem
+     32. String Matching Algorithms
+     33. Implement Naïve string matching algorithm
+     34. Implement Rabin-Karp algorithm
+     35. Implement KMP algorithm
+     36. Implement Longest common subsequence
+     37. Implement any one application
+     38. Text Books and References
+     39. Introduction to Algorithms Cormen, Leiserson, Rivest, Stein PHI 3rd Edition
+     40. Algorithm Design Jon Kleinberg, Éva Tardos Pearson 1st Edition
+     41. Data Structures and Algorithm Analysis in C++ Mark Allen Weiss Pearson 4th Edition
+
+  [2344111] Applied
+  --------------------------------------------------
+      1. Self-learning Topics: Derogatory and non
+      2. derogatory matrices
+      3. Functions ofSquare Matrix
+      4. Linear Transformations
+      5. Quadratic forms
+      6. Self-learning Topics: Application of Residue
+      7. Theorem to evaluate realintegrations
+      8. Self-learning Topics: Initial value theorem
+      9. value theorem
+     10. Inverse of Transform by Binomial
+
+  [2344112] Operating System
+  --------------------------------------------------
+      1. Self-learning Topics: Study of any three different OS
+      2. System calls with examples for different OS
+      3. Self-learning Topics: Performance comparison of
+      4. Scheduling Algorithms
+      5. Selection of Scheduling
+      6. Algorithms  for  different  situations
+      7. Real-time
+      8. Self-learning Topics: Study a real time case study for
+      9. Deadlock detection and recovery
+     10. Self-learning Topics: Memory Management for any
+     11. one Operating System
+     12. Implementation of Page
+     13. Replacement Algorithms
+     14. Self-learning Topics: File System for Linux and
+     15. Features of I/O facility for different OS
+
+  [2344113] Computer Network
+  --------------------------------------------------
+      1. Structure of a switch
+      2. Space Division Switching
+      3. Time Division
+      4. Packet Switch
+      5. Data Link Layer Data Link Control:  Framing 
+      6. Error Detection & Correction: basic concept
+      7. Linear Block Code
+      8. CRC code
+      9. Checksum (Simple Problems)
+     10. Flow Control: Stop-and-Wait Flow Control
+     11. Sliding Window
+     12. Flow Control (Simple Problems)
+     13. Error Control: Stop-and-Wait ARQ
+     14. Go-Back-N ARQ
+     15. Reject ARQ (Simple Problems)
+     16. Medium Access Control
+     17. Scheduled Access (Reservation
+     18. Token Passing)
+     19. Random Access (ALOHA
+     20. (Simple Problems on throughput)
+     21. Link Layer Addressing
+     22. MAC address and its types
+     23. Ethernet Protocol
+     24. Standard Ethernet
+     25. Fast Ethernet (100 Mbps)
+     26. Gigabit Ethernet
+     27. 10-Gigabit Ethernet
+     28. Self-Study Topics
+     29. HDLC Protocol
+     30. IEEE 802.11 Wireless LAN
+
+  [2344115] Network Design
+  --------------------------------------------------
+      1. Socket Programming  To study and implement Socket Programming using TCP.  To study and implement Socket Programming using UDP
+      2. Text Books
+      3. Computer Network Simulation in NS2 Basic Concepts and Protocol Implementation.-Prof Neeraj Bhargava
+      4. Singh Rathore
+      5. Dr. Ritu Bhargava
+      6. Dr. Abhishek Kumar
+      7. First Edition. BPB Publication
+      8. Packet analysis with Wire shark
+      9. Anish Nath
+     10. PACKT publishing
+     11. TCP/IP Protocol Suite 4th Edition by Behrouz A. Forouzan
+
+  [2344411] Mini-Project -
+  --------------------------------------------------
+      1. prolog.org/example/examples.swinb
+      2. Book Companion Resource : Dart Apprentice: Beyond the Basics (First Edition)
+      3. Oriented Programming, Concurrency & More
+      4. materials/tree/editions/1.0
+      5. Guidelines for Labs Capstone Mini
+      6. Suggested List of Experiments
+      7. Detailed Content
+      8. Demonstrate Compilation and interpretation stages
+      9. to students for C, C++, JAVA along with how to
+     10. debug the code
+     11. Object Oriented
+     12. At least Two Programming Implementations
+     13. Preferably in C++ to demonstrate concepts like
+     14. Abstraction & Encapsulation, Initialization and
+     15. Finalization, Inheritance, Polymorphism and
+     16. Dynamic Binding
+     17. Run Time
+     18. At least Two Programs to understand Exception
+     19. handling and Garbage collection, preferably in
+     20. Students should understand checked and unchecked
+     21. exceptions as well as using multiple catch blocks
+     22. At least Two Program preferably in Java/C++ to
+     23. Tutorial on Introduction to Haskell programming
+     24. environment and Basic operators, types, prelude
+     25. library functions, list and tuples in Haskell
+     26. At least Four Haskell Programs to demonstrate
+     27. Functional Programming Concepts
+     28. Sample Programs but not limited to
+     29. Implement a safetail function that behaves in
+     30. the same way as tail, except that safetail maps the
+     31. empty list to the empty list, whereas tail gives an
+     32. error in this case. Define safetail using: (a) a
+     33. conditional expression
+     34. (b) guarded equations
+     35. pattern matching
+     36. Simple List Comprehension
+     37. Order Functions
+     38. Write a recursive function to multiply two
+     39. natural numbers that use a predefined add function
+     40. Haskell code to represent infinite list e.g
+     41. fibonacci series
+     42. Implement simple Calculator
+     43. Students should clearly understand the syntax and
+     44. the execution of the Functional Implementation
+     45. using Haskell
+     46. Tutorial on working of SWI Prolog Environment
+     47. and basic understanding of facts and rules
+     48. Implement at least
+     49. Prolog programs to
+     50. understand declarative programming concepts
+     51. The programs must be based on creating a
+     52. Knowledge Base having multiple facts and rules
+     53. Students must be able to learn to query it and
+     54. understand query execution using the backward
+     55. Concurrency and
+     56. through Dart
+     57. Implement any 3 sample programs in Dart based on
+     58. learning implementation of concurrency, Streams
+     59. and Isolates
+     60. Guidelines for Capstone Mini
+     61. Students shall form a group of 3 to 4 students, and a group shall not be allowed less than three or more than four
+     62. students, as it is a group activity
+     63. Students should do the survey and identify needs, which shall be converted into a problem statement for the mini
+     64. project in consultation with the faculty supervisor/head of department/internal committee of faculty
+     65. Students' hall submits an implementation plan in the form of a Gantt/PERT/CPM chart, which will cover the weekly
+     66. activity of a mini
+     67. A log book to be prepared by each group, wherein the group can record weekly work progress, and the
+     68. guide/supervisor can verify and record notes/comments
+     69. Faculty supervisor may give inputs to students during the mini project activity
+     70. however, focus shall be on self
+     71. Students in a group shall understand the problem effectively, propose multiple solutions, and select the best possible
+     72. solution in consultation with the guide/ supervisor
+     73. Students shall convert the best solution into a working model using various components of their domain areas and
+     74. The solution to be validated with proper justification and a report to be compiled in a standard format of the
+     75. University of Mumbai
+     76. Guidelines for Assessment of Capstone Mini
+     77. Term Work
+     78. The review/ progress monitoring committee shall be constituted by the head of departments of each institute
+     79. The progress of the mini project to be evaluated on continuous basis, minimum two reviews in each semester
+     80. In continuous assessment, focus shall also be on each individual student, assessment based on the individual’s
+     81. contribution in group activity, their understanding, and response to questions
+     82. Distribution of Term work marks for both semesters shall be as below
+     83. Marks awarded by guide/supervisor based on above practical list and
+     84. assignment completed by the
+     85. o Marks awarded by guide/supervisor for Capstone Project Completion
+     86. o Quality of Project report & Project Review
+     87. Review/progress monitoring committee may consider following points for assessment based of the semester
+     88. project as mentioned in general guidelines
+     89.  In this case in students’ group shall complete project in all aspects including
+     90. o Identification of need/problem
+     91. o Proposed final solution
+     92. o Procurement of components/systems
+     93. o Building prototype and testing
+     94. Two reviews will be conducted for continuous assessment
+     95. First shall be for the finalisation of problem and proposed solution
+     96. Second shall be for the implementation, testing and validation of solution
+     97. Assessment criteria of Capstone Mini
+     98. Capstone Mini
+     99. Project shall be assessed based on following criteria
+    100. Quality of survey/ need identification
+    101. Clarity of Problem definition based on need
+    102. Innovativeness in solutions/ Novelty in solutions
+    103. Feasibility of proposed problem solutions and selection of best solution
+    104. Collection of Dataset
+    105. Cost effectiveness
+    106. Societal impact
+    107. Cost effectiveness and Societal impact
+    108. Full functioning of working model as per stated requirements
+    109. Effective use of skill sets
+    110. Effective use of standard engineering norms
+    111. Contribution of an individual’s as member or leader
+    112. Clarity in written and oral communication
+    113. Project Practical/Oral Examination
+    114. Report should be prepared as per the guidelines issued by the University of Mumbai
+    115. group to a panel of Internal and External Examiners preferably from industry or research organisations having
+    116. experience of more than five years approved by head of Institution
+    117. Students shall be motivated to publish a paper based on the work in Conferences/students competitions
+    118. List of Sample Capstone Mini
+    119. Oriented Programming (OOP)
+    120. a. Library Management System
+    121. Use classes for Books, Users, Transactions
+    122. Implement inheritance for different types of users (students, staff)
+    123. Optional: Add GUI using Tkinter or JavaFX
+    124. b. Online Food Ordering System (Console
+    125. Classes: Customer, MenuItem, Order, Restaurant
+    126. OOP features like encapsulation, polymorphism
+    127. Expense Tracker App (Java or Python)
+    128. Use OOP to model Users, Transactions, and Categories
+    129. Functional Programming
+    130. a. Weather Data Analyzer (Haskell / Python with functools)
+    131. Read weather data and apply pure functions for analysis
+    132. Avoid mutable data
+    133. Use map, reduce, filter extensively
+    134. Do List Manager (Scala or Elixir)
+    135. Immutable data structures
+    136. Recursion instead of loops
+    137. No side effects in logic layer
+    138. Procedural Programming
+    139. a. Student Grade Calculator (C / Python)
+    140. Use functions and data structures to store and compute data
+    141. No OOP involved
+    142. b. ATM Simulator
+    143. based system using functions only (no classes)
+    144. PIN check, balance enquiry, cash withdrawal, etc
+    145. Logic Programming
+    146. a. Family Tree Generator (Prolog)
+    147. Define relations like parent, sibling, cousin using rules
+    148. Query relationships dynamically
+    149. b. Sudoku Solver (Prolog)
+    150. Define rules and constraints to solve 9x9 Sudoku puzzle
+    151. Paradigm Approach
+    152. a. Chatbot using Python (OOP + Functional)
+    153. OOP for structuring code (User, Bot, ChatSession)
+    154. Functional for processing input (filters, parsers)
+    155. b. File Organizer Script
+    156. Script to organize files into folders based on type
+    157. Use procedural logic + OOP for file operations
+    158. Driven Programming
+    159. a. GUI Calculator (Python Tkinter / Java Swing)
+    160. Event listeners for button presses
+    161. Follow MVC pattern optionally
+    162. b. Traffic Light Simulation (JavaScript + HTML/CSS)
+    163. Events for light changes
+    164. Use state variables to track behavior
+    165. Term Work: Term Work shall consist of list of all practicals’ based on the above list. Also, the Term work Journal must
+    166. include at least 2 assignments and Mini
+    167. Project Report
+    168. Term Work Marks: 50 Marks (Total marks) = 10 Marks (Experiment) + 5 Marks (Assignments) + 30 Marks (Capstone
+    169. Mini- Project with full prototype/ product demo, testing, validation and Report) + 5 Marks (Attendance)
+    170. Oral Exam: An Oral exam will be held based on the Capstone Mini
+
+  [2343611] Mini-Project - Full
+  --------------------------------------------------
+      1. Introduction to Full Stack Java Overview of full-stack development: Definition of Full Stack
+      2. Components of Full Stack: Frontend
+      3. Full Stack Developer Roles & Skills
+      4. Technology Stack
+      5. Overview: Frontend: HTML
+      6. Backend: Java
+      7. Spring Boot
+      8. Database: MySQL
+      9. Tools: Git
+     10. Real-world
+     11. applications of full stack
+     12. Java SE concepts: JVM
+     13. Data types
+     14. Control Statements
+     15. Introduction to OOP- Basic of
+     16. Packages and Import statements
+     17. Exception Handling Basics
+     18. Introduction to Java EE- Need for Java EE in enterprise applications
+     19. Multi-tier architecture
+     20. MVC Architecture- Model: Business logic
+     21. Data management
+     22. View: User interface
+     23. Controller: Request
+     24. linking model and view
+     25. Spring Boot: Modern development trends. MVC in Java Web
+     26. HTML 5, CSS 3 with Bootstrap HTML Basics & Structure: Learn HTML5 structure, semantic
+     27. character effects
+     28. document spacing
+     29. and working with tables
+     30. and hyperlinks. Responsive Web Design: Learn to build websites
+     31. that adapt to different screen sizes and devices using media queries
+     32. flexible layouts
+     33. and mobile-first design principles
+     34. Image Handling & Forms: Understand image roles
+     35. adding images to
+     36. web pages
+     37. using images as links
+     38. and handling user input through various
+     39. form elements (text fields
+     40. radio buttons
+     41. CSS3 Fundamentals: Explore CSS syntax
+     42. text formatting
+     43. and advanced features like CSS Grid
+     44. Bootstrap Introduction & Components: Get started with Bootstrap
+     45. utilizing grid systems and essential components like headers
+     46. and navigation bars.React.js basics
+     47. Fetch API
+     48. Axios for API calls
+     49. Version Control with Git
+     50. Back-end development with Java Spring Boot introduction- What is Spring Framework? Why Spring Boot?
+     51. Features of Spring Boot: Auto-configuration
+     52. Starter dependencies
+     53. embedded server
+     54. Spring Initializr
+     55. Project structure overview: pom.xml
+     56. application. Properties
+     57. Running your first Spring Boot application
+     58. RESTful API development- What is REST? REST vs. SOAP
+     59. Methods: GET
+     60. RESTful API Design principles
+     61. Creating REST Controllers in Spring Boot
+     62. Mapping HTTP methods to
+     63. controller methods
+     64. Understanding Request Mapping
+     65. Get Mapping
+     66. Controllers and Services- Role of Controller in MVC
+     67. Defining Controllers in Spring Boot
+     68. @RestController vs. @Controller
+     69. Service layer responsibilities
+     70. Creating Service classes and injecting them
+
+  Total subjects: 10
+  Total topics  : 407
+
+======================================================================
+PDF: 6.40-N-Chemical-Engineering-Sem-III-IV.pdf
+======================================================================
+
+  [2073111] Chemical
+  --------------------------------------------------
+      1. Eigen values and Eigen vectors
+      2. Properties of Eigen
+      3. values and Eigen vectors. (No theorems/ proof)
+      4. Similarity of matrices
+      5. Diagonalization of matrices
+      6. Self -Learning Topics
+      7. Applications of Eigen values and eigen vectors in
+      8. Chemical Engineering
+      9. Methods for
+     10. Applying to chemical engineering problems related
+     11. to momentum transfer
+     12. heat transfer
+     13. mass transfer
+     14. and reaction engineering
+     15. Eulers method
+     16. Kutta second Order method
+     17. Applications of Runge-Kutta Fourth order
+     18. Method and Adam Bashford Predictor
+     19. Corrector Method to chemical engineering
+     20. Finite Difference
+     21. Forward and Backward difference operators ∆
+     22. Shift operator E
+     23. Relation between E
+
+  [2073115] Fluid Flow
+  --------------------------------------------------
+      1. Viscosity Properties of fluids, Viscosity and its Measurement. Various units of viscosity
+      2. Fluid Flow Phenomena Types of flow (Laminar/Turbulent), Reynolds experiment
+      3. Flow measuring devices Bernoulli’s theorem and its applications, Venturimeter and Orificemeter and its discharge coefficient. Pitot tube
+      4. Flow of Incompressible fluids Flow through pipe, Major and Minor losses in pipe and pipe fittings
+      5. Pumps Classification and types, power required and efficiency of various pumps. Characteristics of a pump
+      6. Power Consumption in Agitation Purpose of Agitation, Types of Impellers, Prevention of Swirling, Power Curves, Power Number
+
+  [2073116] Process
+  --------------------------------------------------
+      1. Text Books
+      2. "Entrepreneurship Development and Small Business Enterprises" – Poornima M
+      3. "Innovation and Entrepreneurship" – Peter F. Drucker
+      4. Harper Business
+      5. Reprint Edition
+      6. "Startup and Entrepreneurship: A Practical Guide" – Rajeev Roy
+      7. Oxford University Press
+
+  [2074112] Solid Fluid
+  --------------------------------------------------
+      1. using sieve analysis. Capacity and
+      2. effectiveness of screen. (Numericals)
+      3. Screening equipment – Vibrating screen
+      4. Grizzlies and Trommels
+      5. Size Reduction
+      6. Size reduction of solids. Mechanism of size
+      7. reduction and method of operation. Energy
+      8. requirement for size reduction and crushing
+      9. laws. (Numericals)
+     10. Size reduction equipment – Jaw crusher
+     11. Hammer mill, Ball mill and Roll crusher
+     12. Solid mixing – Introduction to solid mixing
+     13. degree of mixing and rate of mixing
+     14. Mixing equipment for cohesive solids
+     15. Muller mixer and kneaders
+     16. Mixers for free flowing solids: Ribbon
+     17. blender and internal screw mixer
+     18. Fluidization and
+     19. Flow of a single fluid through a packed bed
+     20. Ergun’s equation
+     21. Fluidization: conditions for fluidization
+     22. Minimum fluidization velocity. Types of
+     23. fluidization. Applications of fluidization
+     24. Filtration: Mechanism of filtration. Types of
+     25. filtration: constant rate and constant
+     26. pressure filtration. Filter aids, washing of
+     27. filter cake, flow of filtrate through the cloth
+     28. and cake combined. (Numericals)
+     29. Filters: Rotary drum vacuum filter, plate and
+     30. frame filter press
+     31. Solid fluid
+     32. Sedimentation: Batch sedimentation. Kynch
+     33. theory of sedimentation. Derivation of area
+     34. and depth of thickener. (Numericals)
+     35. Gas solid separation equipment: Cyclone
+     36. separator, fabric filter and electrostatic
+     37. Storage and
+     38. handling of solids
+     39. Storage of solids: Properties of particulate
+     40. masses. Pressure in bins and silos, Jansen’s
+     41. Conveying, of solids: Belt conveyer, bucket
+     42. conveyer, screw conveyer and pneumatic
+     43. Text Books
+     44. W. McCabe, J.C. Smith and P. Harriot, Unit operations of chemical engineering, 7th edition
+     45. McGraw Hill, 2004
+     46. J .M Coulson and J. F Richardson, Chemical Engineering, vol 2, Pergamon Press, 1974
+     47. A.S. Foust and L.A. Wenzel, Principles of unit operation, 2nd edition, Wiley, 1980
+     48. Perry’s Chemical Engineers’ Handbook , Robert H. Perry & Don W. Green, 8th edition
+     49. McGraw Hill
+     50. Online References
+     51. Website Name
+     52. Internal Assessment (IA) for 20 marks
+     53. ● IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to
+     54. 50% of syllabus content must be covered in First IA Test and remaining 40% to 50%
+     55. of syllabus content must be covered in Second IA Test
+     56. ⮚ Question paper format
+     57. ⮚ Question Paper will comprise of a total of six questions each carrying 15 marksQ.1 will be
+     58. compulsory and should cover maximum contents of the syllabus
+     59. ⮚ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be
+     60. from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be
+     61. from any other Module randomly selected from all the modules)
+     62. ⮚ A total of four questions need to be answered
+
+  [2074411] Mini Project-II
+  --------------------------------------------------
+      1. Design thinking case studies from various
+      2. association.org/explore-design-thinking
+      3. University of Mumbai
+      4. Second Year Chemical Engineering
+      5. REV2024 Scheme
+      6. guidelines of conducting test, The end
+      7. goals of test: Desirability
+      8. Feasibility and
+      9. Usability testing
+     10. Design Your Thinking: The Mindsets
+     11. and Skill Sets for Creative Problem-solving
+     12. Pavan Soni
+     13. Penguin Random House India Private Limited
+     14. Design Thinking: Methodology Book
+     15. Emrah Yayichi
+     16. Handbook of Design Thinking: Christian Mueller-Roterberg
+
+  Total subjects: 5
+  Total topics  : 114

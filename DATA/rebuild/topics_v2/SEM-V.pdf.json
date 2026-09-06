@@ -1,0 +1,80 @@
+[
+  {
+    "code": "2165113",
+    "name": "Agile Software Development & DevOps",
+    "topics": [
+      "Testing: Functionality Testing, UI Testing",
+      "Testing: Principles of Agile Testers",
+      "Automation, Test Automation Pyramid. Case",
+      "Study \u2013 Selenium/ Jira",
+      "Postman, and JMeter",
+      "DevOps: Introduction, DevOps - Importance",
+      "C\u2019s of DevOps Lifecycle for Business",
+      "Agility, DevOps and Continuous Testing",
+      "Choosing the right DevOps tools and challenges",
+      "Assessment. Study of various Open",
+      "Source Tools in DevOps"
+    ]
+  },
+  {
+    "code": "2165114",
+    "name": "Web and Mobile Application",
+    "topics": [
+      "Pre-Requisite Topics Basic Concepts: HTML5, CSS3; JavaScript, Client-Server paradigm, Front-end and Back-end development",
+      "React DevTools",
+      "Custom Hooks creation",
+      "Low-code/No-code development"
+    ]
+  },
+  {
+    "code": "2166111",
+    "name": "Machine Learning and Swarm",
+    "topics": [
+      "Applications of Swarm Intelligence in Machine",
+      "Optimization, Particle Swarm Optimizer , ABC",
+      "Algorithm  Bat Algorithm",
+      "Learning : Quantum",
+      "Inspired and Multi",
+      "Objective Swarm Optimization"
+    ]
+  },
+  {
+    "code": "2166112",
+    "name": "Data Analytics and Visualization",
+    "topics": [
+      "Introduction to Data Analytics",
+      "Background and Overview of Data",
+      "Analytics:  Key Roles for a Successful",
+      "Data Analytics life cycle",
+      "Types of analytics",
+      "Roles in Industry"
+    ]
+  },
+  {
+    "code": "2166115",
+    "name": "Nature- Inspired Optimization",
+    "topics": [
+      "Super-Simple",
+      "Metrics: Measuring performance",
+      "Quality (Error Rate",
+      "Applications and variants",
+      "Edge Systems: Application in feature selection",
+      "Edge resource optimization"
+    ]
+  },
+  {
+    "code": "2166118",
+    "name": "Blockchain Technology",
+    "topics": [
+      "ERC721 Tokens, ICO: basics and related terms",
+      "Metaverse, Cryptocurrency wallets: Hot and cold",
+      "Blockchain, UTXO and double spending problem",
+      "Common security threats in Blockchain",
+      "Mitigating attacks: 51% attack, Sybil attack, replay",
+      "Cryptocurrency Valuation Models",
+      "Emerging trends",
+      "Models on Blockchain: decentralized AI",
+      "Case study: AI for transaction validation, fraud"
+    ]
+  }
+]

@@ -1,0 +1,355 @@
+
+=======================================================
+COURSE: ADSA Lab (112 rows, pos: 50, neg: 62)
+=======================================================
+  [0] 'Implement graph coloring' -> 'Implementation of Ford-Fulkerson algorithm'
+  [0] 'Search and Display operations' -> 'distinct numbers using backtracking'
+  [0] 'Implement Prim’s and Kruskal’s algorithms' -> 'distinct numbers using backtracking'
+  [0] 'Implementation of Ford-Fulkerson algorithm' -> 'Text Books and References'
+  [0] 'Implementation of operations on B/B+-trees' -> 'Implementation of Ford-Fulkerson algorithm'
+  [1] 'Implementation of Bellman-Ford algorithm' -> 'Implement Travelling salesman problem'
+  [0] 'Implement Prim’s and Kruskal’s algorithms' -> 'Implement Floyd Warshall Algorithm'
+  [1] 'Implement Floyd Warshall Algorithm' -> 'Implement Rabin-Karp algorithm'
+  [0] 'Implement Travelling salesman problem' -> 'Implement Naïve string matching algorithm'
+  [1] 'Implement Prim’s and Kruskal’s algorithms' -> 'Backtracking and Maximum flow Networks'
+
+=======================================================
+COURSE: Advance Data (4 rows, pos: 3, neg: 1)
+=======================================================
+  [1] 'Overview of Data Structures: Revision of basic data structures (arrays' -> 'Introduction to Analysis of Algorithms Fundamentals of the analysis of algorithms: Time and Space'
+  [1] 'Overview of Data Structures: Revision of basic data structures (arrays' -> 'linked lists'
+  [0] 'linked lists' -> 'Introduction to Analysis of Algorithms Fundamentals of the analysis of algorithms: Time and Space'
+  [1] 'Introduction to Analysis of Algorithms Fundamentals of the analysis of algorithms: Time and Space' -> 'Recurrence Relations: Methods'
+
+=======================================================
+COURSE: Agile Software (157 rows, pos: 78, neg: 79)
+=======================================================
+  [0] 'learning Topics: Continuous Testing' -> 'based DevOps tools, and real'
+  [1] 'Agile Quality' -> 'Testing: Principles of Agile Testers'
+  [0] 'DevOps: Introduction, DevOps - Importance' -> 'world case studies'
+  [0] 'forecasting techniques such as Monte Carlo' -> 'The Agile'
+  [0] 'A total of Four questions need to be answered' -> 'modules. For example, if Q.2 has part (a) from Module 3 then part'
+  [0] 'Part (a) and Part (b) of each question must be from different' -> 'modules, with each sub'
+  [0] 'Assessment. Study of various Open' -> 'Source Tools in DevOps'
+  [1] '(2) Solve any three questions out of five' -> 'Part (a) and Part (b) of each question must be from different'
+  [0] 'Assessment. Study of various Open' -> 'Deepak Gaikwad, Viral Thakkar. DevOps Tools from Practitioner's Viewpoint'
+  [0] 'will be compulsory and should cover maximum contents of the syllabus' -> 'University of Mumbai'
+
+=======================================================
+COURSE: Analysis of (5 rows, pos: 3, neg: 2)
+=======================================================
+  [1] 'real life applications of all' -> 'real life applications of all algorithms'
+  [1] 'Strassen's Algorithm' -> 'real life applications of all algorithms'
+  [0] 'Divide and Conquer Approach General method, Merge sort, Quick sort, Analysis of Binary search' -> 'real life applications of all algorithms'
+  [1] 'Divide and Conquer Approach General method, Merge sort, Quick sort, Analysis of Binary search' -> 'Strassen's Algorithm'
+  [0] 'Strassen's Algorithm' -> 'real life applications of all'
+
+=======================================================
+COURSE: Applied (116 rows, pos: 37, neg: 79)
+=======================================================
+  [1] 'study topics. However, students are' -> 'encouraged to explore these topics for a better understanding of the subject'
+  [0] 'learning Topics: Complex form of Fourier Series' -> 'f(z) when real (u)or imaginary part (v) is given'
+  [1] '(only up to s3 in denominator)' -> 'Inverse Laplace transform using Convolution theorem'
+  [0] 'learning topics: Total probability theorem, Bayes’' -> 'Note: No questions will be asked in the end'
+  [1] 'Self-learning Topics: Derogatory and non' -> 'Self-learning Topics: Application of Residue'
+  [0] 'probability distribution and probability density function' -> 'Advanced Engineering Mathematics, R.K. Jainand S.R.K. Iyengar, Narosapublication'
+  [0] 'Kar lPearson’s Coefficient of correlation(r) Spearman’s' -> 'two moments'
+  [0] 'learning topics: Total probability theorem, Bayes’' -> 'semester exam from self'
+  [0] 'Self-learning Topics: Derogatory and non' -> 'Quadratic forms'
+  [0] '(only up to s3 in denominator)' -> 'Fourier series of even and odd functions (simple functions'
+
+=======================================================
+COURSE: Artificial (11 rows, pos: 6, neg: 5)
+=======================================================
+  [0] 'Search Techniques' -> 'membership optimization'
+  [0] 'ethical challenges in AI' -> 'membership optimization'
+  [0] 'Self-learning Topics: Game Playing' -> 'membership optimization'
+  [1] 'Self-learning Topics: Recent advances in Generative' -> 'ChatGPT-like models'
+  [1] 'Self-learning Topics: Game Playing' -> 'Self-learning Topics: Ontologies and Semantic Web'
+  [1] 'Search Techniques' -> 'Self-learning Topics: Ontologies and Semantic Web'
+  [0] 'ethical challenges in AI' -> 'Self-learning Topics: Ontologies and Semantic Web'
+  [1] 'Self-learning Topics: Recent advances in Generative' -> 'Self-learning Topics: Game Playing'
+  [1] 'Self-learning Topics: Recent advances in Generative' -> 'Self-learning Topics: Ontologies and Semantic Web'
+  [0] 'ChatGPT-like models' -> 'membership optimization'
+
+=======================================================
+COURSE: Blockchain (53 rows, pos: 25, neg: 28)
+=======================================================
+  [1] 'Case study: AI for transaction validation, fraud' -> 'detection, and performance optimization, AI'
+  [1] 'Common security threats in Blockchain' -> 'Mitigating attacks: 51% attack, Sybil attack, replay'
+  [1] 'Ritesh Modi, Solidity Programming Essentials: A Beginner's Guide to Build Smart' -> 'Imran Bashir, “Mastering Blockchain: Inner Workings of Blockchain, Cryptocurrencies &'
+  [1] 'learning Topics:Stablecoins and Central' -> 'Cryptocurrency Valuation Models'
+  [0] 'learning Topics:Stablecoins and Central' -> 'detection, and performance optimization, AI'
+  [1] 'Models on Blockchain: decentralized AI' -> 'detection, and performance optimization, AI'
+  [1] 'Case study: AI for transaction validation, fraud' -> 'smart contracts, AI in Crypto Trading, Anti'
+  [0] 'Blockchain, UTXO and double spending problem' -> 'Models on Blockchain: decentralized AI'
+  [0] 'detection, and performance optimization, AI' -> 'Andreas M. Antonopoulos & Dr. Gavin Wood, “Mastering Ethereum: Building Smart'
+  [1] 'Blockchain, UTXO and double spending problem' -> 'Mitigating attacks: 51% attack, Sybil attack, replay'
+
+=======================================================
+COURSE: Computational (51 rows, pos: 21, neg: 30)
+=======================================================
+  [1] 'Regular operations' -> 'Regular Language'
+  [0] 'Decision properties of RLs' -> 'Natural Language Processing (NLP)'
+  [0] 'Regular Expression' -> 'Languages in Compiler Design'
+  [0] 'Pumping lemma' -> 'Text Processing'
+  [0] 'Regular operations' -> 'Languages in Compiler Design'
+  [0] 'Regular Expression' -> 'Finite Automata Finite Automata (FA) & Finite State machine (FSM)'
+  [0] 'Application of Regular' -> 'Equivalence between NFA with and ϵ- transitions'
+  [0] 'Finite Automata Finite Automata (FA) & Finite State machine (FSM)' -> 'Minimization of DFA'
+  [1] 'Nondeterministic Finite Automata (NFA): Definitions' -> 'Equivalence between NFA with and ϵ- transitions'
+  [0] 'Arden's theorem' -> 'Finite Automata Finite Automata (FA) & Finite State machine (FSM)'
+
+=======================================================
+COURSE: Computer (7 rows, pos: 4, neg: 3)
+=======================================================
+  [0] 'Self-learning Topics: Demonstration of DLL' -> 'Transport layer protocols on Simulator'
+  [1] 'protocols on Simulator' -> 'Transport layer protocols on Simulator'
+  [0] 'Self-learning Topics: Study of Campus wide' -> 'protocols on Simulator'
+  [1] 'Self-learning Topics: Study of Campus wide' -> 'Self-learning Topics: Demonstration of DLL'
+  [0] 'Self-learning Topics: Demonstration of DLL' -> 'protocols on Simulator'
+  [1] 'Self-learning Topics: Study of Campus wide' -> 'Self-learning Topics: Count-to-Infinity'
+  [1] 'Self-learning Topics: Demonstration of DLL' -> 'Self-learning Topics: Count-to-Infinity'
+
+=======================================================
+COURSE: Computer Network (101 rows, pos: 32, neg: 69)
+=======================================================
+  [1] 'Structure of a switch' -> 'Packet Switch'
+  [0] 'Packet Switch' -> 'Checksum (Simple Problems)'
+  [0] 'Structure of a switch' -> 'Error Control: Stop-and-Wait ARQ'
+  [0] 'Data Link Layer Data Link Control:  Framing ' -> 'Error Control: Stop-and-Wait ARQ'
+  [1] 'Standard Ethernet' -> 'Gigabit Ethernet'
+  [1] 'Space Division Switching' -> 'Packet Switch'
+  [0] 'Sliding Window' -> 'Medium Access Control'
+  [0] 'Flow Control (Simple Problems)' -> 'Scheduled Access (Reservation'
+  [0] 'Error Detection & Correction: basic concept' -> 'Go-Back-N ARQ'
+  [0] 'Error Detection & Correction: basic concept' -> 'Error Control: Stop-and-Wait ARQ'
+
+=======================================================
+COURSE: Computing (2 rows, pos: 1, neg: 1)
+=======================================================
+  [1] 'Self-learning Topics: Edge Data Centres' -> 'Edge Computing'
+  [0] '(Contact Hours)' -> 'Edge Computing'
+
+=======================================================
+COURSE: Data Analytics (19 rows, pos: 16, neg: 3)
+=======================================================
+  [1] 'Data Analytics life cycle' -> 'Types of analytics'
+  [1] 'Types of analytics' -> 'Data Analytics'
+  [1] 'Data Analytics life cycle' -> 'Data Analytics'
+  [0] 'Roles in Industry' -> 'Data Analytics'
+  [1] 'Introduction to Data Analytics' -> 'Data Analytics'
+  [1] 'Introduction to Data Analytics' -> 'Types of analytics'
+  [0] 'Analytics:  Key Roles for a Successful' -> 'Data Analytics'
+  [1] 'Background and Overview of Data' -> 'Data Analytics life cycle'
+  [1] 'Introduction to Data Analytics' -> 'Analytics:  Key Roles for a Successful'
+  [1] 'Analytics:  Key Roles for a Successful' -> 'Types of analytics'
+
+=======================================================
+COURSE: Database (18 rows, pos: 16, neg: 2)
+=======================================================
+  [1] 'Database System Concepts, Architecture' -> 'File system v/s Database'
+  [1] 'Database System Concepts, Architecture' -> 'Data abstraction and Data Independence'
+  [1] 'Database Administrator (DBA)' -> 'Role of DBA'
+  [1] 'DBMS system' -> 'Database Administrator (DBA)'
+  [1] 'Characteristics of Databases' -> 'Role of DBA'
+  [1] 'File system v/s Database' -> 'Data abstraction and Data Independence'
+  [1] 'Characteristics of Databases' -> 'File system v/s Database'
+  [1] 'DBMS system' -> 'Role of DBA'
+  [0] 'Characteristics of Databases' -> 'Database Administrator (DBA)'
+  [1] 'Database System Concepts, Architecture' -> 'Characteristics of Databases'
+
+=======================================================
+COURSE: Digital Imaging (5 rows, pos: 5, neg: 0)
+=======================================================
+  [1] 'Self-learning Topics: Thresholding techniques' -> 'Morphological watersheds'
+  [1] 'Self-learning Topics: Image reconstruction' -> 'Self-learning Topics: Thresholding techniques'
+  [1] 'Self-learning Topics: Image file Formats' -> 'Self-learning Topics: Image reconstruction'
+  [1] 'Enhancement techniques' -> 'Self-learning Topics: Image reconstruction'
+  [1] 'Self-learning Topics: Image file Formats' -> 'Self-learning Topics: Thresholding techniques'
+
+=======================================================
+COURSE: Edge Computing (13 rows, pos: 7, neg: 6)
+=======================================================
+  [0] 'file handling' -> 'Edge and Fog Computing platforms and Services'
+  [1] 'Edge and Fog Computing platforms and Services' -> 'Self-learning Topics: Applications of AI in Edge'
+  [1] 'Self-learning Topics: Various Network Performance' -> 'Self-learning Topics: Applications of AI in Edge'
+  [1] 'IoT data processing' -> 'Edge and Fog Computing platforms and Services'
+  [0] 'Self-learning Topics: Exploring various Cloud computing' -> 'Edge and Fog Computing platforms and Services'
+  [0] 'scripting essentials for automating tasks' -> 'IoT data processing'
+  [0] 'Self-learning Topics: Various Network Performance' -> 'Task offloading strategies: local vs cloud'
+  [0] 'scripting essentials for automating tasks' -> 'Self-learning Topics: Various Network Performance'
+  [1] 'file handling' -> 'scripting essentials for automating tasks'
+  [1] 'IoT data processing' -> 'Task offloading strategies: local vs cloud'
+
+=======================================================
+COURSE: Internet of Things (99 rows, pos: 37, neg: 62)
+=======================================================
+  [0] '+ 5 Marks (Attendance)' -> 'Cloud Data Logging using Raspberry Pi and ThingSpeak'
+  [1] 'Interfacing LED/Buzzer/ Motion Sensor (PIR)/ ultrasonic sensor using a' -> 'Based Light Intensity Monitoring System using LDR and any'
+  [1] 'connecting smart devices' -> 'Differentiate between wired (UART, SPI, I²C) and wireless (NFC, RFID, Bluetooth'
+  [1] 'securing IoT devices and data using layered security models' -> 'Design an IoT solution for any one of the following case studies'
+  [1] 'Any Application of IFTTT' -> 'Any application of Blynk App'
+  [1] 'Connected Car System' -> 'Include problem definition, architecture, components used, and expected outcomes'
+  [1] 'Include problem definition, architecture, components used, and expected outcomes' -> 'Suggested List of Experiments'
+  [1] 'Suggested List of Experiments' -> 'List of Experiments'
+  [0] 'Any Application of IFTTT' -> 'To control home devices (LED) using self'
+  [1] 'Students can Use Any Board such as Arduino/ Node MCU/ ESP32/ R' -> 'pi as per requirement'
+
+=======================================================
+COURSE: Machine (10 rows, pos: 7, neg: 3)
+=======================================================
+  [1] 'Self-Learning : Transfer Learning and Self' -> 'Self-Learning : Semi-Supervised and Active'
+  [1] 'Learning Techniques' -> 'Multi-class SVMs'
+  [1] 'Supervised Learning' -> 'Self-Learning : Semi-Supervised and Active'
+  [0] 'Self-Learning : Semi-Supervised and Active' -> 'Model Accuracy'
+  [1] 'Supervised Learning' -> 'Learning Techniques'
+  [1] 'Self-Learning : Transfer Learning and Self' -> 'Supervised Learning'
+  [1] 'Self-Learning : Semi-Supervised and Active' -> 'Learning Techniques'
+  [0] 'Self-Learning : Semi-Supervised and Active' -> 'Multi-class SVMs'
+  [1] 'Multi-class SVMs' -> 'Principal Component Analysis'
+  [0] 'Self-Learning : Transfer Learning and Self' -> 'Learning Techniques'
+
+=======================================================
+COURSE: Mathematics for (144 rows, pos: 51, neg: 93)
+=======================================================
+  [0] 'diagonalizable matrices' -> 'Simplex method'
+  [1] 'Lines of regression' -> 'fitting of first-degree curves'
+  [1] 'Fourier Series' -> 'Complex form of Fourier Series'
+  [1] 'diagonalizable matrices' -> 'Quadratic forms'
+  [0] 'Fourier series of even and odd functions' -> 'Poisson Distribution'
+  [1] 'Types of solutions' -> 'Artificial variables'
+  [0] 'Similarity of matrices' -> 'slack variables'
+  [1] 'slack variables' -> 'Artificial variables'
+  [0] 'Cayley-Hamilton' -> 'diagonalizable matrices'
+  [1] 'Introduction to Congruence' -> 'Linear congruence'
+
+=======================================================
+COURSE: Mini-Project - (318 rows, pos: 105, neg: 213)
+=======================================================
+  [1] 'pattern matching' -> 'Simple List Comprehension'
+  [0] 'Event listeners for button presses' -> 'b. Traffic Light Simulation (JavaScript + HTML/CSS)'
+  [0] 'Implement at least' -> 'students, as it is a group activity'
+  [0] 'Collection of Dataset' -> 'Cost effectiveness'
+  [0] 'understand declarative programming concepts' -> 'Guidelines for Capstone Mini'
+  [0] 'Functional for processing input (filters, parsers)' -> 'b. File Organizer Script'
+  [1] 'Oriented Programming, Concurrency & More' -> 'Object Oriented'
+  [0] 'o Quality of Project report & Project Review' -> 'Quality of survey/ need identification'
+  [0] 'b. Sudoku Solver (Prolog)' -> 'Script to organize files into folders based on type'
+  [1] 'b. File Organizer Script' -> 'Script to organize files into folders based on type'
+
+=======================================================
+COURSE: Mini-Project - Full (184 rows, pos: 78, neg: 106)
+=======================================================
+  [0] 'CSS3 Fundamentals: Explore CSS syntax' -> 'embedded server'
+  [1] 'Bootstrap Introduction & Components: Get started with Bootstrap' -> 'Back-end development with Java Spring Boot introduction- What is Spring Framework? Why Spring Boot?'
+  [1] 'Introduction to Full Stack Java Overview of full-stack development: Definition of Full Stack' -> 'Full Stack Developer Roles & Skills'
+  [1] 'Introduction to Java EE- Need for Java EE in enterprise applications' -> 'Data management'
+  [0] 'Control Statements' -> 'Data management'
+  [1] 'HTML 5, CSS 3 with Bootstrap HTML Basics & Structure: Learn HTML5 structure, semantic' -> 'document spacing'
+  [0] 'Technology Stack' -> 'Database: MySQL'
+  [0] 'Version Control with Git' -> 'controller methods'
+  [1] 'MVC Architecture- Model: Business logic' -> 'linking model and view'
+  [1] 'Back-end development with Java Spring Boot introduction- What is Spring Framework? Why Spring Boot?' -> 'Spring Initializr'
+
+=======================================================
+COURSE: Nature- (20 rows, pos: 6, neg: 14)
+=======================================================
+  [1] 'energy optimization' -> 'Evolution Strategies and Evolutionary Programming'
+  [0] 'Evolution Strategies and Evolutionary Programming' -> 'hyperparameter tuning'
+  [0] 'neural network training' -> 'Edge Systems: Application in feature selection'
+  [1] 'Metrics: Measuring performance' -> 'Convergence Speed'
+  [1] 'neural network training' -> 'energy optimization'
+  [0] 'Super-Simple' -> 'energy optimization'
+  [0] 'Convergence Speed' -> 'hyperparameter tuning'
+  [0] 'Metrics: Measuring performance' -> 'Self-learning Topics: Swarm Intelligence for AI &'
+  [0] 'Metrics: Measuring performance' -> 'energy optimization'
+  [0] 'Self-learning Topics: Swarm Intelligence for AI &' -> 'federated learning'
+
+=======================================================
+COURSE: Network Design (1 rows, pos: 1, neg: 0)
+=======================================================
+  [1] 'Computer Network Simulation in NS2 Basic Concepts and Protocol Implementation.-Prof Neeraj Bhargava' -> 'Packet analysis with Wire shark'
+
+=======================================================
+COURSE: Operating (39 rows, pos: 32, neg: 7)
+=======================================================
+  [1] 'Fundamentals of Distributed Operating System' -> 'Special-purpose Operating Systems'
+  [1] 'Open-source and Proprietary Operating System' -> 'functions: Cloud Operating System'
+  [1] 'Open-source and Proprietary Operating System' -> 'Network Operating System'
+  [1] 'Fundamentals of Distributed Operating System' -> 'Real-Time'
+  [1] 'Network Operating System' -> 'Special-purpose Operating Systems'
+  [1] 'Real-Time' -> 'Operating System'
+  [1] 'Network Operating System' -> 'functions: Cloud Operating System'
+  [1] 'Fundamentals of Distributed Operating System' -> 'Mobile Operating System'
+  [0] 'Special-purpose' -> 'Network Operating System'
+  [1] 'Operating Systems' -> 'Fundamentals of Distributed Operating System'
+
+=======================================================
+COURSE: Operating System (26 rows, pos: 10, neg: 16)
+=======================================================
+  [1] 'one Operating System' -> 'Features of I/O facility for different OS'
+  [0] 'Self-learning Topics: Memory Management for any' -> 'one Operating System'
+  [0] 'Scheduling Algorithms' -> 'Features of I/O facility for different OS'
+  [0] 'Self-learning Topics: Study of any three different OS' -> 'one Operating System'
+  [0] 'Selection of Scheduling' -> 'Implementation of Page'
+  [0] 'Self-learning Topics: Study of any three different OS' -> 'Features of I/O facility for different OS'
+  [0] 'Self-learning Topics: Study of any three different OS' -> 'Selection of Scheduling'
+  [1] 'Selection of Scheduling' -> 'Algorithms  for  different  situations'
+  [0] 'System calls with examples for different OS' -> 'Features of I/O facility for different OS'
+  [0] 'Self-learning Topics: Memory Management for any' -> 'Replacement Algorithms'
+
+=======================================================
+COURSE: Security (7 rows, pos: 6, neg: 1)
+=======================================================
+  [1] 'Self-learning Topics: Lifecycle of a Cyberattack' -> 'Self-learning Topics: Tools Used for Ethical'
+  [1] 'Self-learning Topics: Tools Used for Ethical' -> 'Secure Coding Practices'
+  [0] 'Self-learning Topics: Security Policies' -> 'Block Ciphers'
+  [1] 'Self-learning Topics: Security Policies' -> 'Self-learning Topics: Lifecycle of a Cyberattack'
+  [1] 'Self-learning Topics: Security Policies' -> 'Self-learning Topics: Tools Used for Ethical'
+  [1] 'Real-World Case Studies' -> 'Self-learning Topics: Tools Used for Ethical'
+  [1] 'Self-learning Topics: Lifecycle of a Cyberattack' -> 'Real-World Case Studies'
+
+=======================================================
+COURSE: Statistics for (6 rows, pos: 6, neg: 0)
+=======================================================
+  [1] 'Introduction to Statistical Learning (ISLR2)”' -> 'descriptive analytics and sampling distribution'
+  [1] 'Introduction to Statistical Learning (ISLR2)”' -> 'Self-learning Topics: Explore bootstrapping'
+  [1] 'Introduction to Statistical Learning (ISLR2)”' -> 'via Python tutorials. Read “Practical Statistics'
+  [1] 'descriptive analytics and sampling distribution' -> 'via Python tutorials. Read “Practical Statistics'
+  [1] 'descriptive analytics and sampling distribution' -> 'Self-learning Topics: Explore bootstrapping'
+  [1] 'Self-learning Topics: Explore bootstrapping' -> 'via Python tutorials. Read “Practical Statistics'
+
+=======================================================
+COURSE: User Experience (2 rows, pos: 1, neg: 1)
+=======================================================
+  [1] 'User Experience' -> 'Design with VR'
+  [0] '(Contact Hours)' -> 'Design with VR'
+
+=======================================================
+COURSE: Visualization Lab (136 rows, pos: 61, neg: 75)
+=======================================================
+  [1] 'Self- learning Topics: Different feature engineering' -> 'techniques to improve model performance'
+  [0] 'R for data analytics' -> 'Importance of data cleaning and preparation Handling'
+  [0] 'R for data analytics' -> 'Python Libraries: NumPy'
+  [1] 'Introduction to logistic regression for classification Logit' -> 'Self- learning Topics: Explore Advance Regression'
+  [0] 'Data Exploration and Anamoly Detection' -> 'Types of time series: univariate and multivariate'
+  [0] 'function and odds ratio Model fitting and interpretation' -> 'Anomaly Detection: Outliers'
+  [0] 'modelling Creating new features from existing data' -> 'Regression Model Evaluation'
+  [1] 'Regression Model Evaluation' -> 'Introduction to logistic regression for classification Logit'
+  [0] 'semi-structured' -> 'modelling Creating new features from existing data'
+  [1] 'Outlier detection using density-based methods for real time' -> 'Self- learning Topics: Anomaly detection in high-volume'
+
+=======================================================
+COURSE: Web and (17 rows, pos: 8, neg: 9)
+=======================================================
+  [0] 'Self-Learning: Overview of Progressive Web' -> 'React DevTools'
+  [0] 'Low-code/No-code development' -> 'Dockerizing Kotlin backend applications'
+  [1] 'Self-learning Toics: Performance profiling using' -> 'Self-learning Topics: Jamstack architecture'
+  [1] 'Self-Learning: Overview of Progressive Web' -> 'Self-learning Toics: Performance profiling using'
+  [1] 'Pre-Requisite Topics Basic Concepts: HTML5, CSS3; JavaScript, Client-Server paradigm, Front-end and Back-end development' -> 'Self-learning Topics: API Gateway concept'
+  [1] 'Self-Learning: Overview of Progressive Web' -> 'Self-learning Topics: API Gateway concept'
+  [0] 'Apps (PWAs)' -> 'React DevTools'
+  [1] 'Self-learning Topics: Jamstack architecture' -> 'Low-code/No-code development'
+  [0] 'Self-Learning: Overview of Progressive Web' -> 'Dockerizing Kotlin backend applications'
+  [1] 'Pre-Requisite Topics Basic Concepts: HTML5, CSS3; JavaScript, Client-Server paradigm, Front-end and Back-end development' -> 'Self-Learning: Overview of Progressive Web'

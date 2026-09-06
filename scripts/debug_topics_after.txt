@@ -1,0 +1,411 @@
+
+======================================================================
+PDF: 6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf
+======================================================================
+
+  [2343111] Applied
+  --------------------------------------------------
+      1. Inverse Laplace transform using Convolution theorem
+      2. Applications to solve initial and boundary value problems
+      3. differential equation)
+      4. inverse Laplace transform. (with s4 in denominator), Inverse
+      5. Fourier Series
+      6. Parseval’s Identity (without proof) Fourier series of periodic
+      7. function with period2  and2l
+      8. Fourier series of even and odd functions (simple functions
+      9. only, piecewise continuous function not to be included)
+     10. Hal Frange Sine and Cosine Series
+     11. orthogonal and orthonormal set of functions, Fourier
+     12. f(z) to be analytic (without proof)
+     13. Thomson method to determine analytic function
+     14. f(z) when real (u)or imaginary part (v) is given
+     15. Harmonic function, Harmonic conjugate, and orthogonal
+     16. polar coordinates, conformal mapping, linear, bilinear
+     17. mapping,  cross  ratio,  fixed  points,  and  standard
+     18. Kar lPearson’s Coefficient of correlation(r) Spearman’s
+     19. Rank correlation coefficient (R) (with repeated and non
+     20. probability distribution and probability density function
+     21. two moments
+     22. theorem, Skewness and Kurtosis of distribution (data)
+     23. semester exam from self
+     24. study topics. However, students are
+     25. encouraged to explore these topics for a better understanding of the subject
+     26. Advanced Engineering Mathematics, R.K. Jainand S.R.K. Iyengar, Narosapublication
+
+  [2343112] Advance Data
+  --------------------------------------------------
+      1. Overview of Data Structures: Revision of basic data structures (arrays
+      2. linked lists
+      3. Introduction to Analysis of Algorithms Fundamentals of the analysis of algorithms: Time and Space
+      4. Asymptotic notation
+      5. Master theorem)
+
+  [2343113] Database
+  --------------------------------------------------
+      1. Database System Concepts, Architecture
+      2. Characteristics of Databases
+      3. File system v/s Database
+      4. Data abstraction and Data Independence
+      5. DBMS system
+      6. Database Administrator (DBA)
+      7. Role of DBA
+
+  [2343115] ADSA Lab
+  --------------------------------------------------
+      1. Introduction to Analysis of Algorithms
+      2. integer values and find space and time complexity
+      3. find space and time complexity
+      4. Implementation of hash functions and its associated
+      5. Advanced Data Structures
+      6. integers and perform Pre-order
+      7. traversal of constructed tree. Analyze complexities
+      8. Implement Insert
+      9. Search and Display operations
+     10. Implementation of operations on B/B+-trees
+     11. Implement solution for a 0-1 knapsack problem using
+     12. dynamic programming
+     13. Implement Prim’s and Kruskal’s algorithms
+     14. Implement solution for job sequencing with deadlines
+     15. Backtracking and Maximum flow Networks
+     16. Implement N-Queen's problem using Back Tracking
+     17. distinct numbers using backtracking
+     18. Implement graph coloring
+     19. Implement Hamiltonian cycles
+     20. Implementation of Ford-Fulkerson algorithm
+     21. Dynamic Algorithms
+     22. Implementation of Bellman-Ford algorithm
+     23. Implement Floyd Warshall Algorithm
+     24. Implement Travelling salesman problem
+     25. String Matching Algorithms
+     26. Implement Naïve string matching algorithm
+     27. Implement Rabin-Karp algorithm
+     28. Implement KMP algorithm
+     29. Implement Longest common subsequence
+     30. Implement any one application
+
+  [2344111] Applied
+  --------------------------------------------------
+      1. Functions ofSquare Matrix
+      2. Linear Transformations
+      3. Quadratic forms
+      4. Theorem to evaluate realintegrations
+      5. value theorem
+      6. Inverse of Transform by Binomial
+
+  [2344112] Operating System
+  --------------------------------------------------
+      1. System calls with examples for different OS
+      2. Scheduling Algorithms
+      3. Selection of Scheduling
+      4. Algorithms  for  different  situations
+      5. Real-time
+      6. Deadlock detection and recovery
+      7. one Operating System
+      8. Implementation of Page
+      9. Replacement Algorithms
+     10. Features of I/O facility for different OS
+
+  [2344113] Computer Network
+  --------------------------------------------------
+      1. Structure of a switch
+      2. Space Division Switching
+      3. Time Division
+      4. Packet Switch
+      5. Data Link Layer Data Link Control:  Framing 
+      6. Error Detection & Correction: basic concept
+      7. Linear Block Code
+      8. CRC code
+      9. Checksum (Simple Problems)
+     10. Flow Control: Stop-and-Wait Flow Control
+     11. Sliding Window
+     12. Flow Control (Simple Problems)
+     13. Error Control: Stop-and-Wait ARQ
+     14. Go-Back-N ARQ
+     15. Reject ARQ (Simple Problems)
+     16. Medium Access Control
+     17. Scheduled Access (Reservation
+     18. Token Passing)
+     19. Random Access (ALOHA
+     20. Link Layer Addressing
+     21. Ethernet Protocol
+     22. Standard Ethernet
+     23. Fast Ethernet (100 Mbps)
+     24. Gigabit Ethernet
+     25. 10-Gigabit Ethernet
+     26. Self-Study Topics
+     27. HDLC Protocol
+     28. IEEE 802.11 Wireless LAN
+
+  [2344115] Network Design
+  --------------------------------------------------
+      1. Computer Network Simulation in NS2 Basic Concepts and Protocol Implementation.-Prof Neeraj Bhargava
+      2. Singh Rathore
+      3. Dr. Ritu Bhargava
+      4. Dr. Abhishek Kumar
+      5. Packet analysis with Wire shark
+      6. Anish Nath
+
+  [2344411] Mini-Project -
+  --------------------------------------------------
+      1. Oriented Programming, Concurrency & More
+      2. materials/tree/editions/1.0
+      3. Detailed Content
+      4. Demonstrate Compilation and interpretation stages
+      5. debug the code
+      6. Object Oriented
+      7. Preferably in C++ to demonstrate concepts like
+      8. Dynamic Binding
+      9. Run Time
+     10. Students should understand checked and unchecked
+     11. exceptions as well as using multiple catch blocks
+     12. Tutorial on Introduction to Haskell programming
+     13. environment and Basic operators, types, prelude
+     14. library functions, list and tuples in Haskell
+     15. conditional expression
+     16. pattern matching
+     17. Simple List Comprehension
+     18. Order Functions
+     19. Write a recursive function to multiply two
+     20. natural numbers that use a predefined add function
+     21. Haskell code to represent infinite list e.g
+     22. fibonacci series
+     23. Implement simple Calculator
+     24. the execution of the Functional Implementation
+     25. Tutorial on working of SWI Prolog Environment
+     26. Implement at least
+     27. Knowledge Base having multiple facts and rules
+     28. understand query execution using the backward
+     29. learning implementation of concurrency, Streams
+     30. students, as it is a group activity
+     31. activity of a mini
+     32. guide/supervisor can verify and record notes/comments
+     33. solution in consultation with the guide/ supervisor
+     34. Term Work
+     35. contribution in group activity, their understanding, and response to questions
+     36. o Quality of Project report & Project Review
+     37. Review/progress monitoring committee may consider following points for assessment based of the semester
+     38. project as mentioned in general guidelines
+     39.  In this case in students’ group shall complete project in all aspects including
+     40. o Identification of need/problem
+     41. o Proposed final solution
+     42. o Procurement of components/systems
+     43. o Building prototype and testing
+     44. First shall be for the finalisation of problem and proposed solution
+     45. Second shall be for the implementation, testing and validation of solution
+     46. Project shall be assessed based on following criteria
+     47. Quality of survey/ need identification
+     48. Clarity of Problem definition based on need
+     49. Innovativeness in solutions/ Novelty in solutions
+     50. Feasibility of proposed problem solutions and selection of best solution
+     51. Collection of Dataset
+     52. Cost effectiveness
+     53. Societal impact
+     54. Cost effectiveness and Societal impact
+     55. Full functioning of working model as per stated requirements
+     56. Effective use of skill sets
+     57. Effective use of standard engineering norms
+     58. Contribution of an individual’s as member or leader
+     59. Clarity in written and oral communication
+     60. Project Practical/Oral Examination
+     61. Students shall be motivated to publish a paper based on the work in Conferences/students competitions
+     62. Oriented Programming (OOP)
+     63. a. Library Management System
+     64. Use classes for Books, Users, Transactions
+     65. Implement inheritance for different types of users (students, staff)
+     66. Optional: Add GUI using Tkinter or JavaFX
+     67. b. Online Food Ordering System (Console
+     68. Classes: Customer, MenuItem, Order, Restaurant
+     69. OOP features like encapsulation, polymorphism
+     70. Expense Tracker App (Java or Python)
+     71. Use OOP to model Users, Transactions, and Categories
+     72. Functional Programming
+     73. a. Weather Data Analyzer (Haskell / Python with functools)
+     74. Read weather data and apply pure functions for analysis
+     75. Avoid mutable data
+     76. Use map, reduce, filter extensively
+     77. Do List Manager (Scala or Elixir)
+     78. Immutable data structures
+     79. Recursion instead of loops
+     80. No side effects in logic layer
+     81. Procedural Programming
+     82. a. Student Grade Calculator (C / Python)
+     83. Use functions and data structures to store and compute data
+     84. No OOP involved
+     85. b. ATM Simulator
+     86. based system using functions only (no classes)
+     87. PIN check, balance enquiry, cash withdrawal, etc
+     88. Logic Programming
+     89. a. Family Tree Generator (Prolog)
+     90. Define relations like parent, sibling, cousin using rules
+     91. Query relationships dynamically
+     92. b. Sudoku Solver (Prolog)
+     93. Define rules and constraints to solve 9x9 Sudoku puzzle
+     94. Paradigm Approach
+     95. a. Chatbot using Python (OOP + Functional)
+     96. OOP for structuring code (User, Bot, ChatSession)
+     97. Functional for processing input (filters, parsers)
+     98. b. File Organizer Script
+     99. Script to organize files into folders based on type
+    100. Use procedural logic + OOP for file operations
+    101. Driven Programming
+    102. a. GUI Calculator (Python Tkinter / Java Swing)
+    103. Event listeners for button presses
+    104. Follow MVC pattern optionally
+    105. b. Traffic Light Simulation (JavaScript + HTML/CSS)
+    106. Events for light changes
+    107. Use state variables to track behavior
+    108. include at least 2 assignments and Mini
+    109. Project Report
+    110. Mini- Project with full prototype/ product demo, testing, validation and Report) + 5 Marks (Attendance)
+
+  [2343611] Mini-Project - Full
+  --------------------------------------------------
+      1. Introduction to Full Stack Java Overview of full-stack development: Definition of Full Stack
+      2. Components of Full Stack: Frontend
+      3. Full Stack Developer Roles & Skills
+      4. Technology Stack
+      5. Overview: Frontend: HTML
+      6. Backend: Java
+      7. Spring Boot
+      8. Database: MySQL
+      9. Tools: Git
+     10. Real-world
+     11. applications of full stack
+     12. Java SE concepts: JVM
+     13. Control Statements
+     14. Packages and Import statements
+     15. Exception Handling Basics
+     16. Multi-tier architecture
+     17. MVC Architecture- Model: Business logic
+     18. Data management
+     19. View: User interface
+     20. Controller: Request
+     21. linking model and view
+     22. Spring Boot: Modern development trends. MVC in Java Web
+     23. HTML 5, CSS 3 with Bootstrap HTML Basics & Structure: Learn HTML5 structure, semantic
+     24. character effects
+     25. document spacing
+     26. flexible layouts
+     27. Image Handling & Forms: Understand image roles
+     28. web pages
+     29. form elements (text fields
+     30. radio buttons
+     31. CSS3 Fundamentals: Explore CSS syntax
+     32. text formatting
+     33. Bootstrap Introduction & Components: Get started with Bootstrap
+     34. utilizing grid systems and essential components like headers
+     35. Fetch API
+     36. Axios for API calls
+     37. Version Control with Git
+     38. Back-end development with Java Spring Boot introduction- What is Spring Framework? Why Spring Boot?
+     39. Features of Spring Boot: Auto-configuration
+     40. Starter dependencies
+     41. embedded server
+     42. Spring Initializr
+     43. Project structure overview: pom.xml
+     44. Running your first Spring Boot application
+     45. RESTful API development- What is REST? REST vs. SOAP
+     46. Methods: GET
+     47. Creating REST Controllers in Spring Boot
+     48. Understanding Request Mapping
+     49. Get Mapping
+     50. Controllers and Services- Role of Controller in MVC
+     51. Defining Controllers in Spring Boot
+     52. @RestController vs. @Controller
+     53. Service layer responsibilities
+     54. Creating Service classes and injecting them
+
+  Total subjects: 10
+  Total topics  : 282
+
+======================================================================
+PDF: 6.40-N-Chemical-Engineering-Sem-III-IV.pdf
+======================================================================
+
+  [2073111] Chemical
+  --------------------------------------------------
+      1. Eigen values and Eigen vectors
+      2. Properties of Eigen
+      3. values and Eigen vectors. (No theorems/ proof)
+      4. Similarity of matrices
+      5. Diagonalization of matrices
+      6. Self -Learning Topics
+      7. Chemical Engineering
+      8. Applying to chemical engineering problems related
+      9. heat transfer
+     10. mass transfer
+     11. Eulers method
+     12. Kutta second Order method
+     13. Applications of Runge-Kutta Fourth order
+     14. Method and Adam Bashford Predictor
+     15. Corrector Method to chemical engineering
+     16. Finite Difference
+     17. Forward and Backward difference operators ∆
+     18. Shift operator E
+     19. Relation between E
+
+  [2073115] Fluid Flow
+  --------------------------------------------------
+      1. Viscosity Properties of fluids, Viscosity and its Measurement. Various units of viscosity
+      2. Fluid Flow Phenomena Types of flow (Laminar/Turbulent), Reynolds experiment
+      3. Pumps Classification and types, power required and efficiency of various pumps. Characteristics of a pump
+
+  [2073116] Process
+  --------------------------------------------------
+      1. "Entrepreneurship Development and Small Business Enterprises" – Poornima M
+      2. "Innovation and Entrepreneurship" – Peter F. Drucker
+      3. Harper Business
+      4. "Startup and Entrepreneurship: A Practical Guide" – Rajeev Roy
+
+  [2074112] Solid Fluid
+  --------------------------------------------------
+      1. effectiveness of screen. (Numericals)
+      2. Screening equipment – Vibrating screen
+      3. Grizzlies and Trommels
+      4. Size Reduction
+      5. Size reduction of solids. Mechanism of size
+      6. reduction and method of operation. Energy
+      7. requirement for size reduction and crushing
+      8. laws. (Numericals)
+      9. Size reduction equipment – Jaw crusher
+     10. Hammer mill, Ball mill and Roll crusher
+     11. Solid mixing – Introduction to solid mixing
+     12. Mixing equipment for cohesive solids
+     13. Muller mixer and kneaders
+     14. Mixers for free flowing solids: Ribbon
+     15. blender and internal screw mixer
+     16. Flow of a single fluid through a packed bed
+     17. Ergun’s equation
+     18. Fluidization: conditions for fluidization
+     19. fluidization. Applications of fluidization
+     20. filtration: constant rate and constant
+     21. filter cake, flow of filtrate through the cloth
+     22. Solid fluid
+     23. Sedimentation: Batch sedimentation. Kynch
+     24. theory of sedimentation. Derivation of area
+     25. Gas solid separation equipment: Cyclone
+     26. separator, fabric filter and electrostatic
+     27. handling of solids
+     28. Storage of solids: Properties of particulate
+     29. masses. Pressure in bins and silos, Jansen’s
+     30. Conveying, of solids: Belt conveyer, bucket
+     31. conveyer, screw conveyer and pneumatic
+     32. compulsory and should cover maximum contents of the syllabus
+     33. ⮚ A total of four questions need to be answered
+
+  [2074411] Mini Project-II
+  --------------------------------------------------
+      1. Design thinking case studies from various
+      2. Second Year Chemical Engineering
+      3. guidelines of conducting test, The end
+      4. goals of test: Desirability
+      5. Usability testing
+      6. Design Your Thinking: The Mindsets
+      7. Pavan Soni
+      8. Penguin Random House India Private Limited
+      9. Design Thinking: Methodology Book
+     10. Emrah Yayichi
+     11. Handbook of Design Thinking: Christian Mueller-Roterberg
+
+  Total subjects: 5
+  Total topics  : 70

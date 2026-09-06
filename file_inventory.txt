@@ -1,0 +1,127 @@
+
+### KEEP
+- Cleaned_Files/
+    candidate_pairs.csv (559.4 KB, 2026-09-06 10:06:35) - referenced by working code
+    cross_domain_test.csv (23.8 KB, 2026-09-05 06:25:37) - referenced by working code
+    label_suggestions.csv (695.5 KB, 2026-09-06 10:06:43) - referenced by working code
+    labeling_dataset.csv (536.1 KB, 2026-09-06 10:07:36) - referenced by working code
+    labeling_dataset_cleaned.csv (37.1 KB, 2026-09-06 00:30:21) - referenced by working code
+    test_split.csv (6.5 KB, 2026-09-06 00:30:46) - referenced by working code
+    train_split.csv (25.8 KB, 2026-09-06 00:30:46) - referenced by working code
+    val_split.csv (5.1 KB, 2026-09-06 00:30:46) - referenced by working code
+- Cleaned_Files/archive/
+    candidate_pairs.csv (1269.3 KB, 2026-09-05 07:38:01) - referenced by working code
+    label_suggestions.csv (1625.8 KB, 2026-09-05 07:38:12) - referenced by working code
+- Cleaned_Files/audit/
+    label_audit_flagged.csv (685.2 KB, 2026-09-05 23:03:47) - referenced by working code
+    label_audit_flagged_v3.csv (615.0 KB, 2026-09-06 00:57:34) - referenced by working code
+- DATA/
+    label_audit_flagged.csv (615.0 KB, 2026-09-06 00:57:34) - referenced by working code
+    new_candidate_pairs.csv (292.3 KB, 2026-09-05 19:25:26) - referenced by working code
+    new_cross_domain_candidates.csv (290.6 KB, 2026-09-05 19:25:26) - referenced by working code
+    review_sample.csv (19.7 KB, 2026-09-05 19:25:26) - referenced by working code
+- app/
+    main.py (2.0 KB, 2026-09-05 08:13:14) - referenced by working code
+- app/api/
+    analytics_router.py (2.3 KB, 2026-09-05 04:33:27) - referenced by working code
+    builder_router.py (3.7 KB, 2026-09-05 04:33:27) - referenced by working code
+    graph_router.py (4.0 KB, 2026-09-05 04:33:27) - referenced by working code
+    inference_router.py (1.2 KB, 2026-09-05 04:33:27) - referenced by working code
+    metrics_router.py (1.3 KB, 2026-09-05 10:31:04) - referenced by working code
+    parser_router.py (1.7 KB, 2026-09-05 04:33:27) - referenced by working code
+    persistence_router.py (2.3 KB, 2026-09-05 04:33:27) - referenced by working code
+    recommendation_router.py (2.1 KB, 2026-09-05 04:33:27) - referenced by working code
+    sequence_router.py (2.4 KB, 2026-09-05 04:33:27) - referenced by working code
+- app/core/
+    config.py (0.2 KB, 2026-09-05 04:33:27) - referenced by working code
+- app/db/
+    neo4j_driver.py (4.7 KB, 2026-09-05 04:33:27) - referenced by working code
+    postgres_models.py (1.6 KB, 2026-09-05 04:33:27) - referenced by working code
+    session.py (1.1 KB, 2026-09-05 04:33:27) - referenced by working code
+- app/graph/
+    engine.py (7.3 KB, 2026-09-05 04:33:27) - referenced by working code
+    exceptions.py (1.4 KB, 2026-09-05 04:33:27) - referenced by working code
+    models.py (1.8 KB, 2026-09-05 04:33:27) - referenced by working code
+- app/ml/
+    feature_engineering.py (2.5 KB, 2026-09-05 06:30:32) - referenced by working code
+    train_classifier.py (10.0 KB, 2026-09-05 08:05:59) - referenced by working code
+- app/models/
+    analytics_schemas.py (2.8 KB, 2026-09-05 04:33:27) - referenced by working code
+    builder_schemas.py (1.0 KB, 2026-09-05 04:33:27) - referenced by working code
+    graph_schemas.py (1.2 KB, 2026-09-05 04:33:27) - referenced by working code
+    inference_schemas.py (1.0 KB, 2026-09-05 04:33:27) - referenced by working code
+    parser_schemas.py (1.3 KB, 2026-09-05 04:33:27) - referenced by working code
+    persistence_schemas.py (0.5 KB, 2026-09-05 04:33:27) - referenced by working code
+    recommendation_schemas.py (2.3 KB, 2026-09-05 04:33:27) - referenced by working code
+    sequence_schemas.py (1.0 KB, 2026-09-05 04:33:27) - referenced by working code
+- app/parser/
+    pdf_parser.py (1.7 KB, 2026-09-05 04:33:27) - referenced by working code
+    syllabus_extractor.py (6.9 KB, 2026-09-05 07:58:32) - referenced by working code
+- app/services/
+    analytics_engine.py (7.0 KB, 2026-09-05 04:33:27) - referenced by working code
+    classifier_inference_service.py (1.5 KB, 2026-09-05 06:30:32) - referenced by working code
+    embedding_service.py (1.9 KB, 2026-09-05 04:33:27) - referenced by working code
+    graph_builder.py (3.1 KB, 2026-09-05 04:33:27) - referenced by working code
+    persistence_service.py (2.1 KB, 2026-09-05 04:33:27) - referenced by working code
+    recommendation_engine.py (6.9 KB, 2026-09-05 04:33:27) - referenced by working code
+    relationship_inferencer.py (7.5 KB, 2026-09-05 10:31:04) - referenced by working code
+    sequence_engine.py (5.3 KB, 2026-09-05 04:33:27) - referenced by working code
+- scripts/
+    audit_dataset.py (16.0 KB, 2026-09-06 00:57:28) - referenced by working code
+    build_candidate_pairs.py (3.7 KB, 2026-09-05 05:55:16) - referenced by working code
+    full_pipeline.py (45.6 KB, 2026-09-05 19:25:06) - referenced by working code
+
+### ARCHIVE
+- ./
+    audit_sample.py (0.6 KB, 2026-09-05 11:56:23) - superseded outputs / not referenced
+- Cleaned_Files/
+    candidate_pairs_cleaned.csv (48.0 KB, 2026-09-05 23:05:06) - superseded outputs / not referenced
+    label_suggestions_cleaned.csv (65.0 KB, 2026-09-05 23:05:07) - superseded outputs / not referenced
+- tests/
+    __init__.py (0.0 KB, 2026-09-05 04:33:27) - superseded outputs / not referenced
+    test_analytics.py (4.9 KB, 2026-09-05 04:33:27) - superseded outputs / not referenced
+    test_builder.py (4.7 KB, 2026-09-05 04:33:27) - superseded outputs / not referenced
+    test_graph.py (5.3 KB, 2026-09-05 04:33:27) - superseded outputs / not referenced
+    test_inference.py (3.5 KB, 2026-09-05 04:33:27) - superseded outputs / not referenced
+    test_main.py (0.8 KB, 2026-09-05 08:13:14) - superseded outputs / not referenced
+    test_ml.py (2.5 KB, 2026-09-05 06:30:32) - superseded outputs / not referenced
+    test_parser.py (4.0 KB, 2026-09-05 04:33:28) - superseded outputs / not referenced
+    test_persistence.py (2.2 KB, 2026-09-05 04:33:28) - superseded outputs / not referenced
+    test_recommendations.py (3.7 KB, 2026-09-05 04:33:28) - superseded outputs / not referenced
+    test_sequence.py (5.1 KB, 2026-09-05 04:33:28) - superseded outputs / not referenced
+
+### UNCLEAR
+- Cleaned_Files/
+    final_training_dataset.csv (126.6 KB, 2026-09-06 09:45:03) - no internal references found (unclear usage)
+    final_training_dataset_v3.csv (159.0 KB, 2026-09-06 10:30:52) - no internal references found (unclear usage)
+- app/
+    __init__.py (0.0 KB, 2026-09-05 04:33:27) - no internal references found (unclear usage)
+- app/api/
+    __init__.py (0.0 KB, 2026-09-05 04:33:27) - no internal references found (unclear usage)
+- app/graph/
+    __init__.py (0.0 KB, 2026-09-05 04:33:27) - no internal references found (unclear usage)
+- app/ml/
+    __init__.py (0.0 KB, 2026-09-05 06:30:32) - no internal references found (unclear usage)
+    evaluate_cross_domain.py (3.8 KB, 2026-09-05 08:05:59) - no internal references found (unclear usage)
+    threshold_analysis.py (4.9 KB, 2026-09-05 10:31:48) - no internal references found (unclear usage)
+- app/models/
+    __init__.py (0.0 KB, 2026-09-05 04:33:27) - no internal references found (unclear usage)
+- app/parser/
+    __init__.py (0.0 KB, 2026-09-05 04:33:27) - no internal references found (unclear usage)
+- app/services/
+    __init__.py (0.0 KB, 2026-09-05 04:33:27) - no internal references found (unclear usage)
+    supabase_client.py (2.3 KB, 2026-09-05 04:33:27) - no internal references found (unclear usage)
+- scripts/
+    ai_label_suggestions.py (14.9 KB, 2026-09-05 06:30:32) - no internal references found (unclear usage)
+    build_cross_domain_test.py (6.8 KB, 2026-09-05 06:30:32) - no internal references found (unclear usage)
+    check_fp.py (1.6 KB, 2026-09-05 22:49:23) - no internal references found (unclear usage)
+    clean_dataset.py (3.1 KB, 2026-09-05 22:50:18) - no internal references found (unclear usage)
+    debug_topics.py (1.3 KB, 2026-09-05 18:23:56) - no internal references found (unclear usage)
+    dump_1888.py (0.5 KB, 2026-09-05 22:49:23) - no internal references found (unclear usage)
+    ingest_new_pdfs.py (8.7 KB, 2026-09-05 17:56:30) - no internal references found (unclear usage)
+    inspect_clean_theory.py (2.0 KB, 2026-09-05 23:03:31) - no internal references found (unclear usage)
+    inspect_cleaned_by_course.py (0.7 KB, 2026-09-05 23:03:31) - no internal references found (unclear usage)
+    inspect_review_sample.py (0.4 KB, 2026-09-05 19:24:35) - no internal references found (unclear usage)
+    inspect_theory_noise.py (1.9 KB, 2026-09-05 23:03:31) - no internal references found (unclear usage)
+    test_rigorous_cleaning.py (6.1 KB, 2026-09-05 23:03:31) - no internal references found (unclear usage)
+    verify_splits.py (8.4 KB, 2026-09-06 00:31:06) - no internal references found (unclear usage)

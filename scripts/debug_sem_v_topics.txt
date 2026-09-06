@@ -1,0 +1,49 @@
+=== [2165113] Agile Software Development & DevOps (12 topics) ===
+  1. Testing: Functionality Testing, UI Testing
+  2. Testing: Principles of Agile Testers
+  3. Automation, Test Automation Pyramid. Case
+  4. Study – Selenium/ Jira
+  5. Postman, and JMeter
+  6. DevOps: Introduction, DevOps - Importance
+  7. C’s of DevOps Lifecycle for Business
+  8. Agility, DevOps and Continuous Testing
+  9. Choosing the right DevOps tools and challenges
+  10. Assessment. Study of various Open
+  11. Source Tools in DevOps
+  12. Introduction to Agile Methods, Sondra Ashmore
+=== [2165114] Web and Mobile Application (6 topics) ===
+  1. Pre-Requisite Topics Basic Concepts: HTML5, CSS3; JavaScript, Client-Server paradigm, Front-end and Back-end development
+  2. Self-Learning: Overview of Progressive Web
+  3. Self-learning Toics: Performance profiling using
+  4. React DevTools
+  5. Custom Hooks creation
+  6. Low-code/No-code development
+=== [2166111] Machine Learning and Swarm (4 topics) ===
+  1. Self-Learning : Transfer Learning and Self
+  2. Self-Learning : Semi-Supervised and Active
+  3. Multi-class SVMs
+  4. Principal Component Analysis
+=== [2166112] Data Analytics and Visualization (6 topics) ===
+  1. Introduction to Data Analytics
+  2. Background and Overview of Data
+  3. Analytics:  Key Roles for a Successful
+  4. Data Analytics life cycle
+  5. Types of analytics
+  6. Roles in Industry
+=== [2166115] Nature- Inspired Optimization (6 topics) ===
+  1. Super-Simple
+  2. Metrics: Measuring performance
+  3. Quality (Error Rate
+  4. Applications and variants
+  5. Edge Systems: Application in feature selection
+  6. Edge resource optimization
+=== [2166118] Blockchain Technology (9 topics) ===
+  1. ERC721 Tokens, ICO: basics and related terms
+  2. Metaverse, Cryptocurrency wallets: Hot and cold
+  3. Blockchain, UTXO and double spending problem
+  4. Common security threats in Blockchain
+  5. Mitigating attacks: 51% attack, Sybil attack, replay
+  6. Cryptocurrency Valuation Models
+  7. Emerging trends
+  8. Models on Blockchain: decentralized AI
+  9. Case study: AI for transaction validation, fraud

@@ -1,0 +1,268 @@
+concept_a,concept_b,Course_Code,course_name,source_syllabus,embedding_similarity,order_delta,domain_match,keyword_overlap,label
+Structure of a switch,Packet Switch,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.4673,3,1,0.2,1
+"Database System Concepts, Architecture",File system v/s Database,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.5864,2,1,0.2857,1
+Structure of a switch,Error Control: Stop-and-Wait ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.0427,12,1,0.0,0
+Regular operations,Regular Language,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.463,3,1,0.3333,1
+Agile Quality,Testing: Principles of Agile Testers,2165113,Agile Software,SEM-V.pdf,0.6001,4,1,0.1667,1
+Fourier Series,Complex form of Fourier Series,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.7554,5,1,0.4,1
+Data Analytics life cycle,Types of analytics,2166112,Data Analytics,SEM-V.pdf,0.5176,2,1,0.1667,1
+Decision properties of RLs,Natural Language Processing (NLP),2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1308,6,1,0.0,0
+Fourier series of even and odd functions,Poisson Distribution,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0486,12,1,0.0,0
+Types of solutions,Artificial variables,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2761,8,1,0.0,1
+Types of analytics,Data Analytics,2166112,Data Analytics,SEM-V.pdf,0.6715,5,1,0.25,1
+Fundamentals of Distributed Operating System,Special-purpose Operating Systems,2014113,Operating,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6744,8,1,0.125,1
+Standard Ethernet,Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.6922,2,1,0.3333,1
+Space Division Switching,Packet Switch,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3184,2,1,0.0,1
+Introduction to Congruence,Linear congruence,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6781,1,1,0.25,1
+Poisson Distribution,Normal Distribution,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.4918,1,1,0.3333,1
+Regular Expression,Languages in Compiler Design,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1574,8,1,0.0,0
+Statistical Techniques,Normal Distribution,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2314,10,1,0.0,0
+Data Analytics life cycle,Data Analytics,2166112,Data Analytics,SEM-V.pdf,0.6709,7,1,0.5,1
+Quadratic forms,Linear congruence,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2821,14,1,0.0,0
+Open-source and Proprietary Operating System,Network Operating System,2014113,Operating,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5509,2,1,0.2857,1
+Pumping lemma,Text Processing,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1676,4,1,0.0,0
+"Database System Concepts, Architecture",Data abstraction and Data Independence,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3827,3,1,0.0,1
+Sliding Window,Medium Access Control,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1783,5,1,0.0,0
+Statistical Techniques,Raw moments,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2129,8,1,0.0,0
+Linear congruence,Application of congruence-RSA algorithm,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5786,3,1,0.1667,1
+Regular operations,Languages in Compiler Design,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2045,9,1,0.0,0
+Database Administrator (DBA),Role of DBA,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.7026,1,1,0.2,1
+Error Detection & Correction: basic concept,Go-Back-N ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.0712,8,1,0.0,0
+Artificial variables,Kuhn-Tucker conditions,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.208,1,1,0.0,1
+Cayley-Hamilton,Similarity of matrices,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2718,2,1,0.0,1
+Network Operating System,Special-purpose Operating Systems,2014113,Operating,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6075,7,1,0.1667,1
+Linear Transformations,Quadratic forms,2344111,Applied,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.233,1,1,0.0,1
+Error Detection & Correction: basic concept,Error Control: Stop-and-Wait ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.241,7,1,0.1,0
+Standard Ethernet,HDLC Protocol,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.217,5,1,0.0,0
+Fourier Series,Lines of regression,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0946,11,1,0.0,0
+Fourier Series,Fourier series of even and odd functions,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.7312,4,1,0.2857,1
+Moment generating function,Poisson Distribution,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.3184,2,1,0.0,1
+Fundamentals of Distributed Operating System,Mobile Operating System,2014113,Operating,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5512,6,1,0.3333,1
+Nondeterministic Finite Automata (NFA): Definitions,Equivalence between NFA with and ϵ- transitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5904,1,1,0.0909,1
+Packet Switch,Sliding Window,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1489,7,1,0.0,0
+Learning Techniques,Multi-class SVMs,2166111,Machine,SEM-V.pdf,0.3602,2,1,0.0,1
+Introduction to Data Analytics,Data Analytics,2166112,Data Analytics,SEM-V.pdf,0.7129,10,1,0.5,1
+"Testing: Functionality Testing, UI Testing",Testing: Principles of Agile Testers,2165113,Agile Software,SEM-V.pdf,0.5561,2,1,0.1429,1
+Scheduling Algorithms,Features of I/O facility for different OS,2344112,Operating System,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1945,11,1,0.0,0
+Fast Ethernet (100 Mbps),10-Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.7027,2,1,0.1667,1
+Testing: Principles of Agile Testers,"Agility, DevOps and Continuous Testing",2165113,Agile Software,SEM-V.pdf,0.5555,11,1,0.1111,0
+DBMS system,Database Administrator (DBA),2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.4609,1,1,0.0,1
+Equivalence between NFA with and ϵ- transitions,Minimization of DFA,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.4193,2,1,0.0,1
+Metrics: Measuring performance,Convergence Speed,2166115,Nature-,SEM-V.pdf,0.2441,2,1,0.0,1
+Sliding Window,Error Control: Stop-and-Wait ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.0956,2,1,0.0,0
+"Blockchain, UTXO and double spending problem",Models on Blockchain: decentralized AI,2166118,Blockchain,SEM-V.pdf,0.3429,10,1,0.1,0
+Introduction to Data Analytics,Types of analytics,2166112,Data Analytics,SEM-V.pdf,0.5219,5,1,0.1667,1
+"Agile Metrics, Agile Approach to Quality","Testing: Functionality Testing, UI Testing",2165113,Agile Software,SEM-V.pdf,0.2052,1,1,0.0,1
+Packet Switch,Go-Back-N ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1861,10,1,0.0,0
+Modular Arithmetic,Introduction to Congruence,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6281,1,1,0.0,1
+Regular operations,Regular Expression,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5542,1,1,0.3333,1
+Linear congruence,Statistical Techniques,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,-0.0002,13,1,0.0,0
+"Agility, DevOps and Continuous Testing",Source Tools in DevOps,2165113,Agile Software,SEM-V.pdf,0.5209,4,1,0.125,1
+Characteristics of Databases,Role of DBA,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.5379,5,1,0.2,1
+User Experience,Design with VR,2165115,User Experience,SEM-V.pdf,0.4292,1,1,0.0,1
+Kuhn-Tucker conditions,Complex form of Fourier Series,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.057,14,1,0.0,0
+File system v/s Database,Data abstraction and Data Independence,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.2011,1,1,0.0,1
+Characteristics of Databases,File system v/s Database,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.5019,1,1,0.0,1
+Standard Ethernet,10-Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.6443,3,1,0.25,1
+Introduction to Congruence,Application of congruence-RSA algorithm,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6881,4,1,0.1429,1
+Go-Back-N ARQ,Fast Ethernet (100 Mbps),2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1067,11,1,0.0,0
+Decision properties of RLs,Text Processing,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0379,5,1,0.0,0
+RE in text search and replace,Text Processing,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.4097,3,1,0.1429,0
+Regular operations,Closure properties,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2366,4,1,0.0,0
+Ethernet Protocol,10-Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.5342,4,1,0.25,1
+Regular Language,Minimization of DFA,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.3101,13,1,0.0,0
+DBMS system,Role of DBA,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.525,2,1,0.0,1
+Characteristics of Databases,Database Administrator (DBA),2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3928,4,1,0.0,0
+Medium Access Control,10-Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1796,11,1,0.0,0
+Kuhn-Tucker conditions,Application of congruence-RSA algorithm,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,-0.0484,6,1,0.0,0
+Link Layer Addressing,Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.2577,5,1,0.0,0
+Similarity of matrices,Linear and Non-Linear Programming Problems,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0555,4,1,0.0,0
+Simplex method,Introduction to Congruence,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0279,6,1,0.0,0
+Cryptocurrency Valuation Models,Models on Blockchain: decentralized AI,2166118,Blockchain,SEM-V.pdf,0.4882,6,1,0.1429,0
+Mobile Operating System,Special-purpose Operating Systems,2014113,Operating,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5923,2,1,0.1667,1
+Standard Ethernet,Fast Ethernet (100 Mbps),2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.6018,1,1,0.2,1
+Agile Quality,"Testing: Functionality Testing, UI Testing",2165113,Agile Software,SEM-V.pdf,0.2169,2,1,0.0,1
+Simplex method,Linear congruence,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1412,7,1,0.0,0
+Structure of a switch,Space Division Switching,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3131,1,1,0.0,1
+"Database System Concepts, Architecture",Characteristics of Databases,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.7484,1,1,0.0,1
+File system v/s Database,DBMS system,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.5268,2,1,0.1667,1
+Application of congruence-RSA algorithm,Fourier Series,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1098,3,1,0.0,0
+System calls with examples for different OS,Features of I/O facility for different OS,2344112,Operating System,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.4898,13,1,0.25,0
+Inverse Laplace transform using Convolution theorem,Fourier Series,2343111,Applied,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1411,7,1,0.0,0
+Fast Ethernet (100 Mbps),Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.7058,1,1,0.2,1
+Laplace transform using derivatives and its properties,Fourier Series,2343111,Applied,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.184,1,1,0.0,0
+Scheduling Algorithms,Replacement Algorithms,2344112,Operating System,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.4883,9,1,0.3333,0
+Cayley-Hamilton,Linear and Non-Linear Programming Problems,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,-0.0703,6,1,0.0,0
+"Agility, DevOps and Continuous Testing",Text Books,2165113,Agile Software,SEM-V.pdf,0.0021,9,1,0.0,0
+Decision properties of RLs,Pumping lemma,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0197,1,1,0.0,0
+"Testing: Functionality Testing, UI Testing","Agility, DevOps and Continuous Testing",2165113,Agile Software,SEM-V.pdf,0.3721,13,1,0.1429,0
+IoT data processing,Edge and Fog Computing platforms and Services,2166124,Edge Computing,SEM-V.pdf,0.3743,2,1,0.0,1
+Linear Block Code,Medium Access Control,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1435,9,1,0.0,0
+"Database System Concepts, Architecture",Database Administrator (DBA),2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.4349,5,1,0.1667,1
+Packet Switch,Linear Block Code,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.2465,3,1,0.0,0
+Linear Block Code,CRC code,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3981,1,1,0.25,1
+Lines of regression,Poisson Distribution,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0969,5,1,0.0,0
+Fast Ethernet (100 Mbps),HDLC Protocol,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1748,4,1,0.0,0
+Characteristics of Databases,DBMS system,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.6196,3,1,0.0,1
+"Testing: Functionality Testing, UI Testing","Testing Quadrants, Test Driven Development",2165113,Agile Software,SEM-V.pdf,0.4938,4,1,0.1429,1
+10-Gigabit Ethernet,HDLC Protocol,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.0984,2,1,0.0,0
+"Database System Concepts, Architecture",DBMS system,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.7267,4,1,0.2,1
+Gigabit Ethernet,IEEE 802.11 Wireless LAN,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3044,4,1,0.0,0
+Regular operations,Arden's theorem,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2053,2,1,0.0,1
+Linear and Non-Linear Programming Problems,Introduction to Congruence,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,-0.0405,12,1,0.0,0
+Linear and Non-Linear Programming Problems,Kuhn-Tucker conditions,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2473,10,1,0.0,0
+Closure properties,Decision properties of RLs,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2896,1,1,0.2,1
+Error Detection & Correction: basic concept,CRC code,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3216,2,1,0.0,1
+Flow Control: Stop-and-Wait Flow Control,Sliding Window,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.2308,1,1,0.0,1
+Fundamentals of Distributed Operating System,Network Operating System,2014113,Operating,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.647,1,1,0.3333,1
+Supervised Learning,Learning Techniques,2166111,Machine,SEM-V.pdf,0.598,2,1,0.3333,1
+Error Control: Stop-and-Wait ARQ,Go-Back-N ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.4047,1,1,0.1111,1
+Regular operations,Equivalence between NFA with and ϵ- transitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0974,14,1,0.0,0
+Testing: Principles of Agile Testers,"Testing Quadrants, Test Driven Development",2165113,Agile Software,SEM-V.pdf,0.5293,2,1,0.1111,1
+Linear Transformations,Inverse of Transform by Binomial,2344111,Applied,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3241,6,1,0.0,0
+Modular Arithmetic,Application of congruence-RSA algorithm,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5821,5,1,0.0,1
+Open-source and Proprietary Operating System,Special-purpose Operating Systems,2014113,Operating,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6814,9,1,0.1111,1
+Languages in Compiler Design,Nondeterministic Finite Automata (NFA): Definitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2147,4,1,0.0,0
+Application of congruence-RSA algorithm,Lines of regression,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0278,14,1,0.1429,0
+Error Detection & Correction: basic concept,Flow Control: Stop-and-Wait Flow Control,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1497,4,1,0.0,0
+Quadratic forms,Artificial variables,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1713,10,1,0.0,0
+Characteristics of Databases,Data abstraction and Data Independence,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.4165,2,1,0.0,1
+Link Layer Addressing,Ethernet Protocol,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3566,2,1,0.0,1
+Regular Expression,RE in text search and replace,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.3946,6,1,0.0,0
+Quadratic forms,Types of solutions,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2615,2,1,0.0,1
+Closure properties,Nondeterministic Finite Automata (NFA): Definitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0738,9,1,0.0,0
+Smart City (Parking or Waste Management),Connected Car System,2166121,Internet of Things,SEM-V.pdf,0.2898,1,1,0.0,1
+Agile Quality,"Agile Metrics, Agile Approach to Quality",2165113,Agile Software,SEM-V.pdf,0.845,1,1,0.4,1
+Introduction to Data Analytics,Data Analytics life cycle,2166112,Data Analytics,SEM-V.pdf,0.5806,3,1,0.3333,1
+Smart City (Parking or Waste Management),Smart Agriculture (Irrigation or Environmental Monitoring),2166121,Internet of Things,SEM-V.pdf,0.3476,2,1,0.2,1
+Decision properties of RLs,RE in text search and replace,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.032,2,1,0.0,0
+Fourier series of even and odd functions,Complex form of Fourier Series,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6314,1,1,0.3333,1
+Application of congruence-RSA algorithm,Statistical Techniques,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1927,10,1,0.0,0
+IoT data processing,Task offloading strategies: local vs cloud,2166124,Edge Computing,SEM-V.pdf,0.21,1,1,0.0,1
+"Blockchain, UTXO and double spending problem",Common security threats in Blockchain,2166118,Blockchain,SEM-V.pdf,0.3931,1,1,0.1,1
+Complex form of Fourier Series,Lines of regression,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0088,6,1,0.1429,0
+Task offloading strategies: local vs cloud,Edge and Fog Computing platforms and Services,2166124,Edge Computing,SEM-V.pdf,0.3932,1,1,0.0,1
+Fourier series of even and odd functions,Moment generating function,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1755,10,1,0.0,0
+Artificial variables,Fourier Series,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0404,10,1,0.0,0
+Regular Expression,Regular Language,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.61,2,1,0.3333,1
+Regular Expression,Natural Language Processing (NLP),2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.299,10,1,0.0,0
+Moment generating function,Raw moments,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.4099,1,1,0.0,1
+Error Detection & Correction: basic concept,Medium Access Control,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1425,10,1,0.0,0
+Regular Language,Languages in Compiler Design,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.4872,6,1,0.0,0
+"Database System Concepts, Architecture",Role of DBA,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.5539,6,1,0.0,1
+Open-source and Proprietary Operating System,Fundamentals of Distributed Operating System,2014113,Operating,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5654,1,1,0.2222,1
+Flow Control: Stop-and-Wait Flow Control,Link Layer Addressing,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1342,11,1,0.0,0
+Flow Control: Stop-and-Wait Flow Control,Go-Back-N ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1993,4,1,0.0,0
+Network Operating System,Mobile Operating System,2014113,Operating,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6214,5,1,0.5,1
+Text Processing,Natural Language Processing (NLP),2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6256,1,1,0.2,1
+Deadlock detection and recovery,Features of I/O facility for different OS,2344112,Operating System,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1843,6,1,0.0,0
+Modular Arithmetic,Linear congruence,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.6376,2,1,0.0,1
+Raw moments,Normal Distribution,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.211,2,1,0.0,1
+Packet Switch,Flow Control: Stop-and-Wait Flow Control,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.293,6,1,0.0,0
+Arden's theorem,Decision properties of RLs,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0956,3,1,0.0,0
+Flow Control: Stop-and-Wait Flow Control,Error Control: Stop-and-Wait ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.5758,3,1,0.5714,1
+Cayley-Hamilton,Simplex method,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0414,12,1,0.0,0
+Data abstraction and Data Independence,DBMS system,2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.2582,1,1,0.0,1
+Error Control: Stop-and-Wait ARQ,Fast Ethernet (100 Mbps),2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.0524,12,1,0.0,0
+Complex form of Fourier Series,Statistical Techniques,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1051,2,1,0.0,0
+Linear and Non-Linear Programming Problems,Types of solutions,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2528,1,1,0.0,1
+Linear congruence,Fourier series of even and odd functions,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0794,10,1,0.0,0
+Medium Access Control,HDLC Protocol,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.3793,13,1,0.0,0
+Source Tools in DevOps,Text Books,2165113,Agile Software,SEM-V.pdf,0.1,5,1,0.0,0
+Inverse Laplace transform using Convolution theorem,Laplace transform using derivatives and its properties,2343111,Applied,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.6608,6,1,0.3,1
+Space Division Switching,Flow Control: Stop-and-Wait Flow Control,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1945,8,1,0.0,0
+Ethernet Protocol,Fast Ethernet (100 Mbps),2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.5341,2,1,0.2,1
+Error Control: Stop-and-Wait ARQ,Medium Access Control,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1437,3,1,0.125,0
+Languages in Compiler Design,Natural Language Processing (NLP),2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2383,2,1,0.0,1
+Data abstraction and Data Independence,Database Administrator (DBA),2343113,Database,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1414,2,1,0.0,0
+Ethernet Protocol,HDLC Protocol,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.4338,6,1,0.3333,1
+Nondeterministic Finite Automata (NFA): Definitions,Minimization of DFA,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.5158,3,1,0.0,1
+Modular Arithmetic,Fourier Series,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1274,8,1,0.0,0
+RE in text search and replace,Languages in Compiler Design,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.0087,2,1,0.1111,0
+Go-Back-N ARQ,Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.0703,12,1,0.0,0
+Linear and Non-Linear Programming Problems,Simplex method,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2234,6,1,0.0,0
+Arden's theorem,Closure properties,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2196,2,1,0.0,1
+"Agile Metrics, Agile Approach to Quality",Testing: Principles of Agile Testers,2165113,Agile Software,SEM-V.pdf,0.506,3,1,0.1111,1
+System calls with examples for different OS,Deadlock detection and recovery,2344112,Operating System,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1323,7,1,0.0,0
+Ethernet Protocol,Standard Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.7288,1,1,0.3333,1
+Structure of a switch,Linear Block Code,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.272,6,1,0.0,1
+Flow Control: Stop-and-Wait Flow Control,Ethernet Protocol,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.1849,13,1,0.0,0
+Space Division Switching,Medium Access Control,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.2054,14,1,0.0,0
+Linear Block Code,Error Control: Stop-and-Wait ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.0706,6,1,0.0,0
+Gigabit Ethernet,10-Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.8869,1,1,0.6667,1
+Multi-class SVMs,Principal Component Analysis,2166111,Machine,SEM-V.pdf,0.372,2,1,0.0,1
+Regular Expression,Pumping lemma,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2392,5,1,0.0,0
+Closure properties,Equivalence between NFA with and ϵ- transitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1239,10,1,0.0,0
+Ethernet Protocol,Gigabit Ethernet,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.6121,3,1,0.3333,1
+Natural Language Processing (NLP),Nondeterministic Finite Automata (NFA): Definitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2025,2,1,0.0,1
+Introduction to Congruence,Fourier Series,2013111,Mathematics for,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.1214,7,1,0.0,0
+Structure of a switch,Go-Back-N ARQ,2344113,Computer Network,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.0511,13,1,0.0,0
+Edge Systems: Application in feature selection,Edge resource optimization,2166115,Nature-,SEM-V.pdf,0.5775,3,1,0.125,1
+Languages in Compiler Design,Text Processing,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.2119,1,1,0.0,1
+Mixing equipment for cohesive solids,"Conveying, of solids: Belt conveyer, bucket",2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.390463,9,1,0.000000,0
+Solid fluid,Sedimentation: Batch sedimentation. Kynch,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.167198,1,1,0.000000,0
+Linear congruence,Raw moments,2023111,Mathematics for Computer Engineering,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,-0.016358,8,1,0.000000,0
+Eulers method,Kutta second Order method,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.471117,1,1,0.200000,1
+Relationship (EER) Model,"Concurrent Executions, Serializability",2174112,Database Management System,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,0.058099,8,1,0.000000,0
+Mixers for free flowing solids: Ribbon,"Conveying, of solids: Belt conveyer, bucket",2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.442659,8,1,0.111111,0
+Decision properties of RLs,Nondeterministic Finite Automata (NFA): Definitions,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.248779,5,1,0.000000,0
+Size reduction equipment – Jaw crusher,Fluidization: conditions for fluidization,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.092042,7,1,0.000000,0
+Applications of Runge-Kutta Fourth order,Relation between E,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,-0.034265,5,1,0.000000,0
+Size reduction of solids. Mechanism of size,Solid mixing – Introduction to solid mixing,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.197259,3,1,0.000000,0
+Fluidization: conditions for fluidization,Solid fluid,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.489225,1,1,0.000000,1
+Mixing equipment for cohesive solids,Storage of solids: Properties of particulate,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.396839,8,1,0.000000,0
+Similarity of matrices,Applications of Runge-Kutta Fourth order,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.024633,5,1,0.000000,0
+Quadratic forms,Introduction to Congruence,2483111,Mathematics for Computer Engineering,6.41N-A-I-AI-DS-Sem-III-IV.pdf,0.216843,8,1,0.000000,0
+Size reduction of solids. Mechanism of size,Mixing equipment for cohesive solids,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.263665,4,1,0.000000,0
+Simplex method,Complex form of Fourier Series,2113111,Mathematics for Computer Engineering,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,0.071746,9,1,0.000000,0
+Similarity of matrices,Artificial variables,2023111,Mathematics for Computer Engineering,6.21-N-B.E.-AI-ML-sem-III-IV.pdf,-0.004521,7,1,0.000000,0
+Kutta second Order method,Method and Adam Bashford Predictor,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.240943,2,1,0.142857,0
+Applications of Runge-Kutta Fourth order,Method and Adam Bashford Predictor,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.284708,1,1,0.000000,0
+Shift operator E,Relation between E,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.536019,1,1,0.200000,1
+Types of solutions,Application of congruence-RSA algorithm,2483111,Mathematics for Computer Engineering,6.41N-A-I-AI-DS-Sem-III-IV.pdf,0.048462,8,1,0.000000,0
+"Pitfalls in relational database designs, Concept","Concurrent Executions, Serializability",2114112,Database Management System,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,0.184177,1,1,0.000000,0
+Solid fluid,Gas solid separation equipment: Cyclone,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.387624,2,1,0.166667,0
+Artificial variables,Moment generating function,2483111,Mathematics for Computer Engineering,6.41N-A-I-AI-DS-Sem-III-IV.pdf,0.146683,10,1,0.000000,0
+Screening equipment – Vibrating screen,Solid fluid,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.079444,11,1,0.000000,0
+"Integrity constraints: key constraints, Domain","Concurrent Executions, Serializability",2494112,Database Management System,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,0.347107,3,1,0.000000,0
+"Triggers, Introduction to Pl/SQL Block Structure","Pitfalls in relational database designs, Concept",2494112,Database Management System,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,0.396970,1,1,0.000000,0
+Size reduction of solids. Mechanism of size,Mixers for free flowing solids: Ribbon,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.245119,5,1,0.000000,0
+Arden's theorem,Pumping lemma for RLs,2174111,Computational,6.39-N-B.E.-Data-Science-Sem-III-IV.pdf,0.222323,2,1,0.000000,0
+Screening equipment – Vibrating screen,Size reduction of solids. Mechanism of size,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.028475,2,1,0.000000,0
+"Hammer mill, Ball mill and Roll crusher",Sedimentation: Batch sedimentation. Kynch,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.169703,8,1,0.000000,0
+Screening equipment – Vibrating screen,Fluidization: conditions for fluidization,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.005019,10,1,0.000000,0
+Size reduction equipment – Jaw crusher,Storage of solids: Properties of particulate,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.090389,11,1,0.000000,0
+Space Division Switching,Error Control: Stop-and-Wait ARQ,2344113,Computer Network & Network Design,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.048079,5,1,0.000000,0
+Linear and Non-Linear Programming Problems,Lines of regression,2013111,Mathematics for Computer Engineering,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.279609,14,1,0.000000,0
+Decision properties of RLs,Minimization of DFA,2014111,Computational,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.191272,7,1,0.000000,0
+Diagonalization of matrices,Applications of Runge-Kutta Fourth order,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.088452,4,1,0.000000,0
+Screening equipment – Vibrating screen,"Hammer mill, Ball mill and Roll crusher",2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.095976,4,1,0.000000,0
+Screening equipment – Vibrating screen,Size reduction equipment – Jaw crusher,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.221857,3,1,0.222222,0
+Applying to chemical engineering problems related,Eulers method,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.160075,1,1,0.000000,0
+Diagonalization of matrices,Relation between E,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.014425,9,1,0.000000,0
+Similarity of matrices,Applying to chemical engineering problems related,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.017827,2,1,0.000000,0
+10-Gigabit Ethernet,IEEE 802.11 Wireless LAN,2344113,Computer Network & Network Design,6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,0.309554,3,1,0.000000,0
+Properties of Eigen,Shift operator E,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.227310,10,1,0.000000,0
+Similarity of matrices,Linear congruence,2483111,Mathematics for Computer Engineering,6.41N-A-I-AI-DS-Sem-III-IV.pdf,0.167135,10,1,0.000000,0
+"Hammer mill, Ball mill and Roll crusher",Fluidization: conditions for fluidization,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.054303,6,1,0.000000,0
+Mixers for free flowing solids: Ribbon,Storage of solids: Properties of particulate,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.266367,7,1,0.125000,0
+Method and Adam Bashford Predictor,Corrector Method to chemical engineering,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.299241,1,1,0.142857,0
+Solid mixing – Introduction to solid mixing,Solid fluid,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.491970,6,1,0.200000,1
+"Introduction to the Relational Model, relational","Triggers, Introduction to Pl/SQL Block Structure",2494112,Database Management System,6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,0.221824,4,1,0.142857,0
+Eulers method,Corrector Method to chemical engineering,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.349935,4,1,0.200000,0
+Similarity of matrices,Method and Adam Bashford Predictor,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.036780,6,1,0.000000,0
+Properties of Eigen,Applying to chemical engineering problems related,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.075468,3,1,0.000000,0
+Size reduction of solids. Mechanism of size,Gas solid separation equipment: Cyclone,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.312146,11,1,0.000000,0
+Introduction to Congruence,Moment generating function,2113111,Mathematics for Computer Engineering,6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,0.054586,8,1,0.000000,0
+Fluidization: conditions for fluidization,Storage of solids: Properties of particulate,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.275478,4,1,0.000000,0
+Simplex method,Application of congruence-RSA algorithm,2013111,Mathematics for Computer Engineering,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,0.155030,5,1,0.000000,0
+Kuhn-Tucker conditions,Linear congruence,2013111,Mathematics for Computer Engineering,6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,-0.038819,2,1,0.000000,0
+Applying to chemical engineering problems related,Kutta second Order method,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.181969,2,1,0.000000,0
+"Hammer mill, Ball mill and Roll crusher",Mixing equipment for cohesive solids,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.285408,2,1,0.000000,0
+Kutta second Order method,Applications of Runge-Kutta Fourth order,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.723343,1,1,0.142857,1
+Mixing equipment for cohesive solids,Gas solid separation equipment: Cyclone,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.449268,7,1,0.000000,0
+Diagonalization of matrices,Corrector Method to chemical engineering,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.042447,6,1,0.000000,0
+Similarity of matrices,Shift operator E,2073111,Chemical Engineering Mathematics,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.060727,9,1,0.000000,0
+Size reduction equipment – Jaw crusher,Mixing equipment for cohesive solids,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.299900,3,1,0.111111,0
+"Hammer mill, Ball mill and Roll crusher",Solid mixing – Introduction to solid mixing,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.243196,1,1,0.000000,0
+Solid mixing – Introduction to solid mixing,Sedimentation: Batch sedimentation. Kynch,2074112,Solid Fluid Mechanical Operations,6.40-N-Chemical-Engineering-Sem-III-IV.pdf,0.241843,7,1,0.000000,0

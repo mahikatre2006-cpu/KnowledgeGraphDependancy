@@ -1,0 +1,70 @@
+Index 1870 (CSV Line 1872): [publisher_citation] 'based DevOps tools, and real' -> 'Robert C. Martin, “Agile Software Development, Principles, Patterns and Practices”' (Course: Agile Software, Label: 0)
+    All reasons: publisher_citation
+Index 1871 (CSV Line 1873): [length_bound] 'Students should do the survey and identify needs, which shall be converted into a problem statement for the mini' -> 'Students in a group shall understand the problem effectively, propose multiple solutions, and select the best possible' (Course: Mini-Project -, Label: 1)
+    All reasons: length_bound
+Index 1872 (CSV Line 1874): [truncated_fragment] 'Explain the physical and logical design of IoT with suitable examples. Illustrate the' -> 'with a suitable example for each' (Course: Internet of Things, Label: 0)
+    All reasons: truncated_fragment
+Index 1873 (CSV Line 1875): [admin_rubric_noise] 'Question Paper will comprise of a total of six questions each carrying 15  marks. Q.1' -> '(2) Solve any three questions out of five' (Course: Agile Software, Label: 0)
+    All reasons: admin_rubric_noise
+Index 1874 (CSV Line 1876): [publisher_citation] 'Clarity of Problem definition based on need' -> 'Report should be prepared as per the guidelines issued by the University of Mumbai' (Course: Mini-Project -, Label: 0)
+    All reasons: publisher_citation
+Index 1875 (CSV Line 1877): [person_name] 'highlighting key layers and their responsibilities' -> 'Discuss the role of edge, fog, and cloud computing in IoT data management. Provide' (Course: Internet of Things, Label: 0)
+    All reasons: person_name
+Index 1876 (CSV Line 1878): [truncated_fragment] 'Analytics and' -> 'Importance of data cleaning and preparation Handling' (Course: Visualization Lab, Label: 0)
+    All reasons: truncated_fragment
+Index 1877 (CSV Line 1879): [subject_mismatch] 'Outlier Detection using Distance based method' -> 'Autocorrelation Function (PACF)' (Course: Visualization Lab, Label: 0)
+    All reasons: subject_mismatch
+Index 1878 (CSV Line 1880): [truncated_fragment] 'on DevOps adoption and automation practices' -> 'Deepak Gaikwad, Viral Thakkar. DevOps Tools from Practitioner's Viewpoint' (Course: Agile Software, Label: 0)
+    All reasons: truncated_fragment
+Index 1879 (CSV Line 1881): [publisher_citation] 'Introduction to Agile Methods, Sondra Ashmore' -> 'Engineering: Applying the Theory of Constraints for Business Results‖, Prentice Hall, 2003' (Course: Agile Software, Label: 1)
+    All reasons: publisher_citation
+Index 1880 (CSV Line 1882): [truncated_fragment] 'on DevOps adoption and automation practices' -> 'Text Books' (Course: Agile Software, Label: 0)
+    All reasons: truncated_fragment; person_name
+Index 1881 (CSV Line 1883): [admin_rubric_noise] 'Include problem definition, architecture, components used, and expected outcomes' -> 'Term work Journal must include at least 2 assignments' (Course: Internet of Things, Label: 1)
+    All reasons: admin_rubric_noise; subject_mismatch
+Index 1882 (CSV Line 1884): [truncated_fragment] 'Discuss the role of edge, fog, and cloud computing in IoT data management. Provide' -> 'Compare cloud service models (IaaS, PaaS, SaaS) in the context of IoT analytics and' (Course: Internet of Things, Label: 0)
+    All reasons: truncated_fragment
+Index 1883 (CSV Line 1885): [person_name] 'and properties (without proof)' -> 'Cayley-Hamilton' (Course: Mathematics for, Label: 0)
+    All reasons: person_name; truncated_fragment
+Index 1884 (CSV Line 1886): [person_name] 'Detailed Content' -> 'Run Time' (Course: Mini-Project -, Label: 0)
+    All reasons: person_name
+Index 1885 (CSV Line 1887): [truncated_fragment] 'NLPP with one and two equality constraint (two or' -> 'Application of congruence-RSA algorithm' (Course: Mathematics for, Label: 0)
+    All reasons: truncated_fragment
+Index 1886 (CSV Line 1888): [person_name] 'Cayley-Hamilton' -> 'Standard and Canonical of LPP' (Course: Mathematics for, Label: 0)
+    All reasons: person_name; subject_mismatch
+Index 1887 (CSV Line 1889): [truncated_fragment] 'Real-time' -> 'Self-learning Topics: Study a real time case study for' (Course: Operating System, Label: 1)
+    All reasons: truncated_fragment
+Index 1888 (CSV Line 1890): [truncated_fragment] 'Marks awarded by guide/supervisor based on above practical list and' -> 'o Marks awarded by guide/supervisor for Capstone Project Completion' (Course: Mini-Project -, Label: 1)
+    All reasons: truncated_fragment; subject_mismatch
+Index 1889 (CSV Line 1891): [truncated_fragment] '(without proof, Polar form not included)' -> 'repeated ranks) Lines of regression Fitting of first- and' (Course: Applied, Label: 0)
+    All reasons: truncated_fragment
+Index 1890 (CSV Line 1892): [truncated_fragment] 'The Agile' -> 'and Benefits, DevOps Principles and Practices' (Course: Agile Software, Label: 0)
+    All reasons: truncated_fragment
+Index 1891 (CSV Line 1893): [truncated_fragment] 'Architecture and' -> 'Operating System' (Course: Operating, Label: 1)
+    All reasons: truncated_fragment
+Index 1892 (CSV Line 1894): [subject_mismatch] 'Note for QP Setters' -> 'Question 1 is compulsory, and it should include sub' (Course: Agile Software, Label: 0)
+    All reasons: subject_mismatch
+Index 1893 (CSV Line 1895): [person_name] 'Draw and explain the IoT World Forum (IoTWF) Reference Architecture' -> 'highlighting key layers and their responsibilities' (Course: Internet of Things, Label: 0)
+    All reasons: person_name
+Index 1894 (CSV Line 1896): [truncated_fragment] 'Explain the physical and logical design of IoT with suitable examples. Illustrate the' -> 'role of sensors, actuators, and IoT boards such as Arduino, NodeMCU, and' (Course: Internet of Things, Label: 1)
+    All reasons: truncated_fragment
+Index 1895 (CSV Line 1897): [publisher_citation] 'David J. Anderson and Eli Schragenheim, ―Agile Management for Software' -> 'Engineering: Applying the Theory of Constraints for Business Results‖, Prentice Hall, 2003' (Course: Agile Software, Label: 1)
+    All reasons: publisher_citation
+Index 1896 (CSV Line 1898): [person_name] 'o Building prototype and testing' -> 'Capstone Mini' (Course: Mini-Project -, Label: 0)
+    All reasons: person_name
+Index 1897 (CSV Line 1899): [person_name] 'Dirichlet’s conditions' -> 'degree and exponential curve' (Course: Mathematics for, Label: 0)
+    All reasons: person_name
+Index 1898 (CSV Line 1900): [subject_mismatch] 'b. File Organizer Script' -> 'Mini- Project with full prototype/ product demo, testing, validation and Report) + 5 Marks (Attendance)' (Course: Mini-Project -, Label: 0)
+    All reasons: subject_mismatch
+Index 1899 (CSV Line 1901): [truncated_fragment] 'Blockchain and' -> 'case studies' (Course: Blockchain, Label: 1)
+    All reasons: truncated_fragment
+Index 1900 (CSV Line 1902): [publisher_citation] 'Implement Floyd Warshall Algorithm' -> 'Algorithm Design Jon Kleinberg, Éva Tardos Pearson 1st Edition' (Course: ADSA Lab, Label: 0)
+    All reasons: publisher_citation
+Index 1901 (CSV Line 1903): [truncated_fragment] 'Implement any 3 sample programs in Dart based on' -> 'activity of a mini' (Course: Mini-Project -, Label: 0)
+    All reasons: truncated_fragment
+Index 1902 (CSV Line 1904): [length_bound] 'Students' hall submits an implementation plan in the form of a Gantt/PERT/CPM chart, which will cover the weekly' -> 'Faculty supervisor may give inputs to students during the mini project activity' (Course: Mini-Project -, Label: 0)
+    All reasons: length_bound; subject_mismatch
+Index 1903 (CSV Line 1905): [truncated_fragment] 'At least Two Program preferably in Java/C++ to' -> 'At least Four Haskell Programs to demonstrate' (Course: Mini-Project -, Label: 0)
+    All reasons: truncated_fragment
+Index 1904 (CSV Line 1906): [subject_mismatch] 'Write a recursive function to multiply two' -> 'using Haskell' (Course: Mini-Project -, Label: 0)
+    All reasons: subject_mismatch
