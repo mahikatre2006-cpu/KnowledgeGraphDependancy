@@ -31,7 +31,7 @@ project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-TEST_DATA_PATH = Path(project_root) / "Cleaned_Files" / "cross_domain_test.csv"
+TEST_DATA_PATH = Path(project_root) / "dependency" / "cross_domain_test.csv"
 if not TEST_DATA_PATH.exists():
     TEST_DATA_PATH = Path(project_root) / "data" / "cross_domain_test.csv"
 MODEL_PATH = Path(project_root) / "app" / "ml" / "model_artifact.joblib"

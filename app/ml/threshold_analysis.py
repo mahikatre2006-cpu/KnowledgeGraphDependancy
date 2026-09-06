@@ -33,7 +33,7 @@ if project_root not in sys.path:
 
 # Paths
 MODEL_PATH = Path(project_root) / "app" / "ml" / "model_artifact.joblib"
-DATA_PATH = Path(project_root) / "Cleaned_Files" / "cross_domain_test.csv"
+DATA_PATH = Path(project_root) / "dependency" / "cross_domain_test.csv"
 if not DATA_PATH.exists():
     DATA_PATH = Path(project_root) / "data" / "cross_domain_test.csv"
 OUTPUT_REPORT_PATH = Path(project_root) / "app" / "ml" / "cross_domain_threshold_report.json"

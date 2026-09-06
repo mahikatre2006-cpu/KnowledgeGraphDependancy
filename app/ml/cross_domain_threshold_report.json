@@ -5,170 +5,170 @@
   "n_negatives": 150,
   "baseline_threshold_0_50": {
     "threshold": 0.5,
-    "precision": 0.8864,
-    "recall": 0.39,
-    "f1": 0.5417,
-    "accuracy": 0.736,
-    "true_negatives": 145,
-    "false_positives": 5,
-    "false_negatives": 61,
-    "true_positives": 39,
+    "precision": 1.0,
+    "recall": 0.16,
+    "f1": 0.2759,
+    "accuracy": 0.664,
+    "true_negatives": 150,
+    "false_positives": 0,
+    "false_negatives": 84,
+    "true_positives": 16,
     "confusion_matrix": [
       [
-        145,
-        5
+        150,
+        0
       ],
       [
-        61,
-        39
+        84,
+        16
       ]
     ]
   },
   "threshold_evaluations": [
     {
       "threshold": 0.3,
-      "precision": 0.8511,
-      "recall": 0.4,
-      "f1": 0.5442,
-      "accuracy": 0.732,
-      "true_negatives": 143,
-      "false_positives": 7,
-      "false_negatives": 60,
-      "true_positives": 40,
+      "precision": 1.0,
+      "recall": 0.18,
+      "f1": 0.3051,
+      "accuracy": 0.672,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 82,
+      "true_positives": 18,
       "confusion_matrix": [
         [
-          143,
-          7
+          150,
+          0
         ],
         [
-          60,
-          40
+          82,
+          18
         ]
       ]
     },
     {
       "threshold": 0.35,
-      "precision": 0.8696,
-      "recall": 0.4,
-      "f1": 0.5479,
-      "accuracy": 0.736,
-      "true_negatives": 144,
-      "false_positives": 6,
-      "false_negatives": 60,
-      "true_positives": 40,
+      "precision": 1.0,
+      "recall": 0.18,
+      "f1": 0.3051,
+      "accuracy": 0.672,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 82,
+      "true_positives": 18,
       "confusion_matrix": [
         [
-          144,
-          6
+          150,
+          0
         ],
         [
-          60,
-          40
+          82,
+          18
         ]
       ]
     },
     {
       "threshold": 0.4,
-      "precision": 0.8667,
-      "recall": 0.39,
-      "f1": 0.5379,
-      "accuracy": 0.732,
-      "true_negatives": 144,
-      "false_positives": 6,
-      "false_negatives": 61,
-      "true_positives": 39,
+      "precision": 1.0,
+      "recall": 0.18,
+      "f1": 0.3051,
+      "accuracy": 0.672,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 82,
+      "true_positives": 18,
       "confusion_matrix": [
         [
-          144,
-          6
+          150,
+          0
         ],
         [
-          61,
-          39
+          82,
+          18
         ]
       ]
     },
     {
       "threshold": 0.45,
-      "precision": 0.8864,
-      "recall": 0.39,
-      "f1": 0.5417,
-      "accuracy": 0.736,
-      "true_negatives": 145,
-      "false_positives": 5,
-      "false_negatives": 61,
-      "true_positives": 39,
+      "precision": 1.0,
+      "recall": 0.17,
+      "f1": 0.2906,
+      "accuracy": 0.668,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 83,
+      "true_positives": 17,
       "confusion_matrix": [
         [
-          145,
-          5
+          150,
+          0
         ],
         [
-          61,
-          39
+          83,
+          17
         ]
       ]
     },
     {
       "threshold": 0.5,
-      "precision": 0.8864,
-      "recall": 0.39,
-      "f1": 0.5417,
-      "accuracy": 0.736,
-      "true_negatives": 145,
-      "false_positives": 5,
-      "false_negatives": 61,
-      "true_positives": 39,
+      "precision": 1.0,
+      "recall": 0.16,
+      "f1": 0.2759,
+      "accuracy": 0.664,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 84,
+      "true_positives": 16,
       "confusion_matrix": [
         [
-          145,
-          5
+          150,
+          0
         ],
         [
-          61,
-          39
+          84,
+          16
         ]
       ]
     },
     {
       "threshold": 0.55,
-      "precision": 0.9286,
-      "recall": 0.39,
-      "f1": 0.5493,
-      "accuracy": 0.744,
-      "true_negatives": 147,
-      "false_positives": 3,
-      "false_negatives": 61,
-      "true_positives": 39,
+      "precision": 1.0,
+      "recall": 0.16,
+      "f1": 0.2759,
+      "accuracy": 0.664,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 84,
+      "true_positives": 16,
       "confusion_matrix": [
         [
-          147,
-          3
+          150,
+          0
         ],
         [
-          61,
-          39
+          84,
+          16
         ]
       ]
     },
     {
       "threshold": 0.6,
-      "precision": 0.9268,
-      "recall": 0.38,
-      "f1": 0.539,
-      "accuracy": 0.74,
-      "true_negatives": 147,
-      "false_positives": 3,
-      "false_negatives": 62,
-      "true_positives": 38,
+      "precision": 1.0,
+      "recall": 0.16,
+      "f1": 0.2759,
+      "accuracy": 0.664,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 84,
+      "true_positives": 16,
       "confusion_matrix": [
         [
-          147,
-          3
+          150,
+          0
         ],
         [
-          62,
-          38
+          84,
+          16
         ]
       ]
     }
@@ -176,43 +176,85 @@
   "qualifying_thresholds_precision_ge_80_higher_recall": [
     {
       "threshold": 0.3,
-      "precision": 0.8511,
-      "recall": 0.4,
-      "f1": 0.5442,
-      "accuracy": 0.732,
-      "true_negatives": 143,
-      "false_positives": 7,
-      "false_negatives": 60,
-      "true_positives": 40,
+      "precision": 1.0,
+      "recall": 0.18,
+      "f1": 0.3051,
+      "accuracy": 0.672,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 82,
+      "true_positives": 18,
       "confusion_matrix": [
         [
-          143,
-          7
+          150,
+          0
         ],
         [
-          60,
-          40
+          82,
+          18
         ]
       ]
     },
     {
       "threshold": 0.35,
-      "precision": 0.8696,
-      "recall": 0.4,
-      "f1": 0.5479,
-      "accuracy": 0.736,
-      "true_negatives": 144,
-      "false_positives": 6,
-      "false_negatives": 60,
-      "true_positives": 40,
+      "precision": 1.0,
+      "recall": 0.18,
+      "f1": 0.3051,
+      "accuracy": 0.672,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 82,
+      "true_positives": 18,
       "confusion_matrix": [
         [
-          144,
-          6
+          150,
+          0
         ],
         [
-          60,
-          40
+          82,
+          18
+        ]
+      ]
+    },
+    {
+      "threshold": 0.4,
+      "precision": 1.0,
+      "recall": 0.18,
+      "f1": 0.3051,
+      "accuracy": 0.672,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 82,
+      "true_positives": 18,
+      "confusion_matrix": [
+        [
+          150,
+          0
+        ],
+        [
+          82,
+          18
+        ]
+      ]
+    },
+    {
+      "threshold": 0.45,
+      "precision": 1.0,
+      "recall": 0.17,
+      "f1": 0.2906,
+      "accuracy": 0.668,
+      "true_negatives": 150,
+      "false_positives": 0,
+      "false_negatives": 83,
+      "true_positives": 17,
+      "confusion_matrix": [
+        [
+          150,
+          0
+        ],
+        [
+          83,
+          17
         ]
       ]
     }
