@@ -27,14 +27,24 @@ class RelationshipInferencer:
     def infer_prerequisites(
         cls,
         graph: KnowledgeGraph,
-        similarity_threshold: float = 0.30,
-        min_confidence: float = 0.50,
+        similarity_threshold: float = 0.0,
+        min_confidence: Optional[float] = None,
         auto_add_to_graph: bool = True
     ) -> List[DependencyEdge]:
         """
         Analyzes concept nodes in the graph using local open-source embeddings & ML heuristics,
         infers directed prerequisite relationships, and returns the inferred edges.
         """
+        if min_confidence is None:
+            try:
+                import json
+                from pathlib import Path
+                thresh_path = Path(__file__).resolve().parent.parent / "ml" / "decision_threshold.json"
+                with open(thresh_path, "r") as f:
+                    min_confidence = json.load(f).get("optimal_threshold", 0.50)
+            except Exception:
+                min_confidence = 0.50
+
         nodes = graph.get_all_nodes()
         if len(nodes) < 2:
             return []

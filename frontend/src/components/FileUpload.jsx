@@ -1,12 +1,29 @@
 import React, { useState } from "react";
 import { Upload, FileText, ArrowRight } from "lucide-react";
-import { uploadAndBuildGraph, parseSyllabusText, buildGraphFromSyllabus } from "../services/api";
+import { uploadAndBuildGraph, parseSyllabusText, buildGraphFromSyllabus, uploadAndParse, buildAndInfer } from "../services/api";
 
 export default function FileUpload({ onPipelineComplete, onError }) {
   const [mode, setMode] = useState("pdf"); // 'pdf' | 'text'
+
   const [loading, setLoading] = useState(false);
   const [rawText, setRawText] = useState("");
   const [dragOver, setDragOver] = useState(false);
+  const [subjects, setSubjects] = useState([]);
+  const [documentId, setDocumentId] = useState(null);
+
+  const handleSubjectSelect = async (courseCode) => {
+    setLoading(true);
+    try {
+      const data = await buildAndInfer(documentId, courseCode);
+      onPipelineComplete(data);
+    } catch (err) {
+      onError(err.message || "Failed to build graph.");
+    } finally {
+      setLoading(false);
+      setSubjects([]);
+    }
+  };
+
 
   const handleFileUpload = async (file) => {
     if (!file || !file.name.toLowerCase().endsWith(".pdf")) {
@@ -14,9 +31,17 @@ export default function FileUpload({ onPipelineComplete, onError }) {
       return;
     }
     setLoading(true);
+    setSubjects([]);
+    setDocumentId(null);
     try {
-      const data = await uploadAndBuildGraph(file);
-      onPipelineComplete(data);
+      const data = await uploadAndParse(file);
+      if (data.subjects.length === 1) {
+        const buildData = await buildAndInfer(data.document_id, data.subjects[0].course_code);
+        onPipelineComplete(buildData);
+      } else {
+        setDocumentId(data.document_id);
+        setSubjects(data.subjects);
+      }
     } catch (err) {
       onError(err.message || "Failed to process PDF file.");
     } finally {
@@ -73,7 +98,29 @@ export default function FileUpload({ onPipelineComplete, onError }) {
         </div>
       </div>
 
-      {mode === "pdf" ? (
+      
+      {subjects.length > 1 ? (
+        <div className="space-y-3">
+          <h3 className="text-sm font-semibold text-neutral-900">Select Subject</h3>
+          <p className="text-xs text-neutral-500">This PDF contains multiple subjects. Please select one to graph.</p>
+          <div className="space-y-2 max-h-60 overflow-y-auto">
+            {subjects.map((s, idx) => (
+              <button
+                key={idx}
+                onClick={() => handleSubjectSelect(s.course_code)}
+                disabled={loading}
+                className="w-full text-left p-3 border border-neutral-200 rounded hover:border-neutral-900 bg-neutral-50 transition-colors"
+              >
+                <div className="flex justify-between items-center">
+                  <span className="font-semibold text-sm text-neutral-900">{s.course_code} - {s.course_title}</span>
+                  <span className="text-xs text-neutral-500">{s.topic_count} Topics</span>
+                </div>
+              </button>
+            ))}
+          </div>
+          {loading && <p className="text-xs text-neutral-500 italic mt-2">Processing...</p>}
+        </div>
+      ) : mode === "pdf" ? (
         <div
           onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
           onDragLeave={() => setDragOver(false)}

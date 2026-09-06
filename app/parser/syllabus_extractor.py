@@ -25,6 +25,68 @@ class SyllabusExtractor:
     COURSE_CODE_REGEX = re.compile(r'\b([A-Z]{2,4}\s*[-:]?\s*\d{3,4})\b', re.IGNORECASE)
     COURSE_CODE_REGEX = re.compile(r'\b(\d{7}|[A-Z]{2,4}\s*[-:]?\s*\d{3,4})\b', re.IGNORECASE)
 
+
+    @classmethod
+    def parse_multi(cls, text: str) -> List[ParsedSyllabus]:
+        """Splits text into multiple subjects based on course code boundaries."""
+        if not text or not text.strip():
+            return []
+
+        lines = [line.strip() for line in text.split('\n') if line.strip()]
+        
+        # Segment into subjects
+        subject_blocks = []
+        current_block = []
+        
+        for line in lines:
+            if cls.COURSE_CODE_REGEX.search(line):
+                # Start a new subject bucket
+                if current_block:
+                    subject_blocks.append(current_block)
+                current_block = [line]
+            else:
+                current_block.append(line)
+        
+        if current_block:
+            subject_blocks.append(current_block)
+            
+        results = []
+        for block_lines in subject_blocks:
+            block_text = "\n".join(block_lines)
+            
+            course_code = cls._extract_course_code(block_text)
+            course_title = cls._extract_course_title(block_lines)
+            
+            unit_blocks = cls._segment_into_units(block_lines)
+            
+            parsed_units = []
+            all_topics = []
+            unit_counter = 1
+            
+            for unit_header, blines in unit_blocks:
+                unit_topics = cls._extract_topics_from_block(blines, unit_counter, unit_header)
+                if unit_topics:
+                    parsed_units.append(ParsedUnit(unit_number=unit_counter, title=unit_header, topics=unit_topics))
+                    all_topics.extend(unit_topics)
+                    unit_counter += 1
+            
+            if not parsed_units and block_lines:
+                fallback = cls._extract_topics_from_block(block_lines, 1, "General Syllabus Topics")
+                if fallback:
+                    parsed_units.append(ParsedUnit(unit_number=1, title="General Syllabus Topics", topics=fallback))
+                    all_topics.extend(fallback)
+                    
+            if all_topics:
+                results.append(ParsedSyllabus(
+                    course_title=course_title,
+                    course_code=course_code,
+                    units=parsed_units,
+                    all_topics=all_topics,
+                    total_topics_count=len(all_topics)
+                ))
+                
+        return results
+
     @classmethod
     def parse(cls, text: str) -> ParsedSyllabus:
         """Parses raw text content of a syllabus into a structured ParsedSyllabus object."""
@@ -166,7 +228,7 @@ class SyllabusExtractor:
         ]
         if any(low.startswith(kw) for kw in ignore_keywords):
             return False
-        # Also filter out lines that match course code patterns (e.g. "CS201: Data Structures...")
+        # Also filter out lines that match course code patterns (e.g. "CS201: Data Structures...")#
         if cls.COURSE_CODE_REGEX.search(text):
             return False
         return True

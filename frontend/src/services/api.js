@@ -117,3 +117,37 @@ export async function getRecommendations(knownConceptIds, targetConceptId = null
   }
   return await response.json();
 }
+
+
+export async function uploadAndParse(file) {
+  const formData = new FormData();
+  formData.append("file", file);
+
+  const response = await fetch(`${API_BASE_URL}/pipeline/upload-and-parse`, {
+    method: "POST",
+    body: formData,
+  });
+  const data = await response.json();
+  if (!response.ok) {
+    throw new Error(data.detail || "Failed to parse subjects.");
+  }
+  return data;
+}
+
+export async function buildAndInfer(documentId, courseCode) {
+  const response = await fetch(`${API_BASE_URL}/pipeline/build-and-infer`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      document_id: documentId,
+      course_code: courseCode,
+      clear_existing: true,
+      add_unit_sequential_edges: false
+    })
+  });
+  const data = await response.json();
+  if (!response.ok) {
+    throw new Error(data.detail || "Failed to build graph.");
+  }
+  return data;
+}

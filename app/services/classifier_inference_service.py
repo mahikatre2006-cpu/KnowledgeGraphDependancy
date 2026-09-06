@@ -12,13 +12,12 @@ from typing import Dict, Any
 import numpy as np
 import joblib
 
-MODEL_PATH = Path(__file__).resolve().parent.parent / "ml" / "model_artifact.joblib"
+MODEL_PATH = Path(__file__).resolve().parent.parent / "ml" / "model_artifact_v3.joblib"
 
 FEATURE_KEYS = [
     "embedding_similarity",
-    "order_delta",
-    "domain_match",
     "keyword_overlap",
+    "order_delta",
 ]
 
 

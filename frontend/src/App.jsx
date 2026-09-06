@@ -3,12 +3,15 @@ import Header from "./components/Header";
 import FileUpload from "./components/FileUpload";
 import GraphCanvas from "./components/GraphCanvas";
 import AnalyticsPanel from "./components/AnalyticsPanel";
+import SequenceList from "./components/SequenceList";
+import thresholdConfig from "../../app/ml/decision_threshold.json";
 import {
   getGraphSummary,
   inferRelationships,
   getMissingPrerequisites,
   getBottlenecks,
   getRecommendations,
+  getTopologicalSequence,
 } from "./services/api";
 
 export default function App() {
@@ -18,6 +21,7 @@ export default function App() {
   const [recommendations, setRecommendations] = useState(null);
   const [missingPrereqs, setMissingPrereqs] = useState(null);
   const [bottlenecks, setBottlenecks] = useState(null);
+  const [sequence, setSequence] = useState(null);
   const [inferring, setInferring] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -27,12 +31,14 @@ export default function App() {
       setSummary(summaryData);
 
       if (summaryData.nodes && summaryData.nodes.length > 0) {
-        const [recs, bts] = await Promise.all([
+        const [recs, bts, seq] = await Promise.all([
           getRecommendations(knownConceptIds, targetConceptId),
           getBottlenecks(10),
+          getTopologicalSequence(),
         ]);
         setRecommendations(recs);
         setBottlenecks(bts);
+        setSequence(seq.topological_sequence || []);
 
         if (targetConceptId) {
           const miss = await getMissingPrerequisites(targetConceptId, knownConceptIds);
@@ -57,7 +63,8 @@ export default function App() {
     setInferring(true);
     setErrorMessage("");
     try {
-      await inferRelationships(0.25, 0.45);
+      console.log("Using dynamic threshold:", thresholdConfig.optimal_threshold);
+      await inferRelationships(0.0, thresholdConfig.optimal_threshold);
       await refreshData();
     } catch (err) {
       setErrorMessage(err.message || "Failed to run AI inference.");
@@ -127,6 +134,8 @@ export default function App() {
         </div>
 
         {/* Bottom Section: Analytics & Recommendations Panel */}
+        <SequenceList sequence={sequence} />
+
         <AnalyticsPanel
           recommendations={recommendations}
           missingPrereqs={missingPrereqs}

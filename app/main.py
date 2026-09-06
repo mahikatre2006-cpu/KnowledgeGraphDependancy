@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from app.core.config import settings
+from fastapi.middleware.cors import CORSMiddleware
+from app.api.core.config import settings
 from app.db.session import engine, Base
 from app.db.postgres_models import User, SyllabusDocument, UserProgress, ConceptEmbedding
 from app.api.graph_router import router as graph_router
