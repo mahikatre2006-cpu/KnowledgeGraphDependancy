@@ -22,6 +22,21 @@ app = FastAPI(
     description="Knowledge Dependency Graph API — Transform syllabi into interactive prerequisite graphs."
 )
 
+# ── CORS ──────────────────────────────────────────────────────────────────────
+# Must be registered BEFORE any routers so preflight OPTIONS requests are handled
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 app.include_router(graph_router, prefix=settings.API_V1_STR)
 app.include_router(sequence_router, prefix=settings.API_V1_STR)
 app.include_router(parser_router, prefix=settings.API_V1_STR)

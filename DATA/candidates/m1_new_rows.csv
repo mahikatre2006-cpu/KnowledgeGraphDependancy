@@ -1,0 +1,789 @@
+source_syllabus,course_code,course_name,topic_name,topic_index,extraction_method
+02 Syllabus.pdf,ESC102,Basic Electrical and Electronics Engineering,"DC Circuits: Kirchhoff's laws, mesh and nodal analysis, network theorems",0,Gemini-fallback
+02 Syllabus.pdf,ESC102,Basic Electrical and Electronics Engineering,"AC Circuits: Single-phase and three-phase AC circuits, resonance, phasor analysis",1,Gemini-fallback
+02 Syllabus.pdf,ESC102,Basic Electrical and Electronics Engineering,"Single Phase Transformer: Working principle, types, losses, efficiency, and applications",2,Gemini-fallback
+02 Syllabus.pdf,ESC102,Basic Electrical and Electronics Engineering,"Electrical Machines: Construction, classification, and applications of DC and AC motors",3,Gemini-fallback
+02 Syllabus.pdf,ESC102,Basic Electrical and Electronics Engineering,Special Purpose Diodes: Characteristics and operation of Zener diode and LED,4,Gemini-fallback
+02 Syllabus.pdf,ESC102,Basic Electrical and Electronics Engineering,"Introduction to Transistors: Structure, operation, configurations, and applications of BJT and FET",5,Gemini-fallback
+02 Syllabus.pdf,ESL102,Basic Electrical and Electronics Engineering Lab,Basic safety precautions and introduction to electrical measuring instruments,0,Gemini-fallback
+02 Syllabus.pdf,ESL102,Basic Electrical and Electronics Engineering Lab,Experimental verification of Mesh and Nodal analysis in DC circuits,1,Gemini-fallback
+02 Syllabus.pdf,ESL102,Basic Electrical and Electronics Engineering Lab,"Verification of Superposition, Thevenin, Norton, and Maximum Power Transfer theorems",2,Gemini-fallback
+02 Syllabus.pdf,ESL102,Basic Electrical and Electronics Engineering Lab,Measurement of resistance and inductance in series AC circuits,3,Gemini-fallback
+02 Syllabus.pdf,ESL102,Basic Electrical and Electronics Engineering Lab,Relationship between phase and line currents and voltages in three-phase systems,4,Gemini-fallback
+02 Syllabus.pdf,ESL102,Basic Electrical and Electronics Engineering Lab,Demonstration of cut-out sections of single-phase transformer and DC machine,5,Gemini-fallback
+02 Syllabus.pdf,ESL102,Basic Electrical and Electronics Engineering Lab,Plotting voltage regulation characteristics of Zener diode,6,Gemini-fallback
+02 Syllabus.pdf,ESL102,Basic Electrical and Electronics Engineering Lab,Demonstration of LED displays and BJT FET switching and amplification,7,Gemini-fallback
+02 Syllabus.pdf,AEC101,Professional Communication and Ethics,Skill-based training on Listening Speaking Reading and Writing communicative abilities,0,Gemini-fallback
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Cayley-Hamilton,0,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Linear Algebra (Theory of Matrices) verification and reduction of higher degree polynomials,1,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Similarity of matrices,2,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Quadratic forms,3,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Linear and Non-Linear Programming Problems,4,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Types of solutions,5,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Standard and Canonical of LPP,6,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Basic and Feasible solutions,7,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Simplex method,8,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Artificial variables,9,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Kuhn-Tucker conditions,10,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Introduction to Congruence,11,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Linear congruence,12,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Application of congruence-RSA algorithm,13,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Dirichlet’s conditions,14,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Fourier series of periodic,15,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Fourier series of even and odd functions,16,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Complex form of Fourier Series,17,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Lines of regression,18,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Moment generating function,19,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2013111,Mathematics for Computer Engineering,Raw moments,20,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,Regular operations,0,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,Arden's theorem,1,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,Decision properties of RLs,2,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,Pumping lemma,3,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,RE in text search and replace,4,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,Application of Regular,5,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,Languages in Compiler Design,6,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,Nondeterministic Finite Automata (NFA): Definitions,7,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,Equivalence between NFA with and ϵ- transitions,8,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014111,Computational,Minimization of DFA,9,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating System,Special-purpose,0,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating System,Open-source and Proprietary Operating System,1,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating System,Fundamentals of Distributed Operating System,2,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating System,Network Operating System,3,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating System,Real-Time,4,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating System,Mobile Operating System,5,PyMuPDF+regex
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,2014113,Operating System,Special-purpose Operating Systems,6,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Definition of Laplace transform,0,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Condition of Existence,1,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Laplace Transform (L) of Standard,2,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Functions like 𝑒𝑎𝑡,3,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Properties of Laplace Transform: Linearity,4,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Transform of Periodic functions,5,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Dirac Delta Function,6,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Inverse Laplace Transform,7,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Linearity property,8,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Partial fractions method & first shift property to find,9,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Inverse Laplace transform using Convolution theorem,10,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Dirichlet’s conditions,11,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Definition of Fourier series. Fourier,12,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Fourier series of even and odd functions. (No question,13,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Half range Sine and Cosine Series,14,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Parseval’s Identity,15,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Function f(z) of complex variable,16,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Analytic function,17,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Cauchy-Riemann  equations  in  cartesian  coordinates,18,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Harmonic function,19,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Harmonic conjugate,20,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093111,Applied Mathematics for Civil,Conformal mapping,21,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Properties of Fluids,0,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Mass density,1,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Surface tension,2,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Types of fluids,3,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Pascal’s law,4,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Measurement of pressure using U tube differential,5,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Hydrostatic force on surfaces,6,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Buoyancy and floatation,7,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Meta-Centre,8,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Experimental method to find metacentric height,9,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Types of fluid flow,10,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Eulerian method,11,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Forces acting on fluid,12,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Navier Stokes Equation,13,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Integration of Euler’s equations of motion,14,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Bernoulli’s Theorem and its derivation,15,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093112,Fluid Mechanics,Venturimeter and Orificemeter,16,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Building Materials-1,0,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Stones: Classification and properties of building stones,1,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Bricks and Blocks: Burnt clay bricks: raw materials,2,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Autoclaved Aerated Concrete (AAC) blocks,3,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Light Weight Concrete (CLC) blocks and ceramic tiles,4,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Timber: Types of natural wood and artificial wood,5,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Building Materials-2,6,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Classification and bonding of stone. Masonry finishes,7,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Classification and bonding of Bricks,8,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Damp proofing,9,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Constituents of Concrete,10,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Fine and Coarse Aggregates: Classification,11,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093113,Building Materials and Concrete,Alkali  aggregate  reaction,12,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Stresses and Strains in Elastic members,0,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Types of Stresses and Strains,1,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Three-dimensional stress and strain,2,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Poisson’s ratio,3,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Bars of varying sections,4,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Analysis of beams and portal frames,5,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Concept of Axial Force,6,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,SF and BM Diagrams for statically determinate beams,7,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,SF and BM Diagrams for statically determinate three,8,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,"Area moment of inertia, Bending and Shear stresses in beams",9,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Area moment of inertia,10,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Torsion in Shafts and Stresses in Columns,11,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Torsion in solid and hollow circular shafts,12,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Direct and bending stresses in columns,13,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Core of section,14,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Buckling of Columns,15,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Members subjected to axial loading,16,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Euler’s and Rankine’s formula,17,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,General equation for transformation of stress,18,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Trusses and three hinged parabolic arches,19,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2093114,Mechanics of Structures,Three hinged arches: Determination of normal thrust,20,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Solenoidal and irrotational (conservative) vector fields,0,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Line integrals – definition and problems,1,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Green’s theorem (without proof) in a plane,2,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Divergence theorem (without proof) and problems (only,3,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Self- Learning Topics,4,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Identities connecting Gradient,5,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Divergence and Curl,6,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Green’s theorem,7,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Cauchy’s Integral theorem for simple,8,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Definition of Singularity,9,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Spearman’s Rank correlation coefficient (R) (Repeated,10,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Lines of regression,11,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Fitting of first and second degree curves,12,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Discrete and Continuous random variables,13,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Moment generating functions,14,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Self- learning Topics: Conditional probability,15,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Probability Distribution: Poisson and Normal distribution,16,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Sampling distribution,17,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Test of Hypothesis,18,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,Critical region,19,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094111,Applied Mathematics for Civil,One-tailed,20,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094112,Surveying,Introduction to Survey of India Department; Department,0,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094112,Surveying,Maharashtra. Role of revenue,1,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094112,Surveying,Ranging and offsetting: Definitions,2,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094112,Surveying,Instruments required,3,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094112,Surveying,Levelling and Contouring,4,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Determinate and Indeterminate Structures,0,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Types of structures occurring in practice and their,1,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Slope and Deflections in Statically Determinate Structures,2,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Concept of Strain Energy,3,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Slope and deflection in beams,4,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Principle of Superposition,5,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Principle of Virtual work,6,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Castigliano’s  theorems,7,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Betti’s  theorem  and  Maxwell’s,8,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Macaulay’s Method,9,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Moment Area Method,10,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Unit Load Method for calculating slope and deflection for rigid,11,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Influence lines for support reactions,12,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Determination of S.F. and B.M. at a section,13,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Introduction to the concept of slope deflection equation,14,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Stiffness coefficients for prismatic members and their use,15,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094113,Structural Analysis,Application of direct stiffness method to indeterminate,16,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094411,"Computer Aided Architectural Planning, and",Marks – Written test based on syllabus,0,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094411,"Computer Aided Architectural Planning, and",Marks - Oral exam based on syllabus,1,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094411,"Computer Aided Architectural Planning, and",Introduction to Entrepreneurship,2,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094411,"Computer Aided Architectural Planning, and",Entrepreneurial mindset,3,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094411,"Computer Aided Architectural Planning, and",Introduction to Design Thinking,4,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094411,"Computer Aided Architectural Planning, and",Need for Design Thinking approach,5,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094411,"Computer Aided Architectural Planning, and",Key tenets of Design,6,PyMuPDF+regex
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,2094411,"Computer Aided Architectural Planning, and",Design thinking case studies from various domains,7,PyMuPDF+regex
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC101,Applied Mathematics-I,"Complex Numbers: Algebra, forms, D’Moivre’s Theorem, expansion of trigonometric functions.",0,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC101,Applied Mathematics-I,"Hyperbolic Functions: Circular functions, inverse functions, real and imaginary parts.",1,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC101,Applied Mathematics-I,Logarithms of Complex Numbers: Basic concepts and simple examples.,2,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC101,Applied Mathematics-I,"Partial Differentiation: First and higher order derivatives, composite functions, Euler’s Theorem.",3,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC101,Applied Mathematics-I,"Applications of Partial Differentiation: Maxima, Minima, successive differentiation, Leibnitz’s Theorem.",4,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC101,Applied Mathematics-I,"Matrices: Types, properties, rank using Echelon form, system of equations.",5,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC101,Applied Mathematics-I,Numerical Solutions: Transcendental equations via Newton Raphson and Regula–Falsi.,6,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC101,Applied Mathematics-I,System of Linear Equations: Gauss Jacobi and Gauss Seidel Iteration Methods.,7,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Lasers: Spontaneous, stimulated emission, population inversion, resonant cavity, coherence.",0,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,He-Ne and Fiber laser construction and working principles.,1,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Laser Applications: LiDAR, Barcode reading, metal work processing.",2,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Fibre Optics: Critical angle, acceptance angle, numerical aperture, total internal reflection.",3,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Optical Fiber Types: Single mode, multimode, step index, graded index.",4,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Fiber Optic Communication System: Attenuation, advantages and applications.",5,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Interference in Thin Films: Uniform thickness, wedge shaped film, Newton’s rings.",6,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Thin Film Applications: Wavelength determination, refractive index, anti-reflecting coating.",7,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Electrodynamics: Vector calculus, Gauss’s, Ampere’s, Faraday’s laws.",8,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,Maxwell’s equations in point and integral form and their significance.,9,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Quantum Physics: de Broglie hypothesis, matter waves, wave function.",10,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Schrödinger’s equations, particle in a rigid box, quantum mechanical tunneling.",11,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,Quantum Computing Principles: Concept of Qubit and its applications.,12,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Semiconductor Physics: Direct and Indirect Band Gap Semiconductors, Electrical Conductivity.",13,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,"Drift Velocity, Mobility, Conductivity in conductors, Fermi-Dirac distribution function.",14,Gemini-fallback
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,Fermi Level Position: Intrinsic and extrinsic semiconductors.,15,Gemini-fallback
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Cayley-Hamilton,0,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Linear Algebra (Theory of Matrices) verification and reduction of higher degree polynomials,1,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Similarity of matrices,2,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Quadratic forms,3,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Linear and Non-Linear Programming Problems,4,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Types of solutions,5,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Standard and Canonical of LPP,6,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Basic and Feasible solutions,7,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Simplex method,8,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Artificial variables,9,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Kuhn-Tucker conditions,10,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Introduction to Congruence,11,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Linear congruence,12,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Application of congruence-RSA algorithm,13,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Dirichlet’s conditions,14,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Fourier series of periodic,15,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Fourier series of even and odd functions,16,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Complex form of Fourier Series,17,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Lines of regression,18,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Moment generating function,19,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2113111,Mathematics for Computer Engineering,Raw moments,20,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114111,Computational,RE in text search and replace,0,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114111,Computational,Application of Regular,1,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114111,Computational,Languages in Compiler Design,2,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114111,Computational,Nondeterministic Finite Automata (NFA): Definitions,3,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114111,Computational,Equivalence between NFA with and ϵ- transitions,4,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114111,Computational,Minimization of DFA,5,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,Relationship (EER) Model,0,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,"Generalization, Specialization and Aggregation",1,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,"Introduction to the Relational Model, relational",2,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,"EER Model to the Relational Model, Relational",3,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,"Overview of SQL, Data Definition Commands",4,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,"Integrity constraints: key constraints, Domain",5,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,"Triggers, Introduction to Pl/SQL Block Structure",6,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,"Pitfalls in relational database designs, Concept",7,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,"Concurrent Executions, Serializability",8,PyMuPDF+regex
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,2114112,Database Management System,"Cloud Database, Introduction of Distributed",9,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2223114,Measurements and Measuring Instruments,Digital frequency meter,0,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2223114,Measurements and Measuring Instruments,Voltage sensor,1,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2223114,Measurements and Measuring Instruments,Verification of Truth Table of Logic Gates,2,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2223114,Measurements and Measuring Instruments,Constructing Flip-Flops Using All NAND Gates,3,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2223114,Measurements and Measuring Instruments,BJT and FET characteristics & analysis,4,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2223114,Measurements and Measuring Instruments,Design of adjustable Voltage regulator based on LM317,5,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2224113,Power Electronics Devices and Circuits,Modes of operation of silicon-controlled rectifier,0,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2224113,Power Electronics Devices and Circuits,Two transistor Analogy,1,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2224113,Power Electronics Devices and Circuits,Thyristors voltage & current rating,2,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2224113,Power Electronics Devices and Circuits,Firing circuits (R,3,PyMuPDF+regex
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2224113,Power Electronics Devices and Circuits,Protection circuit of SCR,4,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,"Definition of Laplace transform, Condition of Existence of Laplace",0,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,"Properties of Laplace Transform: Linearity, First Shifting theorem",1,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,"Step function, Laplace Transform of Periodic functions, Dirac Delta Function",2,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Second Shifting Theorem,3,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,"Inverse Laplace Transform, Linearity property, use of standard",4,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Laplace transform using derivative,5,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Partial fractions method & first shift property to find inverse Laplace,6,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Module: Fourier Series,7,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,"Dirichlet’s conditions, Definition of Fourier series",8,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Fourier series of periodic function with period 2π and 2l (No,9,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Half range Sine and Cosine Series,10,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,"Function f(z) of complex variable, limit, continuity and differentiability",11,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,"Analytic function, necessary and sufficient conditions for f(z) to be",12,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Riemann equations in cartesian coordinates,13,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,"Harmonic function, Harmonic conjugate",14,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,"Similarity of matrices, Diagonalization of matrices",15,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Module: Numerical methods for PDE,16,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Crank Nicholson method,17,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Bender Schmidt method,18,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2403111,Engineering Mathematics-III,Analytical methods of solving two and three dimensional problems,19,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404112,Manufacturing Processes,Gating system: Types of riser,0,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404112,Manufacturing Processes,Special casting processes: CO2 and shell molding,1,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404112,Manufacturing Processes,Investment casting,2,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404112,Manufacturing Processes,Die casting,3,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404112,Manufacturing Processes,Vacuum casting,4,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404112,Manufacturing Processes,Inspection & casting defects and remedies,5,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404411,CAD Modelling,"Solid Modelling Settings environment for part modeling, creating machine/engineering parts/components using features like",0,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404411,CAD Modelling,Kamat and Rao,1,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404411,CAD Modelling,A text book of Machine Drawing by R.B.Gupta,2,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404411,CAD Modelling,Case studies,3,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404411,CAD Modelling,Successful business pitching,4,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404411,CAD Modelling,The Art of the Start 2.0: The Time-Tested,5,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404411,CAD Modelling,Case study: Airbnb,6,PyMuPDF+regex
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404411,CAD Modelling,Design thinking case studies from various domains,7,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Definition of Laplace transform, Condition of Existence of Laplace",0,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Properties of Laplace Transform: Linearity, First Shifting theorem",1,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Function, Second Shifting Theorem",2,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Inverse Laplace Transform, Linearity property, use of standard",3,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Laplace transform using derivative,4,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Partial fractions method & first shift property to find inverse Laplace,5,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Inverse Laplace transform using Convolution theorem (without,6,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Module: Fourier Series,7,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Dirichlet’s conditions, Definition of Fourier series",8,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Fourier series of periodic function with period 2π and 2l (No,9,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Fourier series of e ve n and odd functions. (No question should be,10,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Half range Sine and Cosine Series,11,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Analytic function, necessary and sufficient conditions for f(z) to be",12,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Riemann equations in cartesian coordinates,13,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Harmonic function, Harmonic conjugate",14,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Characteristic equation, Eigen values and Eigen vectors",15,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Properties of Eigen values and Eigen vectors. (No theorems/,16,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Hamilton theorem (without proof): Application to find,17,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Similarity of matrices, Diagonalization of matrices",18,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Module: Numerical methods for PDE,19,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,"Introduction of Partial Differential equations, method of separation",20,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Crank Nicholson method,21,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Bender Schmidt method,22,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Analytical methods of solving two and three dimensional,23,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,University pattern for practicals,24,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Students must be encouraged to write at least 6 class tutorials on entire syllabus,25,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,Class Tutorials on entire syllabus,26,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393111,Engineering Mathematics-III,End Semester Theory Examination,27,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,"Concepts of equilibrium in beams, support reactions",0,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,Concept of Stress,1,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,Area Moment of Inertia,2,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,"Area Moment of Inertia about centroidal axes, Parallel Axes theorem, Polar",3,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,Moment of Inertia,4,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,"Torsion equation, Torsion of circular shafts",5,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,"Strain energy stored in the member due to gradual, sudden and impact loads",6,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,Strain energy due to bending and torsion,7,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,"Introduction to types of beams, supports and loadings. Definition of bending",8,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,Stresses in Beams and Thin Shells,9,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,Bending and Shear Stresses in Beams,10,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,"Theory of bending of beams, bending stress distribution, shear stress distribution",11,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,Deflection of Beams,12,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,"Buckling load, Types of end conditions for column, Euler’s column theory",13,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,Consisting Two Compulsory Class Tests,14,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,First test based on approximately 40% of contents and second test based on remaining contents,15,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,Only Four questions need to be solved,16,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393113,Thermodynamics,Carnot cycle,0,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393113,Thermodynamics,Carnot theorem,1,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393113,Thermodynamics,Clausius theorem,2,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393113,Thermodynamics,Entropy is property of a system,3,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393113,Thermodynamics,Temperature-Entropy,4,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393113,Thermodynamics,Increase of entropy principle,5,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393114,Material Science,Introduction to Crystals and Imperfections Classification of materials: Introduction to engineering,0,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393114,Material Science,Concepts of crystals- Crystalline and Non-crystalline,1,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393114,Material Science,Materials Unit cell,2,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393114,Material Science,Crystal structures of metals,3,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393114,Material Science,Defects: Crystal Imperfections-definition,4,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Classification of various joining processes,0,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Adhesive bonding,1,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Mechanical Fastening; Welding,2,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Hybrid joining processes,3,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Solid State etc,4,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,III Metal Forming,5,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Metal Forming Process,6,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Defects in rolled and forged,7,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Sheet metal working processes,8,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Classification of Sheet metal operations,9,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Presses used in sheet metal operations,10,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,Sheet metal,11,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394512,Design Thinking,Usability Testing: Evaluation of the effectiveness and user,0,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394512,Design Thinking,Create an empathy map for a target user group. Break them into four sections,1,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394512,Design Thinking,"Based on research, students will create user personas including demographic",2,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394512,Design Thinking,Consider 3 examples of real,3,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394512,Design Thinking,May take user survey to support your work,4,PyMuPDF+regex
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394512,Design Thinking,Study any open,5,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2213114,Measurements and Measuring Instruments,Digital frequency meter,0,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2213114,Measurements and Measuring Instruments,Voltage sensor,1,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2213114,Measurements and Measuring Instruments,Verification of Truth Table of Logic Gates,2,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2213114,Measurements and Measuring Instruments,Constructing Flip-Flops Using All NAND Gates,3,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2213114,Measurements and Measuring Instruments,BJT and FET characteristics & analysis,4,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2213114,Measurements and Measuring Instruments,Design of adjustable Voltage regulator based on LM317,5,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2214113,Power Electronics Devices and Circuits,Modes of operation of silicon-controlled rectifier,0,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2214113,Power Electronics Devices and Circuits,Two transistor Analogy,1,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2214113,Power Electronics Devices and Circuits,Thyristors voltage & current rating,2,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2214113,Power Electronics Devices and Circuits,Firing circuits (R,3,PyMuPDF+regex
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2214113,Power Electronics Devices and Circuits,Protection circuit of SCR,4,PyMuPDF+regex
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Review of complex numbers algebra, Cartesian, polar, exponential forms",0,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,D’Moivre’s Theorem statement and applications,1,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Expansion of sinnθ, cosnθ in terms of multiples of θ",2,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Expansion of sinnθ, cosnθ in powers of sinθ, cosθ",3,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Powers and roots of a complex number,4,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Circular and hyperbolic functions of complex number,5,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Inverse circular and inverse hyperbolic functions,6,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Separation of real and imaginary parts of functions,7,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Logarithm of complex number (simple examples),8,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Applications of complex numbers in electrical circuits,9,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Partial differentiation: Function of two and three variables,10,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Partial derivatives of first and higher order,11,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Differentiation of composite function,12,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Euler’s Theorem on Homogeneous functions (two independent variables),13,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Deductions from Euler’s Theorem,14,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Total differentials, implicit functions, three variable Euler’s Theorem",15,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Maxima and Minima of a function of two independent variables,16,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Successive differentiation: nth derivative of standard functions,17,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Leibnitz’s Theorem (without proof) and simple examples,18,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Jacobian’s of two and three independent variables,19,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Lagrange’s Multiplier method,20,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Types of Matrices: Hermitian, Skew Hermitian, Unitary, Orthogonal",21,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Properties of Matrices (without proof),22,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Rank of a Matrix using Echelon form,23,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Reduction to normal form and PAQ form (3X3 Matrix),24,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,System of homogeneous and non-homogeneous equations,25,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Consistency and solutions of linear equations,26,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Application of inverse of a matrix to coding theory,27,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Reduction to normal form and PAQ form (m x n Matrix),28,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Solution of Transcendental Equations: Newton Raphson method,29,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Solution of Transcendental Equations: Regula –Falsi method,30,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Solution of a system of linear algebraic equations,31,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Gauss Jacobi Iteration Method,32,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,Gauss Seidel Iteration Method,33,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Indeterminate forms, L‐ Hospital Rule",34,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Gauss Elimination Method, Gauss Jordan Method",35,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Spontaneous and stimulated emission, population inversion, and He-Ne laser working",36,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Optical fibers principles, numerical aperture, single and multimode fibers, and attenuation",37,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Interference in thin films, Newton's rings application, and anti-reflecting coatings",38,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Vector calculus, Gauss's law, Ampere's circuital law, and Maxwell's equations",39,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"de Broglie hypothesis, Schrodinger's wave equations, particle in a box, and qubits",40,Gemini-fallback
+6.9N-AIML.pdf,BSC101,Applied Mathematics-I,"Direct and indirect band gap semiconductors, electrical conductivity, and Fermi-Dirac distribution",41,Gemini-fallback
+6.9N-AIML.pdf,BSC102,Applied Physics,Basic understanding of laser operation,0,Gemini-fallback
+6.9N-AIML.pdf,BSC102,Applied Physics,Basic working principle of Optical fiber,1,Gemini-fallback
+6.9N-AIML.pdf,BSC102,Applied Physics,Use of optical fiber in communication technology,2,Gemini-fallback
+6.9N-AIML.pdf,BSC102,Applied Physics,Principles of interference in thin film,3,Gemini-fallback
+6.9N-AIML.pdf,BSC102,Applied Physics,Maxwell’s equations and their significance,4,Gemini-fallback
+6.9N-AIML.pdf,BSC102,Applied Physics,Foundation of quantum mechanics for modern technology,5,Gemini-fallback
+6.9N-AIML.pdf,BSC102,Applied Physics,Concept of Fermi level in semiconductors,6,Gemini-fallback
+6.9N-AIML.pdf,BSC103,Applied Chemistry,"Calorific value determination, proximate and ultimate analysis, and combustion of coal",0,Gemini-fallback
+6.9N-AIML.pdf,BSC103,Applied Chemistry,"Mechanism of dry and wet corrosion, factors affecting rate, and corrosion control",1,Gemini-fallback
+6.9N-AIML.pdf,BSC103,Applied Chemistry,"Gibbs phase rule, reduced phase rule, and two-component lead-silver alloy system",2,Gemini-fallback
+6.9N-AIML.pdf,BSC103,Applied Chemistry,"Classification of polymers, molecular weight determination, and mechanical and electrical properties",3,Gemini-fallback
+6.9N-AIML.pdf,BSC103,Applied Chemistry,"Definition, constituents, matrix phase, dispersed phase, and classification of composite materials",4,Gemini-fallback
+6.9N-AIML.pdf,BSC103,Applied Chemistry,"Green synthesis of organic molecules, supercritical solvents, ionic liquids, and biodiesel",5,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Classification composition and resolution of coplanar force systems,0,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Varignon's theorem and resultant of non-coplanar force systems,1,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Centroid determination for plane laminas of primitive geometrical shapes,2,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Equilibrium conditions of rigid bodies and free body diagrams,3,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Determination of support reactions for simple and compound beams,4,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Laws of friction cone of friction and inclined plane equilibrium,5,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Kinematics of particles with variable acceleration and curved paths,6,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Instantaneous center of rotation method for general plane motion,7,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,D'Alembert's principle and dynamic equilibrium equations for particles,8,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Linear impulse momentum principle and elastic impact collisions,9,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Fundamentals of robot mechanics degree of freedom and DH parameters,10,Gemini-fallback
+6.9N-AIML.pdf,ESC101,Engineering Mechanics,Forward robot kinematics and 2-DOF homogeneous transformations,11,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,Mesh and nodal analysis for independent source DC circuits,0,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,Star-Delta transformations and network theorems for DC circuits,1,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,Single-phase AC series and parallel RLC circuits analysis,2,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,Three-phase voltage generation and star-delta circuit connections,3,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,Working principles types losses and efficiency of single-phase transformers,4,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,Construction operating principles and applications of DC and induction motors,5,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,Zener diode characteristics and application as voltage regulator,6,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,Structure and application of light emitting diodes in display systems,7,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,BJT common emitter configuration structure and operating principles,8,Gemini-fallback
+6.9N-AIML.pdf,ESC102,Basic Electrical and Electronics Engineering,FET structure operation and transistor applications in switching and amplification,9,Gemini-fallback
+6.9N-AIML.pdf,AEC101,Professional Communication and Ethics,"Fundamentals, process, methods, and barriers to communication",0,Gemini-fallback
+6.9N-AIML.pdf,AEC101,Professional Communication and Ethics,Active listening concepts and enhancing listening proficiency,1,Gemini-fallback
+6.9N-AIML.pdf,AEC101,Professional Communication and Ethics,"Conversational activities, monologues, dialogues, pronunciation, and intonation",2,Gemini-fallback
+6.9N-AIML.pdf,AEC101,Professional Communication and Ethics,"Verbal aptitude, grammar, reading fluency techniques, and summarisation skills",3,Gemini-fallback
+6.9N-AIML.pdf,AEC101,Professional Communication and Ethics,"Coherence in writing, Seven Cs, formal letters, and user instructions",4,Gemini-fallback
+6.9N-AIML.pdf,AEC101,Professional Communication and Ethics,Content creation for social media and e-commerce platforms,5,Gemini-fallback
+6.9N-AIML.pdf,AEC101,Professional Communication and Ethics,"Team building, SMART goal setting, and ethical considerations for engineers",6,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Character Set, Identifiers and keywords",0,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Data types, Constants, Variables",1,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Arithmetic, Relational, Logical, Assignment operators",2,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Unary, Conditional, Bitwise, Comma operators",3,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Expressions, statements, Library Functions, Preprocessor",4,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Data Input and Output functions: getchar, putchar, scanf, printf, gets, puts",5,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,Structure of C program,6,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Branching statements: If, If-else, Multiway decision",7,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Looping constructs: while, do-while, for",8,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Nested control structures: Switch, Continue, Break, Goto",9,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Function Introduction, Defining, Accessing, Function Prototype",10,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Passing Arguments to a Function, Recursion",11,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Storage Classes: Auto, Extern, Static, Register",12,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Array Concepts: Declaration, Definition, Accessing elements",13,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,One-dimensional and Multidimensional arrays,14,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"String Basics, Array of String, Functions in String.h",15,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Structure Declaration, Initialization, Structure within structure",16,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Operations on structures, Array of Structure",17,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Pointer Introduction, Definition and uses of Pointers",18,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Address Operator, Pointer Variables, Dereferencing Pointer",19,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Void Pointer, Pointer Arithmetic",20,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"Pointers to Pointers, Pointers and Array",21,Gemini-fallback
+6.9N-AIML.pdf,VSEC102,C Programming,"File operations: Opening, Closing, Creating, Reading, Processing File",22,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Exact differential equations,0,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Equations reducible to exact form,1,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Integrating factors for differential equations,2,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Linear differential equations review,3,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Bernoulli’s equation,4,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Applications of first order differential equations,5,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Linear Differential Equation with constant coefficient,6,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Complementary function for differential equations,7,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Particular integrals of differential equation,8,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Method of variation of parameters,9,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Cauchy’s homogeneous linear differential equation,10,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Legendre’s differential equation,11,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Applications of higher order differential equations,12,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Beta and Gamma functions and properties,13,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Differentiation under integral sign,14,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Differentiation with constant limits of integration,15,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,"Rectification of curves (Cartesian, Polar, Parametric)",16,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Tracing of curves,17,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Double integration definition,18,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,"Evaluation of double integrals (Cartesian, Polar)",19,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Change the order of integration,20,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Evaluation of double integrals by polar coordinates,21,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Triple integration definition and evaluation,22,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,"Cartesian, cylindrical, spherical polar coordinates",23,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Application of double integrals to compute Area,24,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Application of double integrals to compute Mass,25,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Application of triple integrals to compute Volume,26,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Numerical solution of ordinary differential equation,27,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Euler’s method for differential equations,28,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Modified Euler method for differential equations,29,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Runge‐Kutta fourth order method,30,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Numerical integration by Trapezoidal rule,31,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Numerical integration by Simpson’s 1/3rd rule,32,Gemini-fallback
+6.9N-AIML.pdf,BSC201,Applied Mathematics-II,Numerical integration by Simpson’s 3/8th rule,33,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Conversion of solar energy into electricity,0,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Photovoltaic effect and solar cell principles,1,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Types of solar cells,2,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Series and parallel solar cell connections,3,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Applications of solar power systems,4,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Imaging sensors CCD construction and working,5,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,CMOS sensor construction and working,6,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Image formation (Monochrome and Colour),7,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Chromaticity diagram and coordinates,8,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Colour measurement and colour matching,9,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Overview of MEMS technology,10,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Intrinsic characteristics of MEMS,11,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Microsensors and microactuators,12,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,"Materials for MEMS (Silicon, polymer, Metal)",13,Gemini-fallback
+6.9N-AIML.pdf,BSC2021,Physics for Emerging Fields,Packaging and encapsulation of MEMS,14,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,Carrier concentration and Fermi level in intrinsic and extrinsic semiconductors,0,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,Hall Effect mechanism and calculation of Hall Voltage,1,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,Formation of p-n junction and calculation of barrier potential,2,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,Diode equation and p-n junction forward and reverse bias characteristics,3,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,"Working and applications of photodiode, solar cell, Zener, varactor, and Gunn diode",4,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,"BJT structure, operation modes, CB and CE I-V characteristics",5,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,"BJT current gain, amplification, and operation as a switch",6,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,Structure and operation of JFET and MOSFET in enhancement and depletion modes,7,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,MOSFET threshold voltage and operation as a switch,8,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,"Nanotechnology optical, electrical, structural, and mechanical properties",9,Gemini-fallback
+6.9N-AIML.pdf,BSC2022,Semiconductor Physics,"Nanotechnology applications in lithography, single electron transfer, and spin valves",10,Gemini-fallback
+6.9N-AIML.pdf,BSC2023,Physics of Measurements and Sensors,"Principles, error, correction, correctness, and reliability of physical measurements",0,Gemini-fallback
+6.9N-AIML.pdf,BSC2023,Physics of Measurements and Sensors,"Measuring instruments range, sensitivity, scale intervals, response time, precision, and accuracy",1,Gemini-fallback
+6.9N-AIML.pdf,BSC2023,Physics of Measurements and Sensors,"Static, environmental, characteristic, and dynamic sources of measurement errors",2,Gemini-fallback
+6.9N-AIML.pdf,BSC2023,Physics of Measurements and Sensors,"Statistical treatment of errors including sample mean, standard deviation, and least squares",3,Gemini-fallback
+6.9N-AIML.pdf,BSC2023,Physics of Measurements and Sensors,Significance of monochromatic light in wave interference and interferometry,4,Gemini-fallback
+6.9N-AIML.pdf,BSC2023,Physics of Measurements and Sensors,Interferometry applied to flatness testing and surface contour testing,5,Gemini-fallback
+6.9N-AIML.pdf,BSC2023,Physics of Measurements and Sensors,Classification of transducers by function and performance,6,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,"Composition, properties and uses of Ferrous alloys and stainless steels",0,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,"Composition, properties and uses of Aluminium and Copper alloys",1,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,Alloys of Lead including Wood's metal and Tinman's solder,2,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,"Definition, types, properties and uses of industrial Ceramics",3,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,Properties and types of glass with optical fiber applications,4,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,"Natural and Artificial Abrasives examples, properties and uses",5,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,"Fibre-reinforced, Layered and Particulate composite materials",6,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,"Definition, classification and applications of Bio-composites",7,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,Thermoplastic and Thermosetting plastics compounding and properties,8,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,Processing and compounding of natural rubber and elastomers,9,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,"Preparation, properties and uses of PMMA and PTFE",10,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,"Preparation, properties and uses of Polyurethane and Silicone rubber",11,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,"Conducting polymers, bio-polymers, liquid crystal, and intelligent polymers",12,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,Types and applications of nanostructured materials and Graphene,13,Gemini-fallback
+6.9N-AIML.pdf,BSC2031,Engineering Materials,Properties and uses of Single-walled and Multi-walled Carbon Nanotubes,14,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Definition and scope of computational chemistry,0,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Importance in modern chemical research,1,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Computational investigations in chemistry,2,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Molecular Mechanics computational tool,3,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Ab initio Calculations method,4,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Semi Empirical methods,5,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Density Functional Theory,6,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Molecular dynamics simulation,7,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Fundamental concepts of quantum mechanics,8,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Schrödinger equation and its significance,9,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Quantum mechanics of simple systems,10,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Force fields definition and components,11,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Potential energy surfaces and molecular modeling,12,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Applications of molecular mechanics in predicting properties,13,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Atomic orbitals and electron configuration,14,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Molecular orbitals formation and significance,15,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Valence Bond Theory and Molecular Orbital Theory,16,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Introduction to Hartree-Fock method,17,Gemini-fallback
+6.9N-AIML.pdf,BSC2033,Introduction to Computational Chemistry,Basis sets and their importance,18,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Introduction to Engineering Graphics,0,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Significance in Engineering domain,1,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Types of Lines and Dimensioning Systems,2,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,IS conventions for Dimensioning,3,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Introduction to plain and diagonal scales,4,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,"Engineering Curves: Cycloid, Involutes, Helix",5,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Projections of points in any quadrants,6,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Projections of points resting on planes,7,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Projections of lines inclined to both reference planes,8,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Simple application problems on projection of lines,9,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,"Projections of planes (Triangular, Square, Rectangular, Pentagonal, Hexagonal, Circular)",10,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Planes inclined to both reference planes,11,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Projections of solids (axis inclined to one plane),12,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Projections of solids (axis inclined to both planes),13,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,"Prism, pyramid, cylinder, and cone projections",14,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Triangular to hexagonal prism and pyramids,15,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Change of position method for solids,16,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Auxiliary plane method for solids,17,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,"Sections of Prism, Pyramid, Cylinder, Cone",18,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Sections cut by plane perpendicular to reference plane,19,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Change of position method for sections,20,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Auxiliary plane method for sections,21,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Development of lateral surface of prism,22,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Development of lateral surface of pyramid,23,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Fundamentals of orthographic projections,24,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Concept of quadrants and observer position,25,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,"Horizontal, vertical, and profile planes",26,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Orthographic projection symbol,27,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Different orthographic views,28,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,First and Third angle projection method,29,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Views of simple machine part (first angle),30,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Fundamentals of sectional orthographic projections,31,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Concept of section plane and its representation,32,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Section lines and their features,33,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Need of sectional views,34,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Rib and web in section,35,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Types of section and its representation,36,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Basic concept of isometric projection,37,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Isometric and non-isometric lines,38,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Isometric axes and isometric scale,39,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Difference between isometric projection and isometric views,40,Gemini-fallback
+6.9N-AIML.pdf,ESC201,Engineering Graphics,Conversion of orthographic views to isometric views,41,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Introduction to Data Structures,0,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Concept of ADT (Abstract Data Type),1,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,"Types of Data Structures (Linear, Nonlinear, Static, Dynamic)",2,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Operations on Data Structures,3,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Introduction to Stack,4,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Stack as ADT (Abstract Data Type),5,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,ADT Operations on Stack,6,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Array Implementation of Stack,7,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Multiple Stacks concept,8,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Evaluation of Arithmetic Expressions,9,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Introduction to Queue,10,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,ADT operations on Queue,11,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Array Implementation of Queue,12,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Types of Queues: Circular Queue,13,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Types of Queues: Priority Queue,14,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Types of Queues: Double Ended Queue,15,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Types of Queues: Multiple Queues,16,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Concept of Linked Lists,17,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Linked List versus Array comparison,18,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Types of Linked List: Singly linked lists,19,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Types of Linked List: Doubly linked lists,20,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Types of Linked List: Circular linked lists,21,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Insertion operations with Singly linked lists,22,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Deletion operations with Singly linked lists,23,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Update operations with Singly linked lists,24,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Copying operations with Singly linked lists,25,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Insertion operations with Doubly linked lists,26,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Deletion operations with Doubly linked lists,27,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Implementation of Stack using linked list,28,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Implementation of Queue using linked list,29,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Reversing a singly linked list,30,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Introduction to Trees,31,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Tree Terminologies,32,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Binary Tree concept,33,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Binary Tree Representation,34,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Types of Binary Tree,35,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Binary Tree Traversals,36,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Binary Search Tree concept,37,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Insert Operations on Binary Search Tree,38,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Delete Operations on Binary Search Tree,39,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Search Operations on Binary Search Tree,40,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Stacks: Conversion of Arithmetic Expressions,41,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,"Infix, Prefix and Postfix Notations",42,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Stacks: Reversing a String or List,43,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Stacks: Parentheses Checker,44,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Trees: Representing expressions using Expression tree,45,Gemini-fallback
+6.9N-AIML.pdf,PCC2011,Data Structure,Trees: Huffman Encoding,46,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,Basic knowledge and scope of IKS,0,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,IKS in ancient and modern India,1,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,Bhartiya education system: ancient to modern era,2,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Sources, aim, curriculum, methods of learning",3,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Educational Institutes, Higher Educational Institutions",4,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,Advantages and disadvantages of Gurukul System,5,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,Distinguish between Gurukul and Modern Education System,6,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Development in Science, Technology, Astronomy",7,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Mathematics, Life Sciences, Physiology, Ayurveda",8,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Introduction to Ancient Architecture: Arts, Forts, Paintings",9,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Sculpture, Temple architecture, design aspects",10,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Development in performing arts: Music, Singing, Dancing",11,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Natyakala, Cultural traditions and Folk arts",12,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,Introduction to Indian religions,13,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,Moral and Ethical Governance principles,14,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,Vishva Kalyan through Vasudhaiva Kutumbkam concept,15,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Principles of Good Governance: Ramayana, Mahabharat, Artha Sastra",16,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,Kauṭilyan State administration,17,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Indian Scientists: Baudhayan, Aryabhatta, Brahmgupta, Bhaskaracharya",18,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Varahamihira, Nagarjuna, Susruta, Kanada, Charak",19,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Nobel Laureates: Rabindranath Tagore, C.V. Raman, Har Gobind Khorana",20,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Mother Teresa, Subrahmanyan Chandrasekhar, Amartya Sen",21,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"V.S. Naipaul, Venkatraman Ramakrishnan, Kailash Satyarthi, Abhijit Banerjee",22,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Agriculture, waste management, water conservation",23,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Forest conservation, architecture, urban planning",24,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,Biodiversity preservation techniques,25,Gemini-fallback
+6.9N-AIML.pdf,IKS201,Indian Knowledge System,"Yoga, pranayama, and meditation for health and well-being",26,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Basic Python syntax, variables, and data types",0,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Operators, input and output functions",1,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Data structures: list, tuple, set, dictionary",2,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,Understanding syntax transition from C to Python,3,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Conditional statements: if, else, elif",4,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,Loops: for and while loop constructs,5,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Defining functions, parameters, and return values",6,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,Scope and lifetime of variables in functions,7,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Reading and writing files, exception handling",8,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Creating Python packages, modules, and executable files",9,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Dealing with syntax errors, runtime errors, scientific debugging",10,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Introduction to OOP: classes, objects, encapsulation",11,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,Inheritance and polymorphism concepts,12,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Creating classes, objects, class attributes, and methods",13,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,Constructor and destructor methods,14,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,"Types of inheritance: single, multiple, multilevel",15,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,Regular expressions and pattern matching,16,Gemini-fallback
+6.9N-AIML.pdf,VSEC202,Python Programming,Regex functions and their applications,17,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Characteristics of good fuels,0,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Calorific value types and calculations,1,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Proximate and ultimate analysis of coal,2,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Combustion of coal numerical problems,3,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Definition and types of corrosion,4,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Dry and electrochemical corrosion mechanisms,5,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Factors affecting rate of corrosion,6,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Methods to control corrosion,7,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Corrosion in electronic devices,8,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Purpose and significance of making alloys,9,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Gibbs phase rule statement and terms,10,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Reduced phase rule for two-component systems (Pb-Ag),11,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Merits and limitations of phase rule,12,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,"Macromolecular science, basic polymer concepts",13,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Chemical bonding and classification of polymers,14,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,"Molecular weight, crystallinity, glass transition temperature of polymers",15,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,"Mechanical properties of polymers: hardness, tensile strength",16,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Electrical and optical properties of polymers,17,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Definition and characteristics of composite materials,18,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Matrix phase and dispersed phase in composites,19,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Classification of composite materials,20,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Green versus conventional synthesis of industrial molecules,21,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,Characteristics and applications of green solvents,22,Gemini-fallback
+Applied Chemistry syllabus 2024-25.pdf,BSC103,Applied Chemistry,"Synthesis and advantages of green fuels: Biodiesel, Ethanol",23,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Basic concepts and process of communication,0,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Methods of communication: verbal and non-verbal,1,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Barriers to communication: mechanical, physical, semantic, psychological",2,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Organisational communication: formal and informal (grapevine),3,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Concepts of active listening: details, gist, inference",4,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Developing active listening proficiency,5,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Conversational activities: monologues (introducing self, others)",6,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Impromptu speeches and scaffolded storytelling,7,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Conversational activities: dialogues (role plays, interviews, information gap)",8,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Pronunciation, stress, rhythm, intonation, accent neutralization",9,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Verbal aptitude: root words, meanings, synonyms, antonyms",10,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Grammar: identifying common errors (subject-verb agreement, articles)",11,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Techniques to improve reading fluency and comprehension,12,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Intensive, extensive reading, skimming, scanning, SQ5R method",13,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Summarisation skills: graphic organisers (Venn, mindmaps, flowcharts)",14,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Summarising text in point form and central idea,15,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Coherence and cohesion in writing: basic units, structure",16,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Cohesive devices: referencing, repetition, substitution, transition signals",17,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Paragraph structure: topic, supporting, concluding sentences",18,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Seven Cs of business writing: completeness, conciseness, clarity",19,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Formal letter formats: complete block style, request, claim, sales",20,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Writing effective e-mails and user instructions,21,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Styles of instruction presentation: impersonal, direct, imperative",22,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Describing objects/processes, drawing diagrams, special notices",23,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Content creation for social media and e-commerce platforms,24,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Blogs, poetry, keynote speeches, podcast titles, landing pages",25,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Team building: five stages (Forming, Storming, Norming, Performing)",26,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Goal setting: SMART goals (short term and long term),27,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Ethical considerations for professional integrity: fairness, honesty",28,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Difference between values and ethics, ethical principles",29,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,"Ethical use of AI tools, plagiarism, copyright infringement",30,Gemini-fallback
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,AEC 101,Professional Communication & Ethics,Ethical-dilemma case studies analysis,31,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Character Set, Identifiers, Keywords in C",0,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Data Types, Constants, Variables",1,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Operators: Arithmetic, Relational, Logical, Assignment",2,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Unary, Conditional, Bitwise, Comma Operators",3,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Expressions, Statements, Library Functions, Preprocessor",4,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Data Input Output: getchar, putchar, scanf, printf",5,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"gets, puts, Structure of C program",6,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Branching: If, If-else, Multiway decision statements",7,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Looping: while, do-while, for statements",8,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Nested control: Switch, Continue, Break, Goto statements",9,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Function Introduction, Main, defining, accessing functions",10,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Function Prototype, Passing Arguments to Function, Recursion",11,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Storage Classes: Auto, Extern, Static, Register",12,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Arrays: Concepts, Declaration, Definition, Accessing elements",13,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,One-dimensional and Multidimensional arrays,14,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Strings: Basics, Array of String, String.h functions",15,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Structures: Declaration, Initialization, nested structures",16,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Operations on structures, Array of Structure",17,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Pointers: Introduction, Definition, uses, Address Operator",18,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Pointer Variables, Dereferencing, Void Pointer",19,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Pointer Arithmetic, Pointers to Pointers, Pointers and Array",20,Gemini-fallback
+Syllabus-C Prog.pdf,VSEC102,C Programming,"Files: Opening, Closing, Creating, Reading, Processing File",21,Gemini-fallback

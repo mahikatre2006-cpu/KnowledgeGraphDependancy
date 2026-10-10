@@ -1,0 +1,1 @@
+Skills library: ~/skills-library/INDEX.md (one line per skill). Do NOT load it by default. Only when a task needs a specialized skill: grep INDEX.md for keywords, then read that skill's SKILL.md from ~/skills-library/all/<name>/. Never read the whole index.

@@ -10,25 +10,20 @@ import {
 import "@xyflow/react/dist/style.css";
 
 function ConceptNodeCard({ data }) {
-  const { node, isKnown, isTarget, onToggleMastery, onSelectTarget } = data;
+  const { node, isKnown, isTarget, onToggleMastery, onSelectTarget, nodeIndex = 0 } = data;
+  
+  const colors = ["bg-white", "bg-[#F4EFE6]"];
+  const accentColors = ["bg-bauhaus-red", "bg-bauhaus-blue", "bg-bauhaus-yellow"];
+  const nodeBg = colors[nodeIndex % colors.length];
+  const accentBg = accentColors[nodeIndex % accentColors.length];
 
   return (
     <div
-      className={`px-4 py-3 rounded-md border text-left min-w-[200px] shadow-2xs transition-all ${
-        isTarget
-          ? "border-neutral-900 bg-neutral-900 text-white ring-2 ring-neutral-400"
-          : isKnown
-          ? "border-neutral-300 bg-neutral-100 text-neutral-900"
-          : "border-neutral-200 bg-white text-neutral-900 hover:border-neutral-400"
-      }`}
+      className={`px-4 py-3 border-[3px] border-bauhaus-black text-left min-w-[200px] shadow-bauhaus transition-all ${isTarget ? "bg-bauhaus-blue text-white" : isKnown ? "bg-bauhaus-cream text-bauhaus-black opacity-80" : `${nodeBg} text-bauhaus-black hover:bg-bauhaus-yellow`}`}
     >
       <div className="flex items-center justify-between gap-2 mb-1">
         <span
-          className={`text-[10px] font-mono font-medium px-1.5 py-0.5 rounded ${
-            isTarget
-              ? "bg-neutral-800 text-neutral-300"
-              : "bg-neutral-100 text-neutral-600 border border-neutral-200"
-          }`}
+          className={`text-[10px] font-mono font-black px-1.5 py-0.5 border border-bauhaus-black ${isTarget ? "bg-bauhaus-black text-white" : `${accentBg} ${accentBg === "bg-bauhaus-yellow" ? "text-bauhaus-black" : "text-white"}`}`}
         >
           {node.unit || "General"}
         </span>
@@ -37,29 +32,21 @@ function ConceptNodeCard({ data }) {
             e.stopPropagation();
             onToggleMastery(node.id);
           }}
-          className={`text-[10px] font-medium px-2 py-0.5 rounded cursor-pointer transition-colors ${
-            isKnown
-              ? "bg-neutral-900 text-white hover:bg-neutral-800"
-              : isTarget
-              ? "bg-white text-neutral-900 hover:bg-neutral-100"
-              : "bg-neutral-100 text-neutral-700 border border-neutral-300 hover:bg-neutral-200"
-          }`}
+          className={`text-[10px] font-black uppercase font-bauhaus tracking-wider px-2 py-0.5 cursor-pointer transition-colors border-2 border-bauhaus-black ${isKnown ? "bg-bauhaus-black text-white hover:bg-bauhaus-black/90" : isTarget ? "bg-white text-bauhaus-black hover:bg-bauhaus-yellow" : "bg-bauhaus-red text-white hover:bg-bauhaus-red/90"}`}
         >
           {isKnown ? "Mastered" : "Mark Mastered"}
         </button>
       </div>
 
-      <h3 className="text-xs font-semibold leading-snug">{node.name}</h3>
+      <h3 className="text-xs font-black uppercase font-bauhaus leading-snug tracking-wider">{node.name}</h3>
 
-      <div className="mt-2 pt-2 border-t border-neutral-100/50 flex items-center justify-between text-[10px] text-neutral-500">
+      <div className="mt-2 pt-2 border-t-[3px] border-bauhaus-black flex items-center justify-between text-[10px] font-mono font-bold">
         <button
           onClick={(e) => {
             e.stopPropagation();
             onSelectTarget(node.id);
           }}
-          className={`hover:underline cursor-pointer ${
-            isTarget ? "text-neutral-300" : "text-neutral-700"
-          }`}
+          className={`hover:underline cursor-pointer ${isTarget ? "text-white" : "text-bauhaus-black"}`}
         >
           {isTarget ? "Selected Target" : "Set Target Goal"}
         </button>
@@ -107,7 +94,8 @@ export default function GraphCanvas({
             isTarget: targetConceptId === node.id,
             onToggleMastery,
             onSelectTarget,
-          },
+              nodeIndex: rowIdx + colIdx, // for coloring
+            },
         });
       });
     });
@@ -117,8 +105,8 @@ export default function GraphCanvas({
       source: e.source_id,
       target: e.target_id,
       animated: true,
-      style: { stroke: "#525252", strokeWidth: 1.5 },
-      markerEnd: { type: MarkerType.ArrowClosed, color: "#525252" },
+      style: { stroke: "#141518", strokeWidth: 3 },
+      markerEnd: { type: MarkerType.ArrowClosed, color: "#141518" },
     }));
 
     return { initialNodes: flowNodes, initialEdges: flowEdges };
@@ -129,12 +117,12 @@ export default function GraphCanvas({
 
   if (!summary || summary.nodes.length === 0) {
     return (
-      <div className="w-full h-full min-h-[450px] bg-neutral-50 border border-neutral-200 rounded-lg flex items-center justify-center text-center p-6">
+      <div className="w-full h-full min-h-[450px] bg-[#E6E0D3] border-[3px] border-bauhaus-black flex items-center justify-center text-center p-6 shadow-bauhaus">
         <div>
-          <p className="text-xs font-semibold text-neutral-700">
+          <p className="text-xs font-black uppercase font-bauhaus tracking-wider text-bauhaus-black">
             No Concept Graph Loaded
           </p>
-          <p className="text-[11px] text-neutral-400 mt-1">
+          <p className="text-[11px] text-bauhaus-black font-mono font-bold mt-1">
             Upload a syllabus PDF or input raw text above to instantiate graph nodes.
           </p>
         </div>
@@ -143,7 +131,7 @@ export default function GraphCanvas({
   }
 
   return (
-    <div className="w-full h-[520px] bg-neutral-50 border border-neutral-200 rounded-lg overflow-hidden relative shadow-inner">
+    <div className="w-full h-[520px] bg-[#E6E0D3] border-[3px] border-bauhaus-black overflow-hidden relative shadow-bauhaus">
       <ReactFlow
         nodes={initialNodes}
         edges={initialEdges}

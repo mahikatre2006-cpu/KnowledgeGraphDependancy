@@ -1,10 +1,10 @@
-"""
+﻿"""
 evaluate_cross_domain.py
 ========================
 Cross-Domain Generalization Evaluator
 
 Loads the trained model artifact (app/ml/model_artifact.joblib) and evaluates
-it on the independent non-IT engineering dataset (Cleaned_Files/cross_domain_test.csv).
+it on the independent non-IT engineering dataset (dependency/cross_domain_test.csv).
 
 Measures out-of-domain transfer performance on Mechanical, Civil, and Electrical subjects.
 """
@@ -116,4 +116,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

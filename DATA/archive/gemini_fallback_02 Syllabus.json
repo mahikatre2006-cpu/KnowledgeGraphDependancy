@@ -1,0 +1,35 @@
+[
+  {
+    "course_code": "ESC102",
+    "course_name": "Basic Electrical and Electronics Engineering",
+    "topics": [
+      "DC Circuits: Kirchhoff's laws, mesh and nodal analysis, network theorems",
+      "AC Circuits: Single-phase and three-phase AC circuits, resonance, phasor analysis",
+      "Single Phase Transformer: Working principle, types, losses, efficiency, and applications",
+      "Electrical Machines: Construction, classification, and applications of DC and AC motors",
+      "Special Purpose Diodes: Characteristics and operation of Zener diode and LED",
+      "Introduction to Transistors: Structure, operation, configurations, and applications of BJT and FET"
+    ]
+  },
+  {
+    "course_code": "ESL102",
+    "course_name": "Basic Electrical and Electronics Engineering Lab",
+    "topics": [
+      "Basic safety precautions and introduction to electrical measuring instruments",
+      "Experimental verification of Mesh and Nodal analysis in DC circuits",
+      "Verification of Superposition, Thevenin, Norton, and Maximum Power Transfer theorems",
+      "Measurement of resistance and inductance in series AC circuits",
+      "Relationship between phase and line currents and voltages in three-phase systems",
+      "Demonstration of cut-out sections of single-phase transformer and DC machine",
+      "Plotting voltage regulation characteristics of Zener diode",
+      "Demonstration of LED displays and BJT FET switching and amplification"
+    ]
+  },
+  {
+    "course_code": "AEC101",
+    "course_name": "Professional Communication and Ethics",
+    "topics": [
+      "Skill-based training on Listening Speaking Reading and Writing communicative abilities"
+    ]
+  }
+]

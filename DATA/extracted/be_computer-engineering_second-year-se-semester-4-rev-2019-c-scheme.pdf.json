@@ -1,0 +1,134 @@
+[
+  {
+    "course_code": "CSC401",
+    "course_name": "Engineering Mathematics-IV",
+    "topics": [
+      "Characteristic Equation, Eigenvalues and Eigenvectors, and properties (without proof)",
+      "Cayley-Hamilton Theorem (without proof), verification and reduction of higher degree polynomials",
+      "Similarity of matrices, diagonalizable and non-diagonalizable matrices",
+      "Definition and Region of Convergence, Transform of Standard Functions: {\ud835\udc58\ud835\udc5b\ud835\udc4e\ud835\udc58}, {\ud835\udc4e|\ud835\udc58|}, { \ud835\udc36. \ud835\udc4e\ud835\udc58",
+      "Properties of Z Transform: Change of Scale, Shifting Property, Multiplication, and Division by k, Convolution theorem.",
+      "Inverse Z transform: Partial Fraction Method, Convolution Method.",
+      "Probability Distribution: Poisson and Normal distribution",
+      "Sampling distribution, Test of Hypothesis, Level of Significance, Critical region, One-tailed, and two-tailed test, Degree of freedom.",
+      "Types of solutions, Standard and Canonical of LPP, Basic and Feasible solutions, slack variables, surplus variables, Simplex method.",
+      "Artificial variables, Big-M method (Method of penalty)",
+      "Duality, Dual of LPP and Dual Simplex Method",
+      "NLPP with two equality constraints",
+      "NLPP with inequality constraint: Kuhn-Tucker conditions"
+    ]
+  },
+  {
+    "course_code": "CSC402",
+    "course_name": "Analysis of Algorithms",
+    "topics": [
+      "Performance analysis, space, and time complexity Growth of function, Big-Oh, Omega Theta notation Mathematical background for algorithm analysis. Complexity class: Definition of P, NP, NP-Hard, NP-Complete Analysis of selection sort, insertion sort.",
+      "Recurrences: The substitution method, Recursion tree method, Master method",
+      "General method, Merge sort, Quick sort, Finding minimum and maximum algorithms and their Analysis, Analysis of Binary search.",
+      "General Method, Multistage graphs, Single source shortest path: Bellman Ford Algorithm All pair shortest path: Floyd Warshall Algorithm, Assembly-line scheduling Problem0/1 knapsack Problem, Travelling Salesperson problem, Longest common subsequence",
+      "General Method, Backtracking: N-queen problem, Sum of subsets, Graph coloring",
+      "Branch and Bound: Travelling Salesperson Problem, 15 Puzzle problem",
+      "The Na\u00efve string-matching algorithm, The Rabin Karp algorithm, The Knuth-Morris-Pratt algorithm"
+    ]
+  },
+  {
+    "course_code": "CSC403",
+    "course_name": "Database Management System",
+    "topics": [
+      "The Entity-Relationship (ER) Model: Entity types: Weak and strong entity sets, Entity sets, Types of Attributes, Keys, Relationship constraints: Cardinality and Participation, Extended Entity-Relationship (EER) Model: Generalization, Specialization and Aggregation",
+      "Introduction to the Relational Model, relational schema and concept of keys. Mapping the ER and EER Model to the Relational Model, Relational Algebra-operators, Relational Algebra Queries.",
+      "Overview of SQL, Data Definition Commands, Integrity constraints: key constraints, Domain Constraints, Referential integrity , check constraints, Data Manipulation commands, Data Control commands, Set and string operations, aggregate function-group by, having, Views in SQL, joins, Nested and complex queries, Triggers",
+      "Pitfalls in Relational-Database designs, Concept of normalization, Function Dependencies, First Normal Form, 2NF, 3NF, BCNF.",
+      "Transaction concept, Transaction states, ACID properties, Transaction Control Commands, Concurrent Executions, Serializability-Conflict and View, Concurrency Control: Lock-based, Timestamp-based protocols, Recovery System: Log based recovery, Deadlock handling"
+    ]
+  },
+  {
+    "course_code": "CSC404",
+    "course_name": "Operating System",
+    "topics": [
+      "Introduction, Objectives, Functions and Evolution of Operating System",
+      "Operating system structures: Layered, Monolithic and Microkernel",
+      "Linux Kernel, Shell and System Calls",
+      "Concept of a Process, Process States, Process Description, Process Control Block.",
+      "Uniprocessor Scheduling-Types: Preemptive and Non-preemptive scheduling algorithms (FCFS, SJF, SRTN, Priority, RR)",
+      "Threads: Definition and Types, Concept of Multithreading",
+      "Concurrency: Principles",
+      "Mutual Exclusion: Requirements, Hardware Support (TSL), Operating System Support (Semaphores), Producer and Consumer problem.",
+      "Principles of Deadlock: Conditions and Resource, Allocation Graphs, Deadlock Prevention, Deadlock Avoidance: Banker\u201fs Algorithm, Deadlock Detection and Recovery, Dining Philosophers Problem.",
+      "Memory Management Requirements, Memory Partitioning: Fixed, Partitioning, Dynamic Partitioning, Memory Allocation Strategies: Best-Fit, First Fit, Worst Fit, Paging and Segmentation, TLB",
+      "Virtual Memory: Demand Paging, Page Replacement Strategies: FIFO, Optimal, LRU, Thrashing",
+      "I/O devices, Organization of the I/O Function, Disk Organization, I/O Management and Disk Scheduling: FCFS, SSTF, SCAN, CSCAN, LOOK, C-LOOK."
+    ]
+  },
+  {
+    "course_code": "CSC405",
+    "course_name": "Microprocessor",
+    "topics": [
+      "8086CPU Architecture,",
+      "Functional Pin Diagram",
+      "Memory Segmentation",
+      "Banking in 8086",
+      "Demultiplexing of Address/Data bus",
+      "Functioning of 8086 in Minimum mode and Maximum mode",
+      "Timing diagrams for Read and Write operations in minimum and maximum mode",
+      "Addressing Modes",
+      "Instruction set-Data Transfer Instructions, String Instructions, Logical Instructions, Arithmetic Instructions, Transfer of Control Instructions, Processor Control Instructions",
+      "Assembler Directives and Assembly Language Programming, Macros, Procedures",
+      "Memory Interfacing - RAM and ROM Decoding Techniques \u2013 Partial and Absolute",
+      "8255-PPI-Block diagram, CWR, operating modes, interfacing with 8086.",
+      "8257-DMAC-Block diagram, DMA operations and transfer modes.",
+      "Programmable Interrupt Controller 8259-Block Diagram, Interfacing the 8259 in single and cascaded mode.",
+      "Architecture of 80386 microprocessor",
+      "80386 registers\u2013General purpose Registers, EFLAGS and Control",
+      "Real mode, Protected mode, virtual 8086 mode",
+      "80386 memory management in Protected Mode \u2013 Descriptors and selectors, descriptor tables, the memory paging mechanism",
+      "Pentium Architecture",
+      "Superscalar Operation,",
+      "Integer &Floating-Point Pipeline Stages,",
+      "Branch Prediction Logic,",
+      "Cache Organization and",
+      "MESI protocol",
+      "Comparative study of 8086, 80386, Pentium I, Pentium II and Pentium III",
+      "Pentium 4: Net burst micro architecture.",
+      "Instruction translation look aside buffer and branch prediction",
+      "Hyper threading technology and its use in Pentium 4"
+    ]
+  },
+  {
+    "course_code": "CSL401",
+    "course_name": "Analysis of Algorithms Lab",
+    "topics": [
+      "Selection sort, Insertion sort",
+      "Finding Minimum and Maximum, Merge sort, Quick sort, Binary search",
+      "Single source shortest path- Bellman Ford All pair shortest path- Floyd Warshall 0/1 knapsack Travelling salesperson problem Longest common subsequence",
+      "N-queen problem Sum of subsets Graph coloring",
+      "The Na\u00efve string-matching Algorithms The Rabin Karp algorithm The Knuth-Morris-Pratt algorithm"
+    ]
+  },
+  {
+    "course_code": "CSL403",
+    "course_name": "Operating System Lab",
+    "topics": [
+      "Explore usage of basic Linux Commands and system calls for file, directory and process management. For eg: (mkdir, chdir, cat, ls, chown, chmod, chgrp, ps etc. system calls: open, read, write, close, getpid, setpid, getuid, getgid, getegid, geteuid. sort, grep, awk, etc.)",
+      "Write shell scripts to do the following: a. Display OS version, release number, kernel version b. Display top 10 processes in descending order c. Display processes with highest memory usage. d. Display current logged in user and log name. Display current shell, home directory, operating system type, current path setting, current working directory.",
+      "Implement any one basic commands of linux like ls, cp, mv and others using kernel APIs.",
+      "a. Write a program to demonstrate the concept of non-preemptive scheduling algorithms. b. Write a program to demonstrate the concept of preemptive scheduling algorithms",
+      "a. Write a C program to implement solution of Producer consumer problem through Semaphore",
+      "a. Write a program to demonstrate the concept of MVT and MFT memory management techniques b. Write a program to demonstrate the concept of dynamic partitioning placement algorithms i.e. Best Fit, First Fit, Worst-Fit etc.",
+      "a. Write a program to demonstrate the concept of demand paging for simulation of Virtual Memory implementation b. Write a program in C demonstrate the concept of page replacement policies for handling page faults eg: FIFO, LRU etc."
+    ]
+  },
+  {
+    "course_code": "CSL405",
+    "course_name": "Skill Base Lab Course:  Python Programming",
+    "topics": [
+      "Data types in python, Operators in python, Input and Output, Control statement, Arrays in python, String and Character in python, Functions, List and Tuples, Dictionaries Exception, Introduction to OOP, Classes, Objects, Interfaces, Inheritance",
+      "Files in Python, Directories, Building Modules, Packages, Text Processing, Regular expression in python.",
+      "Link List, Stack, Queues, Dequeues",
+      "Graphical User interface, Networking in Python, Python database connectivity, Introduction to Django",
+      "Thread and Process, Starting a thread, Threading module, Synchronizing threads, Multithreaded Priority Queue",
+      "Creating NumPy arrays, Indexing and slicing in NumPy, creating multidimensional arrays, NumPy Data types, Array Attribute, Indexing and Slicing, Creating array views copies, Manipulating array shapes I/O",
+      "Basics of Pandas, Using multilevel series, Series and Data Frames, Grouping, aggregating, Merge Data Frames"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+filename,status,pdf_type,courses,topics,method,diagnosis
+02 Syllabus.pdf,OK,DIGITAL,3,15,Gemini-fallback,PARSER_MISMATCH
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf,OK,TYPE_C,3,38,PyMuPDF+regex,OK
+6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf,OK,TYPE_C,8,124,PyMuPDF+regex,OK
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,OK,DIGITAL,35,24,Gemini-fallback,PARSER_MISMATCH
+6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf,OK,TYPE_C,3,37,PyMuPDF+regex,OK
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,OK,TYPE_C,2,11,PyMuPDF+regex,OK
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,OK,TYPE_C,3,34,PyMuPDF+regex,OK
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,OK,TYPE_C,6,74,PyMuPDF+regex,OK
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,OK,TYPE_C,2,11,PyMuPDF+regex,OK
+6.9N-AIML.pdf,OK,DIGITAL,17,342,Gemini-fallback,PARSER_MISMATCH
+Applied Chemistry syllabus 2024-25.pdf,OK,DIGITAL,1,24,Gemini-fallback,PARSER_MISMATCH
+Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf,OK,DIGITAL,1,32,Gemini-fallback,PARSER_MISMATCH
+Syllabus-C Prog.pdf,OK,DIGITAL,1,22,Gemini-fallback,PARSER_MISMATCH

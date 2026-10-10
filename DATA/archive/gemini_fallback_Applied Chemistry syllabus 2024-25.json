@@ -1,0 +1,32 @@
+[
+  {
+    "course_code": "BSC103",
+    "course_name": "Applied Chemistry",
+    "topics": [
+      "Characteristics of good fuels",
+      "Calorific value types and calculations",
+      "Proximate and ultimate analysis of coal",
+      "Combustion of coal numerical problems",
+      "Definition and types of corrosion",
+      "Dry and electrochemical corrosion mechanisms",
+      "Factors affecting rate of corrosion",
+      "Methods to control corrosion",
+      "Corrosion in electronic devices",
+      "Purpose and significance of making alloys",
+      "Gibbs phase rule statement and terms",
+      "Reduced phase rule for two-component systems (Pb-Ag)",
+      "Merits and limitations of phase rule",
+      "Macromolecular science, basic polymer concepts",
+      "Chemical bonding and classification of polymers",
+      "Molecular weight, crystallinity, glass transition temperature of polymers",
+      "Mechanical properties of polymers: hardness, tensile strength",
+      "Electrical and optical properties of polymers",
+      "Definition and characteristics of composite materials",
+      "Matrix phase and dispersed phase in composites",
+      "Classification of composite materials",
+      "Green versus conventional synthesis of industrial molecules",
+      "Characteristics and applications of green solvents",
+      "Synthesis and advantages of green fuels: Biodiesel, Ethanol"
+    ]
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "course_code": "BSC101",
+    "course_name": "Applied Mathematics-I",
+    "topics": [
+      "Complex Numbers: Algebra, forms, D’Moivre’s Theorem, expansion of trigonometric functions.",
+      "Hyperbolic Functions: Circular functions, inverse functions, real and imaginary parts.",
+      "Logarithms of Complex Numbers: Basic concepts and simple examples.",
+      "Partial Differentiation: First and higher order derivatives, composite functions, Euler’s Theorem.",
+      "Applications of Partial Differentiation: Maxima, Minima, successive differentiation, Leibnitz’s Theorem.",
+      "Matrices: Types, properties, rank using Echelon form, system of equations.",
+      "Numerical Solutions: Transcendental equations via Newton Raphson and Regula–Falsi.",
+      "System of Linear Equations: Gauss Jacobi and Gauss Seidel Iteration Methods."
+    ]
+  },
+  {
+    "course_code": "BSC102",
+    "course_name": "Applied Physics",
+    "topics": [
+      "Lasers: Spontaneous, stimulated emission, population inversion, resonant cavity, coherence.",
+      "He-Ne and Fiber laser construction and working principles.",
+      "Laser Applications: LiDAR, Barcode reading, metal work processing.",
+      "Fibre Optics: Critical angle, acceptance angle, numerical aperture, total internal reflection.",
+      "Optical Fiber Types: Single mode, multimode, step index, graded index.",
+      "Fiber Optic Communication System: Attenuation, advantages and applications.",
+      "Interference in Thin Films: Uniform thickness, wedge shaped film, Newton’s rings.",
+      "Thin Film Applications: Wavelength determination, refractive index, anti-reflecting coating.",
+      "Electrodynamics: Vector calculus, Gauss’s, Ampere’s, Faraday’s laws.",
+      "Maxwell’s equations in point and integral form and their significance.",
+      "Quantum Physics: de Broglie hypothesis, matter waves, wave function.",
+      "Schrödinger’s equations, particle in a rigid box, quantum mechanical tunneling.",
+      "Quantum Computing Principles: Concept of Qubit and its applications.",
+      "Semiconductor Physics: Direct and Indirect Band Gap Semiconductors, Electrical Conductivity.",
+      "Drift Velocity, Mobility, Conductivity in conductors, Fermi-Dirac distribution function.",
+      "Fermi Level Position: Intrinsic and extrinsic semiconductors."
+    ]
+  },
+  {
+    "course_code": "BSC103",
+    "course_name": "Applied Chemistry",
+    "topics": []
+  },
+  {
+    "course_code": "ESC101",
+    "course_name": "Engineering Mechanics",
+    "topics": []
+  },
+  {
+    "course_code": "ESC102",
+    "course_name": "Basic Electrical & Electronics Engineering",
+    "topics": []
+  },
+  {
+    "course_code": "BSL101",
+    "course_name": "Applied Physics Lab",
+    "topics": []
+  },
+  {
+    "course_code": "BSL102",
+    "course_name": "Applied Chemistry Lab",
+    "topics": []
+  },
+  {
+    "course_code": "ESL101",
+    "course_name": "Engineering Mechanics Lab",
+    "topics": []
+  },
+  {
+    "course_code": "ESL102",
+    "course_name": "Basic Electrical & Electronics Engineering Lab",
+    "topics": []
+  },
+  {
+    "course_code": "AEC101",
+    "course_name": "Professional and Communication Ethics",
+    "topics": []
+  },
+  {
+    "course_code": "AEL101",
+    "course_name": "Professional and Communication Ethics",
+    "topics": []
+  },
+  {
+    "course_code": "VSEC101",
+    "course_name": "Engineering Workshop-I",
+    "topics": []
+  },
+  {
+    "course_code": "VSEC102",
+    "course_name": "C Programming",
+    "topics": []
+  },
+  {
+    "course_code": "CC101",
+    "course_name": "Induction cum Universal Human Values",
+    "topics": []
+  },
+  {
+    "course_code": "BSC201",
+    "course_name": "Applied Mathematics– II",
+    "topics": []
+  },
+  {
+    "course_code": "BSC2021",
+    "course_name": "Physics for Emerging Fields",
+    "topics": []
+  },
+  {
+    "course_code": "BSC2022",
+    "course_name": "Semiconductor Physics",
+    "topics": []
+  },
+  {
+    "course_code": "BSC2023",
+    "course_name": "Physics of Measurements and Sensors",
+    "topics": []
+  },
+  {
+    "course_code": "BSC2031",
+    "course_name": "Engineering Materials",
+    "topics": []
+  },
+  {
+    "course_code": "BSC2032",
+    "course_name": "Environmental Chemistry and Non-conventional energy sources",
+    "topics": []
+  },
+  {
+    "course_code": "BSC2033",
+    "course_name": "Introduction to Computational Chemistry",
+    "topics": []
+  },
+  {
+    "course_code": "ESC201",
+    "course_name": "Engineering Graphics",
+    "topics": []
+  },
+  {
+    "course_code": "PCC2018",
+    "course_name": "Elements of Mechanical Engineering",
+    "topics": []
+  },
+  {
+    "course_code": "BSL2011",
+    "course_name": "Physics for Emerging Fields Lab",
+    "topics": []
+  },
+  {
+    "course_code": "BSL2012",
+    "course_name": "Semiconductor Physics Lab",
+    "topics": []
+  },
+  {
+    "course_code": "BSL2013",
+    "course_name": "Physics of Measurements and Sensors Lab",
+    "topics": []
+  },
+  {
+    "course_code": "BSL2021",
+    "course_name": "Engineering Materials Lab",
+    "topics": []
+  },
+  {
+    "course_code": "BSL2022",
+    "course_name": "Environmental Chemistry and Non-conventional energy sources Lab",
+    "topics": []
+  },
+  {
+    "course_code": "BSL2023",
+    "course_name": "Introduction to Computational Chemistry Lab",
+    "topics": []
+  },
+  {
+    "course_code": "ESL201",
+    "course_name": "Engineering Graphics Lab",
+    "topics": []
+  },
+  {
+    "course_code": "PCL2018",
+    "course_name": "Elements of Mechanical Engineering Lab",
+    "topics": []
+  },
+  {
+    "course_code": "CC201",
+    "course_name": "Social Science & Community Services",
+    "topics": []
+  },
+  {
+    "course_code": "IKS201",
+    "course_name": "IndianknowledgeSystem",
+    "topics": []
+  },
+  {
+    "course_code": "VSEC201",
+    "course_name": "Engineering Workshop-II",
+    "topics": []
+  },
+  {
+    "course_code": "VSEC202",
+    "course_name": "Python Programming",
+    "topics": []
+  }
+]

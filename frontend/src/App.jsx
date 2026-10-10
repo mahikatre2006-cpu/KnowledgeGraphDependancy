@@ -24,6 +24,15 @@ export default function App() {
   const [sequence, setSequence] = useState(null);
   const [inferring, setInferring] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
+  // Load the optimal ML threshold from public folder (safe Vite-compatible approach)
+  const [mlThreshold, setMlThreshold] = useState(0.20);
+
+  useEffect(() => {
+    fetch("/decision_threshold.json")
+      .then((r) => r.json())
+      .then((cfg) => setMlThreshold(cfg.optimal_threshold ?? 0.20))
+      .catch(() => setMlThreshold(0.20));
+  }, []);
 
   const refreshData = async () => {
     try {
@@ -54,8 +63,17 @@ export default function App() {
     refreshData();
   }, [knownConceptIds, targetConceptId]);
 
+  // BUG FIX: buildAndInfer already returns FullPipelineResponse with graph_summary + topological_sequence.
+  // We use it directly to avoid a redundant GET /graph/summary round-trip that races with in-memory state.
   const handlePipelineComplete = (data) => {
     setErrorMessage("");
+    if (data && data.graph_summary) {
+      setSummary(data.graph_summary);
+    }
+    if (data && data.topological_sequence) {
+      setSequence(data.topological_sequence);
+    }
+    // Kick off analytics refresh in background (non-blocking)
     refreshData();
   };
 
@@ -65,6 +83,8 @@ export default function App() {
     try {
       console.log("Using dynamic threshold:", thresholdConfig.optimal_threshold);
       await inferRelationships(0.0, thresholdConfig.optimal_threshold);
+      console.log("Using dynamic ML threshold:", mlThreshold);
+      await inferRelationships(0.0, mlThreshold);
       await refreshData();
     } catch (err) {
       setErrorMessage(err.message || "Failed to run AI inference.");
@@ -84,7 +104,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-100 text-neutral-900 font-sans flex flex-col antialiased selection:bg-neutral-900 selection:text-white">
+    <div className="min-h-screen bg-bauhaus-bg text-bauhaus-black font-sans flex flex-col antialiased selection:bg-bauhaus-red selection:text-white">
       <Header
         onInferRelationships={handleInferRelationships}
         inferring={inferring}
@@ -95,11 +115,11 @@ export default function App() {
 
       <main className="flex-1 max-w-7xl w-full mx-auto p-6 space-y-6">
         {errorMessage && (
-          <div className="p-3.5 rounded-lg border border-neutral-300 bg-neutral-900 text-white text-xs flex items-center justify-between shadow-xs">
+          <div className="p-3.5 border-[3px] border-bauhaus-black bg-bauhaus-black text-white text-xs flex items-center justify-between shadow-bauhaus">
             <span>{errorMessage}</span>
             <button
               onClick={() => setErrorMessage("")}
-              className="text-neutral-400 hover:text-white text-xs font-mono"
+              className="text-bauhaus-yellow hover:text-white text-xs font-mono font-bold uppercase"
             >
               Dismiss
             </button>
@@ -115,12 +135,13 @@ export default function App() {
             />
           </div>
 
-          <div className="lg:col-span-2 bg-white border border-neutral-200 rounded-lg p-5 shadow-sm space-y-3">
-            <h2 className="text-sm font-semibold text-neutral-900">
+          <div className="lg:col-span-2 bg-white border-[3px] border-bauhaus-black p-5 shadow-bauhaus space-y-3 relative">
+            <div className="absolute -top-3 -left-3 bg-bauhaus-black text-white text-[10px] font-black px-1.5 py-0.5 font-mono">02</div>
+            <h2 className="text-sm font-black uppercase font-bauhaus tracking-wider text-bauhaus-black border-b-[3px] border-bauhaus-black pb-2 mb-2">
               Interactive Concept Graph Navigator
             </h2>
-            <p className="text-xs text-neutral-500 leading-relaxed">
-              Click <span className="font-semibold text-neutral-900 font-mono">Mark Mastered</span> on any topic node to record your progress. Click <span className="font-semibold text-neutral-900 font-mono">Set Target Goal</span> to calculate exact missing prerequisites. Click <span className="font-semibold text-neutral-900 font-mono">Infer Relationships</span> above to trigger open-source AI prerequisite inference.
+            <p className="text-xs text-bauhaus-black font-bold leading-relaxed font-mono">
+              Click <span className="font-black text-bauhaus-blue font-mono bg-bauhaus-cream px-1 border border-bauhaus-black">Mark Mastered</span> on any topic node to record your progress. Click <span className="font-black text-bauhaus-blue font-mono bg-bauhaus-cream px-1 border border-bauhaus-black">Set Target Goal</span> to calculate exact missing prerequisites. Click <span className="font-black text-bauhaus-blue font-mono bg-bauhaus-cream px-1 border border-bauhaus-black">Infer Relationships</span> above to trigger open-source AI prerequisite inference.
             </p>
 
             <GraphCanvas
@@ -147,7 +168,7 @@ export default function App() {
         />
       </main>
 
-      <footer className="w-full border-t border-neutral-200 bg-white py-4 px-6 text-center text-xs text-neutral-400 font-mono">
+      <footer className="w-full border-t-[3px] border-bauhaus-black bg-bauhaus-cream py-4 px-6 text-center text-xs text-bauhaus-black font-mono font-bold uppercase tracking-widest">
         Knowledge Dependency Graph V1 &bull; Powered by FastAPI & React Flow
       </footer>
     </div>

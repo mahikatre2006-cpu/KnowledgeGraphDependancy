@@ -73,25 +73,22 @@ export default function FileUpload({ onPipelineComplete, onError }) {
   };
 
   return (
-    <div className="bg-white border border-neutral-200 rounded-lg p-5 shadow-sm">
-      <div className="flex items-center justify-between border-b border-neutral-100 pb-3 mb-4">
-        <h2 className="text-sm font-semibold text-neutral-900">
+    <div className="bg-white border-[3px] border-bauhaus-black p-5 shadow-bauhaus relative mt-4">
+      <div className="absolute -top-3 -left-3 bg-bauhaus-black text-white text-[10px] font-black px-1.5 py-0.5 font-mono">01</div>
+      <div className="flex items-center justify-between border-b-[3px] border-bauhaus-black pb-3 mb-4">
+        <h2 className="text-sm font-black uppercase font-bauhaus text-bauhaus-black tracking-wider">
           Curriculum Input
         </h2>
-        <div className="flex items-center gap-1 bg-neutral-100 p-0.5 rounded text-xs">
+        <div className="flex items-center bg-bauhaus-cream border-2 border-bauhaus-black text-xs font-mono font-bold">
           <button
             onClick={() => setMode("pdf")}
-            className={`px-3 py-1 rounded font-medium transition-colors ${
-              mode === "pdf" ? "bg-white text-neutral-900 shadow-xs" : "text-neutral-500 hover:text-neutral-900"
-            }`}
+            className={`px-3 py-1 font-bold transition-colors ${mode === "pdf" ? "bg-bauhaus-blue text-white border-r-2 border-bauhaus-black" : "text-bauhaus-black hover:bg-bauhaus-yellow border-r-2 border-bauhaus-black"}`}
           >
             PDF Upload
           </button>
           <button
             onClick={() => setMode("text")}
-            className={`px-3 py-1 rounded font-medium transition-colors ${
-              mode === "text" ? "bg-white text-neutral-900 shadow-xs" : "text-neutral-500 hover:text-neutral-900"
-            }`}
+            className={`px-3 py-1 font-bold transition-colors ${mode === "text" ? "bg-bauhaus-blue text-white" : "text-bauhaus-black hover:bg-bauhaus-yellow"}`}
           >
             Raw Text
           </button>
@@ -101,19 +98,19 @@ export default function FileUpload({ onPipelineComplete, onError }) {
       
       {subjects.length > 1 ? (
         <div className="space-y-3">
-          <h3 className="text-sm font-semibold text-neutral-900">Select Subject</h3>
-          <p className="text-xs text-neutral-500">This PDF contains multiple subjects. Please select one to graph.</p>
+          <h3 className="text-sm font-black uppercase font-bauhaus text-bauhaus-black tracking-wider">Select Subject</h3>
+          <p className="text-xs font-bold text-bauhaus-black font-mono">This PDF contains multiple subjects. Please select one to graph.</p>
           <div className="space-y-2 max-h-60 overflow-y-auto">
             {subjects.map((s, idx) => (
               <button
                 key={idx}
                 onClick={() => handleSubjectSelect(s.course_code)}
                 disabled={loading}
-                className="w-full text-left p-3 border border-neutral-200 rounded hover:border-neutral-900 bg-neutral-50 transition-colors"
+                className="w-full text-left p-3 border-[3px] border-bauhaus-black hover:bg-bauhaus-yellow bg-white transition-colors shadow-bauhaus mb-3"
               >
                 <div className="flex justify-between items-center">
-                  <span className="font-semibold text-sm text-neutral-900">{s.course_code} - {s.course_title}</span>
-                  <span className="text-xs text-neutral-500">{s.topic_count} Topics</span>
+                  <span className="font-black text-sm text-bauhaus-black uppercase font-bauhaus">{s.course_code} - {s.course_title}</span>
+                  <span className="text-xs font-bold text-bauhaus-black font-mono">{s.topic_count} Topics</span>
                 </div>
               </button>
             ))}
@@ -125,15 +122,13 @@ export default function FileUpload({ onPipelineComplete, onError }) {
           onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
           onDragLeave={() => setDragOver(false)}
           onDrop={handleDrop}
-          className={`border-2 border-dashed rounded-lg p-8 text-center transition-colors ${
-            dragOver ? "border-neutral-900 bg-neutral-100" : "border-neutral-200 bg-neutral-50 hover:bg-neutral-100/50"
-          }`}
+          className={`border-4 border-dashed p-8 text-center transition-colors ${dragOver ? "border-bauhaus-blue bg-bauhaus-cream" : "border-bauhaus-black bg-white hover:bg-bauhaus-cream"}`}
         >
-          <Upload className="w-6 h-6 text-neutral-400 mx-auto mb-2" />
-          <p className="text-xs font-medium text-neutral-800">
+          <Upload className="w-6 h-6 text-bauhaus-black mx-auto mb-2" />
+          <p className="text-xs font-bold text-bauhaus-black font-mono">
             Drag and drop your syllabus PDF here
           </p>
-          <p className="text-[11px] text-neutral-400 mt-1">
+          <p className="text-[11px] text-bauhaus-black font-bold mt-1">
             Supports official course outlines, unit syllabi, and lecture schedules
           </p>
 
@@ -145,7 +140,7 @@ export default function FileUpload({ onPipelineComplete, onError }) {
               className="hidden"
               disabled={loading}
             />
-            <span className="cursor-pointer inline-flex items-center gap-1.5 text-xs font-medium text-neutral-900 bg-white border border-neutral-300 hover:border-neutral-400 px-3.5 py-1.5 rounded shadow-2xs transition-colors">
+            <span className="cursor-pointer inline-flex items-center gap-1.5 text-xs font-black uppercase font-bauhaus tracking-wider text-bauhaus-black bg-bauhaus-yellow border-2 border-bauhaus-black hover:bg-[#e5a61a] px-3.5 py-2 shadow-bauhaus transition-colors">
               {loading ? "Processing Syllabus..." : "Select PDF Document"}
             </span>
           </label>
@@ -157,12 +152,12 @@ export default function FileUpload({ onPipelineComplete, onError }) {
             onChange={(e) => setRawText(e.target.value)}
             placeholder="Paste syllabus units and topics here... (e.g. Unit 1: Foundations \n - Linear Algebra \n - Calculus)"
             rows={5}
-            className="w-full text-xs p-3 font-mono border border-neutral-200 rounded focus:outline-none focus:border-neutral-900 bg-neutral-50 text-neutral-800 placeholder-neutral-400"
+            className="w-full text-xs p-3 font-mono border-[3px] border-bauhaus-black focus:outline-none focus:border-bauhaus-blue bg-bauhaus-cream text-bauhaus-black placeholder-neutral-500 font-bold"
           />
           <button
             type="submit"
             disabled={loading || !rawText.trim()}
-            className="flex items-center justify-center gap-1.5 w-full text-xs font-medium text-white bg-neutral-900 hover:bg-neutral-800 disabled:opacity-50 py-2 rounded transition-colors"
+            className="flex items-center justify-center gap-1.5 w-full text-xs font-black uppercase font-bauhaus tracking-wider text-white bg-bauhaus-red hover:bg-bauhaus-red/90 border-2 border-bauhaus-black shadow-bauhaus disabled:opacity-50 py-2 transition-colors"
           >
             <span>{loading ? "Parsing Topics..." : "Build Knowledge Graph"}</span>
             <ArrowRight className="w-3.5 h-3.5" />

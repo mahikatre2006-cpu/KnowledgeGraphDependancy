@@ -1,0 +1,91 @@
+[
+  {
+    "course_code": "CSC501",
+    "course_name": "Theoretical Computer Science",
+    "topics": [
+      "Basic Concepts and Finite Automata",
+      "Importance of TCS, Alphabets, Strings, Languages, Closure properties, Finite Automata (FA) and Finite State machine (FSM).",
+      "Deterministic Finite Automata (DFA) and    Nondeterministic Finite Automata (NFA): Definitions, transition diagrams and Language recognizers, Equivalence between NFA with and without \u03b5- transitions, NFA to DFA Conversion, Minimization of DFA, FSM with output: Moore and Mealy machines, Applications and limitations of FA.",
+      "Regular Expressions and Languages",
+      "Regular Language (RL), Closure properties of RLs, Decision properties of RLs, Pumping lemma for RLs.",
+      "Grammars",
+      "Regular Grammar (RG), Equivalence of Left and Right linear grammar, Equivalence of RG and FA.",
+      "Context Free Grammars (CFG) Definition, Sentential forms, Leftmost and Rightmost derivations, Parse tree, Ambiguity, Simplification and Applications, Normal Forms:   Chomsky Normal Forms (CNF) and Greibach    Normal   Forms (GNF), Context Free language (CFL) - Pumping lemma, Closure properties.",
+      "Pushdown Automata(PDA)",
+      "Definition, Language of PDA,PDA as generator, decider and acceptor of CFG, Deterministic PDA , Non-Deterministic PDA, Application of PDA.",
+      "Turing Machine (TM)",
+      "Definition, Design of TM as generator, decider and acceptor, Variants of TM: Multitrack, Multitape, Universal TM, Applications, Power and Limitations of TMs.",
+      "Undecidability"
+    ]
+  },
+  {
+    "course_code": "CSC502",
+    "course_name": "Software Engineering",
+    "topics": [
+      "Software Engineering-process framework, the Capability Maturity Model (CMM), Advanced Trends in Software Engineering",
+      "Prescriptive Process Models: The Waterfall, Incremental Process Models, Evolutionary Process Models: RAD & Spiral",
+      "Agile process model: Extreme Programming (XP), Scrum, Kanban",
+      "Requirement Engineering, Requirement Modeling, Data flow diagram, Scenario based model",
+      "Software Requirement Specification document format(IEEE)",
+      "Software Metrics, Software Project Estimation (LOC, FP, COCOMO II )",
+      "Project Scheduling & Tracking",
+      "Design Principles & Concepts",
+      "Effective Modular Design, Cohesion and Coupling, Architectural design",
+      "Unit testing, Integration testing, Validation testing, System testing",
+      "Risk Analysis & Management: Risk Mitigation, Monitoring and Management Plan (RMMM).",
+      "The Software Configuration Management (SCM) ,Version Control and Change Control"
+    ]
+  },
+  {
+    "course_code": "CSC503",
+    "course_name": "Computer Network",
+    "topics": [
+      "Introduction  to   computer   network,   network  application,   network software and hardware components (Interconnection networking devices), Network topology, protocol hierarchies, design issues for the layers, connection oriented and connectionless  services",
+      "Reference models:  Layer details of OSI, TCP/IP models. Communication between layers.",
+      "Introduction to Communication Electromagnetic Spectrum",
+      "Guided Transmission Media: Twisted pair, Coaxial, Fiber optics.",
+      "DLL Design Issues (Services, Framing, Error Control, Flow Control), Error Detection and Correction(Hamming Code, CRC, Checksum) , Elementary Data Link protocols , Stop and Wait, Sliding Window(Go Back N, Selective Repeat)",
+      "Medium Access Control sublayer Channel Allocation problem, Multiple access Protocol( Aloha, Carrier Sense Multiple Access (CSMA/CD)",
+      "Network Layer design issues, Communication Primitives: Unicast, Multicast, Broadcast. IPv4 Addressing (classfull and classless), Subnetting, Supernetting design problems ,IPv4 Protocol, Network Address Translation (NAT), IPv6",
+      "Protocols - ARP,RARP, ICMP, IGMP",
+      "Congestion control algorithms: Open loop congestion control, Closed loop congestion control, QoS parameters, Token & Leaky bucket algorithms",
+      "The Transport Service: Transport service primitives, Berkeley Sockets, Connection management (Handshake), UDP, TCP, TCP state transition, TCP timers",
+      "TCP Flow control (sliding Window), TCP Congestion Control: Slow Start",
+      "DNS: Name Space, Resource Record and Types of Name Server.  HTTP, SMTP, Telnet, FTP, DHCP"
+    ]
+  },
+  {
+    "course_code": "CSC504",
+    "course_name": "Data Warehousing and Mining",
+    "topics": [
+      "Introduction to Probability Theory: Probability Theory, Basic Concepts in Probability, Random Variables and Joint Distribution, Independence and Conditional Independence, Continuous Spaces, Expectation and Variances",
+      "Introduction to Probabilistic Graph Models: Bayesian Network, Markov Model, Hidden Markov Model",
+      "Applications of PGM",
+      "Directed Graph Model: Bayesian Network-Exploiting Independence Properties, Naive Bayes Model, Bayesian Network Model, Reasoning Patterns, Basic Independencies in Bayesian Networks, Bayesian Network Semantics, Graphs and Distributions. Modelling: Picking variables, Picking Structure, Picking Probabilities, D- separation",
+      "Local Probabilistic Models: Tabular CPDs, Deterministic CPDs, Context Specific CPDs, Generalized Linear Models.",
+      "Exact inference variable elimination: Graph Theoretic Analysis for Variable Elimination, Conditioning",
+      "Template Based Graph Model : HMM- Temporal Models, Template Variables and Template Factors, Directed Probabilistic Models, Undirected Representation, Structural Uncertainty.",
+      "Learning Graphical Models: Goals of Learning, Density Estimation, Specific Prediction Tasks, Knowledge Discovery. Learning as Optimization: Empirical Risk, over fitting, Generalization, Evaluating Generalization Performance, Selecting a Learning Procedure, Goodness of fit, Learning Tasks. Parameter Estimation: Maximum Likelihood Estimation, MLE for Bayesian Networks",
+      "Causality: Conditioning and Intervention, Correlation and Causation, Causal Models, Structural Causal Identifiability, Mechanisms and Response Variables, Learning Causal Models. Utilities and Decisions: Maximizing Expected Utility, Utility Curves, Utility Elicitation. Structured Decision Problems: Decision Tree",
+      "Application of Markov Models: Cost Effectiveness Analysis, Relational Markov Model and its Applications, Application in Portfolio Optimization",
+      "Application of HMM: Speech Recognition, Part of Speech Tagging, Bioinformatics.",
+      "Web Essentials: Clients, Servers and Communication, The Internet, Basic Internet protocols, World wide web, HTTP Request Message, HTTP Response Message, Web Clients, Web Servers HTML5 \u2013 fundamental syntax and semantics, Tables, Lists, Image, HTML5 control elements, Semantic elements, Drag and Drop, Audio \u2013 Video controls CSS3 \u2013 Inline, embedded and external style sheets \u2013 Rule cascading, Inheritance, Backgrounds, Border Images, Colors, Shadows, Text, Transformations, Transitions, Animation, Basics of Bootstrap.",
+      "Java Script: An introduction to JavaScript\u2013JavaScript DOM Model- Date and Objects-Regular Expressions- Exception Handling- Validation-Built-in objects-Event Handling, DHTML with JavaScript- JSON introduction \u2013 Syntax \u2013 Function Files \u2013 Http Request \u2013SQL.",
+      "Characteristics of RIA, Introduction to AJAX: AJAX design basics, AJAX vs Traditional Approach, Rich User Interface using Ajax, jQuery framework with AJAX.",
+      "XML \u2013DTD (Document Type Definition), XML Schema, Document Object Model, Presenting XML, Using XML Parsers: DOM and SAX, XSL-eXtensible Stylesheet Language",
+      "Introduction to PHP- Data types, control structures, built in functions, building web applications using PHP- tracking users, PHP and MySQLdatabase connectivity with example.",
+      "Introduction, Distributed DBMS Architecture, Data Fragmentation, Replication and Allocation Techniques for Distributed Database Design.",
+      "Distributed Transaction Management \u2013 Definition, properties, types, architecture Distributed Query Processing - Characterization of Query Processors, Layers/ phases of query processing.",
+      "Distributed Concurrency Control- Taxonomy, Locking based, Basic TO algorithm, Recovery in Distributed Databases: Failures in distributed database, 2PC and 3PC protocol.",
+      "XML Databases: Document Type Definition, XML Schema, Querying and Transformation: XPath and XQuery.",
+      "Basic JSON syntax, (Java Script Object Notation),JSON data types, Stringifying and parsing the JSON for sending & receiving, JSON Object retrieval using key-value pair and JQuery, XML Vs JSON",
+      "NoSQL database concepts: NoSQL data modeling, Benefits of NoSQL, comparison between SQL and NoSQL database system.",
+      "Replication and sharding, Distribution Models Consistency in distributed data,  CAP theorem, Notion of ACID Vs BASE, handling Transactions, consistency and eventual consistency",
+      "Types of NoSQL databases: Key-value data store, Document database and Column Family Data store, Comparison of NoSQL databases w.r.t CAP theorem and ACID properties.",
+      "Querying MongoDB using find() functions, advanced queries using logical operators and sorting, simple aggregate functions, saving and updating document. MongoDB Distributed environment: Concepts of replication and horizonal scaling through sharding in MongoDB",
+      "Temporal database: Concepts, time representation, time dimension, incorporating time in relational databases.",
+      "Graph Database: Introduction, Features, Transactions, consistency, Availability, Querying, Case Study Neo4J",
+      "Spatial database: Introduction, data types, models, operators and queries"
+    ]
+  }
+]

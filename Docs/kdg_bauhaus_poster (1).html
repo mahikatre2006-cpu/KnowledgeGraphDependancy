@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knowledge Dependency Graph (KDG) - Bauhaus Edition</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: #E6E0D3;
+      margin: 0;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #121316;
+      -webkit-font-smoothing: antialiased;
+    }
+    .bauhaus-font {
+      font-family: 'Archivo', sans-serif;
+    }
+    .mono-font {
+      font-family: 'Space Mono', monospace;
+    }
+
+    /* Bauhaus Primary Color Palette */
+    :root {
+      --bg-cream: #F4EFE6;
+      --bauhaus-blue: #1856E8;
+      --bauhaus-red: #E84227;
+      --bauhaus-yellow: #F7B520;
+      --bauhaus-black: #141518;
+    }
+
+    /* Bauhaus Structural Grid Cards */
+    .bauhaus-card {
+      background-color: #FFFFFF;
+      border: 2px solid #141518;
+      box-shadow: 4px 4px 0px #141518;
+    }
+    .bauhaus-card-flat {
+      background-color: #FFFFFF;
+      border: 1.5px solid #141518;
+    }
+
+    /* Strict 16:9 Canvas (1440 x 810) */
+    #poster-canvas {
+      width: 1440px;
+      height: 810px;
+      max-width: 100%;
+      background-color: #F4EFE6;
+      border: 3px solid #141518;
+      box-shadow: 12px 12px 0px #141518;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      padding: 14px 16px 12px 16px;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    @media print {
+      body {
+        background: transparent;
+        padding: 0;
+      }
+      #poster-canvas {
+        width: 100vw;
+        height: 56.25vw;
+        max-width: none;
+        box-shadow: none;
+        border: 2px solid #000;
+      }
+      @page {
+        size: 16in 9in landscape;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Main 16:9 Poster Canvas -->
+  <main id="poster-canvas">
+
+    <!-- ==================== 1. BAUHAUS HEADER ==================== -->
+    <header class="grid grid-cols-12 gap-3 mb-2 items-stretch">
+      
+      <!-- Left: Title with Signature Bauhaus Geometric Shapes Composition -->
+      <div class="col-span-8 bauhaus-card p-2.5 flex items-center justify-between relative overflow-hidden">
+        
+        <!-- Left Text Group -->
+        <div class="flex flex-col justify-center pr-3 z-10">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="bg-[#E84227] text-white text-[10px] font-black px-2 py-0.5 uppercase tracking-wider mono-font">
+              AIML MINI PROJECT
+            </span>
+            <span class="bg-[#1856E8] text-white text-[10px] font-black px-2 py-0.5 uppercase tracking-wider mono-font">
+              LAB REVIEW
+            </span>
+            <span class="text-neutral-400 font-bold text-xs">•</span>
+            <span class="text-neutral-700 text-[11px] font-bold tracking-wide uppercase bauhaus-font">
+              Supervised ML &amp; Deterministic DAG Theory
+            </span>
+          </div>
+          <h1 class="text-[32px] font-black tracking-tight uppercase bauhaus-font leading-none text-[#141518]">
+            Knowledge Dependency Graph
+          </h1>
+          <p class="text-[12px] font-bold text-[#1856E8] tracking-wide mt-1 uppercase bauhaus-font">
+            Automated Prerequisite Prediction &amp; Curriculum Sequencing
+          </p>
+        </div>
+
+        <!-- Right Graphic: Authentic Bauhaus Geometric Modernist Composition -->
+        <div class="flex items-center gap-1 shrink-0 pl-3 border-l-2 border-black">
+          <svg class="w-24 h-16" viewBox="0 0 120 80" fill="none">
+            <!-- Red Semi-Circle (top-left) -->
+            <path d="M 0 40 A 40 40 0 0 1 40 0 L 40 40 Z" fill="#E84227"/>
+            <!-- Blue Full Circle (center) -->
+            <circle cx="60" cy="40" r="20" fill="#1856E8"/>
+            <!-- Yellow Quarter-Circle / Triangle (top-right) -->
+            <path d="M 80 0 L 120 0 L 80 40 Z" fill="#F7B520"/>
+            <!-- Black Semi-Circle (bottom-right) -->
+            <path d="M 80 40 A 40 40 0 0 0 120 80 L 80 80 Z" fill="#141518"/>
+            <!-- Yellow Square (bottom-left) -->
+            <rect x="0" y="40" width="40" height="40" fill="#F7B520"/>
+          </svg>
+        </div>
+
+      </div>
+
+      <!-- Right: College & Team Block in Rigid Grid Layout -->
+      <div class="col-span-4 bauhaus-card p-2.5 flex flex-col justify-between">
+        <div class="border-b-2 border-black pb-1 mb-1 flex justify-between items-baseline">
+          <h2 class="text-xs font-black uppercase bauhaus-font tracking-tight text-[#141518]">
+            A. P. Shah Institute of Technology
+          </h2>
+          <span class="text-[10px] font-bold text-[#E84227] uppercase mono-font">Dept. of IT</span>
+        </div>
+        <div class="grid grid-cols-3 gap-1.5 text-xs font-bold">
+          <div class="bg-[#F4EFE6] p-1 border border-black flex flex-col justify-center">
+            <span class="text-[11px] leading-tight text-black font-extrabold">Mahi Katre</span>
+            <span class="mono-font text-[9.5px] text-neutral-600">[Moodle ID]</span>
+          </div>
+          <div class="bg-[#F4EFE6] p-1 border border-black flex flex-col justify-center">
+            <span class="text-[11px] leading-tight text-black font-extrabold">Pranav Nikam</span>
+            <span class="mono-font text-[9.5px] text-neutral-600">[Moodle ID]</span>
+          </div>
+          <div class="bg-[#F4EFE6] p-1 border border-black flex flex-col justify-center">
+            <span class="text-[11px] leading-tight text-black font-extrabold">Siddhesh</span>
+            <span class="mono-font text-[9.5px] text-neutral-600">[Moodle ID]</span>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <!-- ==================== 2. MAIN POSTER GRID ==================== -->
+    <div class="grid grid-cols-12 gap-3 flex-1 mb-1.5 items-stretch">
+
+      <!-- ================= LEFT COLUMN ================= -->
+      <div class="col-span-3 flex flex-col justify-between gap-2">
+
+        <!-- 01. Introduction -->
+        <div class="bauhaus-card p-2.5 flex flex-col justify-start">
+          <div class="flex items-center justify-between border-b-2 border-black pb-1 mb-1.5">
+            <div class="flex items-center gap-1.5">
+              <span class="w-3 h-3 bg-[#E84227] rounded-full inline-block"></span>
+              <h3 class="text-sm font-black uppercase bauhaus-font tracking-wider">Introduction</h3>
+            </div>
+            <span class="mono-font text-[10px] font-bold text-neutral-400">01</span>
+          </div>
+          <ul class="text-[11.5px] leading-snug space-y-1.5 font-medium text-neutral-900">
+            <li class="flex items-start gap-1.5">
+              <span class="text-[#E84227] font-black text-sm leading-none">&#9632;</span>
+              <span>University syllabi present topics <strong>linearly</strong>, obscuring true conceptual prerequisite dependencies.</span>
+            </li>
+            <li class="flex items-start gap-1.5">
+              <span class="text-[#1856E8] font-black text-sm leading-none">&#9632;</span>
+              <span>Students encounter critical learning blockers due to hidden, unstated foundational knowledge gaps.</span>
+            </li>
+            <li class="flex items-start gap-1.5">
+              <span class="text-[#F7B520] font-black text-sm leading-none">&#9632;</span>
+              <span><strong>KDG</strong> converts flat text into a directed dependency graph using supervised ML &amp; graph theory.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 02. Problem & Solution -->
+        <div class="bauhaus-card p-2.5 flex flex-col justify-start">
+          <div class="flex items-center justify-between border-b-2 border-black pb-1 mb-1.5">
+            <div class="flex items-center gap-1.5">
+              <span class="w-3 h-3 bg-[#1856E8] inline-block"></span>
+              <h3 class="text-sm font-black uppercase bauhaus-font tracking-wider">Problem &amp; Solution</h3>
+            </div>
+            <span class="mono-font text-[10px] font-bold text-neutral-400">02</span>
+          </div>
+          <div class="space-y-1 text-[11px] leading-snug">
+            <div class="bg-[#F4EFE6] p-1.5 border border-black">
+              <span class="text-[9.5px] font-black uppercase tracking-wider text-[#E84227] mono-font block mb-0.5">Problem</span>
+              <p class="text-neutral-900 font-medium">
+                Syllabi lack dependency paths, causing poor sequencing. Generative LLMs hallucinate relations with zero verifiable ML metrics.
+              </p>
+            </div>
+            <div class="bg-[#F4EFE6] p-1.5 border border-black border-l-4 border-l-[#1856E8]">
+              <span class="text-[9.5px] font-black uppercase tracking-wider text-[#1856E8] mono-font block mb-0.5">Proposed Solution</span>
+              <p class="text-neutral-900 font-medium">
+                A hybrid system pairing a supervised <strong>XGBoost classifier</strong> (&ge;3,000 pairs) with <strong>Kahn's Topological Sort</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03. Objectives -->
+        <div class="bauhaus-card p-2.5 flex flex-col justify-start">
+          <div class="flex items-center justify-between border-b-2 border-black pb-1 mb-1.5">
+            <div class="flex items-center gap-1.5">
+              <span class="w-3 h-3 bg-[#F7B520] rotate-45 inline-block"></span>
+              <h3 class="text-sm font-black uppercase bauhaus-font tracking-wider">Objectives</h3>
+            </div>
+            <span class="mono-font text-[10px] font-bold text-neutral-400">03</span>
+          </div>
+          <ul class="text-[11px] leading-snug space-y-1 font-medium text-neutral-900">
+            <li class="flex items-start gap-1.5">
+              <span class="bg-black text-white px-1 text-[9.5px] font-bold mono-font">1</span>
+              <span>Train supervised edge classifier on <strong>&ge;3,000 labeled concept pairs</strong>.</span>
+            </li>
+            <li class="flex items-start gap-1.5">
+              <span class="bg-black text-white px-1 text-[9.5px] font-bold mono-font">2</span>
+              <span>Compute optimal learning sequence via <strong>Kahn's Topological Sort</strong>.</span>
+            </li>
+            <li class="flex items-start gap-1.5">
+              <span class="bg-black text-white px-1 text-[9.5px] font-bold mono-font">3</span>
+              <span>Detect curriculum <strong>bottlenecks</strong> &amp; unstated missing prerequisites.</span>
+            </li>
+            <li class="flex items-start gap-1.5">
+              <span class="bg-black text-white px-1 text-[9.5px] font-bold mono-font">4</span>
+              <span>Deploy responsive visualizer with <strong>student progress tracking</strong>.</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- ================= CENTER COLUMN (BLANK CANVAS FOR ARCHITECTURE DIAGRAM) ================= -->
+      <div class="col-span-6 bauhaus-card p-3 flex flex-col justify-between relative bg-white">
+
+        <!-- Architecture Header Bar -->
+        <div class="flex items-center justify-between border-b-2 border-black pb-1.5 mb-1.5">
+          <div class="flex items-center gap-2">
+            <span class="bg-black text-white text-[10px] font-black px-1.5 py-0.5 mono-font">04</span>
+            <h3 class="text-base font-black uppercase bauhaus-font tracking-wider text-black">
+              System Architecture &amp; Proposed Workflow
+            </h3>
+          </div>
+          <div class="flex items-center gap-1">
+            <span class="w-2.5 h-2.5 bg-[#E84227] rounded-full inline-block"></span>
+            <span class="w-2.5 h-2.5 bg-[#F7B520] inline-block"></span>
+            <span class="w-2.5 h-2.5 bg-[#1856E8] inline-block"></span>
+          </div>
+        </div>
+
+        <!-- Dedicated Clean Blank Workspace for User's Architecture Diagram -->
+        <div class="flex-1 w-full border-2 border-dashed border-neutral-400 bg-[#F9F7F2] relative overflow-hidden flex items-center justify-center">
+        </div>
+
+        <!-- Viva Defense Doctrine Banner at Bottom -->
+        <div class="mt-2 bg-[#F4EFE6] px-3.5 py-1.5 border-2 border-black flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="bg-[#141518] text-white text-[9.5px] font-black px-2 py-0.5 uppercase mono-font">
+              DEFENSE DOCTRINE
+            </span>
+            <span class="text-[11px] font-bold uppercase bauhaus-font text-black">
+              Core Principle:
+            </span>
+          </div>
+          <span class="text-[11.5px] font-bold text-neutral-900 tracking-tight">
+            &ldquo;Classifier achieves ~87% F1 on prerequisite prediction; sequence and bottlenecks are 100% deterministic graph math.&rdquo;
+          </span>
+        </div>
+
+      </div>
+
+      <!-- ================= RIGHT COLUMN ================= -->
+      <div class="col-span-3 flex flex-col justify-between gap-2">
+
+        <!-- 04. Scope -->
+        <div class="bauhaus-card p-2.5 flex flex-col justify-start">
+          <div class="flex items-center justify-between border-b-2 border-black pb-1 mb-1.5">
+            <div class="flex items-center gap-1.5">
+              <span class="w-3 h-3 bg-[#E84227] inline-block"></span>
+              <h3 class="text-sm font-black uppercase bauhaus-font tracking-wider">Project Scope</h3>
+            </div>
+            <span class="mono-font text-[10px] font-bold text-neutral-400">05</span>
+          </div>
+          <div class="space-y-1 text-[11px] leading-snug">
+            <div>
+              <strong class="text-[#1856E8] block uppercase text-[10px] font-black bauhaus-font">&bull; In Scope (Delivered):</strong>
+              <ul class="space-y-0.5 mt-0.5 pl-1.5 border-l-2 border-black text-neutral-900 font-medium">
+                <li>PDF &amp; plain text syllabus parsing</li>
+                <li>CPU-only XGBoost edge inference (&ge;3k rows)</li>
+                <li>Cycle-free topological learning order</li>
+                <li>Interactive graph (&le;100 nodes) with progress</li>
+              </ul>
+            </div>
+            <div class="pt-0.5 border-t border-neutral-300">
+              <strong class="text-neutral-600 block uppercase text-[10px] font-bold bauhaus-font">&bull; Future Scope (v2):</strong>
+              <span class="text-neutral-700 font-medium">Scanned syllabus OCR &bull; Dynamic exam scheduler &bull; Adaptive quizzes.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05. Features -->
+        <div class="bauhaus-card p-2.5 flex flex-col justify-start">
+          <div class="flex items-center justify-between border-b-2 border-black pb-1 mb-1.5">
+            <div class="flex items-center gap-1.5">
+              <span class="w-3 h-3 bg-[#F7B520] rounded-full inline-block"></span>
+              <h3 class="text-sm font-black uppercase bauhaus-font tracking-wider">Core Features</h3>
+            </div>
+            <span class="mono-font text-[10px] font-bold text-neutral-400">06</span>
+          </div>
+          <ul class="text-[10.5px] leading-snug space-y-1 font-medium text-neutral-900">
+            <li class="bg-[#F4EFE6] p-1 border border-black">
+              <strong class="text-[#E84227] uppercase text-[10px] block font-black bauhaus-font">Prerequisite Prediction</strong>
+              <span>Evaluates directed dependency probability \(A \rightarrow B\).</span>
+            </li>
+            <li class="bg-[#F4EFE6] p-1 border border-black">
+              <strong class="text-[#1856E8] uppercase text-[10px] block font-black bauhaus-font">Topological Sequencing</strong>
+              <span>Provably correct, cycle-free curriculum sequence.</span>
+            </li>
+            <li class="bg-[#F4EFE6] p-1 border border-black">
+              <strong class="text-[#141518] uppercase text-[10px] block font-black bauhaus-font">Bottlenecks &amp; Gaps</strong>
+              <span>Flags critical hubs and unstated prerequisites.</span>
+            </li>
+            <li class="bg-[#F4EFE6] p-1 border border-black">
+              <strong class="text-neutral-800 uppercase text-[10px] block font-black bauhaus-font">Progress Tracker</strong>
+              <span>Unlocks nodes as prerequisites are marked completed.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 06. Technology Stack -->
+        <div class="bauhaus-card p-2.5 flex flex-col justify-start">
+          <div class="flex items-center justify-between border-b-2 border-black pb-1 mb-1.5">
+            <div class="flex items-center gap-1.5">
+              <span class="w-3 h-3 bg-[#1856E8] rotate-45 inline-block"></span>
+              <h3 class="text-sm font-black uppercase bauhaus-font tracking-wider">Technology Stack</h3>
+            </div>
+            <span class="mono-font text-[10px] font-bold text-neutral-400">07</span>
+          </div>
+          <div class="space-y-0.5 text-[10.5px] font-bold text-neutral-900">
+            <div class="bg-[#F4EFE6] px-2 py-0.5 border border-black flex justify-between items-center">
+              <span class="text-neutral-500 uppercase text-[9px] mono-font">ML / NLP</span>
+              <span class="text-[#1856E8] font-black">Python &bull; XGBoost &bull; Scikit-learn</span>
+            </div>
+            <div class="bg-[#F4EFE6] px-2 py-0.5 border border-black flex justify-between items-center">
+              <span class="text-neutral-500 uppercase text-[9px] mono-font">Backend</span>
+              <span class="text-[#E84227] font-black">FastAPI &bull; Pydantic &bull; NetworkX</span>
+            </div>
+            <div class="bg-[#F4EFE6] px-2 py-0.5 border border-black flex justify-between items-center">
+              <span class="text-neutral-500 uppercase text-[9px] mono-font">Frontend</span>
+              <span class="text-black font-black">React.js &bull; Tailwind &bull; React-Flow</span>
+            </div>
+            <div class="bg-[#F4EFE6] px-2 py-0.5 border border-black flex justify-between items-center">
+              <span class="text-neutral-500 uppercase text-[9px] mono-font">Database</span>
+              <span class="text-[#F7B520] font-black">Supabase (PostgreSQL)</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ==================== 3. BAUHAUS FOOTER ==================== -->
+    <footer class="pt-1.5 border-t-2 border-black flex items-center justify-between text-neutral-800">
+      <div class="flex items-center gap-2">
+        <span class="bg-[#141518] text-white text-[9.5px] font-black px-2 py-0.5 mono-font uppercase tracking-wider">
+          References
+        </span>
+      </div>
+      <div class="text-[10.5px] font-bold text-neutral-800 flex items-center gap-3">
+        <span>[1] Kahn, A. B. (1962). <em>Topological sorting of large networks</em>. CACM.</span>
+        <span>&bull;</span>
+        <span>[2] Chen, P., et al. (2018). <em>Prerequisite Relations in Wikipedia</em>. AAAI.</span>
+        <span>&bull;</span>
+        <span>[3] Chen, B., et al. (2020). <em>Concept Prerequisite Learning: A Survey</em>. IEEE TKDE.</span>
+        <span>&bull;</span>
+        <span>[4] Chen, T., &amp; Guestrin, C. (2016). <em>XGBoost</em>. ACM KDD.</span>
+      </div>
+      <div class="text-[10px] mono-font text-neutral-900 font-black uppercase tracking-widest">
+        BAUHAUS 16:9 &bull; AIML 2026
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>

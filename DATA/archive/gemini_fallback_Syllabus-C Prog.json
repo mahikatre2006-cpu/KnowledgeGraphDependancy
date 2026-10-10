@@ -1,0 +1,30 @@
+[
+  {
+    "course_code": "VSEC102",
+    "course_name": "C Programming",
+    "topics": [
+      "Character Set, Identifiers, Keywords in C",
+      "Data Types, Constants, Variables",
+      "Operators: Arithmetic, Relational, Logical, Assignment",
+      "Unary, Conditional, Bitwise, Comma Operators",
+      "Expressions, Statements, Library Functions, Preprocessor",
+      "Data Input Output: getchar, putchar, scanf, printf",
+      "gets, puts, Structure of C program",
+      "Branching: If, If-else, Multiway decision statements",
+      "Looping: while, do-while, for statements",
+      "Nested control: Switch, Continue, Break, Goto statements",
+      "Function Introduction, Main, defining, accessing functions",
+      "Function Prototype, Passing Arguments to Function, Recursion",
+      "Storage Classes: Auto, Extern, Static, Register",
+      "Arrays: Concepts, Declaration, Definition, Accessing elements",
+      "One-dimensional and Multidimensional arrays",
+      "Strings: Basics, Array of String, String.h functions",
+      "Structures: Declaration, Initialization, nested structures",
+      "Operations on structures, Array of Structure",
+      "Pointers: Introduction, Definition, uses, Address Operator",
+      "Pointer Variables, Dereferencing, Void Pointer",
+      "Pointer Arithmetic, Pointers to Pointers, Pointers and Array",
+      "Files: Opening, Closing, Creating, Reading, Processing File"
+    ]
+  }
+]
