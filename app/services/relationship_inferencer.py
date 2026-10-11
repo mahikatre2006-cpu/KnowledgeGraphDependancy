@@ -99,12 +99,13 @@ class RelationshipInferencer:
         unit_nums = np.array([cls._extract_unit_number(nd.unit) for nd in nodes])
 
         # Forward pairs i<j where same unit OR j-i <= max(12, n)
+        is_small_graph = (n <= 12)
         cand_window = max(12, n)
         pair_i: List[int] = []
         pair_j: List[int] = []
         for i in range(n):
             for j in range(i + 1, n):
-                if sim_matrix[i, j] < similarity_threshold:
+                if not is_small_graph and sim_matrix[i, j] < similarity_threshold:
                     continue
                 if graph.has_dependency(nodes[i].id, nodes[j].id) or \
                    graph.has_dependency(nodes[j].id, nodes[i].id):
