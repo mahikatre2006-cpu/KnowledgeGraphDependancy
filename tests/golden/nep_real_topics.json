@@ -1,0 +1,2705 @@
+{
+  "2345111": {
+    "title": "Software Engineering and Agile Practices",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to Software Engineering",
+        "topics": [
+          "Nature of Software",
+          "Software Engineering",
+          "Software Process",
+          "Generic Process Model",
+          "Prescriptive Process Models",
+          "The Waterfall Model",
+          "V-model",
+          "Incremental Process Models",
+          "Evolutionary Process Models",
+          "Concurrent Models"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Requirement Engineering and Design Engineering",
+        "topics": [
+          "Software Requirements",
+          "Functional & non-functional Requirements Engineering",
+          "Elicitation",
+          "Analysis",
+          "Specification",
+          "Validation",
+          "Software requirement specification (SRS) Design Principles",
+          "Modularity",
+          "Abstraction",
+          "Coupling and Cohesion",
+          "Software Architecture Styles",
+          "Layered",
+          "MVC",
+          "Client-Server"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Software Project Management",
+        "topics": [
+          "Project Planning",
+          "Scheduling",
+          "Estimation Techniques Software Project Estimation",
+          "LOC",
+          "FP",
+          "Empirical Estimation Models",
+          "COCOMO II Model Project scheduling",
+          "Defining a Task Set for the Software Project",
+          "Timeline charts",
+          "Tracking the Schedule"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Module 4",
+        "topics": [
+          "Software Risk",
+          "Configuration Management Risk Identification",
+          "Risk Assessment",
+          "Risk Projection",
+          "RMMM Software Configuration management",
+          "SCM repositories",
+          "SCM process"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Software Testing and Maintenance",
+        "topics": [
+          "Levels of Testing",
+          "Integration",
+          "System",
+          "Acceptance",
+          "Static and Dynamic Testing Techniques overview Regression and Continuous Testing",
+          "Software Quality Assurance Task and Plan",
+          "Metrics",
+          "Software Reliability",
+          "Formal Technical Review (FTR)",
+          "Walkthrough Maintenance Types",
+          "Corrective",
+          "Adaptive",
+          "Preventive",
+          "Perfective",
+          "Software Reengineering and Refactoring"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Agile Methodologies and Emerging Trends Agile",
+        "topics": [
+          "Manifesto and Principles",
+          "Scrum Framework",
+          "Roles",
+          "Artifacts",
+          "Events",
+          "Kanban and Lean Software Development",
+          "Extreme Programming (XP)",
+          "Practices",
+          "Pair Programming",
+          "Test-Driven Development (TDD)",
+          "Agile Metrics",
+          "Agile Project Tracking",
+          "Velocity",
+          "Burn-Up/Burn",
+          "Down Charts",
+          "Agile Testing overview DevOps and its Lifecycle",
+          "DevSecOps and Secure Software Development Lifecycle"
+        ]
+      }
+    ]
+  },
+  "2345112": {
+    "title": "Artificial Intelligence and Machine Learning",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to Artificial Intelligence",
+        "topics": [
+          "Definition and Scope of AI",
+          "Applications of AI in Industry",
+          "Intelligent Agents",
+          "Types and Architectures",
+          "Problem Formulation in AI",
+          "AI vs ML vs DL",
+          "Introduction to Data Science in AI"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Problem Solving & Search Strategies",
+        "topics": [
+          "State Space Representation",
+          "Uninformed Search Strategies",
+          "Breadth First Search",
+          "Depth First Search",
+          "Uniform Cost Search",
+          "Informed Search Strategies",
+          "Greedy Best First Search",
+          "A* Algorithm",
+          "Heuristic Functions",
+          "Constraint Satisfaction Problems (CSP)"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Supervised Learning",
+        "topics": [
+          "Introduction to Machine Learning",
+          "Types of Learning",
+          "Regression",
+          "Linear Regression",
+          "Multiple Regression",
+          "Classification",
+          "Logistic Regression",
+          "Nearest Neighbours (k-NN)",
+          "Decision Trees",
+          "Random Forest",
+          "Support Vector Machine (SVM)",
+          "Regularization Techniques",
+          "Bias-Variance Trade-off"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Unsupervised Learning",
+        "topics": [
+          "Clustering",
+          "K-Means Clustering",
+          "Hierarchical Clustering",
+          "Association Rule Mining",
+          "Dimensionality Reduction",
+          "Principal Component Analysis (PCA)",
+          "Association Rule Learning (Apriori Algorithm)",
+          "Gaussian Mixture Models (GMM)",
+          "Feature Engineering Basics"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Model Evaluation & Optimization",
+        "topics": [
+          "Training",
+          "Validation",
+          "Testing",
+          "Cross Validation Techniques",
+          "Confusion Matrix",
+          "Accuracy",
+          "Precision",
+          "Recall",
+          "F1-Score",
+          "ROC Curve and AUC",
+          "Overfitting and Underfitting",
+          "Hyperparameter Tuning and Model Optimization Techniques"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Module 6",
+        "topics": [
+          "Ethics",
+          "Emerging Trends & Applications AI Ethics and Responsible AI",
+          "Bias and Fairness in AI",
+          "Transparency & Accountability",
+          "Introduction to Explainable AI (XAI)",
+          "Human-in-the-Loop Systems",
+          "Generative AI",
+          "Quantum Machine Learning",
+          "Introduction to Deep Learning",
+          "AI in Healthcare",
+          "Finance",
+          "Smart Cities"
+        ]
+      }
+    ]
+  },
+  "2345113": {
+    "title": "Web Technology",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to JavaScript",
+        "topics": [
+          "Introduction to JavaScript",
+          "Constants",
+          "JS variables",
+          "JS Variable scopes",
+          "JS Data Types",
+          "JS Function",
+          "JS Array",
+          "Introduction to ES6",
+          "Difference between ES5 and ES6",
+          "Events",
+          "Arrow functions",
+          "Client-side Form validation using JavaScript",
+          "using properties and methods of built -in-objects"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "React Introduction to MERN",
+        "topics": [
+          "stack application",
+          "Introduction to React",
+          "Components",
+          "Component lifecycle",
+          "State and Props",
+          "React Router and Single page applications",
+          "UI design",
+          "Forms",
+          "Animations"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Advanced React",
+        "topics": [
+          "Functional components",
+          "Refs",
+          "use effects",
+          "Hooks",
+          "Flow architecture",
+          "Model-View Controller framework",
+          "Flux",
+          "Bundling the application",
+          "Web pack"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "MongoDB",
+        "topics": [
+          "Understanding MongoDB",
+          "MongoDB Data Types",
+          "Administering User Accounts",
+          "Configuring Access Control",
+          "CRUD Operations",
+          "Using Mongoose for Structured Schema and Validation",
+          "Using Express and Mongoose to interact with MongoDB",
+          "Web Security Basics",
+          "SQL Injection",
+          "XSS"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Module 5",
+        "topics": [
+          "Node.js Environment setup",
+          "Asynchronous programming",
+          "Callback concept",
+          "Event loops",
+          "REPL",
+          "Event emitter",
+          "Networking module",
+          "Buffers",
+          "Streams",
+          "File system",
+          "Web module"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Express",
+        "topics": [
+          "Express router",
+          "REST API",
+          "Generator",
+          "Authentication",
+          "sessions",
+          "Integrating with React"
+        ]
+      }
+    ]
+  },
+  "23451141": {
+    "title": "Cyber Security",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to Cyber space and cyber security Fundamentals-",
+        "topics": [
+          "Cyber Crime Vs Information Security",
+          "CIA Triad Cyber Security & Threats and security principles",
+          "Types of cyber-attacks",
+          "Malware types (Ransomware, Rootkits, Botnets)",
+          "Advanced Persistent Threats (APT)",
+          "Cyber Kill Chain Model",
+          "Social Engineering attacks",
+          "AI-based malware and phishing detection",
+          "Introduction to AI in Intrusion Detection and User Behavior Analysis"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Cryptography & Secure Communication Introduction to Cryptography-Classical vs Modern",
+        "topics": [
+          "cryptography",
+          "goals of cryptography",
+          "confidentiality",
+          "integrity",
+          "authentication",
+          "non-repudiation",
+          "Symmetric Key Cryptography-Concepts of symmetric encryption",
+          "block cipher and stream cipher",
+          "overview of algorithms",
+          "AES and DES",
+          "Asymmetric Key Cryptography-Concepts of public key cryptography",
+          "RSA and ECC",
+          "key generation and key exchange concepts",
+          "applications of public key cryptography",
+          "Hash Functions-Modern hash functions",
+          "SHA-2",
+          "SHA-3",
+          "BLAKE2/BLAKE3",
+          "Digital Signatures and Public Key Infrastructure (PKI)-Digital signature process",
+          "X.509 digital certificates",
+          "Certificate Authorities (CA)",
+          "basic PKI architecture",
+          "applications in secure communication",
+          "Secure Communication Protocols-Overview of TLS 1.2 and TLS 1.3",
+          "limitations of SSL",
+          "VPN concepts and types",
+          "IPsec architecture (conceptual overview)"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "System Security and Cloud Security",
+        "topics": [
+          "Operating System Security Concepts",
+          "Basic security features in Windows and Linux",
+          "user accounts and permissions",
+          "importance of secure system configuration",
+          "access control and authentication concepts",
+          "overview of access control models (DAC, MAC, RBAC \u2013 conceptual)",
+          "user authentication methods including password-based authentication and Multi-Factor Authentication (MFA)",
+          "the role of identity management in system security",
+          "Identity Federation and Authentication Operating System Security Concepts",
+          "Identity Federation and Authentication Technologies-SAML",
+          "SCIM Identity Providers (IdP)",
+          "Single Sign-On (SSO) Password Security and System Protection",
+          "Common password attacks (brute force and dictionary attacks)",
+          "basic password protection techniques",
+          "importance of antivirus",
+          "Software Updates and Patch Management",
+          "Concept of vulnerabilities",
+          "importance of regular updates and patch management",
+          "automated update mechanisms (conceptual overview)",
+          "Introduction to Cloud Security",
+          "Introduction to cloud computing security",
+          "cloud service models (IaaS, PaaS, SaaS)",
+          "cloud threats and risks",
+          "Identity and Access Management (IAM) concepts",
+          "Shared Responsibility Model in cloud environments"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Web Application Security",
+        "topics": [
+          "Web application architecture overview",
+          "Session management and cookies",
+          "SQL Injection",
+          "Cross -Site Scripting (XSS)",
+          "Cross-Site Request Forgery (CSRF)",
+          "Broken Authentication (and basic access control issues)"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Network Security",
+        "topics": [
+          "Network security overview and its types",
+          "Benefits and challenges in network security",
+          "Firewalls and their types",
+          "Intrusion Detection and Prevention Systems (IDS/IPS)",
+          "IP Security",
+          "Common network attacks",
+          "DoS / DDoS",
+          "Man-in-the-Middle Attack ARP Spoofing"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Cyber Laws & Ethics",
+        "topics": [
+          "Security Standards and Frameworks",
+          "National Institute of Standards and Technology Cybersecurity Framework",
+          "U.S",
+          "Department of Health and Human Services HIPAA",
+          "PCI Security Standards Council PCI-DSS",
+          "Cyber Laws",
+          "Fundamental Concepts",
+          "Need and role of cyber laws in digital systems",
+          "contract aspects in cyber law including e-contracts and digital transactions",
+          "security and privacy aspects in cyber law"
+        ]
+      }
+    ]
+  },
+  "23451142": {
+    "title": "Advanced Database Technologies",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Query Processing and Optimization",
+        "topics": [
+          "Query processing in DBMS",
+          "Steps of Query Processing",
+          "Measures of Query Cost Selection Operation",
+          "Sorting",
+          "Join Operation",
+          "Evaluation of Expressions",
+          "Query Optimization Overview",
+          "Goals of Query Optimization",
+          "Approaches of Query Optimization",
+          "Transformations Approaches of Query Optimization",
+          "Transformations of Relational Expression",
+          "Estimating Statistics of Expression Results",
+          "Choice of Evaluation Plans"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Advanced Database Systems",
+        "topics": [
+          "Object Oriented Databases",
+          "Need for Complex Data Types",
+          "The Object-Oriented Data Model",
+          "Object-Oriented Languages",
+          "Spatial Databases",
+          "Spatial Data Types",
+          "Spatial Relationships",
+          "Spatial Data Structures",
+          "Temporal Databases",
+          "Active Databases",
+          "Deductive Databases",
+          "Mobile Databases",
+          "Location and Handoff Management",
+          "Mobile Transaction Models Multimedia Databases"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Distributed Databases",
+        "topics": [
+          "Distributed Data Processing",
+          "Distributed Database System",
+          "Architecture",
+          "Design Issues",
+          "Data Fragmentation",
+          "Allocation in distributed databases"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Module 4",
+        "topics": [
+          "Data Warehousing",
+          "Dimensional Modelling and OLAP Data Warehouse Defined",
+          "Features of a Data Warehouse",
+          "Data Warehouse Architecture",
+          "Enterprise or centralized",
+          "federated and multi tired architectures",
+          "Data Warehouse and Data Marts",
+          "Data Warehousing Design Strategies",
+          "Data Modeling",
+          "Dimensional Model",
+          "The Star Schema",
+          "How Does a Query Execute? The Snowflake Schema",
+          "Fact Tables and Dimension Tables",
+          "Factless Fact Table",
+          "Updates To Dimension Tables",
+          "Primary Keys",
+          "Surrogate Keys & Foreign Keys",
+          "What is business intelligence",
+          "use of BI",
+          "Tools used in BI",
+          "Need for Online Analytical Processing",
+          "OLAP Operations in a cube",
+          "Roll-up",
+          "Drill-down",
+          "Slice",
+          "Dice",
+          "Pivot",
+          "OLAP Architectures",
+          "MOLAP",
+          "ROLAP",
+          "DOLAP and HOLAP"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "ETL Process",
+        "topics": [
+          "Challenges in ETL Functions",
+          "Data Extraction",
+          "Identification of Data Sources",
+          "Immediate Data Extraction",
+          "Deferred Data Extraction",
+          "Data Transformation",
+          "Tasks Involved in Data Transformation",
+          "Techniques of Data Loading"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "NoSQL Databases",
+        "topics": [
+          "NoSQL",
+          "CAP theorem",
+          "BASE property",
+          "NoSQL data architecture patterns",
+          "Key-value stores",
+          "Graph stores",
+          "Column family stores",
+          "Document stores",
+          "MongoDB Operation",
+          "Insert",
+          "Update",
+          "Delete",
+          "Query",
+          "Indexing",
+          "Application",
+          "Replication",
+          "Sharding",
+          "Deployment",
+          "Using MongoDB with PHP / JAVA",
+          "Advanced MongoDB Features",
+          "Cassandra",
+          "Data Model",
+          "Key Space",
+          "Table Operations",
+          "CRUD Operations",
+          "CQL"
+        ]
+      }
+    ]
+  },
+  "23451143": {
+    "title": "UI/UX Design",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to User Interface and UX Design",
+        "topics": [
+          "Introduction to UI/UX",
+          "Evolution of UI",
+          "Characteristics of Good and Bad Design",
+          "Usability",
+          "Learnability",
+          "Accessibility",
+          "Delight",
+          "Overview of Interaction Design Lifecycle",
+          "Importance of UI/UX in Product Development Lifecycle",
+          "Role of UI/UX"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Understanding Human Factors and Interactive cognitive Aspects in UI/UX",
+        "topics": [
+          "Understanding Problem Space",
+          "Human perception",
+          "attention",
+          "memory",
+          "cognition",
+          "Layout and Grid System",
+          "Conceptual Models",
+          "Mental Models",
+          "Emotional design and affective computing",
+          "social interaction",
+          "collaboration",
+          "persuasive design",
+          "Inclusive and accessible design principles"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "User research Requirement Analysis Interpretation Design",
+        "topics": [
+          "User Centered Design",
+          "Task analysis and use cases",
+          "Translating requirements into design goals"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Interaction Design Process & Prototyping",
+        "topics": [
+          "Design thinking process (Empathize, Define, Ideate, Prototype, Test)",
+          "Information architecture and navigation design",
+          "Design System (Component Library, Auto Layout Concept) Prototyping",
+          "low-fidelity vs high-fidelity",
+          "Prototyping tools overview (Figma, Adobe XD, Sketch)",
+          "Micro interactions and feedback mechanisms"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Module 5",
+        "topics": [
+          "Design Principles",
+          "Standards & Modern UI Trends Design principles",
+          "Consistency",
+          "Feedback",
+          "Simplicity",
+          "Visibility",
+          "Usability heuristics (Nielsen\u2019s Heuristics)",
+          "UI guidelines and standards",
+          "ISO/IEC usability standards and WCAG overview & guidelines",
+          "Responsive and adaptive design",
+          "Dark patterns and ethical UI design",
+          "Current trends",
+          "Dark mode",
+          "Neumorphism",
+          "Glassmorphism",
+          "Voice UI",
+          "Conversational UI",
+          "AI-assisted interfaces",
+          "UX Laws"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Evaluation Techniques & UX Metrics",
+        "topics": [
+          "Why and when to evaluate designs",
+          "Formative vs Summative evaluation",
+          "Usability testing methods",
+          "Heuristic evaluation and cognitive walkthrough",
+          "UX metrics",
+          "SUS",
+          "NPS",
+          "Task Success Rate",
+          "DECIDE Framework and case studies"
+        ]
+      }
+    ]
+  },
+  "23451144": {
+    "title": "Image Processing",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to Image Processing",
+        "topics": [
+          "Image Fundamentals",
+          "Image Definition",
+          "Steps and Components of Image Processing",
+          "Image Sensing and Acquisition",
+          "Image Sampling and Quantization",
+          "Relationship Between Pixels",
+          "Adjacency",
+          "Connectivity",
+          "Distance Measures"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Image Enhancement",
+        "topics": [
+          "Point Processing Techniques",
+          "Image Negative",
+          "Contrast Stretching",
+          "Thresholding",
+          "Gray Level Slicing",
+          "Bit Plane Slicing",
+          "Mask Processing Techniques",
+          "Filtering in Spatial Domain",
+          "2D Correlation and Convolution",
+          "Smoothing Filters (Average, Weighted Average)",
+          "Sharpening Filters",
+          "Order Statistic Filters (Min, Max, Median)",
+          "Histogram Processing",
+          "Histogram Equalization and Histogram Specification/Matching"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Image Transforms",
+        "topics": [
+          "Discrete Fourier Transform (DFT)",
+          "2D-DFT Transform Pair",
+          "Properties (Translation, Rotation, Periodicity)",
+          "Filtering in the Frequency Domain (Low-pass and High-pass)",
+          "Other Discrete Transforms",
+          "Discrete Cosine Transform (DCT)",
+          "Discrete Hadamard Transform",
+          "Discrete Haar Transform"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Image Compression",
+        "topics": [
+          "Entropy",
+          "Redundancy (Coding, Inter-pixel, Psycho-visual)",
+          "Compression Ratio",
+          "Fidelity Criteria",
+          "Lossless Compression",
+          "Run-Length Encoding",
+          "Huffman Coding",
+          "Arithmetic Coding",
+          "LZW Coding",
+          "Lossless Predictive Coding",
+          "Lossy Compression",
+          "Lossy Predictive Coding",
+          "Vector Quantization",
+          "Introduction to JPEG Compression Standard"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Image Segmentation and Representation",
+        "topics": [
+          "Image Segmentation",
+          "Point",
+          "Line",
+          "Edge Detection Methods (Gradient operators: Sobel, Prewitt)",
+          "Hough Transform for line detection",
+          "Region-Based Segmentation (Region Growing, Region Splitting and Merging)",
+          "Image Representation",
+          "Chain Codes",
+          "Shape Numbers",
+          "Polygon Approximation",
+          "Statistical Moments"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Morphological Image Processing Basic Morphological",
+        "topics": [
+          "Methods",
+          "Structuring Elements",
+          "Erosion",
+          "Dilation",
+          "Opening",
+          "Closing",
+          "Hit-or-Miss Transformation",
+          "Advanced Morphological Methods",
+          "Boundary Extraction",
+          "Thinning",
+          "Thickening",
+          "Pruning",
+          "Skeletonization"
+        ]
+      }
+    ]
+  },
+  "2345115": {
+    "title": "DevOps Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Agile Project Management & DevOps Integration",
+        "topics": [
+          "Fundamentals of Agile and Scrum",
+          "Jira for Agile project lifecycle management",
+          "creating epics",
+          "user stories",
+          "tasks",
+          "sprints",
+          "Planning",
+          "assigning",
+          "tracking sprint progress",
+          "Integrating Jira with CI/CD pipelines",
+          "Agile reporting",
+          "Burndown chart",
+          "velocity chart"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Version Control & Collaboration using Git",
+        "topics": [
+          "Introduction to Git",
+          "GitHub",
+          "Basic operations",
+          "clone",
+          "commit",
+          "push",
+          "pull",
+          "Branching strategies and merging",
+          "Git workflows",
+          "Feature branching",
+          "Git Flow",
+          "Handling merge conflicts",
+          "GitHub Actions basics"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "CI/CD Automation using Jenkins & Containerization using Docker",
+        "topics": [
+          "Understanding CI/CD and DevOps pipelines",
+          "Jenkins installation and job creation",
+          "GitHub webhook integration",
+          "CI pipeline",
+          "build \u2192 test \u2192 package",
+          "Docker fundamentals",
+          "images",
+          "containers",
+          "Creating Dockerfiles",
+          "Multi-service deployment using Docker Compose"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Configuration",
+        "topics": [
+          "Automation",
+          "Orchestration & Cloud Provisioning Contents",
+          "Ansible automation",
+          "inventory",
+          "playbooks",
+          "roles",
+          "Provisioning and configuring applications",
+          "Kubernetes concepts",
+          "Pods",
+          "Deployment",
+          "Service",
+          "Ingress",
+          "Managing containerized apps in Kubernetes",
+          "terraform basics",
+          "providers",
+          "resources",
+          "state files",
+          "Automating cloud infrastructure creation"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Automation",
+        "topics": [
+          "Testing",
+          "Monitoring",
+          "Serverless Computing & DevSecOps Fundamentals Contents",
+          "Automation Testing Tools",
+          "Selenium / PyTest / Junit",
+          "Monitoring tools",
+          "Prometheus",
+          "Grafana",
+          "Nagios",
+          "Exporters",
+          "dashboards",
+          "alerting",
+          "AWS Lambda fundamentals and deployment",
+          "DevSecOps Fundamentals",
+          "Static Application security Testing (SAST)",
+          "Sonarqube"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "End-to-End DevOps Pipeline",
+        "topics": [
+          "Designing a full DevOps automation pipeline",
+          "Cloud deployment using AWS/GCP/Azure",
+          "Pipeline security basics (DevSecOps)",
+          "Documentation",
+          "demonstration & evaluation"
+        ]
+      }
+    ]
+  },
+  "2345116": {
+    "title": "AI & ML Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to Artificial Intelligence",
+        "topics": [
+          "Jupyter Notebook",
+          "Google Colab",
+          "Pandas",
+          "Matplotlib",
+          "Scikit-learn",
+          "TensorFlow/Keras"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Problem Solving & Search Strategies",
+        "topics": [
+          "Uninformed Search Strategies",
+          "Breadth First Search",
+          "Depth First Search",
+          "Uniform Cost Search",
+          "Informed Search Strategies",
+          "Greedy Best First Search",
+          "A* Algorithm",
+          "Heuristic Functions"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Supervised Learning",
+        "topics": [
+          "Linear Regression",
+          "Multiple Regression",
+          "Classification",
+          "Logistic Regression",
+          "k-Nearest Neighbors (k-NN)",
+          "Decision Trees",
+          "Random Forest",
+          "Support Vector Machine (SVM)"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Unsupervised Learning",
+        "topics": [
+          "K-Means Clustering",
+          "Hierarchical Clustering",
+          "Association Rule Mining",
+          "Dimensionality Reduction",
+          "Principal Component Analysis (PCA)"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Model Evaluation & Optimization",
+        "topics": [
+          "Training",
+          "Validation",
+          "Testing",
+          "Cross Validation Techniques",
+          "Confusion Matrix",
+          "Accuracy",
+          "Precision",
+          "Recall",
+          "F1-Score",
+          "ROC Curve and AUC",
+          "Overfitting and Underfitting",
+          "Hyperparameter Tuning and Model Optimization Techniques"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "AI/ML Applications & Mini Project",
+        "topics": [
+          "AI Ethics and Responsible AI",
+          "Bias and Fairness in AI",
+          "Transparency & Accountability",
+          "Introduction to Deep Learning",
+          "AI in Healthcare",
+          "Finance",
+          "Smart Cities"
+        ]
+      }
+    ]
+  },
+  "2345117": {
+    "title": "Web Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to JavaScript",
+        "topics": [
+          "Introduction to JavaScript",
+          "Constants",
+          "JS variables",
+          "JS Variable scopes",
+          "JS Data Types",
+          "JS Function",
+          "JS Array",
+          "Introduction to ES6",
+          "Difference between ES5 and ES6",
+          "Events",
+          "Arrow functions",
+          "Client-side Form validation using JavaScript",
+          "using properties and methods of built -in-objects"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "React Basics",
+        "topics": [
+          "Introduction to MERN stack application. introduction to React",
+          "Components",
+          "Component life-cycle",
+          "State and Props",
+          "React Router and Single page applications",
+          "UI design",
+          "Forms",
+          "Animations"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Advanced React",
+        "topics": [
+          "Functional components",
+          "Refs",
+          "use effects",
+          "Hooks",
+          "Flow architecture",
+          "Model-View Controller framework",
+          "Flux",
+          "Bundling the application",
+          "Web pack"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "MongoDB",
+        "topics": [
+          "Understanding MongoDB",
+          "MongoDB Data Types",
+          "Administering User Accounts",
+          "Configuring Access Control",
+          "CRUD Operations",
+          "Using Mongoose for Structured Schema and Validation",
+          "Using Express and Mongoose to interact with MongoDB",
+          "Web Security Basics",
+          "SQL Injection",
+          "XSS"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Module 5",
+        "topics": [
+          "Node.js Contents",
+          "Asynchronous programming",
+          "Callback concept",
+          "Event loops",
+          "REPL",
+          "Event emitter",
+          "Networking module",
+          "Buffers",
+          "Streams",
+          "File system",
+          "Web module"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Express",
+        "topics": [
+          "Express router",
+          "REST API",
+          "Generator",
+          "Authentication",
+          "sessions",
+          "Integrating with React"
+        ]
+      }
+    ]
+  },
+  "23451181": {
+    "title": "Cyber Security Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to Cyber Security & Threats",
+        "topics": [
+          "Cyber security fundamentals",
+          "cyber threats",
+          "social engineering techniques",
+          "virtual lab environment"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Cryptography & Secure Communication",
+        "topics": [
+          "Classical and modern cryptography concepts and cryptanalysis fundamentals"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "System Security and Cloud Security",
+        "topics": [
+          "Authentication methods",
+          "password security",
+          "cloud access control",
+          "vulnerability assessment concepts"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Web Application Security",
+        "topics": [
+          "Web application architecture and OWASP Top-10 vulnerabilities"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Network Security",
+        "topics": [
+          "Network attacks",
+          "packet analysis",
+          "firewall configuration",
+          "intrusion detection systems",
+          "secure communication protocols"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Cyber Laws & Ethics",
+        "topics": [
+          "Cyber security standards",
+          "ethical practices",
+          "legal aspects of cyber security investigations"
+        ]
+      }
+    ]
+  },
+  "23451182": {
+    "title": "Advanced Database Technologies Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Query Processing and Optimization",
+        "topics": [
+          "Steps of Query Processing",
+          "Measures of Query Cost",
+          "Selection/Join Operations",
+          "Evaluation of Expressions",
+          "Transformation of Relational Expressions",
+          "Choice of Evaluation Plans"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Advanced Database Systems",
+        "topics": [
+          "Object-Oriented Data Models",
+          "Spatial Databases (Relationships/Structures)",
+          "Temporal Databases",
+          "Mobile Databases (Location/Handoff Management)"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Distributed Databases",
+        "topics": [
+          "Distributed Data Processing",
+          "Architecture",
+          "Fragmentation",
+          "Allocation in distributed databases"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Data Warehousing & OLAP",
+        "topics": [
+          "Warehouse Architecture (Multi-tiered)",
+          "Dimensional Modelling",
+          "Star and Snowflake Schemas",
+          "Fact and Dimension Tables",
+          "BI Tools",
+          "OLAP Operations (Roll-up, Drill-down, Slice, Dice)"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "ETL Process",
+        "topics": [
+          "Challenges in ETL",
+          "Data Extraction (Immediate vs. Deferred)",
+          "Data Transformation tasks",
+          "Techniques of Data Loading"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "NoSQL Databases",
+        "topics": [
+          "CAP theorem",
+          "BASE property",
+          "Data Architecture Patterns (Key-value, Graph, Column family, Document)",
+          "MongoDB & Cassandra Operations"
+        ]
+      }
+    ]
+  },
+  "23451183": {
+    "title": "UI/UX Design Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to User Interface and UX Design",
+        "topics": [
+          "Problem Definition & Empathy"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "User research Requirement Analysis Interpretation",
+        "topics": [
+          "Design Translation Contents",
+          "Synthesis of Interview Data",
+          "Ideation & User Journey"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Interaction Design Process & Prototyping",
+        "topics": [
+          "Information Architecture",
+          "Wireframing (Low-Fi)"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Module 4",
+        "topics": [
+          "Design Principles",
+          "Standards & Modern UI Trends Contents",
+          "Design Systems",
+          "Visual Design (High-Fi)"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Interaction Design Process & Prototyping",
+        "topics": [
+          "Prototyping",
+          "Micro interactions"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Module 6",
+        "topics": [
+          "Standards",
+          "Evaluation Techniques & UX Metrics Contents",
+          "Heuristic Evaluation",
+          "Usability Testing"
+        ]
+      }
+    ]
+  },
+  "23451184": {
+    "title": "Image Processing Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to Image Processing",
+        "topics": [
+          "Fundamentals of Image processing",
+          "Understanding of Digital Image Processing and pixel representation",
+          "Basic concepts from Linear Algebra and Geometry"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Image Enhancement",
+        "topics": [
+          "Digital Image Processing and pixel intensity values",
+          "grayscale images and thresholding concepts",
+          "image filtering",
+          "noise types such as Gaussian Noise and Salt-and-Pepper noise"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Image Transforms",
+        "topics": []
+      },
+      {
+        "index": 4,
+        "name": "Image Compression",
+        "topics": []
+      },
+      {
+        "index": 5,
+        "name": "Image Segmentation and Representation",
+        "topics": [
+          "Edge Detection using gradient-based operators such as Roberts Cross Operator",
+          "Prewitt Operator",
+          "Sobel Operator in Digital Image Processing"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Morphological Image Processing",
+        "topics": [
+          "Hit-or-Miss Transform in Mathematical Morphology",
+          "used for detecting specific patterns in binary images"
+        ]
+      }
+    ]
+  },
+  "2346111": {
+    "title": "Security and Blockchain Technology",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Security Fundamentals and Cryptography",
+        "topics": [
+          "Fundamentals of Information Security",
+          "CIA Triad",
+          "Threats",
+          "Vulnerabilities",
+          "Risk",
+          "Introduction to cryptography",
+          "Classical Encryption techniques (substitution and transposition cipher) Block cipher algorithms",
+          "AES",
+          "DES Hashing",
+          "Hash functions",
+          "Hashing Techniques (HMAC, CMAC, SHA256, and SHA512) Digital Signatures",
+          "RSA",
+          "DSS",
+          "Digital Certificates",
+          "X.509 standard",
+          "Public Key Infrastructure"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Module 2",
+        "topics": [
+          "Authentication",
+          "access control and security governance",
+          "Authentication & Access Control",
+          "Password management policies",
+          "Password attacks (Brute Force, Dictionary)",
+          "Authentication Mechanisms",
+          "Single Sign-on (KerberosV4 and V5)",
+          "Access Control Models (Bell-LaPadula, Biba)",
+          "Risk Management & Security Governance",
+          "Risk Identification",
+          "Assessment and Mitigation",
+          "Security Policies",
+          "Standards and Procedures (ISO 27001)",
+          "COBIT framework",
+          "Legal and Ethical aspects",
+          "IT Act 2000 and Amendments",
+          "Ethical and Privacy Issues"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Foundations of Blockchain",
+        "topics": [
+          "Definition and Evolution of Blockchain",
+          "DLT vs Blockchain",
+          "Blockchain characteristics and key concepts",
+          "types of blockchain",
+          "Blockchain Limitations",
+          "Blockchain Trilemma",
+          "CAP Theorem",
+          "Blockchain architecture",
+          "Layers",
+          "components of a blockchain",
+          "Consensus algorithms (PoW, PoS, PoA)",
+          "Block structure",
+          "Block definition",
+          "header components",
+          "block hash and block height",
+          "Genesis block",
+          "Merkle tree",
+          "linking blocks in the Blockchain"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Public and Private Blockchain Platforms",
+        "topics": [
+          "Bitcoin Blockchain",
+          "brief evolution",
+          "architecture",
+          "Bitcoin mining",
+          "Proof of Work and Hashcash in Bitcoin",
+          "Block Propagation and Relay",
+          "Transaction structure and Bitcoin Script in the Bitcoin Network",
+          "Ethereum Blockchain",
+          "Smart contracts",
+          "Ethereum Virtual Machine (EVM)",
+          "Ethereum Classic",
+          "Ethereum components",
+          "Mining",
+          "transaction workflow",
+          "Hyperledger Blockchain",
+          "Hyperledger Ecosystem",
+          "Hyperledger Fabric architecture",
+          "components",
+          "pBFT and DPOS",
+          "Permissioned blockchain networks"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Smart Contracts development",
+        "topics": [
+          "Smart Contract",
+          "Definition and characteristics",
+          "types of smart contract",
+          "Smart contract lifecycle",
+          "Role and types of Oracles",
+          "Smart contract industry use cases",
+          "Opportunities and Risks",
+          "Smart Contract Deployment",
+          "Introduction to Truffle",
+          "Remix IDE",
+          "Ganache blockchain simulator and test networks for deployment",
+          "Solidity Programming",
+          "Development environment setup",
+          "basic programming concepts",
+          "program structure",
+          "variables and data types",
+          "functions and modifiers",
+          "Metamask (Ethereum Wallet) setup",
+          "deployment on test networks",
+          "Dapp integration"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Blockchain Security and Enterprise applications",
+        "topics": [
+          "Security concepts",
+          "security attributes of Blockchain (CIAR)",
+          "Identity and access Management",
+          "Regulatory Compliance",
+          "Bribery attack",
+          "Collusion attack",
+          "Finney attack",
+          "51% attack",
+          "Vulnerabilities in a smart contracts and Dapps",
+          "secure coding practices",
+          "Wallet security mechanisms",
+          "Key Management strategies",
+          "Enterprise Blockchain Security and Use-cases",
+          "Financial services",
+          "Supply Chain management",
+          "Healthcare systems",
+          "E-Governance"
+        ]
+      }
+    ]
+  },
+  "23461131": {
+    "title": "Advance Web Technology",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Typescript Introduction to TypeScript including its internal",
+        "topics": [
+          "architecture and environment setup",
+          "working with data types",
+          "variables",
+          "operators",
+          "implementing decision-making statements and loops",
+          "developing functions",
+          "creating classes and objects using object-oriented concepts",
+          "organizing code using TypeScript modules"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "AngularJS Introduction to AngularJS and its significance in",
+        "topics": [
+          "modern web development",
+          "AngularJS modules",
+          "built-in and custom directives",
+          "expressions",
+          "data binding",
+          "filters",
+          "controllers",
+          "scope",
+          "Dependency injection and services",
+          "form validation",
+          "routing using ng-Route (including ng-view)",
+          "use of directives such as ng-repeat and ng-style",
+          "built-in helper functions",
+          "integration of AngularJS with TypeScript"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Angular",
+        "topics": [
+          "Angular JS versus Angular",
+          "Angular architecture",
+          "components",
+          "modules",
+          "templates",
+          "directives",
+          "pipes",
+          "services with dependency injection",
+          "routing",
+          "forms",
+          "HTTP client with RxJS",
+          "basics of state management",
+          "testing",
+          "deployment"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Module 4",
+        "topics": [
+          "Next.js Introduction to Next.js & Setup",
+          "Next.js Basics and Built-In Components",
+          "Pages and Routing",
+          "Styling in Next.js",
+          "Data Fetching Methods",
+          "Optimizing Next.js Applications",
+          "State Management",
+          "Testing Next.js",
+          "API Routes",
+          "Securing App with Next Auth"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "FastAPI",
+        "topics": [
+          "Introduction to FastAPI",
+          "REST APIs with FastAPI",
+          "Working with Data and Files in FastAPI",
+          "Handling Request & Response Data in FastAPI",
+          "Database Integration in FastAPI using MongoDB"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Search Engines and SEO",
+        "topics": [
+          "Architecture and working of search engines",
+          "search engine crawling",
+          "indexing",
+          "ranking mechanisms",
+          "on-page and off-page SEO techniques",
+          "website performance using SEO tools",
+          "Basic SEO strategies for web applications"
+        ]
+      }
+    ]
+  },
+  "23461133": {
+    "title": "GIS and Drone Technologies",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Geographical Information System (GIS)",
+        "topics": [
+          "Introduction to GIS",
+          "Components of GIS (Hardware, Software, Data, People, Methods)",
+          "Historical Development of GIS",
+          "Components of GIS",
+          "Data",
+          "Types of Data",
+          "Spatial and Non-spatial",
+          "Vector Data",
+          "Point",
+          "Line",
+          "Polygon",
+          "Raster Data",
+          "Database Structures",
+          "Vector and Raster Data Structures",
+          "Files",
+          "File Formats"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Spatial Data Handling & Database Management",
+        "topics": [
+          "Spatial Data Types",
+          "Data Acquisition Methods (Satellite, Survey, Drone, GPS)",
+          "Spatial Databases",
+          "Introduction to Spatial DBMS",
+          "SQL for Spatial Data",
+          "Georeferencing & Digitization",
+          "Data Cleaning and Preprocessing"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Spatial Analysis & GIS Programming",
+        "topics": [
+          "Spatial Analysis Concepts",
+          "Buffering",
+          "Overlay",
+          "Network Analysis",
+          "Thematic Mapping",
+          "Introduction to GIS using Python",
+          "Libraries",
+          "GeoPandas",
+          "Shapely (concept level)",
+          "Automation in GIS"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Fundamentals of Drone Technology",
+        "topics": [
+          "Introduction to UAV / Drone Technology",
+          "Types of Drones (Fixed Wing, Multi-rotor)",
+          "Drone Components (Frame, Motors, Propellers, Battery, Controller, GPS)",
+          "Flight Planning Concepts",
+          "Drone Regulations in India (DGCA basics)",
+          "Safety & Ethical considerations"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Drone Data Processing & Remote Sensing Aerial",
+        "topics": [
+          "Imaging Basics",
+          "Image Stitching (Photogrammetry concept)",
+          "Orthomosaic Creation",
+          "3D Mapping Basics",
+          "Remote Sensing Fundamentals",
+          "Satellite vs Drone Imaging",
+          "NDVI concept"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Module 6",
+        "topics": [
+          "Integration of GIS",
+          "Drones & Emerging Technologies IoT + GIS",
+          "AI/ML in Geospatial Analysis",
+          "Real",
+          "Time Mapping Systems",
+          "Smart Cities Case Studies",
+          "Web GIS",
+          "Future Trends in Geospatial Technology"
+        ]
+      }
+    ]
+  },
+  "23461141": {
+    "title": "Software Testing and Quality Assurance",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Testing Methodology",
+        "topics": [
+          "Goals of Software Testing",
+          "Software Testing Definitions (Error, Defect, Failure, Root Cause)",
+          "Model for Software Testing",
+          "Effective Software Testing vs Exhaustive Software Testing",
+          "Software Failure Case Studies",
+          "Software Testing Terminology",
+          "Software Testing Life Cycle (STLC)",
+          "Classification of Bugs and its Life Cycle",
+          "Software Testing methodology Verification and Validation",
+          "Verification and Validation concept",
+          "activities",
+          "their role in early defect prevention",
+          "Verification requirements",
+          "Verification of high level design",
+          "Verification of low level design",
+          "validation"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Testing Techniques",
+        "topics": [
+          "Dynamic Testing",
+          "Black Box Testing",
+          "Boundary Value Analysis",
+          "Equivalence Class Testing",
+          "State Table Based testing",
+          "Cause-Effect Graphing Based Testing",
+          "Error Guessing",
+          "White Box Testing Techniques",
+          "need",
+          "Logic Coverage Criteria",
+          "Basis Path Testing",
+          "Graph Matrices",
+          "Loop Testing",
+          "Data Flow testing",
+          "Mutation testing",
+          "Static Testing Validation Activities",
+          "Integration",
+          "Function",
+          "System",
+          "Acceptance Testing",
+          "Regression Testing",
+          "Progressive vs",
+          "Regressive",
+          "Regression Testability",
+          "Objectives of Regression Testing",
+          "Regression Testing Types",
+          "Define Problem",
+          "Regression Testing Techniques"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Managing the Test Process",
+        "topics": [
+          "Test Management",
+          "test organization",
+          "structure and of testing group",
+          "test planning",
+          "detailed test design and test Specification",
+          "Software Metrics",
+          "definition and Classification of software matrices",
+          "Testing Metrics for Monitoring and Controlling the Testing Process",
+          "attributes and corresponding metrics",
+          "estimation model for testing effort",
+          "architectural design",
+          "information flow matrix used for testing",
+          "function point and test point analysis",
+          "Efficient Test Suite Management",
+          "minimizing the test suite and its benefits",
+          "test suite minimization problem",
+          "test suite prioritization its type",
+          "techniques and measuring effectiveness",
+          "Root Cause Analysis (RCA)"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Test Automation Automation and Testing",
+        "topics": [
+          "categorization",
+          "selection and cost in testing tool",
+          "Test Automation Strategy & ROI",
+          "guidelines for testing tools",
+          "Study of testing tools",
+          "JIRA",
+          "Bugzilla",
+          "TestDirector and IBM Rational Functional Tester",
+          "Selenium",
+          "Apache JMeter"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Testing for specialized environment",
+        "topics": [
+          "Agile Testing",
+          "Agile Testing and its Life Cycle",
+          "Testing in Scrum phases",
+          "Challenges in Agile Testing Testing Web based Systems",
+          "Web based system",
+          "web technology evaluation",
+          "differences between traditional software and web based software",
+          "challenges in testing for web based software",
+          "strategies for testing web-based applications"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Quality Management Software Quality",
+        "topics": [
+          "Management",
+          "Relationship between Testing",
+          "Quality Assurance",
+          "Quality Management Product Quality",
+          "McCall\u2019s quality factors and criteria",
+          "Process Quality",
+          "Overview of ISO9000",
+          "2000 and SIX sigma"
+        ]
+      }
+    ]
+  },
+  "23461142": {
+    "title": "Natural Language Processing",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to NLP Introduction to Natural Language Processing",
+        "topics": [
+          "(NLP) system",
+          "levels of NLP",
+          "Knowledge in language processing",
+          "Ambiguity in Natural language",
+          "stages in NLP",
+          "challenges of NLP",
+          "Applications of NLP"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Text Processing Word Tokenization and",
+        "topics": [
+          "Segmentation",
+          "Lemmatization",
+          "Bag of words",
+          "N-gram language model",
+          "N-gram for spelling correction",
+          "Edit distance Dynamic Programming Approach",
+          "Weighted Edit Distance",
+          "Finding Dictionary Entries with Small Edit Distances",
+          "Noisy Channel Model",
+          "Non-word errors Real-word errors",
+          "Evaluation of Language Models"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Computational Morphology Morphological",
+        "topics": [
+          "Processes",
+          "Morphological Analysis",
+          "Inflectional morphology & Derivational morphology",
+          "Regular expression",
+          "Finite State Automata",
+          "Finite State Transducer",
+          "Morphological parsing with FST",
+          "Lexicon free FST Porter stemmer",
+          "Two -level Morphology"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Syntax Analysis",
+        "topics": [
+          "Introduction to POS Tagging",
+          "Probabilistic Tagging",
+          "Markov Models",
+          "Hidden Markov Models (HMM) for POS Tagging",
+          "Conditional Random Fields (CRF)",
+          "Named Entities and Named Entity Tagging",
+          "Context-Free Grammars-Derivation"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Semantic Parsing and Lexical Semantics",
+        "topics": [
+          "Words and Vectors",
+          "Term Frequency-Inverse Document Frequency (TFIDF)",
+          "Word2vec",
+          "Continuous Bag of Words",
+          "ELMO",
+          "GloVe Vector Visualizing Embedding's",
+          "Semantic properties of embedding's",
+          "Bias and Embedding's Evaluating Vector Models",
+          "Cosine for measuring similarity",
+          "Pointwise Mutual Information (PMI)",
+          "PPMI vector models",
+          "Word Senses -Relations Between Senses",
+          "WordNet",
+          "A Database of Lexical Relations",
+          "Word Sense Disambiguation Alternate WSD algorithms and Tasks",
+          "Constituency Parsing",
+          "Dependency Parsing",
+          "Discourse Coherence",
+          "Coherence Relation",
+          "Discourse Structure Parsing",
+          "Centering and Entity",
+          "Based Coherence",
+          "Global Coherence"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Text Classification Text classification definition",
+        "topics": [
+          "datasets",
+          "Bag-of-words Generative Classifier",
+          "BOW Discriminative Model",
+          "Multi-class Classification",
+          "Softmax",
+          "Gradient Descent",
+          "Statistical significance testing",
+          "Dataset understanding and creation"
+        ]
+      }
+    ]
+  },
+  "23461143": {
+    "title": "Ethical Hacking and Digital Forensics",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Foundation of Ethical Hacking and Penetration Testing",
+        "topics": [
+          "Introduction to Ethical Hacking",
+          "Goals of Ethical Hacking",
+          "Types of Hackers",
+          "White Hat",
+          "Black Hat",
+          "Grey Hat",
+          "Phases of Ethical Hacking",
+          "Difference between Hackers",
+          "Crackers and Phreakers",
+          "Social Engineering Attacks",
+          "Introduction to Vulnerability Assessment and Penetration Testing (VAPT)",
+          "Need for Vulnerability Assessment",
+          "Types of Penetration Testing",
+          "Penetration Testing Methodologies (PTES, OSSTMM, NIST)",
+          "Difference between VA and PT",
+          "Impact of cybercrime on e-governance and e-commerce"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Module 2",
+        "topics": [
+          "Reconnaissance",
+          "Scanning and Vulnerability Assessment Information Gathering",
+          "Footprinting",
+          "Vulnerability Scanning and Enumeration",
+          "Password cracking",
+          "keyloggers (SN)",
+          "Active Vs",
+          "Passive Vulnerability scanning",
+          "Enumeration Techniques",
+          "SNMP",
+          "SMB",
+          "LDAP",
+          "DNS Enumeration",
+          "Network Scanning Techniques",
+          "Port Scanning",
+          "Service Detection"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Module 3",
+        "topics": [
+          "Digital Forensics",
+          "Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics",
+          "Need and Objectives of Digital Forensics",
+          "Phases involved in Digital Forensics",
+          "Types of Digital Forensics",
+          "Rules of Digital Forensic",
+          "Anti Forensics",
+          "Role of AI in Digital Forensics Introduction to Digital evidences",
+          "Digital Evidence and its Types",
+          "Rules of Digital Evidences",
+          "Chain of Custody",
+          "Challenges in digital evidence Handling",
+          "Incident Response Process",
+          "Incident and Incident Response",
+          "Incident Response Methodology",
+          "Roles of CSIRT in handling incident"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Forensic Duplication and Computer Forensic",
+        "topics": [
+          "Forensic Duplication",
+          "Forensic Image Formats",
+          "Traditional Duplication Vs Forensic duplication",
+          "Need for the forensic duplication",
+          "Live System Duplication",
+          "Data imaging and hashing",
+          "Image Acquisition",
+          "File Recovery & Data Carving",
+          "Computer Forensics",
+          "Introduction to Computer Forensics",
+          "Evidence collection (Disk and file system, Memory, Registry, Logs etc)",
+          "Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)",
+          "Media Analysis Hard drives",
+          "RAM",
+          "flash memory",
+          "PDAs",
+          "AI-Assisted Disk and Memory Analysis",
+          "Challenges in Computer Forensics"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Network and Mobile Forensic",
+        "topics": [
+          "Network Forensics",
+          "Exploiting Network Based Vulnerabilities",
+          "DNS Cache Poisoning",
+          "SNMP Exploits",
+          "SMTP Exploits",
+          "FTP Exploits",
+          "Sources of Network based evidences",
+          "Investigating Routers",
+          "Introduction to Wireless forensics",
+          "exploiting wireless vulnerabilities",
+          "Wireless Network Hacking",
+          "WEP",
+          "WPA",
+          "WPA2 Attacks",
+          "Tools used in network forensics",
+          "Challenges in Network forensics",
+          "Mobile Forensics",
+          "Evidence Collection and Acquisition",
+          "Analysis of Evidences",
+          "Challenges in mobile forensics",
+          "Tools used in mobile forensics",
+          "Traditional Mobile Forensics vs AI-Enabled Mobile Forensics"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Report Generation",
+        "topics": [
+          "Goals of Report",
+          "Layout of an Investigative Report",
+          "Guidelines for Writing a Report",
+          "sample for writing a forensic report"
+        ]
+      }
+    ]
+  },
+  "23461144": {
+    "title": "Augmented Reality / Virtual Reality",
+    "kind": "theory",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to Augmented Reality (AR)",
+        "topics": [
+          "Definition and Scope",
+          "A Brief History of Augmented Reality",
+          "Architecture of AR",
+          "General Architecture of Mixed Reality System",
+          "Algorithm Steps in Mixed Reality",
+          "Displays (Multimodal Displays, Spatial Display Model, and Visual Displays)",
+          "Strong vs Weak AR",
+          "Augmented Reality Hardware (Sensors, Processors, Displays)",
+          "Ingredients of an AR Experience Dimensionality",
+          "Depth Cues",
+          "Registration and Latency",
+          "Working of Augmented Reality",
+          "Applications of AR",
+          "Challenges in AR"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Augmented Reality Software and Mobile Augmented",
+        "topics": [
+          "Reality Software Components",
+          "Software Tools for Content Creation",
+          "Interaction in Augmented Reality",
+          "Augmented Reality Techniques",
+          "Marker based and Marker less tracking",
+          "Markerless Tracking & SLAM",
+          "Mobile Augmented Reality",
+          "Advanced Spatial Concepts",
+          "Output Modalities",
+          "Input Modalities",
+          "Tangible Interfaces",
+          "Virtual User Interfaces on Real Surfaces",
+          "Multi-view Interfaces",
+          "Haptic Interaction",
+          "Multimodal Interaction"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Authoring Techniques and Design Considerations in",
+        "topics": [
+          "Augmented Reality Requirement of AR Authoring",
+          "Elements of Authoring",
+          "Stand-alone",
+          "Authoring Solutions",
+          "Plug-in Approaches",
+          "Web Technology and dynamic content",
+          "AR applications and future visions",
+          "Designing an AR application",
+          "Technology adoption and acceptance",
+          "applications augmented reality"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Introduction to Virtual Reality",
+        "topics": [
+          "History of VR and MR",
+          "Classical components and design of a VR system",
+          "Important factors in a virtual reality system",
+          "Types of virtual reality systems",
+          "advantages of virtual reality",
+          "VR Input devices",
+          "Graphics display interfaces",
+          "Sound display and interface",
+          "Examples of input devices",
+          "Haptic feedback",
+          "Graphical rendering pipeline",
+          "Haptic rendering pipeline",
+          "OpenGL rendering pipeline",
+          "Applications of virtual reality"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Representing and Rendering the Virtual World Representation",
+        "topics": [
+          "of Virtual World",
+          "Visual Representation in Virtual Reality",
+          "Aural and Haptic Representation in Virtual Reality",
+          "Rendering Systems",
+          "Visual Rendering Systems",
+          "Visual Rendering Methods",
+          "Geometrically Based Rendering Systems",
+          "Non-geometric Rendering Systems",
+          "Rendering Complex Visual Scenes",
+          "Computer Graphics System Requirements",
+          "Aural Rendering Systems",
+          "Rendering Complex Sounds",
+          "Sound-Generation Hardware",
+          "Internal Computer Representation",
+          "Haptic Rendering Systems",
+          "Haptic Rendering Methods",
+          "Rendering Complex Haptic Scenes with Force Displays",
+          "Haptic Rendering Techniques",
+          "Culling Techniques",
+          "Anti-Aliasing in VR",
+          "Multi-sample Anti-Aliasing (MSAA) vs",
+          "Post-processing effects.Introduction to Real-time rendering techniques",
+          "Graphics processing units (GPU) in VR"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Interacting with the VR and VR Experience",
+        "topics": [
+          "User Interface Metaphors",
+          "manipulating a Virtual World",
+          "Properties of Manipulation",
+          "Manipulation Operations",
+          "navigating in a Virtual World-Way finding and Travelling",
+          "Classes of Travel Methods Interacting with Others-Shared Experience",
+          "Collaborative Interaction",
+          "interacting with the VR System",
+          "Immersion",
+          "Latency & Fidelity",
+          "The \"Uncanny Valley\" in XR",
+          "Why hyper-realism can sometimes backfire in user experience",
+          "Musculoskeletal Issues",
+          "Emerging VR Technologies",
+          "Metaverse platforms",
+          "Digital twins",
+          "Spatial computing",
+          "VR in Industry 4.0 Ethics",
+          "Privacy & Safety Standards",
+          "Cybersickness (VRSickness)",
+          "Visual Pathologies"
+        ]
+      }
+    ]
+  },
+  "2346115": {
+    "title": "Security and Blockchain Technology Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Security",
+        "topics": [
+          "Cryptography Contents",
+          "Classical Ciphers (Vigen\u00e8re, Playfair)"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Module 2",
+        "topics": [
+          "Hashing",
+          "Encryption and Authentication Contents",
+          "RSA implementation",
+          "Digital Signatures",
+          "RSA",
+          "DSS",
+          "SHA-256 hashing",
+          "HMAC implementation"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Foundations of Blockchain (Local)",
+        "topics": [
+          "Blockchain definition",
+          "characteristics",
+          "& key concepts",
+          "Block structure",
+          "Block definition",
+          "header components",
+          "block hash",
+          "block height",
+          "Genesis block",
+          "Merkle tree",
+          "linking blocks in the Blockchain"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Smart Contract Development and",
+        "topics": [
+          "Remix IDE Contents",
+          "Solidity development environment setup",
+          "basic programming concepts",
+          "program structure",
+          "variables and data types",
+          "functions and modifiers",
+          "Metamask (Ethereum Wallet) setup",
+          "deployment on test networks"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Smart Contract Deployment and",
+        "topics": [
+          "Dapp integration Contents",
+          "integration with Dapp",
+          "Web3.js / Web3.py integration",
+          "Ethereum Test Networks (Sepolia)"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Capstone-project based on Enterprise use cases",
+        "topics": []
+      }
+    ]
+  },
+  "2346116": {
+    "title": "Cloud Computing Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Cloud Computing",
+        "topics": [
+          "Virtualization & Containerization Contents",
+          "Introduction and overview of Cloud Computing",
+          "Virtualization & Containerization"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Cloud Economics and Cost Management",
+        "topics": [
+          "Cloud Economics and Cost Management"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Infrastructure as a Service",
+        "topics": [
+          "Infrastructure as a Service"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Platform as a",
+        "topics": [
+          "service",
+          "Software as a Service",
+          "Infrastructure as a Code Contents",
+          "Platform as a service",
+          "Infrastructure as a Code"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Serverless Computing",
+        "topics": [
+          "Serverless Computing"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Cloud Security",
+        "topics": [
+          "Cloud Security"
+        ]
+      }
+    ]
+  },
+  "23461171": {
+    "title": "Advance Web Technology Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Typescript",
+        "topics": [
+          "Introduction to TypeScript",
+          "working with data types",
+          "variables",
+          "operators",
+          "implementing decision-making statements and loops",
+          "developing functions",
+          "creating classes and objects using object-oriented concepts",
+          "organizing code using TypeScript modules"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "AngularJS",
+        "topics": [
+          "AngularJS modules",
+          "built-in and custom directives",
+          "expressions",
+          "data binding",
+          "filters",
+          "controllers",
+          "scope. form validation",
+          "routing using ng-Route (including ng-view)",
+          "use of directives such as ng-repeat and ng-style",
+          "built-in helper functions",
+          "integration of AngularJS with TypeScript"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Angular",
+        "topics": [
+          "Angular architecture",
+          "components",
+          "modules",
+          "templates",
+          "directives",
+          "pipes",
+          "services with dependency injection",
+          "HTTP client with RxJS",
+          "basics of state management",
+          "testing",
+          "deployment"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Module 4",
+        "topics": [
+          "Next.js Contents",
+          "Introduction to Next.js & Setup",
+          "Next.js Basics and Built-In Components",
+          "Pages and Routing",
+          "Styling in Next.js",
+          "Data Fetching Methods",
+          "Optimizing Next.js Applications",
+          "State Management",
+          "Testing Next.js",
+          "API Routes"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Search Engines and SEO",
+        "topics": [
+          "Website performance using SEO tools",
+          "Basic SEO strategies for web applications"
+        ]
+      }
+    ]
+  },
+  "23461172": {
+    "title": "Deep Learning Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to Deep Learning",
+        "topics": [
+          "Introduction to Artificial Neural Networks (ANN)",
+          "Perceptron Model",
+          "Activation Functions (Sigmoid, ReLU, Tanh, Softmax). 1"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Deep Neural Networks",
+        "topics": [
+          "Multi-Layer Perceptron (MLP)",
+          "Weight initialization Techniques",
+          "Vanishing and Exploding Gradient Problem",
+          "Batch Normalization",
+          "Regularization Techniques (Dropout, L1, L2). 1",
+          "Stochastic Gradient Descent (SGD)",
+          "To implement L1"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Convolution Neural Networks",
+        "topics": [
+          "CNN Architecture (ResNet, DenseNet, EfficientNet)",
+          "Transfer Learning and Fine-Tuning Strategies. 1"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Recurrent Neural Networks",
+        "topics": [
+          "RNN Architecture",
+          "Long Short-Term Memory (LSTM)",
+          "Gated Recurrent Unit (GRU). 1"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Advanced Deep Learning Models",
+        "topics": [
+          "Autoencoders",
+          "Variational Autoencoders (VAE)",
+          "Generative Adversarial Networks (GANs)",
+          "Graph Neural Networks (GNNs). 1"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Module 6",
+        "topics": [
+          "Deployment",
+          "Ethics and Emerging Trends Contents",
+          "Model Evaluation Metrics",
+          "Model Optimization and Fine-Tuning",
+          "MLOps and Model Lifecycle Management",
+          "Model Deployment Basics",
+          "Model Monitoring. 1",
+          "Accuracy",
+          "Precision",
+          "Recall",
+          "F1-score",
+          "ROC curve",
+          "visualize training and validation curves. 2",
+          "Mini Project",
+          "model design",
+          "training",
+          "hyperparameter tuning",
+          "evaluation",
+          "result interpretation for a real-world problem"
+        ]
+      }
+    ]
+  },
+  "23461173": {
+    "title": "GIS & Drone Technologies Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Introduction to GIS and QGIS",
+        "topics": [
+          "Introduction to GIS Software",
+          "Understanding map layers and spatial data organization",
+          "Layer Management in QGIS"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Georeferencing and Spatial Database Management",
+        "topics": [
+          "Fundamentals of vector data models including point",
+          "line",
+          "polygon spatial representations used in GIS mapping",
+          "Basics of geo-referencing and coordinate systems"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Spatial Analysis",
+        "topics": [
+          "Introduction to spatial analysis techniques",
+          "Basics of overlay operations in GIS"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Thematic Mapping and Visualization",
+        "topics": [
+          "Concepts of thematic mapping and classification methods"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Remote Sensing and Web GIS",
+        "topics": [
+          "Introduction to satellite imagery and vegetation analysis"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Introduction to Web GIS and Python GIS",
+        "topics": []
+      }
+    ]
+  },
+  "23461182": {
+    "title": "Natural Language Processing Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Text preprocessing",
+        "topics": [
+          "Tokenization",
+          "stop word removal",
+          "stemming",
+          "lemmatization"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Language Modelling",
+        "topics": [
+          "Build unigram",
+          "bigram models",
+          "calculate probabilities and perplexity",
+          "Levenstein distance",
+          "spelling correction techniques"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Text Representation",
+        "topics": [
+          "Vectorization using TF-IDF",
+          "similarity computation",
+          "Training Word2Vec using Gensim",
+          "CBOW & Skip-gram"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "NLP Applications",
+        "topics": [
+          "Sequence-to-sequence models",
+          "translation tasks",
+          "Rule-based chatbot",
+          "ML-based chatbot basics",
+          "evaluate models using precision",
+          "recall",
+          "F1-score"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "NLP Sequence Models",
+        "topics": [
+          "Hidden Markov Model for POS tagging",
+          "NER using SpaCy statistical model"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "NLP System Development",
+        "topics": [
+          "Build complete NLP pipeline (preprocessing \u2192 model \u2192 evaluation)"
+        ]
+      }
+    ]
+  },
+  "23461183": {
+    "title": "Ethical Hacking and Digital Forensics Lab",
+    "kind": "lab",
+    "modules": [
+      {
+        "index": 1,
+        "name": "Ethical Hacking and Penetration Testing",
+        "topics": [
+          "Introduction to Vulnerability Assessment and Penetration Testing (VAPT)",
+          "Need for Vulnerability Assessment",
+          "Types of Penetration Testing",
+          "Difference between VA and PT"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Information Gathering & Password Cracking",
+        "topics": [
+          "Information Gathering",
+          "Footprinting",
+          "Importance of information gathering in penetration testing",
+          "Types of reconnaissance",
+          "Passive reconnaissance",
+          "Active reconnaissance",
+          "Domain footprinting and website profiling",
+          "Introduction to password security concepts",
+          "Authentication mechanisms and password policies",
+          "Password strength and complexity",
+          "Ethical and legal considerations in password testing"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Module 3",
+        "topics": [
+          "Digital Evidence",
+          "Acquisition",
+          "Disk Analysis Contents",
+          "Introduction to Digital Evidence",
+          "Concept of Forensic Imaging",
+          "Importance of preserving digital evidence",
+          "Chain of custody in digital investigations",
+          "Disk imaging formats (RAW, E01, AFF)",
+          "Disk cloning concepts in forensic investigation",
+          "Difference between disk cloning and disk imaging",
+          "identifying partitions and file systems",
+          "Maintaining data integrity during cloning"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Computer and Internet Application Forensics",
+        "topics": [
+          "Introduction to File System",
+          "Basics of file system structures (FAT, NTFS, EXT)",
+          "Understanding file system metadata and artifacts",
+          "Introduction to Email Forensics",
+          "Structure of an email message (header and body)",
+          "Understanding email header fields (From, To, Received, Return- Path)",
+          "Tracing sender IP addresses through header analysis",
+          "Browser artifacts and user activity traces",
+          "Types of browser evidence",
+          "Browsing history",
+          "Cookies",
+          "Download history",
+          "Cached files"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Network and Mobile Forensics",
+        "topics": [
+          "Exploiting Network Based Vulnerabilities",
+          "DNS Cache Poisoning",
+          "SNMP Exploits",
+          "SMTP Exploits",
+          "FTP Exploits",
+          "Sources of Network based evidences",
+          "Investigating Routers",
+          "Evidence Collection and Acquisition",
+          "Analysis of Evidences",
+          "Challenges in mobile forensics",
+          "Tools used in mobile forensics"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Forensic Report Generation",
+        "topics": [
+          "Layout of an Investigative Report",
+          "Guidelines for Writing a Report",
+          "Importance of forensic documentation in cyber investigations",
+          "Role of reports in legal proceedings and investigations",
+          "Characteristics of a good forensic report (accuracy, clarity, completeness)"
+        ]
+      }
+    ]
+  }
+}

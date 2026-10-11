@@ -11,6 +11,7 @@ from app.api.graph_router import global_graph
 from app.parser.pdf_parser import extract_text_from_pdf_bytes
 from app.parser.syllabus_extractor import SyllabusExtractor
 from app.parser.nep_parse_v2 import parse_nep_pdf_bytes, is_syllabus, NEPCourse, NEPModule
+from app.parser.format_router import parse_syllabus_pdf_bytes_routed
 from app.services.graph_builder import GraphBuilder
 from app.services.sequence_engine import SequenceEngine
 from app.services.relationship_inferencer import RelationshipInferencer
@@ -184,11 +185,11 @@ async def upload_and_parse(file: UploadFile = File(...)):
     t_parse_start = perf_counter()
     content = await file.read()
 
-    # NEP parser (includes gate)
-    gate_ok, courses, parse_s = parse_nep_pdf_bytes(content)
+    # Format router & confidence gate
+    gate_ok, courses, fmt, parse_s, err_reason = parse_syllabus_pdf_bytes_routed(content)
     t_parse_total = perf_counter() - t_parse_start
 
-    print(f"[TIMING] parse={parse_s:.3f}s  total_upload_parse={t_parse_total:.3f}s")
+    print(f"[TIMING] fmt={fmt} parse={parse_s:.3f}s  total_upload_parse={t_parse_total:.3f}s")
 
     if not gate_ok or not courses:
         fallback_courses = _handle_raw_text_fallback(content)
@@ -196,9 +197,10 @@ async def upload_and_parse(file: UploadFile = File(...)):
             courses = fallback_courses
             gate_ok = True
         else:
+            detail_err = "low_confidence" if err_reason == "low_confidence" else "not_a_syllabus"
             raise HTTPException(
                 status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-                detail={"error": "not_a_syllabus"}
+                detail={"error": detail_err}
             )
 
     doc_id = str(uuid.uuid4())
