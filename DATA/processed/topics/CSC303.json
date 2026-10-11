@@ -1,0 +1,137 @@
+{
+  "course_code": "CSC303",
+  "title": "Data Structure",
+  "semester": "III",
+  "assumed_prior": {
+    "prerequisites": "Pre-requisite: C Programming",
+    "self_learning": []
+  },
+  "topics": [
+    {
+      "name": "Linear and Nonlinear Data Structures",
+      "unit": "Module 1: Introduction to Data Structures",
+      "source_quote": "Linear and Nonlinear",
+      "page": 13
+    },
+    {
+      "name": "Operations on Data Structures",
+      "unit": "Module 1: Introduction to Data Structures",
+      "source_quote": "Operations on Data Structures",
+      "page": 13
+    },
+    {
+      "name": "Array Implementation of Stack",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Array Implementation of \nStack",
+      "page": 13
+    },
+    {
+      "name": "Applications of Stack",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Applications of Stack-Well form-ness of Parenthesis, Infix to Postfix \nConversion and Postfix Evaluation, Recursion",
+      "page": 13
+    },
+    {
+      "name": "Array Implementation of Queue",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Array Implementation of \nQueue",
+      "page": 13
+    },
+    {
+      "name": "Types of Queues",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Types of Queue-Circular Queue, Priority Queue, Introduction of Double \nEnded Queue",
+      "page": 13
+    },
+    {
+      "name": "Singly Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Singly Linked List",
+      "page": 13
+    },
+    {
+      "name": "Circular and Doubly Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Circular Linked List, Doubly Linked List",
+      "page": 13
+    },
+    {
+      "name": "Stack and Queue using Singly Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Stack and Queue \nusing Singly Linked List",
+      "page": 13
+    },
+    {
+      "name": "Polynomial Representation and Addition",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Polynomial \nRepresentation and Addition",
+      "page": 13
+    },
+    {
+      "name": "Binary Tree Traversals",
+      "unit": "Module 4: Trees",
+      "source_quote": "Binary Tree Traversals",
+      "page": 13
+    },
+    {
+      "name": "Binary Search Tree Operations",
+      "unit": "Module 4: Trees",
+      "source_quote": "Operations \non Binary Search Tree",
+      "page": 13
+    },
+    {
+      "name": "Applications of Binary Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "Applications of Binary Tree-Expression Tree, Huffman \nEncoding",
+      "page": 13
+    },
+    {
+      "name": "AVL Tree Operations and Rotations",
+      "unit": "Module 4: Trees",
+      "source_quote": "Search Trees-AVL, rotations in AVL Tree, operations on AVL Tree",
+      "page": 13
+    },
+    {
+      "name": "B Tree and B+ Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "Introduction of B Tree, B+ Tree",
+      "page": 13
+    },
+    {
+      "name": "Representation of Graph",
+      "unit": "Module 5: Graphs",
+      "source_quote": "Representation of Graph",
+      "page": 14
+    },
+    {
+      "name": "Graph Traversals DFS and BFS",
+      "unit": "Module 5: Graphs",
+      "source_quote": "Graph Traversals-\nDepth First Search (DFS) and Breadth First Search (BFS)",
+      "page": 14
+    },
+    {
+      "name": "Topological Sorting",
+      "unit": "Module 5: Graphs",
+      "source_quote": "Graph Application-\nTopological Sorting",
+      "page": 14
+    },
+    {
+      "name": "Linear and Binary Search",
+      "unit": "Module 6: Searching Techniques",
+      "source_quote": "Linear Search, Binary Search",
+      "page": 14
+    },
+    {
+      "name": "Hashing and Hash Functions",
+      "unit": "Module 6: Searching Techniques",
+      "source_quote": "Hashing-Concept, Hash Functions",
+      "page": 14
+    },
+    {
+      "name": "Collision Resolution Techniques",
+      "unit": "Module 6: Searching Techniques",
+      "source_quote": "Collision \nresolution Techniques",
+      "page": 14
+    }
+  ]
+}

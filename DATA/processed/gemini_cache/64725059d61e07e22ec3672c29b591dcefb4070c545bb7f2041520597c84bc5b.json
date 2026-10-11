@@ -1,0 +1,193 @@
+{
+  "course_code": "ITC501",
+  "title": "Internet Programming",
+  "semester": "V",
+  "topics": [
+    {
+      "name": "Working of Web Browser",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "Working of web browser",
+      "page": 13
+    },
+    {
+      "name": "HTTP and HTTPS Protocols",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "HTTP protocol, \nHTTPS",
+      "page": 13
+    },
+    {
+      "name": "DNS and TLS",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "DNS, TLS",
+      "page": 13
+    },
+    {
+      "name": "XML and JSON Introduction",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "XML introduction, Json \nintroduction",
+      "page": 13
+    },
+    {
+      "name": "Document Object Model",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "DOM",
+      "page": 13
+    },
+    {
+      "name": "REST API Architecture",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "REST API",
+      "page": 13
+    },
+    {
+      "name": "Introduction to ES6",
+      "unit": "Module II: Java script",
+      "source_quote": "Introduction to ES6",
+      "page": 13
+    },
+    {
+      "name": "Arrow Functions",
+      "unit": "Module II: Java script",
+      "source_quote": "Arrow functions",
+      "page": 13
+    },
+    {
+      "name": "DOM Manipulation",
+      "unit": "Module II: Java script",
+      "source_quote": "DOM \nmanipulation",
+      "page": 13
+    },
+    {
+      "name": "Classes and Inheritance",
+      "unit": "Module II: Java script",
+      "source_quote": "Classes and Inheritance",
+      "page": 13
+    },
+    {
+      "name": "Iterators and Generators",
+      "unit": "Module II: Java script",
+      "source_quote": "Iterators and Generators",
+      "page": 13
+    },
+    {
+      "name": "Promises and Fetch API",
+      "unit": "Module II: Java script",
+      "source_quote": "Promise, Client-server \ncommunication, Fetch",
+      "page": 13
+    },
+    {
+      "name": "Components and Component Lifecycle",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Components, Component lifecycle",
+      "page": 13
+    },
+    {
+      "name": "State and Props",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "State and Props",
+      "page": 13
+    },
+    {
+      "name": "React Router and Single Page Applications",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "React Router and Single page \napplications",
+      "page": 13
+    },
+    {
+      "name": "React Forms and Events",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Forms, \nEvents",
+      "page": 13
+    },
+    {
+      "name": "Functional Components and Refs",
+      "unit": "Module IV: Advanced React",
+      "source_quote": "Functional components- Refs",
+      "page": 13
+    },
+    {
+      "name": "React Hooks and Use Effects",
+      "unit": "Module IV: Advanced React",
+      "source_quote": "Use effects, \nHooks",
+      "page": 13
+    },
+    {
+      "name": "Model-View-Controller Framework",
+      "unit": "Module IV: Advanced React",
+      "source_quote": "Model-View-\nController framework",
+      "page": 13
+    },
+    {
+      "name": "Flux Architecture",
+      "unit": "Module IV: Advanced React",
+      "source_quote": "Flux",
+      "page": 13
+    },
+    {
+      "name": "Application Bundling with Webpack",
+      "unit": "Module IV: Advanced React",
+      "source_quote": "Bundling the \napplication. Web pack",
+      "page": 13
+    },
+    {
+      "name": "Asynchronous Programming and Callbacks",
+      "unit": "Module V: Node.js",
+      "source_quote": "Asynchronous \nprogramming, Callback concept",
+      "page": 13
+    },
+    {
+      "name": "Event Loops and Event Emitter",
+      "unit": "Module V: Node.js",
+      "source_quote": "Event loops, \nREPL, Event emitter",
+      "page": 13
+    },
+    {
+      "name": "Buffers and Streams",
+      "unit": "Module V: Node.js",
+      "source_quote": "Buffers, Streams",
+      "page": 13
+    },
+    {
+      "name": "Node.js File System",
+      "unit": "Module V: Node.js",
+      "source_quote": "File system",
+      "page": 13
+    },
+    {
+      "name": "Node.js Web Module",
+      "unit": "Module V: Node.js",
+      "source_quote": "Web module",
+      "page": 13
+    },
+    {
+      "name": "Express Router",
+      "unit": "Module VI: Express",
+      "source_quote": "Express \nrouter",
+      "page": 13
+    },
+    {
+      "name": "REST API in Express",
+      "unit": "Module VI: Express",
+      "source_quote": "REST \nAPI",
+      "page": 13
+    },
+    {
+      "name": "Express Generator",
+      "unit": "Module VI: Express",
+      "source_quote": "Generator",
+      "page": 13
+    },
+    {
+      "name": "Authentication and Sessions",
+      "unit": "Module VI: Express",
+      "source_quote": "Authentication, sessions",
+      "page": 13
+    },
+    {
+      "name": "Integrating Express with React",
+      "unit": "Module VI: Express",
+      "source_quote": "Integrating \nwith React",
+      "page": 13
+    }
+  ]
+}

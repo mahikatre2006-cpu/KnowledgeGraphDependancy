@@ -1,27 +1,54 @@
+"""
+relationship_inferencer.py — Phase 2: speed + graph sanity (fix/nep-parser)
+
+Optimisations vs original:
+- Embed unique topic names in ONE batch (name->vector cache)
+- Build pair features vectorised
+- ONE predict_proba call over all candidate pairs
+- Candidate pairs: forward only (i<j), same-course scope implied
+- Window constraint: same module OR j-i <= 12
+- Graph rules: in-degree <=3, out-degree <=6, reject cycles, transitive reduction
+- NO orphan attachment
+- Per-stage timing logs
+"""
 import re
+from time import perf_counter
 from typing import List, Dict, Tuple, Optional
 import numpy as np
+
 from app.graph.engine import KnowledgeGraph
 from app.graph.models import DependencyEdge, ConceptNode
 from app.services.embedding_service import LocalEmbeddingService
 from app.services.sequence_engine import SequenceEngine
-from app.ml.feature_engineering import compute_features
+from app.ml.feature_engineering import compute_keyword_overlap
 from app.services.classifier_inference_service import ClassifierInferenceService
-
 
 FOUNDATIONAL_KEYWORDS = {
     "basic", "basics", "foundation", "foundations", "introduction", "intro",
     "fundamental", "fundamentals", "python", "algebra", "calculus", "vector",
-    "vectors", "probability", "statistics", "math", "linear"
+    "vectors", "probability", "statistics", "math", "linear",
 }
+
+MAX_IN_DEGREE = 3
+MAX_OUT_DEGREE = 6
 
 
 class RelationshipInferencer:
     """
-    Open-Source Local AI Relationship Inference Engine.
-    Uses HuggingFace sentence-transformers (all-MiniLM-L6-v2) semantic embeddings
-    combined with multi-factor directional heuristics to discover prerequisite dependencies.
+    Batch-optimised prerequisite inference engine.
+    Embedder + XGBoost loaded at app startup (lifespan) via warm_up().
     """
+
+    # Name->vector cache shared across requests
+    _embedding_cache: Dict[str, np.ndarray] = {}
+
+    @classmethod
+    def warm_up(cls) -> None:
+        """Pre-load embedder and classifier. Call once at app startup."""
+        t0 = perf_counter()
+        LocalEmbeddingService.get_model()
+        ClassifierInferenceService.get_model()
+        print(f"[TIMING] model_warmup={perf_counter()-t0:.3f}s")
 
     @classmethod
     def infer_prerequisites(
@@ -29,171 +56,239 @@ class RelationshipInferencer:
         graph: KnowledgeGraph,
         similarity_threshold: float = 0.0,
         min_confidence: Optional[float] = None,
-        auto_add_to_graph: bool = True
+        auto_add_to_graph: bool = True,
     ) -> List[DependencyEdge]:
         """
-        Analyzes concept nodes in the graph using local open-source embeddings & ML heuristics,
-        infers directed prerequisite relationships, and returns the inferred edges.
+        Batch-vectorised prerequisite inference.
+        Returns list of inferred DependencyEdge objects.
         """
+        t_total = perf_counter()
+
         if min_confidence is None:
             try:
                 import json
                 from pathlib import Path
                 thresh_path = Path(__file__).resolve().parent.parent / "ml" / "decision_threshold.json"
-                with open(thresh_path, "r") as f:
+                with open(thresh_path) as f:
                     min_confidence = json.load(f).get("optimal_threshold", 0.50)
             except Exception:
                 min_confidence = 0.50
 
         nodes = graph.get_all_nodes()
-        if len(nodes) < 2:
+        n = len(nodes)
+        if n < 2:
             return []
 
-        # 1. Compute local embeddings for all concept nodes
-        node_texts = [f"{node.name}. {node.unit}. {node.description}" for node in nodes]
-        embeddings = LocalEmbeddingService.encode_batch(node_texts)
+        # ── 1. Embed unique topic names in ONE batch ──────────────────────────
+        t0 = perf_counter()
+        unique_names = list({nd.name for nd in nodes})
+        to_embed = [nm for nm in unique_names if nm not in cls._embedding_cache]
+        if to_embed:
+            vecs = LocalEmbeddingService.encode_batch(to_embed)
+            for nm, vec in zip(to_embed, vecs):
+                cls._embedding_cache[nm] = vec
+        # Build per-node embedding matrix
+        emb_matrix = np.array([cls._embedding_cache[nd.name] for nd in nodes], dtype=np.float32)
+        print(f"[TIMING] embed={perf_counter()-t0:.3f}s  unique={len(unique_names)}")
 
-        # Normalize embedding vectors for cosine similarity computation
-        norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
+        # Normalise for cosine similarity
+        norms = np.linalg.norm(emb_matrix, axis=1, keepdims=True)
         norms[norms == 0] = 1e-10
-        norm_embeddings = embeddings / norms
+        norm_emb = emb_matrix / norms
+        sim_matrix = norm_emb @ norm_emb.T  # (N, N)
 
-        # Compute pairwise cosine similarity matrix: (N, N)
-        sim_matrix = np.dot(norm_embeddings, norm_embeddings.T)
+        # ── 2. Build candidate pairs with window constraint ───────────────────
+        t0 = perf_counter()
+        unit_nums = np.array([cls._extract_unit_number(nd.unit) for nd in nodes])
 
-        inferred_edges: List[DependencyEdge] = []
-
-        n = len(nodes)
+        # Forward pairs i<j where same unit OR j-i <= 12
+        pair_i: List[int] = []
+        pair_j: List[int] = []
         for i in range(n):
             for j in range(i + 1, n):
-                node_a = nodes[i]
-                node_b = nodes[j]
-
-                # Skip if dependency already exists in either direction
-                if graph.has_dependency(node_a.id, node_b.id) or graph.has_dependency(node_b.id, node_a.id):
+                if sim_matrix[i, j] < similarity_threshold:
                     continue
-
-                sim_score = float(sim_matrix[i, j])
-
-                if sim_score < similarity_threshold:
+                if graph.has_dependency(nodes[i].id, nodes[j].id) or \
+                   graph.has_dependency(nodes[j].id, nodes[i].id):
                     continue
+                same_unit = (unit_nums[i] == unit_nums[j])
+                if same_unit or (j - i) <= 12:
+                    pair_i.append(i)
+                    pair_j.append(j)
+        print(f"[TIMING] pair_build={perf_counter()-t0:.3f}s  candidates={len(pair_i)}")
 
-                # Determine direction: A -> B or B -> A
-                direction, confidence, reason = cls._determine_direction_and_confidence(
-                    node_a, node_b, sim_score
-                )
+        if not pair_i:
+            return []
 
-                if direction and confidence >= min_confidence:
-                    src_node = node_a if direction == "A_to_B" else node_b
-                    tgt_node = node_b if direction == "A_to_B" else node_a
+        # ── 3. Vectorised feature computation ────────────────────────────────
+        t0 = perf_counter()
+        sims = sim_matrix[pair_i, pair_j]
+        deltas = np.array([j - i for i, j in zip(pair_i, pair_j)], dtype=np.float32)
+        kw_overlaps = np.array([
+            compute_keyword_overlap(nodes[i].name, nodes[j].name)
+            for i, j in zip(pair_i, pair_j)
+        ], dtype=np.float32)
 
-                    edge = DependencyEdge(
+        # Feature matrix: [embedding_similarity, keyword_overlap, order_delta]
+        X = np.column_stack([sims, kw_overlaps, deltas]).astype(np.float32)
+        print(f"[TIMING] feature_build={perf_counter()-t0:.3f}s  pairs={len(pair_i)}")
+
+        # ── 4. ONE predict_proba call ─────────────────────────────────────────
+        t0 = perf_counter()
+        from pathlib import Path
+        import json
+        model = ClassifierInferenceService.get_model()
+        probs = model.predict_proba(X)[:, 1]  # P(prerequisite=1)
+        print(f"[TIMING] predict={perf_counter()-t0:.3f}s")
+
+        # ── 5. Graph rules ────────────────────────────────────────────────────
+        t0 = perf_counter()
+        inferred_edges: List[DependencyEdge] = []
+
+        # Sort by probability descending so high-confidence edges win caps first
+        order = np.argsort(-probs)
+        for k in order:
+            if probs[k] < min_confidence:
+                continue
+
+            i, j = pair_i[k], pair_j[k]
+            node_a, node_b = nodes[i], nodes[j]
+
+            # Determine direction
+            direction = cls._determine_direction(node_a, node_b, unit_nums[i], unit_nums[j])
+            src_node = node_a if direction == "A_to_B" else node_b
+            tgt_node = node_b if direction == "A_to_B" else node_a
+
+            if src_node.id == tgt_node.id:
+                continue
+            if not graph.has_concept(src_node.id) or not graph.has_concept(tgt_node.id):
+                continue
+            if graph.has_dependency(src_node.id, tgt_node.id):
+                continue
+
+            # in-degree cap
+            if graph.get_in_degree(tgt_node.id) >= MAX_IN_DEGREE:
+                continue
+            # out-degree cap
+            if graph.get_out_degree(src_node.id) >= MAX_OUT_DEGREE:
+                continue
+
+            if auto_add_to_graph:
+                try:
+                    graph.add_dependency(
                         source_id=src_node.id,
                         target_id=tgt_node.id,
                         relationship_type="inferred_prerequisite",
-                        confidence=round(confidence, 3),
-                        reason=reason
+                        confidence=round(float(probs[k]), 3),
+                        reason=(
+                            f"sim={sims[k]:.2f} delta={int(deltas[k])} "
+                            f"p={probs[k]:.2f}"
+                        ),
+                        tier="strong",
                     )
-
-                    if auto_add_to_graph:
-                        # Add edge to graph temporarily and verify it creates no cycle
-                        try:
-                            graph.add_dependency(
-                                source_id=edge.source_id,
-                                target_id=edge.target_id,
-                                relationship_type=edge.relationship_type,
-                                confidence=edge.confidence,
-                                reason=edge.reason
-                            )
-                            # Check if adding edge introduced a cycle
-                            if SequenceEngine.find_cycle(graph):
-                                # Revert edge if cycle created
-                                graph.remove_dependency(edge.source_id, edge.target_id)
-                            else:
-                                inferred_edges.append(edge)
-                        except Exception:
-                            pass
+                    # Reject if cycle introduced
+                    if SequenceEngine.find_cycle(graph):
+                        graph.remove_dependency(src_node.id, tgt_node.id)
                     else:
-                        inferred_edges.append(edge)
+                        inferred_edges.append(
+                            DependencyEdge(
+                                source_id=src_node.id,
+                                target_id=tgt_node.id,
+                                relationship_type="inferred_prerequisite",
+                                tier="strong",
+                                confidence=round(float(probs[k]), 3),
+                                reason=f"p={probs[k]:.2f}",
+                            )
+                        )
+                except Exception:
+                    pass
+            else:
+                inferred_edges.append(
+                    DependencyEdge(
+                        source_id=src_node.id,
+                        target_id=tgt_node.id,
+                        relationship_type="inferred_prerequisite",
+                        tier="strong",
+                        confidence=round(float(probs[k]), 3),
+                        reason=f"p={probs[k]:.2f}",
+                    )
+                )
 
+        # Transitive reduction (remove redundant edges)
+        if auto_add_to_graph:
+            cls._transitive_reduction(graph)
+
+        print(f"[TIMING] graph_rules={perf_counter()-t0:.3f}s  edges={len(inferred_edges)}")
+        print(f"[TIMING] infer_total={perf_counter()-t_total:.3f}s")
         return inferred_edges
 
-    @classmethod
-    def _determine_direction_and_confidence(
-        cls,
+    @staticmethod
+    def _determine_direction(
         node_a: ConceptNode,
         node_b: ConceptNode,
-        sim_score: float
-    ) -> Tuple[Optional[str], float, str]:
-        """
-        Evaluates multi-factor directionality heuristics between node_a and node_b.
-        Returns: (direction: 'A_to_B' | 'B_to_A' | None, confidence: float, reason: str)
-        """
-        # Factor 1: Unit Precedence
-        unit_a = cls._extract_unit_number(node_a.unit)
-        unit_b = cls._extract_unit_number(node_b.unit)
-
-        unit_score = 0.0
-        direction = None
-
+        unit_a: int,
+        unit_b: int,
+    ) -> str:
+        """Fast direction heuristic: unit order, then lexical containment."""
         if unit_a < unit_b:
-            direction = "A_to_B"
-            unit_score = 0.8
-        elif unit_b < unit_a:
-            direction = "B_to_A"
-            unit_score = 0.8
-        else:
-            # Same unit: check lexical containment or foundational keywords
-            direction = cls._check_lexical_direction(node_a, node_b)
-            unit_score = 0.5
-
-        if not direction:
-            direction = "A_to_B"
-
-        src_node = node_a if direction == "A_to_B" else node_b
-        tgt_node = node_b if direction == "A_to_B" else node_a
-
-        # Factor 2: Lexical Containment (e.g. "Linear Algebra" in "Advanced Linear Algebra")
-        lexical_score = 0.5
-        if src_node.name.lower() in tgt_node.name.lower():
-            lexical_score = 0.9
-
-        # Factor 3: Foundational Keywords
-        src_words = set(re.findall(r'\w+', src_node.name.lower()))
-        foundational_score = 0.7 if (src_words & FOUNDATIONAL_KEYWORDS) else 0.5
-
-        # Trained Prerequisite Classifier Inference
-        order_delta = abs(unit_a - unit_b) if (unit_a != 999 and unit_b != 999) else 1
-        features = compute_features(
-            concept_a=src_node.name,
-            concept_b=tgt_node.name,
-            order_delta=order_delta,
-            domain_a=src_node.unit or "",
-            domain_b=tgt_node.unit or ""
-        )
-        features["embedding_similarity"] = round(float(sim_score), 4)
-        confidence = ClassifierInferenceService.predict_edge_probability(features)
-
-        reason = (
-            f"Inferred via local SentenceTransformer embeddings (similarity: {sim_score:.2f}) "
-            f"and unit precedence ({src_node.unit or 'Unit 1'} -> {tgt_node.unit or 'Unit 2'})."
-            f"Predicted via trained XGBoost prerequisite classifier with SentenceTransformer embeddings (p={confidence:.2f}, "
-            f"sim: {sim_score:.2f}, delta: {order_delta})."
-        )
-
-        return direction, confidence, reason
-
-    @staticmethod
-    def _extract_unit_number(unit_str: str) -> int:
-        match = re.search(r'\d+', unit_str)
-        return int(match.group(0)) if match else 999
-
-    @staticmethod
-    def _check_lexical_direction(node_a: ConceptNode, node_b: ConceptNode) -> Optional[str]:
+            return "A_to_B"
+        if unit_b < unit_a:
+            return "B_to_A"
+        # Same unit: lexical containment
         name_a = node_a.name.lower()
         name_b = node_b.name.lower()
         if name_a in name_b:
             return "A_to_B"
         if name_b in name_a:
             return "B_to_A"
-        return None
+        # Default: A (earlier) -> B (later)
+        return "A_to_B"
+
+    @staticmethod
+    def _extract_unit_number(unit_str: str) -> int:
+        match = re.search(r'\d+', unit_str or "")
+        return int(match.group(0)) if match else 999
+
+    @staticmethod
+    def _transitive_reduction(graph: KnowledgeGraph) -> None:
+        """
+        Remove edges that are implied by longer paths (transitive reduction).
+        Only removes edges if removing them keeps reachability intact.
+        Uses simple DFS — safe for DAG of <= 120 nodes.
+        """
+        edges = list(graph.get_all_edges())
+        for edge in edges:
+            src, tgt = edge.source_id, edge.target_id
+            if not graph.has_dependency(src, tgt):
+                continue
+            # Temporarily remove edge, check if tgt still reachable from src
+            graph.remove_dependency(src, tgt)
+            if _dfs_reachable(graph, src, tgt):
+                # Redundant — keep removed
+                pass
+            else:
+                # Not reachable — restore edge
+                graph.add_dependency(
+                    source_id=src,
+                    target_id=tgt,
+                    relationship_type=edge.relationship_type,
+                    confidence=edge.confidence,
+                    reason=edge.reason,
+                    tier=edge.tier,
+                )
+
+
+def _dfs_reachable(graph: KnowledgeGraph, start: str, goal: str) -> bool:
+    """DFS reachability check from start to goal (excluding direct edge)."""
+    visited = set()
+    stack = [start]
+    while stack:
+        cur = stack.pop()
+        if cur in visited:
+            continue
+        visited.add(cur)
+        for dep in graph.get_dependents(cur):
+            if dep.id == goal:
+                return True
+            stack.append(dep.id)
+    return False

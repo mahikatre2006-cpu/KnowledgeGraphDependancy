@@ -12,7 +12,8 @@ from typing import Dict, Any
 import numpy as np
 import joblib
 
-MODEL_PATH = Path(__file__).resolve().parent.parent / "ml" / "model_artifact_v3.joblib"
+MODEL_PATH_V4 = Path(__file__).resolve().parent.parent / "ml" / "model_artifact_v4.joblib"
+MODEL_PATH_V3 = Path(__file__).resolve().parent.parent / "ml" / "model_artifact_v3.joblib"
 
 FEATURE_KEYS = [
     "embedding_similarity",
@@ -22,18 +23,29 @@ FEATURE_KEYS = [
 
 
 class ClassifierInferenceService:
-    """Singleton inference service wrapping the frozen XGBoost model."""
+    """Singleton inference service wrapping the trained prerequisite classifier."""
     _model = None
 
     @classmethod
     def get_model(cls):
         if cls._model is None:
-            if not MODEL_PATH.exists():
+            model_path = MODEL_PATH_V4 if MODEL_PATH_V4.exists() else MODEL_PATH_V3
+            if not model_path.exists():
                 raise FileNotFoundError(
-                    f"Model artifact not found at {MODEL_PATH}. "
-                    "Ensure train_classifier.py has been executed."
+                    f"Model artifact not found at {MODEL_PATH_V4} or {MODEL_PATH_V3}. "
+                    "Ensure train_v4.py has been executed."
                 )
-            cls._model = joblib.load(MODEL_PATH)
+            model = joblib.load(model_path)
+
+            # Feature schema guard
+            if hasattr(model, "feature_names_in_"):
+                loaded_features = list(model.feature_names_in_)
+                if loaded_features != FEATURE_KEYS:
+                    raise ValueError(
+                        f"Feature schema mismatch! Model expected {loaded_features}, "
+                        f"but inference service provides {FEATURE_KEYS}."
+                    )
+            cls._model = model
         return cls._model
 
     @classmethod

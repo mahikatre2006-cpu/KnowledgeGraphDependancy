@@ -110,3 +110,66 @@ def test_api_pdf_upload_invalid_filetype():
     response = client.post("/api/v1/syllabus/upload", files=files)
     assert response.status_code == 400
     assert "Only PDF (.pdf) files are supported" in response.json()["detail"]
+
+
+# ============================================================================
+# Regression Tests for Noise & Junk Node Elimination
+# ============================================================================
+
+def test_junk_nodes_filtering_regression():
+    """
+    Regression test ensuring that known observed watermark, rubric, and header junk:
+    - 'THIS IS A STUDENT'
+    - 'OFFICIAL UNIVERSITY'
+    - 'PREPARED FOR STUDY AND SYLLABUS'
+    - 'DEMO / REFERENCE COPY'
+    - 'PAGE 2'
+    are never extracted as topics, while legitimate technical concepts survive intact.
+    """
+    raw_syllabus = (
+        "CS301: Advanced Data Structures\n\n"
+        "OFFICIAL UNIVERSITY\n"
+        "DEMO / REFERENCE COPY\n"
+        "PAGE 2\n\n"
+        "Unit 1: Foundations\n"
+        "• THIS IS A STUDENT\n"
+        "• Linear Algebra\n"
+        "• Binary Search Trees\n"
+        "• PREPARED FOR STUDY AND SYLLABUS\n"
+        "• Object-Oriented Programming\n\n"
+        "Unit 2: Advanced Topics\n"
+        "• Graph Traversals (DFS, BFS)\n"
+        "• Control Flow (If, Loops)\n"
+        "• PAGE 2\n"
+    )
+
+    parsed = SyllabusExtractor.parse(raw_syllabus)
+    extracted_names = [t.name for unit in parsed.units for t in unit.topics]
+
+    # Verify that junk strings are rejected
+    junk_strings = [
+        "THIS IS A STUDENT",
+        "OFFICIAL UNIVERSITY",
+        "PREPARED FOR STUDY AND SYLLABUS",
+        "DEMO / REFERENCE COPY",
+        "PAGE 2",
+    ]
+    for junk in junk_strings:
+        assert junk not in extracted_names, f"Junk string '{junk}' was extracted as a topic!"
+        assert not any(junk.lower() in name.lower() for name in extracted_names), (
+            f"Junk string '{junk}' leaked into an extracted topic name!"
+        )
+
+    # Verify that legitimate technical concepts survived
+    expected_concepts = [
+        "Linear Algebra",
+        "Binary Search Trees",
+        "Object-Oriented Programming",
+        "Graph Traversals (DFS, BFS)",
+        "Control Flow (If, Loops)"
+    ]
+    for concept in expected_concepts:
+        assert concept in extracted_names, f"Legitimate concept '{concept}' was incorrectly dropped!"
+
+    assert len(extracted_names) == len(expected_concepts)
+

@@ -1,3 +1,4 @@
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.core.config import settings
@@ -13,13 +14,27 @@ from app.api.recommendation_router import router as recommendation_router
 from app.api.persistence_router import router as persistence_router
 from app.api.metrics_router import router as metrics_router
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Load embedder + XGBoost ONCE at startup. Never per-request."""
+    try:
+        from app.services.relationship_inferencer import RelationshipInferencer
+        RelationshipInferencer.warm_up()
+    except Exception as exc:
+        print(f"[STARTUP] Model warm-up failed (non-fatal): {exc}")
+    yield
+    # shutdown — nothing to do
+
+
 # Create database tables automatically
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
-    description="Knowledge Dependency Graph API — Transform syllabi into interactive prerequisite graphs."
+    description="Knowledge Dependency Graph API — Transform syllabi into interactive prerequisite graphs.",
+    lifespan=lifespan,
 )
 
 # ── CORS ──────────────────────────────────────────────────────────────────────
@@ -48,13 +63,6 @@ app.include_router(persistence_router, prefix=settings.API_V1_STR)
 app.include_router(metrics_router, prefix=settings.API_V1_STR)
 
 
-
-
-
-
-
-
-
 @app.get("/")
 def read_root():
     return {
@@ -71,4 +79,3 @@ def health_check():
         "app": settings.PROJECT_NAME,
         "version": settings.VERSION
     }
-

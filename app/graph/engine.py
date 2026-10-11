@@ -85,7 +85,8 @@ class KnowledgeGraph:
         target_id: str,
         relationship_type: str = "prerequisite",
         confidence: float = 1.0,
-        reason: str = ""
+        reason: str = "",
+        tier: str = "strong"
     ) -> DependencyEdge:
         """
         Creates a directed dependency edge: source_id (prerequisite) -> target_id (dependent).
@@ -104,6 +105,7 @@ class KnowledgeGraph:
             source_id=src,
             target_id=tgt,
             relationship_type=relationship_type,
+            tier=tier,
             confidence=confidence,
             reason=reason
         )

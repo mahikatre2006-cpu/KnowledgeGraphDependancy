@@ -24,6 +24,7 @@ class DependencyEdge(BaseModel):
     source_id: str = Field(..., description="Concept ID of the prerequisite topic")
     target_id: str = Field(..., description="Concept ID of the dependent topic")
     relationship_type: str = Field(default="prerequisite", description="Type of relationship (e.g. 'prerequisite', 'co-requisite')")
+    tier: str = Field(default="strong", description="Edge strength tier ('strong' or 'weak')")
     confidence: float = Field(default=1.0, ge=0.0, le=1.0, description="Confidence score of relationship (0.0 to 1.0)")
     reason: str = Field(default="", description="Textual explanation of why this prerequisite relationship exists")
 

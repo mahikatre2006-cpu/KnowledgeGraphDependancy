@@ -1,0 +1,379 @@
+{
+  "course_code": "2113112",
+  "title": "Discrete Structures and Graph Theory",
+  "semester": "III",
+  "topics": [
+    {
+      "name": "Sets",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Set Theory: Sets, Subsets, Universal and Empty Sets, Set Operations, Set Representation, Laws of Set theory.",
+      "page": 20
+    },
+    {
+      "name": "Subsets",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Set Theory: Sets, Subsets, Universal and Empty Sets, Set Operations, Set Representation, Laws of Set theory.",
+      "page": 20
+    },
+    {
+      "name": "Universal and Empty Sets",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Set Theory: Sets, Subsets, Universal and Empty Sets, Set Operations, Set Representation, Laws of Set theory.",
+      "page": 20
+    },
+    {
+      "name": "Set Operations",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Set Theory: Sets, Subsets, Universal and Empty Sets, Set Operations, Set Representation, Laws of Set theory.",
+      "page": 20
+    },
+    {
+      "name": "Set Representation",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Set Theory: Sets, Subsets, Universal and Empty Sets, Set Operations, Set Representation, Laws of Set theory.",
+      "page": 20
+    },
+    {
+      "name": "Laws of Set theory",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Set Theory: Sets, Subsets, Universal and Empty Sets, Set Operations, Set Representation, Laws of Set theory.",
+      "page": 20
+    },
+    {
+      "name": "Propositional Logic",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Logic: Propositional Logic, Predicate Logic, Quantifiers (Universal and Existential).",
+      "page": 20
+    },
+    {
+      "name": "Predicate Logic",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Logic: Propositional Logic, Predicate Logic, Quantifiers (Universal and Existential).",
+      "page": 20
+    },
+    {
+      "name": "Quantifiers",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Logic: Propositional Logic, Predicate Logic, Quantifiers (Universal and Existential).",
+      "page": 20
+    },
+    {
+      "name": "Direct proof",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Types of Mathematical Proof: Direct proof, Proof by contradiction, Proof by deduction, Proof by cases, Proof by exhaustion, Proof by counterexample, Mathematical induction.",
+      "page": 20
+    },
+    {
+      "name": "Proof by contradiction",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Types of Mathematical Proof: Direct proof, Proof by contradiction, Proof by deduction, Proof by cases, Proof by exhaustion, Proof by counterexample, Mathematical induction.",
+      "page": 20
+    },
+    {
+      "name": "Proof by deduction",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Types of Mathematical Proof: Direct proof, Proof by contradiction, Proof by deduction, Proof by cases, Proof by exhaustion, Proof by counterexample, Mathematical induction.",
+      "page": 20
+    },
+    {
+      "name": "Proof by cases",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Types of Mathematical Proof: Direct proof, Proof by contradiction, Proof by deduction, Proof by cases, Proof by exhaustion, Proof by counterexample, Mathematical induction.",
+      "page": 20
+    },
+    {
+      "name": "Proof by exhaustion",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Types of Mathematical Proof: Direct proof, Proof by contradiction, Proof by deduction, Proof by cases, Proof by exhaustion, Proof by counterexample, Mathematical induction.",
+      "page": 20
+    },
+    {
+      "name": "Proof by counterexample",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Types of Mathematical Proof: Direct proof, Proof by contradiction, Proof by deduction, Proof by cases, Proof by exhaustion, Proof by counterexample, Mathematical induction.",
+      "page": 20
+    },
+    {
+      "name": "Mathematical induction",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Types of Mathematical Proof: Direct proof, Proof by contradiction, Proof by deduction, Proof by cases, Proof by exhaustion, Proof by counterexample, Mathematical induction.",
+      "page": 20
+    },
+    {
+      "name": "Representation of Relations",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Relations: Definition, Representation of Relations, Properties of Relations, Equivalence Relations, Equivalence Classes, Closures of Relations, Warshall\u2019s algorithm.",
+      "page": 20
+    },
+    {
+      "name": "Properties of Relations",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Relations: Definition, Representation of Relations, Properties of Relations, Equivalence Relations, Equivalence Classes, Closures of Relations, Warshall\u2019s algorithm.",
+      "page": 20
+    },
+    {
+      "name": "Equivalence Relations",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Relations: Definition, Representation of Relations, Properties of Relations, Equivalence Relations, Equivalence Classes, Closures of Relations, Warshall\u2019s algorithm.",
+      "page": 20
+    },
+    {
+      "name": "Equivalence Classes",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Relations: Definition, Representation of Relations, Properties of Relations, Equivalence Relations, Equivalence Classes, Closures of Relations, Warshall\u2019s algorithm.",
+      "page": 20
+    },
+    {
+      "name": "Closures of Relations",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Relations: Definition, Representation of Relations, Properties of Relations, Equivalence Relations, Equivalence Classes, Closures of Relations, Warshall\u2019s algorithm.",
+      "page": 20
+    },
+    {
+      "name": "Warshall\u2019s algorithm",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Closures of Relations, Warshall\u2019s algorithm.",
+      "page": 20
+    },
+    {
+      "name": "Partial Order Relations",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Posets and Lattice: Partial Order Relations, Poset, Hasse Diagram, Chain and Anti chains, Lattice, Types of Lattices, Sub lattice.",
+      "page": 20
+    },
+    {
+      "name": "Poset",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Posets and Lattice: Partial Order Relations, Poset, Hasse Diagram, Chain and Anti chains, Lattice, Types of Lattices, Sub lattice.",
+      "page": 20
+    },
+    {
+      "name": "Hasse Diagram",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Posets and Lattice: Partial Order Relations, Poset, Hasse Diagram, Chain and Anti chains, Lattice, Types of Lattices, Sub lattice.",
+      "page": 20
+    },
+    {
+      "name": "Chain and Anti chains",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Posets and Lattice: Partial Order Relations, Poset, Hasse Diagram, Chain and Anti chains, Lattice, Types of Lattices, Sub lattice.",
+      "page": 20
+    },
+    {
+      "name": "Lattice",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Posets and Lattice: Partial Order Relations, Poset, Hasse Diagram, Chain and Anti chains, Lattice, Types of Lattices, Sub lattice.",
+      "page": 20
+    },
+    {
+      "name": "Types of Lattices",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Posets and Lattice: Partial Order Relations, Poset, Hasse Diagram, Chain and Anti chains, Lattice, Types of Lattices, Sub lattice.",
+      "page": 20
+    },
+    {
+      "name": "Sub lattice",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Posets and Lattice: Partial Order Relations, Poset, Hasse Diagram, Chain and Anti chains, Lattice, Types of Lattices, Sub lattice.",
+      "page": 20
+    },
+    {
+      "name": "Injective Functions",
+      "unit": "Module III: Functions",
+      "source_quote": "Functions: Types: Injective, Surjective, and Bijective Functions. Composition, Inverse Functions. Real life applications of Functions.",
+      "page": 20
+    },
+    {
+      "name": "Surjective Functions",
+      "unit": "Module III: Functions",
+      "source_quote": "Functions: Types: Injective, Surjective, and Bijective Functions. Composition, Inverse Functions. Real life applications of Functions.",
+      "page": 20
+    },
+    {
+      "name": "Bijective Functions",
+      "unit": "Module III: Functions",
+      "source_quote": "Functions: Types: Injective, Surjective, and Bijective Functions. Composition, Inverse Functions. Real life applications of Functions.",
+      "page": 20
+    },
+    {
+      "name": "Composition",
+      "unit": "Module III: Functions",
+      "source_quote": "Composition, Inverse Functions. Real life applications of Functions.",
+      "page": 20
+    },
+    {
+      "name": "Inverse Functions",
+      "unit": "Module III: Functions",
+      "source_quote": "Composition, Inverse Functions. Real life applications of Functions.",
+      "page": 20
+    },
+    {
+      "name": "Real life applications of Functions",
+      "unit": "Module III: Functions",
+      "source_quote": "Composition, Inverse Functions. Real life applications of Functions.",
+      "page": 20
+    },
+    {
+      "name": "Pigeonhole Principle",
+      "unit": "Module IV: Counting",
+      "source_quote": "Pigeonhole Principle, Inclusion-Exclusion Principle.",
+      "page": 20
+    },
+    {
+      "name": "Inclusion-Exclusion Principle",
+      "unit": "Module IV: Counting",
+      "source_quote": "Pigeonhole Principle, Inclusion-Exclusion Principle.",
+      "page": 20
+    },
+    {
+      "name": "Recurrence relations",
+      "unit": "Module IV: Counting",
+      "source_quote": "Recurrence relations, Solving recurrence relations",
+      "page": 20
+    },
+    {
+      "name": "Solving recurrence relations",
+      "unit": "Module IV: Counting",
+      "source_quote": "Recurrence relations, Solving recurrence relations",
+      "page": 20
+    },
+    {
+      "name": "Semi group",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with one binary operation: Semi group, Monoid, Groups, Subgroups, Abelian Group, and Cyclic group.",
+      "page": 20
+    },
+    {
+      "name": "Monoid",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with one binary operation: Semi group, Monoid, Groups, Subgroups, Abelian Group, and Cyclic group.",
+      "page": 20
+    },
+    {
+      "name": "Groups",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with one binary operation: Semi group, Monoid, Groups, Subgroups, Abelian Group, and Cyclic group.",
+      "page": 20
+    },
+    {
+      "name": "Subgroups",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with one binary operation: Semi group, Monoid, Groups, Subgroups, Abelian Group, and Cyclic group.",
+      "page": 20
+    },
+    {
+      "name": "Abelian Group",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with one binary operation: Semi group, Monoid, Groups, Subgroups, Abelian Group, and Cyclic group.",
+      "page": 20
+    },
+    {
+      "name": "Cyclic group",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with one binary operation: Semi group, Monoid, Groups, Subgroups, Abelian Group, and Cyclic group.",
+      "page": 20
+    },
+    {
+      "name": "Ring",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with two binary operations: Ring.",
+      "page": 20
+    },
+    {
+      "name": "Types of graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Types of graphs, Graph Representation, Sub graphs, Operations on Graphs, Walk, Path, Circuit, Connected Graphs, Disconnected Graph,",
+      "page": 21
+    },
+    {
+      "name": "Graph Representation",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Types of graphs, Graph Representation, Sub graphs, Operations on Graphs, Walk, Path, Circuit, Connected Graphs, Disconnected Graph,",
+      "page": 21
+    },
+    {
+      "name": "Sub graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Types of graphs, Graph Representation, Sub graphs, Operations on Graphs, Walk, Path, Circuit, Connected Graphs, Disconnected Graph,",
+      "page": 21
+    },
+    {
+      "name": "Operations on Graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Types of graphs, Graph Representation, Sub graphs, Operations on Graphs, Walk, Path, Circuit, Connected Graphs, Disconnected Graph,",
+      "page": 21
+    },
+    {
+      "name": "Walk",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Operations on Graphs, Walk, Path, Circuit, Connected Graphs, Disconnected Graph, Components, Homomorphism and Isomorphism of Graphs",
+      "page": 21
+    },
+    {
+      "name": "Path",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Operations on Graphs, Walk, Path, Circuit, Connected Graphs, Disconnected Graph, Components, Homomorphism and Isomorphism of Graphs",
+      "page": 21
+    },
+    {
+      "name": "Circuit",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Operations on Graphs, Walk, Path, Circuit, Connected Graphs, Disconnected Graph, Components, Homomorphism and Isomorphism of Graphs",
+      "page": 21
+    },
+    {
+      "name": "Connected Graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Connected Graphs, Disconnected Graph, Components, Homomorphism and Isomorphism of Graphs, Euler and Hamiltonian Graphs, Planar Graph, Cut Set, Cut Vertex",
+      "page": 21
+    },
+    {
+      "name": "Disconnected Graph",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Connected Graphs, Disconnected Graph, Components, Homomorphism and Isomorphism of Graphs, Euler and Hamiltonian Graphs, Planar Graph, Cut Set, Cut Vertex",
+      "page": 21
+    },
+    {
+      "name": "Components",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Connected Graphs, Disconnected Graph, Components, Homomorphism and Isomorphism of Graphs, Euler and Hamiltonian Graphs, Planar Graph, Cut Set, Cut Vertex",
+      "page": 21
+    },
+    {
+      "name": "Homomorphism and Isomorphism of Graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Homomorphism and Isomorphism of Graphs, Euler and Hamiltonian Graphs, Planar Graph, Cut Set, Cut Vertex, Real life applications of Graph Theory.",
+      "page": 21
+    },
+    {
+      "name": "Euler and Hamiltonian Graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Homomorphism and Isomorphism of Graphs, Euler and Hamiltonian Graphs, Planar Graph, Cut Set, Cut Vertex, Real life applications of Graph Theory.",
+      "page": 21
+    },
+    {
+      "name": "Planar Graph",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Homomorphism and Isomorphism of Graphs, Euler and Hamiltonian Graphs, Planar Graph, Cut Set, Cut Vertex, Real life applications of Graph Theory.",
+      "page": 21
+    },
+    {
+      "name": "Cut Set",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Planar Graph, Cut Set, Cut Vertex, Real life applications of Graph Theory.",
+      "page": 21
+    },
+    {
+      "name": "Cut Vertex",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Planar Graph, Cut Set, Cut Vertex, Real life applications of Graph Theory.",
+      "page": 21
+    },
+    {
+      "name": "Real life applications of Graph Theory",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Cut Set, Cut Vertex, Real life applications of Graph Theory.",
+      "page": 21
+    }
+  ]
+}

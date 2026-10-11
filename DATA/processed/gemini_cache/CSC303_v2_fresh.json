@@ -1,0 +1,331 @@
+{
+  "course_code": "CSC303",
+  "title": "Data Structure",
+  "semester": "III",
+  "topics": [
+    {
+      "name": "Introduction to Data Structures",
+      "unit": "Module 1: Introduction to Data Structures",
+      "source_quote": "Introduction to Data Structures",
+      "page": 13
+    },
+    {
+      "name": "Concept of ADT",
+      "unit": "Module 1: Introduction to Data Structures",
+      "source_quote": "Concept of ADT",
+      "page": 13
+    },
+    {
+      "name": "Linear Data Structures",
+      "unit": "Module 1: Introduction to Data Structures",
+      "source_quote": "Linear and Nonlinear",
+      "page": 13
+    },
+    {
+      "name": "Nonlinear Data Structures",
+      "unit": "Module 1: Introduction to Data Structures",
+      "source_quote": "Linear and Nonlinear",
+      "page": 13
+    },
+    {
+      "name": "Operations on Data Structures",
+      "unit": "Module 1: Introduction to Data Structures",
+      "source_quote": "Operations on Data Structures",
+      "page": 13
+    },
+    {
+      "name": "ADT of Stack",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "ADT of Stack",
+      "page": 13
+    },
+    {
+      "name": "Operations on Stack",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Operations on Stack",
+      "page": 13
+    },
+    {
+      "name": "Array Implementation of Stack",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Array Implementation of Stack",
+      "page": 13
+    },
+    {
+      "name": "Well form-ness of Parenthesis",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Well form-ness of Parenthesis",
+      "page": 13
+    },
+    {
+      "name": "Infix to Postfix Conversion",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Infix to Postfix Conversion",
+      "page": 13
+    },
+    {
+      "name": "Postfix Evaluation",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Postfix Evaluation",
+      "page": 13
+    },
+    {
+      "name": "Recursion",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Recursion",
+      "page": 13
+    },
+    {
+      "name": "ADT of Queue",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "ADT of Queue",
+      "page": 13
+    },
+    {
+      "name": "Operations on Queue",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Operations on Queue",
+      "page": 13
+    },
+    {
+      "name": "Array Implementation of Queue",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Array Implementation of Queue",
+      "page": 13
+    },
+    {
+      "name": "Circular Queue",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Circular Queue",
+      "page": 13
+    },
+    {
+      "name": "Priority Queue",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Priority Queue",
+      "page": 13
+    },
+    {
+      "name": "Double Ended Queue",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Double Ended Queue",
+      "page": 13
+    },
+    {
+      "name": "Applications of Queue",
+      "unit": "Module 2: Stack and Queues",
+      "source_quote": "Applications of Queue",
+      "page": 13
+    },
+    {
+      "name": "Representation of Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Representation of Linked List",
+      "page": 13
+    },
+    {
+      "name": "Linked List v/s Array",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Linked List v/s Array",
+      "page": 13
+    },
+    {
+      "name": "Singly Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Singly Linked List",
+      "page": 13
+    },
+    {
+      "name": "Circular Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Circular Linked List",
+      "page": 13
+    },
+    {
+      "name": "Doubly Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Doubly Linked List",
+      "page": 13
+    },
+    {
+      "name": "Operations on Singly Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Operations on Singly Linked List and Doubly Linked List",
+      "page": 13
+    },
+    {
+      "name": "Operations on Doubly Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Operations on Singly Linked List and Doubly Linked List",
+      "page": 13
+    },
+    {
+      "name": "Stack using Singly Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Stack and Queue using Singly Linked List",
+      "page": 13
+    },
+    {
+      "name": "Queue using Singly Linked List",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Stack and Queue using Singly Linked List",
+      "page": 13
+    },
+    {
+      "name": "Polynomial Representation",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Polynomial Representation",
+      "page": 13
+    },
+    {
+      "name": "Polynomial Addition",
+      "unit": "Module 3: Linked List",
+      "source_quote": "Addition",
+      "page": 13
+    },
+    {
+      "name": "Tree Terminologies",
+      "unit": "Module 4: Trees",
+      "source_quote": "Tree Terminologies",
+      "page": 13
+    },
+    {
+      "name": "Binary Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "Binary Tree",
+      "page": 13
+    },
+    {
+      "name": "Binary Tree Representation",
+      "unit": "Module 4: Trees",
+      "source_quote": "Binary Tree Representation",
+      "page": 13
+    },
+    {
+      "name": "Types of Binary Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "Types of Binary Tree",
+      "page": 13
+    },
+    {
+      "name": "Binary Tree Traversals",
+      "unit": "Module 4: Trees",
+      "source_quote": "Binary Tree Traversals",
+      "page": 13
+    },
+    {
+      "name": "Binary Search Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "Binary Search Tree",
+      "page": 13
+    },
+    {
+      "name": "Operations on Binary Search Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "Operations on Binary Search Tree",
+      "page": 13
+    },
+    {
+      "name": "Expression Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "Expression Tree",
+      "page": 13
+    },
+    {
+      "name": "Huffman Encoding",
+      "unit": "Module 4: Trees",
+      "source_quote": "Huffman Encoding",
+      "page": 13
+    },
+    {
+      "name": "AVL Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "AVL",
+      "page": 13
+    },
+    {
+      "name": "Rotations in AVL Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "rotations in AVL Tree",
+      "page": 13
+    },
+    {
+      "name": "Operations on AVL Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "operations on AVL Tree",
+      "page": 13
+    },
+    {
+      "name": "B Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "B Tree",
+      "page": 13
+    },
+    {
+      "name": "B+ Tree",
+      "unit": "Module 4: Trees",
+      "source_quote": "B+ Tree",
+      "page": 13
+    },
+    {
+      "name": "Graph Terminologies",
+      "unit": "Module 5: Graphs",
+      "source_quote": "Graph Terminologies",
+      "page": 14
+    },
+    {
+      "name": "Representation of Graph",
+      "unit": "Module 5: Graphs",
+      "source_quote": "Representation of Graph",
+      "page": 14
+    },
+    {
+      "name": "Depth First Search",
+      "unit": "Module 5: Graphs",
+      "source_quote": "Depth First Search (DFS)",
+      "page": 14
+    },
+    {
+      "name": "Breadth First Search",
+      "unit": "Module 5: Graphs",
+      "source_quote": "Breadth First Search (BFS)",
+      "page": 14
+    },
+    {
+      "name": "Topological Sorting",
+      "unit": "Module 5: Graphs",
+      "source_quote": "Topological Sorting",
+      "page": 14
+    },
+    {
+      "name": "Linear Search",
+      "unit": "Module 6: Searching Techniques",
+      "source_quote": "Linear Search",
+      "page": 14
+    },
+    {
+      "name": "Binary Search",
+      "unit": "Module 6: Searching Techniques",
+      "source_quote": "Binary Search",
+      "page": 14
+    },
+    {
+      "name": "Hashing Concept",
+      "unit": "Module 6: Searching Techniques",
+      "source_quote": "Hashing-Concept",
+      "page": 14
+    },
+    {
+      "name": "Hash Functions",
+      "unit": "Module 6: Searching Techniques",
+      "source_quote": "Hash Functions",
+      "page": 14
+    },
+    {
+      "name": "Collision Resolution Techniques",
+      "unit": "Module 6: Searching Techniques",
+      "source_quote": "Collision resolution Techniques",
+      "page": 14
+    }
+  ]
+}

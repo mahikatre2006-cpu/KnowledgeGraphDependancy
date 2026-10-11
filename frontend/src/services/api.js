@@ -129,7 +129,13 @@ export async function uploadAndParse(file) {
   });
   const data = await response.json();
   if (!response.ok) {
-    throw new Error(data.detail || "Failed to parse subjects.");
+    // detail may be a string or {error: "not_a_syllabus"}
+    const detail = data.detail;
+    const msg =
+      typeof detail === "object" && detail && detail.error
+        ? detail.error
+        : detail || "Failed to parse subjects.";
+    throw new Error(msg);
   }
   return data;
 }

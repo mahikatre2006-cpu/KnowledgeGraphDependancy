@@ -1,49 +1,64 @@
 import React, { useState } from "react";
-import { Upload, FileText, ArrowRight } from "lucide-react";
-import { uploadAndBuildGraph, parseSyllabusText, buildGraphFromSyllabus, uploadAndParse, buildAndInfer } from "../services/api";
+import { Upload, ArrowRight, AlertCircle } from "lucide-react";
+import { uploadAndParse, buildAndInfer, parseSyllabusText, buildGraphFromSyllabus } from "../services/api";
 
 export default function FileUpload({ onPipelineComplete, onError }) {
   const [mode, setMode] = useState("pdf"); // 'pdf' | 'text'
-
   const [loading, setLoading] = useState(false);
   const [rawText, setRawText] = useState("");
   const [dragOver, setDragOver] = useState(false);
   const [subjects, setSubjects] = useState([]);
   const [documentId, setDocumentId] = useState(null);
+  const [errorMsg, setErrorMsg] = useState(null);
+
+  const clearError = () => setErrorMsg(null);
 
   const handleSubjectSelect = async (courseCode) => {
+    clearError();
     setLoading(true);
     try {
       const data = await buildAndInfer(documentId, courseCode);
       onPipelineComplete(data);
     } catch (err) {
-      onError(err.message || "Failed to build graph.");
+      const msg = err.message || "Failed to build graph.";
+      setErrorMsg(msg);
+      onError(msg);
     } finally {
       setLoading(false);
-      setSubjects([]);
     }
   };
 
-
   const handleFileUpload = async (file) => {
     if (!file || !file.name.toLowerCase().endsWith(".pdf")) {
-      onError("Please select a valid PDF document (.pdf)");
+      const msg = "Please select a valid PDF document (.pdf)";
+      setErrorMsg(msg);
+      onError(msg);
       return;
     }
+    clearError();
     setLoading(true);
     setSubjects([]);
     setDocumentId(null);
     try {
       const data = await uploadAndParse(file);
+      const theoryFirst = data.subjects.find((s) => s.kind !== "lab") || data.subjects[0];
       if (data.subjects.length === 1) {
-        const buildData = await buildAndInfer(data.document_id, data.subjects[0].course_code);
+        // Single course — build immediately
+        const buildData = await buildAndInfer(data.document_id, theoryFirst.course_code);
         onPipelineComplete(buildData);
       } else {
+        // Multiple courses — show <select>
         setDocumentId(data.document_id);
         setSubjects(data.subjects);
       }
     } catch (err) {
-      onError(err.message || "Failed to process PDF file.");
+      let msg = err.message || "Failed to process PDF file.";
+      // Surface the not_a_syllabus error specifically
+      if (msg.includes("not_a_syllabus") || msg.includes("422")) {
+        msg = "This document does not appear to be a university syllabus (not_a_syllabus). Please upload a valid course syllabus PDF.";
+      }
+      setErrorMsg(msg);
+      onError(msg);
     } finally {
       setLoading(false);
     }
@@ -60,13 +75,16 @@ export default function FileUpload({ onPipelineComplete, onError }) {
   const handleTextSubmit = async (e) => {
     e.preventDefault();
     if (!rawText.trim()) return;
+    clearError();
     setLoading(true);
     try {
       const parsedSyllabus = await parseSyllabusText(rawText);
       await buildGraphFromSyllabus(parsedSyllabus);
       onPipelineComplete({ parsed_syllabus: parsedSyllabus });
     } catch (err) {
-      onError(err.message || "Failed to parse text.");
+      const msg = err.message || "Failed to parse text.";
+      setErrorMsg(msg);
+      onError(msg);
     } finally {
       setLoading(false);
     }
@@ -95,27 +113,35 @@ export default function FileUpload({ onPipelineComplete, onError }) {
         </div>
       </div>
 
-      
+      {/* Error banner */}
+      {errorMsg && (
+        <div className="flex items-start gap-2 bg-red-50 border-2 border-bauhaus-red p-3 mb-4">
+          <AlertCircle className="w-4 h-4 text-bauhaus-red mt-0.5 flex-shrink-0" />
+          <p className="text-xs font-bold text-bauhaus-red font-mono">{errorMsg}</p>
+        </div>
+      )}
+
+      {/* Course selector dropdown when multi-subject PDF */}
       {subjects.length > 1 ? (
         <div className="space-y-3">
           <h3 className="text-sm font-black uppercase font-bauhaus text-bauhaus-black tracking-wider">Select Subject</h3>
-          <p className="text-xs font-bold text-bauhaus-black font-mono">This PDF contains multiple subjects. Please select one to graph.</p>
-          <div className="space-y-2 max-h-60 overflow-y-auto">
-            {subjects.map((s, idx) => (
-              <button
-                key={idx}
-                onClick={() => handleSubjectSelect(s.course_code)}
-                disabled={loading}
-                className="w-full text-left p-3 border-[3px] border-bauhaus-black hover:bg-bauhaus-yellow bg-white transition-colors shadow-bauhaus mb-3"
-              >
-                <div className="flex justify-between items-center">
-                  <span className="font-black text-sm text-bauhaus-black uppercase font-bauhaus">{s.course_code} - {s.course_title}</span>
-                  <span className="text-xs font-bold text-bauhaus-black font-mono">{s.topic_count} Topics</span>
-                </div>
-              </button>
+          <p className="text-xs font-bold text-bauhaus-black font-mono">
+            This PDF contains multiple subjects. Please select one to graph.
+          </p>
+          <select
+            disabled={loading}
+            defaultValue=""
+            onChange={(e) => e.target.value && handleSubjectSelect(e.target.value)}
+            className="w-full text-sm font-bold border-[3px] border-bauhaus-black p-2 bg-white text-bauhaus-black focus:outline-none focus:border-bauhaus-blue font-mono"
+          >
+            <option value="" disabled>— Choose a subject —</option>
+            {subjects.map((s) => (
+              <option key={s.course_code} value={s.course_code}>
+                {s.course_code} — {s.course_title} ({s.topic_count} topics, {s.kind})
+              </option>
             ))}
-          </div>
-          {loading && <p className="text-xs text-neutral-500 italic mt-2">Processing...</p>}
+          </select>
+          {loading && <p className="text-xs text-neutral-500 italic mt-2">Building graph...</p>}
         </div>
       ) : mode === "pdf" ? (
         <div
@@ -131,7 +157,6 @@ export default function FileUpload({ onPipelineComplete, onError }) {
           <p className="text-[11px] text-bauhaus-black font-bold mt-1">
             Supports official course outlines, unit syllabi, and lecture schedules
           </p>
-
           <label className="inline-block mt-4">
             <input
               type="file"
@@ -150,7 +175,7 @@ export default function FileUpload({ onPipelineComplete, onError }) {
           <textarea
             value={rawText}
             onChange={(e) => setRawText(e.target.value)}
-            placeholder="Paste syllabus units and topics here... (e.g. Unit 1: Foundations \n - Linear Algebra \n - Calculus)"
+            placeholder="Paste syllabus units and topics here..."
             rows={5}
             className="w-full text-xs p-3 font-mono border-[3px] border-bauhaus-black focus:outline-none focus:border-bauhaus-blue bg-bauhaus-cream text-bauhaus-black placeholder-neutral-500 font-bold"
           />

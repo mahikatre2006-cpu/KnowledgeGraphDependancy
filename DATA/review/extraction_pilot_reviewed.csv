@@ -1,0 +1,113 @@
+course_code,title,semester,unit,topic_name,source_quote,page,human_ok,human_note
+ITC501,Internet Programming,V,Module I: Web programming fundamentals,Working of Web Browser,Working of web browser,13,1,
+ITC501,Internet Programming,V,Module I: Web programming fundamentals,HTTP and HTTPS Protocols,"HTTP protocol, 
+HTTPS",13,0,Merged pair: HTTP and HTTPS are separate protocol topics; split into separate rows.
+ITC501,Internet Programming,V,Module I: Web programming fundamentals,DNS and TLS,"DNS, TLS",13,0,Merged pair: DNS and TLS are separate concepts; split into separate rows.
+ITC501,Internet Programming,V,Module I: Web programming fundamentals,XML and JSON Introduction,"XML introduction, Json 
+introduction",13,0,Merged pair: XML introduction and JSON introduction are separate topics; split them.
+ITC501,Internet Programming,V,Module I: Web programming fundamentals,Document Object Model,DOM,13,1,
+ITC501,Internet Programming,V,Module I: Web programming fundamentals,REST API Architecture,REST API,13,0,Unsupported expansion: the source quote says “REST API” but does not establish “REST API Architecture”; use “REST API” unless the page supports the architecture wording.
+ITC501,Internet Programming,V,Module II: Java script,Introduction to ES6,Introduction to ES6,13,1,
+ITC501,Internet Programming,V,Module II: Java script,Arrow Functions,Arrow functions,13,1,
+ITC501,Internet Programming,V,Module II: Java script,DOM Manipulation,"DOM 
+manipulation",13,1,
+ITC501,Internet Programming,V,Module II: Java script,Classes and Inheritance,Classes and Inheritance,13,0,Merged pair: Classes and Inheritance are distinct JavaScript topics; split them.
+ITC501,Internet Programming,V,Module II: Java script,Iterators and Generators,Iterators and Generators,13,0,Merged pair: Iterators and Generators are distinct topics; split them.
+ITC501,Internet Programming,V,Module II: Java script,Promises and Fetch API,"Promise, Client-server 
+communication, Fetch",13,0,"Merged topics: Promises, client-server communication, and Fetch are separate concepts in the source quote; split them."
+ITC501,Internet Programming,V,Module III: React fundamentals,Components and Component Lifecycle,"Components, Component lifecycle",13,0,Merged pair: Components and Component Lifecycle are distinct React topics; split them.
+ITC501,Internet Programming,V,Module III: React fundamentals,State and Props,State and Props,13,0,Merged pair: State and Props are distinct React concepts; split them.
+ITC501,Internet Programming,V,Module III: React fundamentals,React Router and Single Page Applications,"React Router and Single page 
+applications",13,0,Merged pair: React Router and Single Page Applications are distinct topics; split them.
+ITC501,Internet Programming,V,Module III: React fundamentals,React Forms and Events,"Forms, 
+Events",13,0,Merged pair: Forms and Events are distinct topics; split them.
+ITC501,Internet Programming,V,Module IV: Advanced React,Functional Components and Refs,Functional components- Refs,13,0,Merged pair: Functional Components and Refs are distinct React topics; split them.
+ITC501,Internet Programming,V,Module IV: Advanced React,React Hooks and Use Effects,"Use effects, 
+Hooks",13,0,Merged topics: Hooks and useEffect are separate topic labels; represent the specific useEffect topic separately or use a single broader label.
+ITC501,Internet Programming,V,Module IV: Advanced React,Model-View-Controller Framework,"Model-View-
+Controller framework",13,1,
+ITC501,Internet Programming,V,Module IV: Advanced React,Flux Architecture,Flux,13,1,
+ITC501,Internet Programming,V,Module IV: Advanced React,Application Bundling with Webpack,"Bundling the 
+application. Web pack",13,1,
+ITC501,Internet Programming,V,Module V: Node.js,Asynchronous Programming and Callbacks,"Asynchronous 
+programming, Callback concept",13,0,Merged pair: Asynchronous Programming and Callbacks are distinct concepts; split them.
+ITC501,Internet Programming,V,Module V: Node.js,Event Loops and Event Emitter,"Event loops, 
+REPL, Event emitter",13,0,"Merged topics: Event Loops, REPL, and Event Emitter are distinct Node.js topics; split them."
+ITC501,Internet Programming,V,Module V: Node.js,Buffers and Streams,"Buffers, Streams",13,0,Merged pair: Buffers and Streams are distinct Node.js concepts; split them.
+ITC501,Internet Programming,V,Module V: Node.js,Node.js File System,File system,13,1,
+ITC501,Internet Programming,V,Module V: Node.js,Node.js Web Module,Web module,13,1,
+ITC501,Internet Programming,V,Module VI: Express,Express Router,"Express 
+router",13,1,
+ITC501,Internet Programming,V,Module VI: Express,REST API in Express,"REST 
+API",13,1,
+ITC501,Internet Programming,V,Module VI: Express,Express Generator,Generator,13,1,
+ITC501,Internet Programming,V,Module VI: Express,Authentication and Sessions,"Authentication, sessions",13,0,Merged pair: Authentication and Sessions are distinct topics; split them.
+ITC501,Internet Programming,V,Module VI: Express,Integrating Express with React,"Integrating 
+with React",13,1,
+CSC303,Data Structure,III,Module 1: Introduction to Data Structures,Concept of Abstract Data Types,Concept of ADT,13,1,
+CSC303,Data Structure,III,Module 1: Introduction to Data Structures,Linear and Nonlinear Data Structures,Linear and Nonlinear,13,0,Merged pair: Linear and Nonlinear Data Structures are separate categories; split them.
+CSC303,Data Structure,III,Module 1: Introduction to Data Structures,Operations on Data Structures,Operations on Data Structures,13,1,
+CSC303,Data Structure,III,Module 2: Stack and Queues,Array Implementation of Stack,"Array Implementation of 
+Stack",13,1,
+CSC303,Data Structure,III,Module 2: Stack and Queues,Applications of Stack,"Applications of Stack-Well form-ness of Parenthesis, Infix to Postfix 
+Conversion and Postfix Evaluation, Recursion",13,1,
+CSC303,Data Structure,III,Module 2: Stack and Queues,Array Implementation of Queue,"Array Implementation of 
+Queue",13,1,
+CSC303,Data Structure,III,Module 2: Stack and Queues,Types of Queues,"Types of Queue-Circular Queue, Priority Queue, Introduction of Double 
+Ended Queue",13,1,
+CSC303,Data Structure,III,Module 3: Linked List,Singly Linked List,Singly Linked List,13,1,
+CSC303,Data Structure,III,Module 3: Linked List,Circular and Doubly Linked List,"Circular Linked List, Doubly Linked List",13,0,Merged pair: Circular Linked List and Doubly Linked List are distinct linked-list types; split them.
+CSC303,Data Structure,III,Module 3: Linked List,Stack and Queue using Singly Linked List,"Stack and Queue 
+using Singly Linked List",13,0,Merged pair: implementing a Stack and implementing a Queue using a Singly Linked List are separate topics; split them.
+CSC303,Data Structure,III,Module 3: Linked List,Polynomial Representation and Addition,"Polynomial 
+Representation and Addition",13,0,Merged topics: Polynomial Representation and Polynomial Addition are separate operations/concepts in the extracted label; split them unless the source explicitly defines them as one combined lesson.
+CSC303,Data Structure,III,Module 4: Trees,Binary Tree Traversals,Binary Tree Traversals,13,1,
+CSC303,Data Structure,III,Module 4: Trees,Binary Search Tree Operations,"Operations 
+on Binary Search Tree",13,1,
+CSC303,Data Structure,III,Module 4: Trees,Applications of Binary Tree,"Applications of Binary Tree-Expression Tree, Huffman 
+Encoding",13,1,
+CSC303,Data Structure,III,Module 4: Trees,AVL Tree Operations and Rotations,"Search Trees-AVL, rotations in AVL Tree, operations on AVL Tree",13,0,Merged topics: AVL rotations and AVL-tree operations are distinct subtopics; split them.
+CSC303,Data Structure,III,Module 4: Trees,B Tree and B+ Tree,"Introduction of B Tree, B+ Tree",13,0,Merged pair: B-Tree and B+ Tree are distinct tree structures; split them.
+CSC303,Data Structure,III,Module 5: Graphs,Representation of Graph,Representation of Graph,14,1,
+CSC303,Data Structure,III,Module 5: Graphs,Graph Traversals DFS and BFS,"Graph Traversals-
+Depth First Search (DFS) and Breadth First Search (BFS)",14,0,Merged pair: Depth-First Search (DFS) and Breadth-First Search (BFS) are distinct traversal algorithms; split them.
+CSC303,Data Structure,III,Module 5: Graphs,Topological Sorting,"Graph Application-
+Topological Sorting",14,1,
+CSC303,Data Structure,III,Module 6: Searching Techniques,Linear and Binary Search,"Linear Search, Binary Search",14,0,Merged pair: Linear Search and Binary Search are separate algorithms; split them.
+CSC303,Data Structure,III,Module 6: Searching Techniques,Hashing and Hash Functions,"Hashing-Concept, Hash Functions",14,0,Merged pair: the hashing concept and hash functions are distinct topics; split them.
+CSC303,Data Structure,III,Module 6: Searching Techniques,Collision Resolution Techniques,"Collision 
+resolution Techniques",14,1,
+2113112,Discrete Structures and Graph Theory,III,Module I: Crisp Set Theory and Logic,Set Operations and Representation,"Set Operations, Set Representation",20,0,Merged pair: Set Operations and Set Representation are distinct topics; split them.
+2113112,Discrete Structures and Graph Theory,III,Module I: Crisp Set Theory and Logic,Propositional and Predicate Logic,"Propositional Logic, Predicate Logic",20,0,Merged pair: Propositional Logic and Predicate Logic are distinct topics; split them.
+2113112,Discrete Structures and Graph Theory,III,Module I: Crisp Set Theory and Logic,Universal and Existential Quantifiers,Quantifiers (Universal and Existential),20,0,Merged pair: Universal and Existential Quantifiers are separate types; use the umbrella label “Quantifiers” or split the types into separate rows.
+2113112,Discrete Structures and Graph Theory,III,Module I: Crisp Set Theory and Logic,Types of Mathematical Proof,Types of Mathematical Proof,20,1,
+2113112,Discrete Structures and Graph Theory,III,Module I: Crisp Set Theory and Logic,Mathematical Induction,Mathematical induction,20,1,
+2113112,Discrete Structures and Graph Theory,III,Module II: Mathematical Relations,Properties of Relations,Properties of Relations,20,1,
+2113112,Discrete Structures and Graph Theory,III,Module II: Mathematical Relations,Equivalence Relations and Classes,Equivalence Classes,20,0,"Mismatch and merge: the source quote only supports “Equivalence Classes”, while the topic adds “Equivalence Relations”; use the supported label or split only if the page lists both."
+2113112,Discrete Structures and Graph Theory,III,Module II: Mathematical Relations,Warshall's Algorithm,Warshall’s algorithm,20,1,
+2113112,Discrete Structures and Graph Theory,III,Module II: Mathematical Relations,Partial Order Relations and Posets,"Partial Order Relations, Poset",20,1,
+2113112,Discrete Structures and Graph Theory,III,Module II: Mathematical Relations,Hasse Diagrams,Hasse Diagram,20,1,
+2113112,Discrete Structures and Graph Theory,III,Module II: Mathematical Relations,Lattices and Sublattices,"Types of Lattices, Sub lattice",20,0,Merged pair: Lattices and Sublattices are distinct topics; split them.
+2113112,Discrete Structures and Graph Theory,III,Module III: Functions,Types of Functions,"Injective, Surjective, and 
+Bijective 
+Functions",20,1,
+2113112,Discrete Structures and Graph Theory,III,Module III: Functions,Composition and Inverse Functions,"Composition, 
+Inverse 
+Functions",20,0,Merged pair: Composition of Functions and Inverse Functions are distinct topics; split them.
+2113112,Discrete Structures and Graph Theory,III,Module III: Functions,Applications of Functions,Real life applications of Functions,20,1,
+2113112,Discrete Structures and Graph Theory,III,Module IV: Counting,Pigeonhole Principle,"Pigeonhole 
+Principle",20,1,
+2113112,Discrete Structures and Graph Theory,III,Module IV: Counting,Inclusion-Exclusion Principle,"Inclusion-Exclusion 
+Principle",20,1,
+2113112,Discrete Structures and Graph Theory,III,Module IV: Counting,Solving Recurrence Relations,"Recurrence relations, Solving recurrence relations",20,1,
+2113112,Discrete Structures and Graph Theory,III,Module V: Algebraic Structures,Semigroups and Monoids,"Semi group, Monoid",20,0,Merged pair: Semigroups and Monoids are distinct algebraic structures; split them.
+2113112,Discrete Structures and Graph Theory,III,Module V: Algebraic Structures,"Groups, Subgroups, and Cyclic Groups","Groups, Subgroups, Abelian 
+Group, and Cyclic group",20,0,"Merged topics: Groups, Subgroups, Abelian Groups, and Cyclic Groups are separately named in the source; split them."
+2113112,Discrete Structures and Graph Theory,III,Module VI: Graph Theory,Types of Graphs and Representation,"Types of graphs, Graph Representation",21,0,Merged pair: Types of Graphs and Graph Representation are distinct topics; split them.
+2113112,Discrete Structures and Graph Theory,III,Module VI: Graph Theory,Operations on Graphs,Operations on Graphs,21,1,
+2113112,Discrete Structures and Graph Theory,III,Module VI: Graph Theory,"Walks, Paths, and Circuits","Walk, Path, Circuit",21,0,"Merged topics: Walks, Paths, and Circuits are distinct graph concepts; split them."
+2113112,Discrete Structures and Graph Theory,III,Module VI: Graph Theory,Graph Homomorphism and Isomorphism,"Homomorphism and Isomorphism of 
+Graphs",21,0,Merged pair: Graph Homomorphism and Graph Isomorphism are distinct concepts; split them.
+2113112,Discrete Structures and Graph Theory,III,Module VI: Graph Theory,Euler and Hamiltonian Graphs,Euler and Hamiltonian Graphs,21,0,Merged pair: Eulerian and Hamiltonian Graphs are distinct concepts; split them.
+2113112,Discrete Structures and Graph Theory,III,Module VI: Graph Theory,"Planar Graphs, Cut Sets, and Cut Vertices","Planar 
+Graph, Cut Set, Cut Vertex",21,0,"Merged topics: Planar Graphs, Cut Sets, and Cut Vertices are distinct graph-theory concepts; split them."

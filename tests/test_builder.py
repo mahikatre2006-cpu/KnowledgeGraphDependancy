@@ -3,6 +3,7 @@ import fitz
 import pytest
 from app.graph.engine import KnowledgeGraph
 from app.services.graph_builder import GraphBuilder
+from app.services.sequence_engine import SequenceEngine
 from app.models.parser_schemas import ParsedSyllabus, ParsedUnit, ParsedTopic
 from fastapi.testclient import TestClient
 from app.main import app
@@ -128,3 +129,52 @@ def test_api_upload_and_build_full_pipeline_end_to_end():
     assert len(seq_ids) == 4
     assert "vector_spaces" in seq_ids
     assert "gradient_descent" in seq_ids
+
+
+def test_build_and_infer_end_to_end_ml_integration():
+    """
+    P1 Integration Test:
+    Verifies that uploading and building a graph via `/pipeline/upload-and-parse`
+    followed by `/pipeline/build-and-infer` (the actual frontend flow in FileUpload.jsx):
+    1. Returns real backend inference results, not demo nodes.
+    2. Validates node IDs and edge endpoints match existing nodes.
+    3. Validates no self-loops and strict DAG acyclicity.
+    4. Topological sequence covers all extracted topics.
+    """
+    pdf_bytes = create_sample_pdf_bytes()
+    files = {"file": ("syllabus.pdf", pdf_bytes, "application/pdf")}
+    parse_resp = client.post("/api/v1/pipeline/upload-and-parse", files=files)
+    assert parse_resp.status_code == 200
+    parse_data = parse_resp.json()
+    doc_id = parse_data["document_id"]
+    course_code = parse_data["subjects"][0]["course_code"]
+
+    build_resp = client.post("/api/v1/pipeline/build-and-infer", json={
+        "document_id": doc_id,
+        "course_code": course_code,
+        "clear_existing": True,
+        "add_unit_sequential_edges": False
+    })
+    assert build_resp.status_code == 200
+    build_data = build_resp.json()
+
+    nodes = build_data["graph_summary"]["nodes"]
+    edges = build_data["graph_summary"]["edges"]
+    node_ids = {n["id"] for n in nodes}
+
+    assert len(nodes) == 4
+    # All edge endpoints must belong to valid nodes in the graph
+    for edge in edges:
+        assert edge["source_id"] in node_ids, f"Edge source '{edge['source_id']}' not in nodes!"
+        assert edge["target_id"] in node_ids, f"Edge target '{edge['target_id']}' not in nodes!"
+        assert edge["source_id"] != edge["target_id"], "Self-loop edge detected!"
+        assert edge["relationship_type"] == "inferred_prerequisite"
+
+    # Verify strict acyclicity
+    assert SequenceEngine.find_cycle(global_graph) is None
+
+    # Verify topological sequence contains all nodes
+    seq_ids = [n["id"] for n in build_data["topological_sequence"]]
+    assert len(seq_ids) == len(node_ids)
+    assert set(seq_ids) == node_ids
+

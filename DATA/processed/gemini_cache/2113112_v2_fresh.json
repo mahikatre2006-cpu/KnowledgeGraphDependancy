@@ -1,0 +1,409 @@
+{
+  "course_code": "2113112",
+  "title": "Discrete Structures and Graph Theory",
+  "semester": "III",
+  "topics": [
+    {
+      "name": "Sets",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Sets",
+      "page": 20
+    },
+    {
+      "name": "Subsets",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Subsets",
+      "page": 20
+    },
+    {
+      "name": "Universal Sets",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Universal and Empty Sets",
+      "page": 20
+    },
+    {
+      "name": "Empty Sets",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Universal and Empty Sets",
+      "page": 20
+    },
+    {
+      "name": "Set Operations",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Set Operations",
+      "page": 20
+    },
+    {
+      "name": "Set Representation",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Set Representation",
+      "page": 20
+    },
+    {
+      "name": "Laws of Set Theory",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Laws of Set theory",
+      "page": 20
+    },
+    {
+      "name": "Propositional Logic",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Propositional Logic",
+      "page": 20
+    },
+    {
+      "name": "Predicate Logic",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Predicate Logic",
+      "page": 20
+    },
+    {
+      "name": "Quantifiers",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Quantifiers (Universal and Existential)",
+      "page": 20
+    },
+    {
+      "name": "Direct Proof",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Direct proof",
+      "page": 20
+    },
+    {
+      "name": "Proof by Contradiction",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Proof by contradiction",
+      "page": 20
+    },
+    {
+      "name": "Proof by Deduction",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Proof by deduction",
+      "page": 20
+    },
+    {
+      "name": "Proof by Cases",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Proof by cases",
+      "page": 20
+    },
+    {
+      "name": "Proof by Exhaustion",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Proof by exhaustion",
+      "page": 20
+    },
+    {
+      "name": "Proof by Counterexample",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Proof by counterexample",
+      "page": 20
+    },
+    {
+      "name": "Mathematical Induction",
+      "unit": "I Crisp Set Theory and Logic",
+      "source_quote": "Mathematical induction",
+      "page": 20
+    },
+    {
+      "name": "Relations Definition",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Definition",
+      "page": 20
+    },
+    {
+      "name": "Representation of Relations",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Representation of Relations",
+      "page": 20
+    },
+    {
+      "name": "Properties of Relations",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Properties of Relations",
+      "page": 20
+    },
+    {
+      "name": "Equivalence Relations",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Equivalence Relations",
+      "page": 20
+    },
+    {
+      "name": "Equivalence Classes",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Equivalence Classes",
+      "page": 20
+    },
+    {
+      "name": "Closures of Relations",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Closures of Relations",
+      "page": 20
+    },
+    {
+      "name": "Warshall’s Algorithm",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Warshall’s algorithm",
+      "page": 20
+    },
+    {
+      "name": "Partial Order Relations",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Partial Order Relations",
+      "page": 20
+    },
+    {
+      "name": "Poset",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Poset",
+      "page": 20
+    },
+    {
+      "name": "Hasse Diagram",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Hasse Diagram",
+      "page": 20
+    },
+    {
+      "name": "Chain",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Chain and Anti chains",
+      "page": 20
+    },
+    {
+      "name": "Anti Chains",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Chain and Anti chains",
+      "page": 20
+    },
+    {
+      "name": "Lattice",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Lattice",
+      "page": 20
+    },
+    {
+      "name": "Types of Lattices",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Types of Lattices",
+      "page": 20
+    },
+    {
+      "name": "Sublattice",
+      "unit": "II Mathematical Relations",
+      "source_quote": "Sub lattice",
+      "page": 20
+    },
+    {
+      "name": "Injective Functions",
+      "unit": "III Functions",
+      "source_quote": "Injective, Surjective, and Bijective Functions",
+      "page": 20
+    },
+    {
+      "name": "Surjective Functions",
+      "unit": "III Functions",
+      "source_quote": "Injective, Surjective, and Bijective Functions",
+      "page": 20
+    },
+    {
+      "name": "Bijective Functions",
+      "unit": "III Functions",
+      "source_quote": "Injective, Surjective, and Bijective Functions",
+      "page": 20
+    },
+    {
+      "name": "Function Composition",
+      "unit": "III Functions",
+      "source_quote": "Composition",
+      "page": 20
+    },
+    {
+      "name": "Inverse Functions",
+      "unit": "III Functions",
+      "source_quote": "Inverse Functions",
+      "page": 20
+    },
+    {
+      "name": "Applications of Functions",
+      "unit": "III Functions",
+      "source_quote": "Real life applications of Functions",
+      "page": 20
+    },
+    {
+      "name": "Pigeonhole Principle",
+      "unit": "IV Counting",
+      "source_quote": "Pigeonhole Principle",
+      "page": 20
+    },
+    {
+      "name": "Inclusion-Exclusion Principle",
+      "unit": "IV Counting",
+      "source_quote": "Inclusion-Exclusion Principle",
+      "page": 20
+    },
+    {
+      "name": "Recurrence Relations",
+      "unit": "IV Counting",
+      "source_quote": "Recurrence relations",
+      "page": 20
+    },
+    {
+      "name": "Solving Recurrence Relations",
+      "unit": "IV Counting",
+      "source_quote": "Solving recurrence relations",
+      "page": 20
+    },
+    {
+      "name": "Semigroup",
+      "unit": "V Algebraic Structures",
+      "source_quote": "Semi group",
+      "page": 20
+    },
+    {
+      "name": "Monoid",
+      "unit": "V Algebraic Structures",
+      "source_quote": "Monoid",
+      "page": 20
+    },
+    {
+      "name": "Groups",
+      "unit": "V Algebraic Structures",
+      "source_quote": "Groups",
+      "page": 20
+    },
+    {
+      "name": "Subgroups",
+      "unit": "V Algebraic Structures",
+      "source_quote": "Subgroups",
+      "page": 20
+    },
+    {
+      "name": "Abelian Group",
+      "unit": "V Algebraic Structures",
+      "source_quote": "Abelian Group",
+      "page": 20
+    },
+    {
+      "name": "Cyclic Group",
+      "unit": "V Algebraic Structures",
+      "source_quote": "Cyclic group",
+      "page": 20
+    },
+    {
+      "name": "Ring",
+      "unit": "V Algebraic Structures",
+      "source_quote": "Ring",
+      "page": 20
+    },
+    {
+      "name": "Types of Graphs",
+      "unit": "VI Graph Theory",
+      "source_quote": "Types of graphs",
+      "page": 21
+    },
+    {
+      "name": "Graph Representation",
+      "unit": "VI Graph Theory",
+      "source_quote": "Graph Representation",
+      "page": 21
+    },
+    {
+      "name": "Subgraphs",
+      "unit": "VI Graph Theory",
+      "source_quote": "Sub graphs",
+      "page": 21
+    },
+    {
+      "name": "Operations on Graphs",
+      "unit": "VI Graph Theory",
+      "source_quote": "Operations on Graphs",
+      "page": 21
+    },
+    {
+      "name": "Walk",
+      "unit": "VI Graph Theory",
+      "source_quote": "Walk",
+      "page": 21
+    },
+    {
+      "name": "Path",
+      "unit": "VI Graph Theory",
+      "source_quote": "Path",
+      "page": 21
+    },
+    {
+      "name": "Circuit",
+      "unit": "VI Graph Theory",
+      "source_quote": "Circuit",
+      "page": 21
+    },
+    {
+      "name": "Connected Graphs",
+      "unit": "VI Graph Theory",
+      "source_quote": "Connected Graphs",
+      "page": 21
+    },
+    {
+      "name": "Disconnected Graph",
+      "unit": "VI Graph Theory",
+      "source_quote": "Disconnected Graph",
+      "page": 21
+    },
+    {
+      "name": "Graph Components",
+      "unit": "VI Graph Theory",
+      "source_quote": "Components",
+      "page": 21
+    },
+    {
+      "name": "Homomorphism of Graphs",
+      "unit": "VI Graph Theory",
+      "source_quote": "Homomorphism and Isomorphism of Graphs",
+      "page": 21
+    },
+    {
+      "name": "Isomorphism of Graphs",
+      "unit": "VI Graph Theory",
+      "source_quote": "Homomorphism and Isomorphism of Graphs",
+      "page": 21
+    },
+    {
+      "name": "Euler Graphs",
+      "unit": "VI Graph Theory",
+      "source_quote": "Euler and Hamiltonian Graphs",
+      "page": 21
+    },
+    {
+      "name": "Hamiltonian Graphs",
+      "unit": "VI Graph Theory",
+      "source_quote": "Euler and Hamiltonian Graphs",
+      "page": 21
+    },
+    {
+      "name": "Planar Graph",
+      "unit": "VI Graph Theory",
+      "source_quote": "Planar Graph",
+      "page": 21
+    },
+    {
+      "name": "Cut Set",
+      "unit": "VI Graph Theory",
+      "source_quote": "Cut Set",
+      "page": 21
+    },
+    {
+      "name": "Cut Vertex",
+      "unit": "VI Graph Theory",
+      "source_quote": "Cut Vertex",
+      "page": 21
+    },
+    {
+      "name": "Applications of Graph Theory",
+      "unit": "VI Graph Theory",
+      "source_quote": "Real life applications of Graph Theory",
+      "page": 21
+    }
+  ]
+}

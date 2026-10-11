@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect, useCallback } from "react";
 import {
   ReactFlow,
   Controls,
@@ -6,12 +6,14 @@ import {
   useNodesState,
   useEdgesState,
   MarkerType,
+  useReactFlow,
+  ReactFlowProvider,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 
 function ConceptNodeCard({ data }) {
   const { node, isKnown, isTarget, onToggleMastery, onSelectTarget, nodeIndex = 0 } = data;
-  
+
   const colors = ["bg-white", "bg-[#F4EFE6]"];
   const accentColors = ["bg-bauhaus-red", "bg-bauhaus-blue", "bg-bauhaus-yellow"];
   const nodeBg = colors[nodeIndex % colors.length];
@@ -19,11 +21,21 @@ function ConceptNodeCard({ data }) {
 
   return (
     <div
-      className={`px-4 py-3 border-[3px] border-bauhaus-black text-left min-w-[200px] shadow-bauhaus transition-all ${isTarget ? "bg-bauhaus-blue text-white" : isKnown ? "bg-bauhaus-cream text-bauhaus-black opacity-80" : `${nodeBg} text-bauhaus-black hover:bg-bauhaus-yellow`}`}
+      className={`px-4 py-3 border-[3px] border-bauhaus-black text-left min-w-[200px] shadow-bauhaus transition-all ${
+        isTarget
+          ? "bg-bauhaus-blue text-white"
+          : isKnown
+          ? "bg-bauhaus-cream text-bauhaus-black opacity-80"
+          : `${nodeBg} text-bauhaus-black hover:bg-bauhaus-yellow`
+      }`}
     >
       <div className="flex items-center justify-between gap-2 mb-1">
         <span
-          className={`text-[10px] font-mono font-black px-1.5 py-0.5 border border-bauhaus-black ${isTarget ? "bg-bauhaus-black text-white" : `${accentBg} ${accentBg === "bg-bauhaus-yellow" ? "text-bauhaus-black" : "text-white"}`}`}
+          className={`text-[10px] font-mono font-black px-1.5 py-0.5 border border-bauhaus-black ${
+            isTarget
+              ? "bg-bauhaus-black text-white"
+              : `${accentBg} ${accentBg === "bg-bauhaus-yellow" ? "text-bauhaus-black" : "text-white"}`
+          }`}
         >
           {node.unit || "General"}
         </span>
@@ -32,7 +44,13 @@ function ConceptNodeCard({ data }) {
             e.stopPropagation();
             onToggleMastery(node.id);
           }}
-          className={`text-[10px] font-black uppercase font-bauhaus tracking-wider px-2 py-0.5 cursor-pointer transition-colors border-2 border-bauhaus-black ${isKnown ? "bg-bauhaus-black text-white hover:bg-bauhaus-black/90" : isTarget ? "bg-white text-bauhaus-black hover:bg-bauhaus-yellow" : "bg-bauhaus-red text-white hover:bg-bauhaus-red/90"}`}
+          className={`text-[10px] font-black uppercase font-bauhaus tracking-wider px-2 py-0.5 cursor-pointer transition-colors border-2 border-bauhaus-black ${
+            isKnown
+              ? "bg-bauhaus-black text-white hover:bg-bauhaus-black/90"
+              : isTarget
+              ? "bg-white text-bauhaus-black hover:bg-bauhaus-yellow"
+              : "bg-bauhaus-red text-white hover:bg-bauhaus-red/90"
+          }`}
         >
           {isKnown ? "Mastered" : "Mark Mastered"}
         </button>
@@ -57,53 +75,53 @@ function ConceptNodeCard({ data }) {
 
 const nodeTypes = { conceptNode: ConceptNodeCard };
 
-export default function GraphCanvas({
+// Inner component that has access to useReactFlow
+function GraphCanvasInner({
   summary,
   knownConceptIds,
   targetConceptId,
   onToggleMastery,
   onSelectTarget,
 }) {
+  const { fitView } = useReactFlow();
+
   const { initialNodes, initialEdges } = useMemo(() => {
     if (!summary || !summary.nodes) return { initialNodes: [], initialEdges: [] };
 
     const nodesList = summary.nodes;
     const edgesList = summary.edges || [];
 
-    // Group nodes by unit number for horizontal/vertical grid layout
-    const unitGroups = {};
-    nodesList.forEach((n) => {
-      const u = n.unit || "General";
-      if (!unitGroups[u]) unitGroups[u] = [];
-      unitGroups[u].push(n);
-    });
+    const flowNodes = nodesList.map((node, idx) => {
+      // Use backend position if available, otherwise fall back to unit-grid layout
+      let pos;
+      if (node.metadata && node.metadata.position) {
+        pos = { x: node.metadata.position.x, y: node.metadata.position.y };
+      } else {
+        // Fallback: group by unit
+        const unitMatch = (node.unit || "").match(/\d+/);
+        const col = unitMatch ? parseInt(unitMatch[0]) : 0;
+        pos = { x: col * 280 + 50, y: (idx % 10) * 90 + 50 };
+      }
 
-    const unitKeys = Object.keys(unitGroups);
-    const flowNodes = [];
-
-    unitKeys.forEach((unitKey, colIdx) => {
-      const groupNodes = unitGroups[unitKey];
-      groupNodes.forEach((node, rowIdx) => {
-        flowNodes.push({
-          id: node.id,
-          type: "conceptNode",
-          position: { x: colIdx * 260 + 50, y: rowIdx * 120 + 50 },
-          data: {
-            node,
-            isKnown: knownConceptIds.includes(node.id),
-            isTarget: targetConceptId === node.id,
-            onToggleMastery,
-            onSelectTarget,
-              nodeIndex: rowIdx + colIdx, // for coloring
-            },
-        });
-      });
+      return {
+        id: String(node.id),       // must be string
+        type: "conceptNode",
+        position: pos,
+        data: {
+          node,
+          isKnown: knownConceptIds.includes(node.id),
+          isTarget: targetConceptId === node.id,
+          onToggleMastery,
+          onSelectTarget,
+          nodeIndex: idx,
+        },
+      };
     });
 
     const flowEdges = edgesList.map((e) => ({
-      id: `e-${e.source_id}-${e.target_id}`,
-      source: e.source_id,
-      target: e.target_id,
+      id: `e-${String(e.source_id)}-${String(e.target_id)}`,  // string id
+      source: String(e.source_id),                             // string source
+      target: String(e.target_id),                             // string target
       animated: true,
       style: { stroke: "#141518", strokeWidth: 3 },
       markerEnd: { type: MarkerType.ArrowClosed, color: "#141518" },
@@ -112,12 +130,21 @@ export default function GraphCanvas({
     return { initialNodes: flowNodes, initialEdges: flowEdges };
   }, [summary, knownConceptIds, targetConceptId, onToggleMastery, onSelectTarget]);
 
-  const [nodes, , onNodesChange] = useNodesState(initialNodes);
-  const [edges, , onEdgesChange] = useEdgesState(initialEdges);
+  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
+  const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
+
+  // Sync nodes/edges when summary changes AND call fitView
+  useEffect(() => {
+    setNodes(initialNodes);
+    setEdges(initialEdges);
+    // fitView after a tick so React Flow has time to mount nodes
+    const t = setTimeout(() => fitView({ padding: 0.15, duration: 400 }), 50);
+    return () => clearTimeout(t);
+  }, [initialNodes, initialEdges, setNodes, setEdges, fitView]);
 
   if (!summary || summary.nodes.length === 0) {
     return (
-      <div className="w-full h-full min-h-[450px] bg-[#E6E0D3] border-[3px] border-bauhaus-black flex items-center justify-center text-center p-6 shadow-bauhaus">
+      <div className="w-full h-full min-h-[520px] bg-[#E6E0D3] border-[3px] border-bauhaus-black flex items-center justify-center text-center p-6 shadow-bauhaus">
         <div>
           <p className="text-xs font-black uppercase font-bauhaus tracking-wider text-bauhaus-black">
             No Concept Graph Loaded
@@ -131,10 +158,11 @@ export default function GraphCanvas({
   }
 
   return (
-    <div className="w-full h-[520px] bg-[#E6E0D3] border-[3px] border-bauhaus-black overflow-hidden relative shadow-bauhaus">
+    /* Explicit height required by React Flow */
+    <div style={{ width: "100%", height: "520px" }} className="bg-[#E6E0D3] border-[3px] border-bauhaus-black overflow-hidden relative shadow-bauhaus">
       <ReactFlow
-        nodes={initialNodes}
-        edges={initialEdges}
+        nodes={nodes}
+        edges={edges}
         nodeTypes={nodeTypes}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
@@ -144,5 +172,14 @@ export default function GraphCanvas({
         <Controls showInteractive={false} />
       </ReactFlow>
     </div>
+  );
+}
+
+// Wrap with ReactFlowProvider so useReactFlow() works
+export default function GraphCanvas(props) {
+  return (
+    <ReactFlowProvider>
+      <GraphCanvasInner {...props} />
+    </ReactFlowProvider>
   );
 }

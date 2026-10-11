@@ -1,0 +1,181 @@
+{
+  "course_code": "2113112",
+  "title": "Discrete Structures and Graph Theory",
+  "semester": "III",
+  "topics": [
+    {
+      "name": "Propositional Logic",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Logic: Propositional Logic, Predicate Logic, Quantifiers (Universal and Existential).",
+      "page": 20
+    },
+    {
+      "name": "Predicate Logic",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Logic: Propositional Logic, Predicate Logic, Quantifiers (Universal and Existential).",
+      "page": 20
+    },
+    {
+      "name": "Quantifiers",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Predicate Logic, Quantifiers (Universal and Existential).",
+      "page": 20
+    },
+    {
+      "name": "Direct proof",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Types of Mathematical Proof: Direct proof, Proof by contradiction, Proof by deduction",
+      "page": 20
+    },
+    {
+      "name": "Proof by contradiction",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Direct proof, Proof by contradiction, Proof by deduction, Proof by cases",
+      "page": 20
+    },
+    {
+      "name": "Mathematical induction",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Proof by cases, Proof by exhaustion, Proof by counterexample, Mathematical induction.",
+      "page": 20
+    },
+    {
+      "name": "Properties of Relations",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Representation of Relations, Properties of Relations, Equivalence Relations",
+      "page": 20
+    },
+    {
+      "name": "Equivalence Relations",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Properties of Relations, Equivalence Relations, Equivalence Classes",
+      "page": 20
+    },
+    {
+      "name": "Warshall\u2019s algorithm",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Equivalence Classes, Closures of Relations, Warshall\u2019s algorithm.",
+      "page": 20
+    },
+    {
+      "name": "Partial Order Relations",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Posets and Lattice: Partial Order Relations, Poset, Hasse Diagram",
+      "page": 20
+    },
+    {
+      "name": "Hasse Diagram",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Partial Order Relations, Poset, Hasse Diagram, Chain and Anti chains",
+      "page": 20
+    },
+    {
+      "name": "Lattice",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Chain and Anti chains, Lattice, Types of Lattices, Sub lattice.",
+      "page": 20
+    },
+    {
+      "name": "Composition",
+      "unit": "Module III: Functions",
+      "source_quote": "Bijective Functions. Composition, Inverse Functions.",
+      "page": 20
+    },
+    {
+      "name": "Inverse Functions",
+      "unit": "Module III: Functions",
+      "source_quote": "Composition, Inverse Functions. Real life applications of Functions.",
+      "page": 20
+    },
+    {
+      "name": "Pigeonhole Principle",
+      "unit": "Module IV: Counting",
+      "source_quote": "Pigeonhole Principle, Inclusion-Exclusion Principle.",
+      "page": 20
+    },
+    {
+      "name": "Inclusion-Exclusion Principle",
+      "unit": "Module IV: Counting",
+      "source_quote": "Pigeonhole Principle, Inclusion-Exclusion Principle.",
+      "page": 20
+    },
+    {
+      "name": "Recurrence relations",
+      "unit": "Module IV: Counting",
+      "source_quote": "Recurrence relations, Solving recurrence relations",
+      "page": 20
+    },
+    {
+      "name": "Solving recurrence relations",
+      "unit": "Module IV: Counting",
+      "source_quote": "Recurrence relations, Solving recurrence relations",
+      "page": 20
+    },
+    {
+      "name": "Semi group",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with one binary operation: Semi group, Monoid, Groups",
+      "page": 20
+    },
+    {
+      "name": "Monoid",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Semi group, Monoid, Groups, Subgroups, Abelian Group",
+      "page": 20
+    },
+    {
+      "name": "Abelian Group",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Groups, Subgroups, Abelian Group, and Cyclic group.",
+      "page": 20
+    },
+    {
+      "name": "Cyclic group",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Abelian Group, and Cyclic group.",
+      "page": 20
+    },
+    {
+      "name": "Ring",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with two binary operations: Ring.",
+      "page": 20
+    },
+    {
+      "name": "Graph Representation",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Types of graphs, Graph Representation, Sub graphs, Operations on Graphs",
+      "page": 21
+    },
+    {
+      "name": "Homomorphism and Isomorphism of Graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Components, Homomorphism and Isomorphism of Graphs, Euler and Hamiltonian Graphs",
+      "page": 21
+    },
+    {
+      "name": "Euler and Hamiltonian Graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Homomorphism and Isomorphism of Graphs, Euler and Hamiltonian Graphs, Planar Graph",
+      "page": 21
+    },
+    {
+      "name": "Planar Graph",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Euler and Hamiltonian Graphs, Planar Graph, Cut Set, Cut Vertex",
+      "page": 21
+    },
+    {
+      "name": "Cut Set",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Planar Graph, Cut Set, Cut Vertex, Real life applications of Graph Theory.",
+      "page": 21
+    },
+    {
+      "name": "Cut Vertex",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Cut Set, Cut Vertex, Real life applications of Graph Theory.",
+      "page": 21
+    }
+  ]
+}

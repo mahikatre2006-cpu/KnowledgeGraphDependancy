@@ -1,0 +1,25 @@
+{
+  "model_version": "v4",
+  "training_provenance": "Filtered legacy dataset (final_training_dataset.csv) with all 836 heuristic-labeled rows removed",
+  "feature_names": [
+    "embedding_similarity",
+    "keyword_overlap",
+    "order_delta"
+  ],
+  "feature_importances": {
+    "embedding_similarity": 0.3198,
+    "keyword_overlap": 0.1086,
+    "order_delta": 0.5717
+  },
+  "optimal_threshold": 0.4,
+  "data_sha256": "d4ebfa5bba76d229d149919d9f9107f62ec1610aeebb7e291d70cd4fc9cddc07",
+  "train_rows": 200,
+  "test_rows": 135,
+  "metrics": {
+    "test_precision": 0.75,
+    "test_recall": 0.8182,
+    "test_f1": 0.7826,
+    "test_roc_auc": 0.9597,
+    "test_accuracy": 0.963
+  }
+}

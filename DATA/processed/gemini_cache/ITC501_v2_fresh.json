@@ -1,0 +1,475 @@
+{
+  "course_code": "ITC501",
+  "title": "Internet Programming",
+  "semester": "V",
+  "topics": [
+    {
+      "name": "Working of Web Browser",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "Working of web browser",
+      "page": 13
+    },
+    {
+      "name": "HTTP Protocol",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "HTTP protocol",
+      "page": 13
+    },
+    {
+      "name": "HTTPS",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "HTTPS",
+      "page": 13
+    },
+    {
+      "name": "DNS",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "DNS",
+      "page": 13
+    },
+    {
+      "name": "TLS",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "TLS",
+      "page": 13
+    },
+    {
+      "name": "XML Introduction",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "XML introduction",
+      "page": 13
+    },
+    {
+      "name": "JSON Introduction",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "Json introduction",
+      "page": 13
+    },
+    {
+      "name": "DOM",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "DOM",
+      "page": 13
+    },
+    {
+      "name": "URL",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "URL",
+      "page": 13
+    },
+    {
+      "name": "URI",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "URI",
+      "page": 13
+    },
+    {
+      "name": "REST API",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "REST API",
+      "page": 13
+    },
+    {
+      "name": "Nginx Server",
+      "unit": "Module I: Web programming fundamentals",
+      "source_quote": "Nginx server",
+      "page": 13
+    },
+    {
+      "name": "ES6 Introduction",
+      "unit": "Module II: Java script:",
+      "source_quote": "Introduction to ES6",
+      "page": 13
+    },
+    {
+      "name": "ES5 and ES6 Difference",
+      "unit": "Module II: Java script:",
+      "source_quote": "Difference between ES5 and ES6",
+      "page": 13
+    },
+    {
+      "name": "Variables",
+      "unit": "Module II: Java script:",
+      "source_quote": "Variables",
+      "page": 13
+    },
+    {
+      "name": "Condition",
+      "unit": "Module II: Java script:",
+      "source_quote": "Condition",
+      "page": 13
+    },
+    {
+      "name": "Loops",
+      "unit": "Module II: Java script:",
+      "source_quote": "Loops",
+      "page": 13
+    },
+    {
+      "name": "Functions",
+      "unit": "Module II: Java script:",
+      "source_quote": "Functions",
+      "page": 13
+    },
+    {
+      "name": "Events",
+      "unit": "Module II: Java script:",
+      "source_quote": "Events",
+      "page": 13
+    },
+    {
+      "name": "Arrow Functions",
+      "unit": "Module II: Java script:",
+      "source_quote": "Arrow functions",
+      "page": 13
+    },
+    {
+      "name": "CSS Styles using JavaScript",
+      "unit": "Module II: Java script:",
+      "source_quote": "Setting CSS Styles using JavaScript",
+      "page": 13
+    },
+    {
+      "name": "DOM Manipulation",
+      "unit": "Module II: Java script:",
+      "source_quote": "DOM manipulation",
+      "page": 13
+    },
+    {
+      "name": "Classes",
+      "unit": "Module II: Java script:",
+      "source_quote": "Classes and Inheritance",
+      "page": 13
+    },
+    {
+      "name": "Inheritance",
+      "unit": "Module II: Java script:",
+      "source_quote": "Classes and Inheritance",
+      "page": 13
+    },
+    {
+      "name": "Iterators",
+      "unit": "Module II: Java script:",
+      "source_quote": "Iterators and Generators",
+      "page": 13
+    },
+    {
+      "name": "Generators",
+      "unit": "Module II: Java script:",
+      "source_quote": "Iterators and Generators",
+      "page": 13
+    },
+    {
+      "name": "Promise",
+      "unit": "Module II: Java script:",
+      "source_quote": "Promise",
+      "page": 13
+    },
+    {
+      "name": "Client-server Communication",
+      "unit": "Module II: Java script:",
+      "source_quote": "Client-server communication",
+      "page": 13
+    },
+    {
+      "name": "Fetch",
+      "unit": "Module II: Java script:",
+      "source_quote": "Fetch",
+      "page": 13
+    },
+    {
+      "name": "Asynchronous JavaScript",
+      "unit": "Module II: Java script:",
+      "source_quote": "Asynchronous JavaScript",
+      "page": 13
+    },
+    {
+      "name": "JSON",
+      "unit": "Module II: Java script:",
+      "source_quote": "JSON",
+      "page": 13
+    },
+    {
+      "name": "Installation",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Installation",
+      "page": 13
+    },
+    {
+      "name": "Installing Libraries",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Installing libraries",
+      "page": 13
+    },
+    {
+      "name": "Folder Structure",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Folder and file structure",
+      "page": 13
+    },
+    {
+      "name": "File Structure",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Folder and file structure",
+      "page": 13
+    },
+    {
+      "name": "Components",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Components",
+      "page": 13
+    },
+    {
+      "name": "Component Lifecycle",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Component lifecycle",
+      "page": 13
+    },
+    {
+      "name": "State",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "State and Props",
+      "page": 13
+    },
+    {
+      "name": "Props",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "State and Props",
+      "page": 13
+    },
+    {
+      "name": "React Router",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "React Router and Single page applications",
+      "page": 13
+    },
+    {
+      "name": "Single Page Applications",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "React Router and Single page applications",
+      "page": 13
+    },
+    {
+      "name": "UI Design",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "UI design",
+      "page": 13
+    },
+    {
+      "name": "Forms",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Forms",
+      "page": 13
+    },
+    {
+      "name": "Events",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Events",
+      "page": 13
+    },
+    {
+      "name": "Animations",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Animations",
+      "page": 13
+    },
+    {
+      "name": "Best Practices",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "Best practices",
+      "page": 13
+    },
+    {
+      "name": "React vs Angular vs Vue",
+      "unit": "Module III: React fundamentals",
+      "source_quote": "React vs Angular vs Vue",
+      "page": 13
+    },
+    {
+      "name": "Functional Components",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "Functional components",
+      "page": 13
+    },
+    {
+      "name": "Refs",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "Refs",
+      "page": 13
+    },
+    {
+      "name": "Use Effects",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "Use effects",
+      "page": 13
+    },
+    {
+      "name": "Hooks",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "Hooks",
+      "page": 13
+    },
+    {
+      "name": "Flow Architecture",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "Flow architecture",
+      "page": 13
+    },
+    {
+      "name": "Model-View-Controller Framework",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "Model-View-Controller framework",
+      "page": 13
+    },
+    {
+      "name": "Flux",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "Flux",
+      "page": 13
+    },
+    {
+      "name": "Application Bundling",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "Bundling the application",
+      "page": 13
+    },
+    {
+      "name": "Web Pack",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "Web pack",
+      "page": 13
+    },
+    {
+      "name": "React Native",
+      "unit": "Module IV: Advanced React:",
+      "source_quote": "React Native",
+      "page": 13
+    },
+    {
+      "name": "Environment Setup",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Environment setup",
+      "page": 13
+    },
+    {
+      "name": "First App",
+      "unit": "Module V: Node.js:",
+      "source_quote": "First app",
+      "page": 13
+    },
+    {
+      "name": "Asynchronous Programming",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Asynchronous programming",
+      "page": 13
+    },
+    {
+      "name": "Callback Concept",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Callback concept",
+      "page": 13
+    },
+    {
+      "name": "Event Loops",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Event loops",
+      "page": 13
+    },
+    {
+      "name": "REPL",
+      "unit": "Module V: Node.js:",
+      "source_quote": "REPL",
+      "page": 13
+    },
+    {
+      "name": "Event Emitter",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Event emitter",
+      "page": 13
+    },
+    {
+      "name": "Networking Module",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Networking module",
+      "page": 13
+    },
+    {
+      "name": "Buffers",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Buffers",
+      "page": 13
+    },
+    {
+      "name": "Streams",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Streams",
+      "page": 13
+    },
+    {
+      "name": "File System",
+      "unit": "Module V: Node.js:",
+      "source_quote": "File system",
+      "page": 13
+    },
+    {
+      "name": "Web Module",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Web module",
+      "page": 13
+    },
+    {
+      "name": "Node.js with Mongodb",
+      "unit": "Module V: Node.js:",
+      "source_quote": "Node.js with Mongodb.",
+      "page": 13
+    },
+    {
+      "name": "Introduction",
+      "unit": "Module VI: Express:",
+      "source_quote": "Introduction",
+      "page": 13
+    },
+    {
+      "name": "Express Router",
+      "unit": "Module VI: Express:",
+      "source_quote": "Express router",
+      "page": 13
+    },
+    {
+      "name": "REST API",
+      "unit": "Module VI: Express:",
+      "source_quote": "REST API",
+      "page": 13
+    },
+    {
+      "name": "Generator",
+      "unit": "Module VI: Express:",
+      "source_quote": "Generator",
+      "page": 13
+    },
+    {
+      "name": "Authentication",
+      "unit": "Module VI: Express:",
+      "source_quote": "Authentication",
+      "page": 13
+    },
+    {
+      "name": "Sessions",
+      "unit": "Module VI: Express:",
+      "source_quote": "sessions",
+      "page": 13
+    },
+    {
+      "name": "Integrating with React",
+      "unit": "Module VI: Express:",
+      "source_quote": "Integrating with React",
+      "page": 13
+    },
+    {
+      "name": "Commercial Deployment",
+      "unit": "Module VI: Express:",
+      "source_quote": "Commercial deployment.",
+      "page": 13
+    }
+  ]
+}

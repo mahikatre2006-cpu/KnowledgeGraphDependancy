@@ -1,0 +1,15 @@
+course_code,title,semester,unit,topic_name,source_quote,page,human_ok
+ITC501,Internet Programming,V,Module I: Web programming fundamentals,Document Object Model,DOM,13,
+ITC501,Internet Programming,V,Module II: Java script,Promises,Promise,13,
+ITC501,Internet Programming,V,Module II: Java script,Client-server communication,"Client-server 
+communication",13,
+ITC501,Internet Programming,V,Module II: Java script,Fetch,Fetch,13,
+ITC501,Internet Programming,V,Module III: React fundamentals,Forms,"Forms,",13,
+ITC501,Internet Programming,V,Module III: React fundamentals,Events,"Events,",13,
+ITC501,Internet Programming,V,Module IV: Advanced React,Flux Architecture,Flux,13,
+ITC501,Internet Programming,V,Module V: Node.js,Node.js File System,File system,13,
+ITC501,Internet Programming,V,Module V: Node.js,Node.js Web Module,Web module,13,
+ITC501,Internet Programming,V,Module VI: Express,REST API in Express,"REST 
+API",13,
+ITC501,Internet Programming,V,Module VI: Express,Express Generator,Generator,13,
+CSC303,Data Structure,III,Module 1: Introduction to Data Structures,Concept of Abstract Data Types,Concept of ADT,13,

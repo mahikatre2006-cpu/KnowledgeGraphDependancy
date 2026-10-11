@@ -1,0 +1,163 @@
+{
+  "course_code": "2113112",
+  "title": "Discrete Structures and Graph Theory",
+  "semester": "III",
+  "topics": [
+    {
+      "name": "Set Operations and Representation",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Set Operations, Set Representation",
+      "page": 20
+    },
+    {
+      "name": "Propositional and Predicate Logic",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Propositional Logic, Predicate Logic",
+      "page": 20
+    },
+    {
+      "name": "Universal and Existential Quantifiers",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Quantifiers (Universal and Existential)",
+      "page": 20
+    },
+    {
+      "name": "Types of Mathematical Proof",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Types of Mathematical Proof",
+      "page": 20
+    },
+    {
+      "name": "Mathematical Induction",
+      "unit": "Module I: Crisp Set Theory and Logic",
+      "source_quote": "Mathematical induction",
+      "page": 20
+    },
+    {
+      "name": "Properties of Relations",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Properties of Relations",
+      "page": 20
+    },
+    {
+      "name": "Equivalence Relations and Classes",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Equivalence Classes",
+      "page": 20
+    },
+    {
+      "name": "Warshall's Algorithm",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Warshall’s algorithm",
+      "page": 20
+    },
+    {
+      "name": "Partial Order Relations and Posets",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Partial Order Relations, Poset",
+      "page": 20
+    },
+    {
+      "name": "Hasse Diagrams",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Hasse Diagram",
+      "page": 20
+    },
+    {
+      "name": "Lattices and Sublattices",
+      "unit": "Module II: Mathematical Relations",
+      "source_quote": "Types of Lattices, Sub lattice",
+      "page": 20
+    },
+    {
+      "name": "Types of Functions",
+      "unit": "Module III: Functions",
+      "source_quote": "Injective, Surjective, and \nBijective \nFunctions",
+      "page": 20
+    },
+    {
+      "name": "Composition and Inverse Functions",
+      "unit": "Module III: Functions",
+      "source_quote": "Composition, \nInverse \nFunctions",
+      "page": 20
+    },
+    {
+      "name": "Applications of Functions",
+      "unit": "Module III: Functions",
+      "source_quote": "Real life applications of Functions",
+      "page": 20
+    },
+    {
+      "name": "Pigeonhole Principle",
+      "unit": "Module IV: Counting",
+      "source_quote": "Pigeonhole \nPrinciple",
+      "page": 20
+    },
+    {
+      "name": "Inclusion-Exclusion Principle",
+      "unit": "Module IV: Counting",
+      "source_quote": "Inclusion-Exclusion \nPrinciple",
+      "page": 20
+    },
+    {
+      "name": "Solving Recurrence Relations",
+      "unit": "Module IV: Counting",
+      "source_quote": "Recurrence relations, Solving recurrence relations",
+      "page": 20
+    },
+    {
+      "name": "Semigroups and Monoids",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Semi group, Monoid",
+      "page": 20
+    },
+    {
+      "name": "Groups, Subgroups, and Cyclic Groups",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Groups, Subgroups, Abelian \nGroup, and Cyclic group",
+      "page": 20
+    },
+    {
+      "name": "Rings",
+      "unit": "Module V: Algebraic Structures",
+      "source_quote": "Algebraic structures with two binary operations: \nRing",
+      "page": 20
+    },
+    {
+      "name": "Types of Graphs and Representation",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Types of graphs, Graph Representation",
+      "page": 21
+    },
+    {
+      "name": "Operations on Graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Operations on Graphs",
+      "page": 21
+    },
+    {
+      "name": "Walks, Paths, and Circuits",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Walk, Path, Circuit",
+      "page": 21
+    },
+    {
+      "name": "Graph Homomorphism and Isomorphism",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Homomorphism and Isomorphism of \nGraphs",
+      "page": 21
+    },
+    {
+      "name": "Euler and Hamiltonian Graphs",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Euler and Hamiltonian Graphs",
+      "page": 21
+    },
+    {
+      "name": "Planar Graphs, Cut Sets, and Cut Vertices",
+      "unit": "Module VI: Graph Theory",
+      "source_quote": "Planar \nGraph, Cut Set, Cut Vertex",
+      "page": 21
+    }
+  ]
+}
