@@ -10,7 +10,7 @@ from fastapi import APIRouter, UploadFile, File, HTTPException, Query, status
 from app.api.graph_router import global_graph
 from app.parser.pdf_parser import extract_text_from_pdf_bytes
 from app.parser.syllabus_extractor import SyllabusExtractor
-from app.parser.nep_syllabus_parser import parse_nep_pdf_bytes, is_syllabus, NEPCourse
+from app.parser.nep_parse_v2 import parse_nep_pdf_bytes, is_syllabus, NEPCourse, NEPModule
 from app.services.graph_builder import GraphBuilder
 from app.services.sequence_engine import SequenceEngine
 from app.services.relationship_inferencer import RelationshipInferencer
@@ -55,21 +55,24 @@ def _nep_course_to_parsed_syllabus(course: NEPCourse) -> ParsedSyllabus:
 
     for mod in course.modules:
         topics_for_unit: List[ParsedTopic] = []
-        for name in mod["topics"]:
+        mod_topics = getattr(mod, "topics", None) if not isinstance(mod, dict) else mod.get("topics", [])
+        mod_idx = getattr(mod, "index", None) or getattr(mod, "idx", None) if not isinstance(mod, dict) else mod.get("idx", 1)
+        mod_title = getattr(mod, "name", None) or getattr(mod, "title", None) if not isinstance(mod, dict) else mod.get("title", "")
+        for name in mod_topics:
             slug = _slugify(name)
             pt = ParsedTopic(
                 id=slug,
                 name=name,
-                unit_number=mod["idx"],
-                unit_title=mod["title"],
+                unit_number=mod_idx,
+                unit_title=mod_title,
             )
             topics_for_unit.append(pt)
             all_topics.append(pt)
 
         if topics_for_unit:
             units.append(ParsedUnit(
-                unit_number=mod["idx"],
-                title=mod["title"],
+                unit_number=mod_idx,
+                title=mod_title,
                 topics=topics_for_unit,
             ))
 
@@ -87,6 +90,42 @@ def _slugify(text: str) -> str:
     slug = text.lower().strip()
     slug = re.sub(r'[^a-z0-9]+', '_', slug)
     return slug.strip('_')
+
+
+def _handle_raw_text_fallback(content: bytes) -> Optional[List[NEPCourse]]:
+    """
+    Fallback for raw-text / legacy format PDFs that do not match the strict NEP gate.
+    Bypasses the PDF syllabus gate if SyllabusExtractor extracts valid units and topics.
+    Rejects calendar/circular text with None.
+    """
+    import re
+    raw_text = extract_text_from_pdf_bytes(content)
+    junk_patterns = [
+        r'\b(break|holiday|vacation)\b',
+        r'\bunit\s+test\b',
+        r'\bcarried\b',
+        r'\ball\s+subjects\b',
+    ]
+    if any(re.search(p, raw_text, re.IGNORECASE) for p in junk_patterns):
+        return None
+    legacy_parsed = SyllabusExtractor.parse(raw_text)
+    if legacy_parsed and legacy_parsed.units and any(u.topics for u in legacy_parsed.units):
+        modules = [
+            NEPModule(
+                index=u.unit_number,
+                name=u.title,
+                topics=[t.name for t in u.topics],
+            )
+            for u in legacy_parsed.units
+        ]
+        course = NEPCourse(
+            code=legacy_parsed.course_code or "CS301",
+            title=legacy_parsed.course_title or "Syllabus",
+            kind="theory",
+            modules=modules,
+        )
+        return [course]
+    return None
 
 
 def _select_course(courses: List[NEPCourse], course_code: Optional[str]) -> Optional[NEPCourse]:
@@ -151,14 +190,16 @@ async def upload_and_parse(file: UploadFile = File(...)):
 
     print(f"[TIMING] parse={parse_s:.3f}s  total_upload_parse={t_parse_total:.3f}s")
 
-    if not gate_ok:
-        raise HTTPException(
-            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-            detail={"error": "not_a_syllabus"}
-        )
-
-    if not courses:
-        raise HTTPException(status_code=422, detail="No valid courses/topics could be extracted.")
+    if not gate_ok or not courses:
+        fallback_courses = _handle_raw_text_fallback(content)
+        if fallback_courses:
+            courses = fallback_courses
+            gate_ok = True
+        else:
+            raise HTTPException(
+                status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+                detail={"error": "not_a_syllabus"}
+            )
 
     doc_id = str(uuid.uuid4())
     parsed_sessions[doc_id] = courses
@@ -270,11 +311,16 @@ async def upload_and_build_full_pipeline(
     content = await file.read()
 
     gate_ok, courses, _ = parse_nep_pdf_bytes(content)
-    if not gate_ok:
-        raise HTTPException(
-            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-            detail={"error": "not_a_syllabus"},
-        )
+    if not gate_ok or not courses:
+        fallback_courses = _handle_raw_text_fallback(content)
+        if fallback_courses:
+            courses = fallback_courses
+            gate_ok = True
+        else:
+            raise HTTPException(
+                status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+                detail={"error": "not_a_syllabus"},
+            )
 
     selected = _select_course(courses, None)
     if not selected:

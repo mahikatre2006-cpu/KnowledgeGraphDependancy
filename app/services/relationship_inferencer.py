@@ -68,28 +68,32 @@ class RelationshipInferencer:
             try:
                 import json
                 from pathlib import Path
-                thresh_path = Path(__file__).resolve().parent.parent / "ml" / "decision_threshold.json"
+                thresh_path = Path(__file__).resolve().parent.parent / "ml" / "model_artifact_v4_meta.json"
                 with open(thresh_path) as f:
-                    min_confidence = json.load(f).get("optimal_threshold", 0.50)
+                    meta = json.load(f)
+                    min_confidence = meta.get("optimal_threshold") or meta.get("threshold", 0.40)
             except Exception:
-                min_confidence = 0.50
+                min_confidence = 0.40
 
         nodes = graph.get_all_nodes()
         n = len(nodes)
         if n < 2:
             return []
 
-        # ── 1. Embed unique topic names in ONE batch ──────────────────────────
+        # ── 1. Embed unique topic names with unit context in ONE batch ─────────
         t0 = perf_counter()
-        unique_names = list({nd.name for nd in nodes})
-        to_embed = [nm for nm in unique_names if nm not in cls._embedding_cache]
+        unique_texts = list({f"{nd.name}. {nd.unit}." if nd.unit else nd.name for nd in nodes})
+        to_embed = [txt for txt in unique_texts if txt not in cls._embedding_cache]
         if to_embed:
             vecs = LocalEmbeddingService.encode_batch(to_embed)
-            for nm, vec in zip(to_embed, vecs):
-                cls._embedding_cache[nm] = vec
+            for txt, vec in zip(to_embed, vecs):
+                cls._embedding_cache[txt] = vec
         # Build per-node embedding matrix
-        emb_matrix = np.array([cls._embedding_cache[nd.name] for nd in nodes], dtype=np.float32)
-        print(f"[TIMING] embed={perf_counter()-t0:.3f}s  unique={len(unique_names)}")
+        emb_matrix = np.array([
+            cls._embedding_cache[f"{nd.name}. {nd.unit}." if nd.unit else nd.name]
+            for nd in nodes
+        ], dtype=np.float32)
+        print(f"[TIMING] embed={perf_counter()-t0:.3f}s  unique={len(unique_texts)}")
 
         # Normalise for cosine similarity
         norms = np.linalg.norm(emb_matrix, axis=1, keepdims=True)
@@ -101,7 +105,8 @@ class RelationshipInferencer:
         t0 = perf_counter()
         unit_nums = np.array([cls._extract_unit_number(nd.unit) for nd in nodes])
 
-        # Forward pairs i<j where same unit OR j-i <= 12
+        # Forward pairs i<j where same unit OR j-i <= max(12, n)
+        cand_window = max(12, n)
         pair_i: List[int] = []
         pair_j: List[int] = []
         for i in range(n):
@@ -112,7 +117,7 @@ class RelationshipInferencer:
                    graph.has_dependency(nodes[j].id, nodes[i].id):
                     continue
                 same_unit = (unit_nums[i] == unit_nums[j])
-                if same_unit or (j - i) <= 12:
+                if same_unit or (j - i) <= cand_window:
                     pair_i.append(i)
                     pair_j.append(j)
         print(f"[TIMING] pair_build={perf_counter()-t0:.3f}s  candidates={len(pair_i)}")
@@ -173,6 +178,11 @@ class RelationshipInferencer:
             if graph.get_out_degree(src_node.id) >= MAX_OUT_DEGREE:
                 continue
 
+            reason_str = (
+                f"Inferred via local SentenceTransformer embeddings "
+                f"(similarity: {sims[k]:.2f}, delta: {int(deltas[k])}, p={probs[k]:.2f})"
+            )
+
             if auto_add_to_graph:
                 try:
                     graph.add_dependency(
@@ -180,10 +190,7 @@ class RelationshipInferencer:
                         target_id=tgt_node.id,
                         relationship_type="inferred_prerequisite",
                         confidence=round(float(probs[k]), 3),
-                        reason=(
-                            f"sim={sims[k]:.2f} delta={int(deltas[k])} "
-                            f"p={probs[k]:.2f}"
-                        ),
+                        reason=reason_str,
                         tier="strong",
                     )
                     # Reject if cycle introduced
@@ -197,7 +204,7 @@ class RelationshipInferencer:
                                 relationship_type="inferred_prerequisite",
                                 tier="strong",
                                 confidence=round(float(probs[k]), 3),
-                                reason=f"p={probs[k]:.2f}",
+                                reason=reason_str,
                             )
                         )
                 except Exception:
@@ -210,13 +217,17 @@ class RelationshipInferencer:
                         relationship_type="inferred_prerequisite",
                         tier="strong",
                         confidence=round(float(probs[k]), 3),
-                        reason=f"p={probs[k]:.2f}",
+                        reason=reason_str,
                     )
                 )
 
         # Transitive reduction (remove redundant edges)
         if auto_add_to_graph:
             cls._transitive_reduction(graph)
+            inferred_edges = [
+                e for e in inferred_edges
+                if graph.has_dependency(e.source_id, e.target_id)
+            ]
 
         print(f"[TIMING] graph_rules={perf_counter()-t0:.3f}s  edges={len(inferred_edges)}")
         print(f"[TIMING] infer_total={perf_counter()-t_total:.3f}s")
