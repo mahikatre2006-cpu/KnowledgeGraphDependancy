@@ -1,0 +1,1654 @@
+course,a_id,b_id,a_name,b_name,status
+2345111,t1,t2,Nature of Software,Software Engineering,confident
+2345111,t11,t12,Software Requirements,Functional & non-functional Requirements Engineering,confident
+2345111,t11,t13,Software Requirements,Elicitation,uncertain
+2345111,t11,t42,Software Requirements,Levels of Testing,uncertain
+2345111,t12,t13,Functional & non-functional Requirements Engineering,Elicitation,confident
+2345111,t13,t14,Elicitation,Analysis,confident
+2345111,t14,t15,Analysis,Specification,confident
+2345111,t15,t16,Specification,Validation,confident
+2345111,t15,t17,Specification,Software requirement specification (SRS) Design Principles,confident
+2345111,t16,t17,Validation,Software requirement specification (SRS) Design Principles,uncertain
+2345111,t16,t42,Validation,Levels of Testing,uncertain
+2345111,t17,t18,Software requirement specification (SRS) Design Principles,Modularity,confident
+2345111,t17,t19,Software requirement specification (SRS) Design Principles,Abstraction,confident
+2345111,t17,t20,Software requirement specification (SRS) Design Principles,Coupling and Cohesion,uncertain
+2345111,t17,t21,Software requirement specification (SRS) Design Principles,Software Architecture Styles,confident
+2345111,t18,t19,Modularity,Abstraction,uncertain
+2345111,t18,t20,Modularity,Coupling and Cohesion,confident
+2345111,t18,t21,Modularity,Software Architecture Styles,uncertain
+2345111,t19,t20,Abstraction,Coupling and Cohesion,confident
+2345111,t19,t21,Abstraction,Software Architecture Styles,uncertain
+2345111,t2,t11,Software Engineering,Software Requirements,confident
+2345111,t2,t25,Software Engineering,Project Planning,confident
+2345111,t2,t3,Software Engineering,Software Process,confident
+2345111,t2,t42,Software Engineering,Levels of Testing,uncertain
+2345111,t2,t47,Software Engineering,Software Quality Assurance Task and Plan,confident
+2345111,t2,t57,Software Engineering,Manifesto and Principles,confident
+2345111,t20,t21,Coupling and Cohesion,Software Architecture Styles,uncertain
+2345111,t21,t22,Software Architecture Styles,Layered,confident
+2345111,t21,t23,Software Architecture Styles,MVC,confident
+2345111,t21,t24,Software Architecture Styles,Client-Server,confident
+2345111,t25,t26,Project Planning,Scheduling,confident
+2345111,t25,t27,Project Planning,Estimation Techniques Software Project Estimation,confident
+2345111,t25,t32,Project Planning,Defining a Task Set for the Software Project,uncertain
+2345111,t25,t35,Project Planning,Software Risk,confident
+2345111,t25,t68,Project Planning,Agile Project Tracking,uncertain
+2345111,t26,t31,Scheduling,COCOMO II Model Project scheduling,confident
+2345111,t26,t32,Scheduling,Defining a Task Set for the Software Project,uncertain
+2345111,t26,t33,Scheduling,Timeline charts,confident
+2345111,t26,t34,Scheduling,Tracking the Schedule,confident
+2345111,t27,t28,Estimation Techniques Software Project Estimation,LOC,confident
+2345111,t27,t29,Estimation Techniques Software Project Estimation,FP,confident
+2345111,t27,t30,Estimation Techniques Software Project Estimation,Empirical Estimation Models,confident
+2345111,t28,t30,LOC,Empirical Estimation Models,uncertain
+2345111,t29,t30,FP,Empirical Estimation Models,uncertain
+2345111,t3,t11,Software Process,Software Requirements,uncertain
+2345111,t3,t25,Software Process,Project Planning,confident
+2345111,t3,t4,Software Process,Generic Process Model,confident
+2345111,t3,t47,Software Process,Software Quality Assurance Task and Plan,uncertain
+2345111,t3,t57,Software Process,Manifesto and Principles,uncertain
+2345111,t30,t31,Empirical Estimation Models,COCOMO II Model Project scheduling,confident
+2345111,t32,t33,Defining a Task Set for the Software Project,Timeline charts,confident
+2345111,t33,t34,Timeline charts,Tracking the Schedule,confident
+2345111,t35,t36,Software Risk,Configuration Management Risk Identification,confident
+2345111,t35,t37,Software Risk,Risk Assessment,uncertain
+2345111,t35,t39,Software Risk,RMMM Software Configuration management,uncertain
+2345111,t36,t37,Configuration Management Risk Identification,Risk Assessment,uncertain
+2345111,t37,t38,Risk Assessment,Risk Projection,confident
+2345111,t37,t39,Risk Assessment,RMMM Software Configuration management,uncertain
+2345111,t38,t39,Risk Projection,RMMM Software Configuration management,confident
+2345111,t39,t40,RMMM Software Configuration management,SCM repositories,confident
+2345111,t39,t41,RMMM Software Configuration management,SCM process,confident
+2345111,t4,t10,Generic Process Model,Concurrent Models,confident
+2345111,t4,t5,Generic Process Model,Prescriptive Process Models,confident
+2345111,t4,t8,Generic Process Model,Incremental Process Models,confident
+2345111,t4,t9,Generic Process Model,Evolutionary Process Models,confident
+2345111,t40,t41,SCM repositories,SCM process,confident
+2345111,t42,t43,Levels of Testing,Integration,confident
+2345111,t42,t44,Levels of Testing,System,uncertain
+2345111,t42,t45,Levels of Testing,Acceptance,uncertain
+2345111,t42,t46,Levels of Testing,Static and Dynamic Testing Techniques overview Regression and Continuous Testing,confident
+2345111,t42,t47,Levels of Testing,Software Quality Assurance Task and Plan,confident
+2345111,t42,t66,Levels of Testing,Test-Driven Development (TDD),uncertain
+2345111,t42,t72,Levels of Testing,Agile Testing overview DevOps and its Lifecycle,confident
+2345111,t43,t44,Integration,System,confident
+2345111,t44,t45,System,Acceptance,confident
+2345111,t46,t66,Static and Dynamic Testing Techniques overview Regression and Continuous Testing,Test-Driven Development (TDD),uncertain
+2345111,t47,t48,Software Quality Assurance Task and Plan,Metrics,confident
+2345111,t47,t49,Software Quality Assurance Task and Plan,Software Reliability,confident
+2345111,t47,t50,Software Quality Assurance Task and Plan,Formal Technical Review (FTR),confident
+2345111,t48,t49,Metrics,Software Reliability,confident
+2345111,t48,t67,Metrics,Agile Metrics,confident
+2345111,t5,t6,Prescriptive Process Models,The Waterfall Model,confident
+2345111,t5,t7,Prescriptive Process Models,V-model,confident
+2345111,t50,t51,Formal Technical Review (FTR),Walkthrough Maintenance Types,confident
+2345111,t51,t52,Walkthrough Maintenance Types,Corrective,confident
+2345111,t51,t53,Walkthrough Maintenance Types,Adaptive,confident
+2345111,t51,t54,Walkthrough Maintenance Types,Preventive,confident
+2345111,t51,t55,Walkthrough Maintenance Types,Perfective,confident
+2345111,t51,t56,Walkthrough Maintenance Types,Software Reengineering and Refactoring,confident
+2345111,t55,t56,Perfective,Software Reengineering and Refactoring,confident
+2345111,t57,t58,Manifesto and Principles,Scrum Framework,confident
+2345111,t57,t62,Manifesto and Principles,Kanban and Lean Software Development,confident
+2345111,t57,t63,Manifesto and Principles,Extreme Programming (XP),confident
+2345111,t57,t67,Manifesto and Principles,Agile Metrics,confident
+2345111,t57,t68,Manifesto and Principles,Agile Project Tracking,confident
+2345111,t57,t72,Manifesto and Principles,Agile Testing overview DevOps and its Lifecycle,confident
+2345111,t58,t59,Scrum Framework,Roles,confident
+2345111,t58,t60,Scrum Framework,Artifacts,confident
+2345111,t58,t61,Scrum Framework,Events,confident
+2345111,t63,t64,Extreme Programming (XP),Practices,confident
+2345111,t64,t65,Practices,Pair Programming,confident
+2345111,t64,t66,Practices,Test-Driven Development (TDD),confident
+2345111,t66,t72,Test-Driven Development (TDD),Agile Testing overview DevOps and its Lifecycle,uncertain
+2345111,t67,t68,Agile Metrics,Agile Project Tracking,uncertain
+2345111,t67,t69,Agile Metrics,Velocity,confident
+2345111,t68,t69,Agile Project Tracking,Velocity,confident
+2345111,t68,t70,Agile Project Tracking,Burn-Up/Burn,confident
+2345111,t69,t70,Velocity,Burn-Up/Burn,uncertain
+2345111,t70,t71,Burn-Up/Burn,Down Charts,confident
+2345111,t72,t73,Agile Testing overview DevOps and its Lifecycle,DevSecOps and Secure Software Development Lifecycle,confident
+2345111,t8,t9,Incremental Process Models,Evolutionary Process Models,uncertain
+2345112,t1,t18,Definition and Scope of AI,Introduction to Machine Learning,confident
+2345112,t1,t2,Definition and Scope of AI,Applications of AI in Industry,confident
+2345112,t1,t3,Definition and Scope of AI,Intelligent Agents,confident
+2345112,t1,t4,Definition and Scope of AI,Types and Architectures,uncertain
+2345112,t1,t5,Definition and Scope of AI,Problem Formulation in AI,confident
+2345112,t1,t52,Definition and Scope of AI,Ethics,uncertain
+2345112,t1,t53,Definition and Scope of AI,Emerging Trends & Applications AI Ethics and Responsible AI,uncertain
+2345112,t1,t6,Definition and Scope of AI,AI vs ML vs DL,confident
+2345112,t1,t7,Definition and Scope of AI,Introduction to Data Science in AI,confident
+2345112,t13,t14,Informed Search Strategies,Greedy Best First Search,confident
+2345112,t13,t15,Informed Search Strategies,A* Algorithm,confident
+2345112,t13,t16,Informed Search Strategies,Heuristic Functions,confident
+2345112,t16,t14,Heuristic Functions,Greedy Best First Search,confident
+2345112,t16,t15,Heuristic Functions,A* Algorithm,confident
+2345112,t18,t19,Introduction to Machine Learning,Types of Learning,confident
+2345112,t18,t20,Introduction to Machine Learning,Regression,uncertain
+2345112,t18,t23,Introduction to Machine Learning,Classification,uncertain
+2345112,t18,t30,Introduction to Machine Learning,Bias-Variance Trade-off,confident
+2345112,t18,t31,Introduction to Machine Learning,Clustering,uncertain
+2345112,t18,t34,Introduction to Machine Learning,Association Rule Mining,uncertain
+2345112,t18,t35,Introduction to Machine Learning,Dimensionality Reduction,confident
+2345112,t18,t39,Introduction to Machine Learning,Feature Engineering Basics,confident
+2345112,t18,t40,Introduction to Machine Learning,Training,confident
+2345112,t18,t58,Introduction to Machine Learning,Generative AI,uncertain
+2345112,t18,t59,Introduction to Machine Learning,Quantum Machine Learning,confident
+2345112,t18,t60,Introduction to Machine Learning,Introduction to Deep Learning,confident
+2345112,t19,t20,Types of Learning,Regression,confident
+2345112,t19,t23,Types of Learning,Classification,confident
+2345112,t19,t30,Types of Learning,Bias-Variance Trade-off,uncertain
+2345112,t19,t31,Types of Learning,Clustering,confident
+2345112,t19,t34,Types of Learning,Association Rule Mining,uncertain
+2345112,t2,t61,Applications of AI in Industry,AI in Healthcare,confident
+2345112,t2,t62,Applications of AI in Industry,Finance,confident
+2345112,t2,t63,Applications of AI in Industry,Smart Cities,confident
+2345112,t20,t21,Regression,Linear Regression,confident
+2345112,t20,t29,Regression,Regularization Techniques,uncertain
+2345112,t21,t22,Linear Regression,Multiple Regression,confident
+2345112,t21,t29,Linear Regression,Regularization Techniques,uncertain
+2345112,t22,t29,Multiple Regression,Regularization Techniques,uncertain
+2345112,t23,t24,Classification,Logistic Regression,confident
+2345112,t23,t25,Classification,Nearest Neighbours (k-NN),confident
+2345112,t23,t26,Classification,Decision Trees,confident
+2345112,t23,t28,Classification,Support Vector Machine (SVM),confident
+2345112,t23,t29,Classification,Regularization Techniques,uncertain
+2345112,t23,t44,Classification,Confusion Matrix,confident
+2345112,t23,t49,Classification,ROC Curve and AUC,confident
+2345112,t24,t29,Logistic Regression,Regularization Techniques,uncertain
+2345112,t26,t27,Decision Trees,Random Forest,confident
+2345112,t29,t30,Regularization Techniques,Bias-Variance Trade-off,uncertain
+2345112,t3,t4,Intelligent Agents,Types and Architectures,confident
+2345112,t30,t50,Bias-Variance Trade-off,Overfitting and Underfitting,confident
+2345112,t30,t54,Bias-Variance Trade-off,Bias and Fairness in AI,uncertain
+2345112,t31,t32,Clustering,K-Means Clustering,confident
+2345112,t31,t33,Clustering,Hierarchical Clustering,confident
+2345112,t31,t38,Clustering,Gaussian Mixture Models (GMM),confident
+2345112,t34,t37,Association Rule Mining,Association Rule Learning (Apriori Algorithm),confident
+2345112,t35,t36,Dimensionality Reduction,Principal Component Analysis (PCA),confident
+2345112,t40,t41,Training,Validation,confident
+2345112,t40,t43,Training,Cross Validation Techniques,uncertain
+2345112,t40,t50,Training,Overfitting and Underfitting,uncertain
+2345112,t41,t42,Validation,Testing,confident
+2345112,t41,t43,Validation,Cross Validation Techniques,confident
+2345112,t41,t50,Validation,Overfitting and Underfitting,confident
+2345112,t42,t43,Testing,Cross Validation Techniques,confident
+2345112,t42,t44,Testing,Confusion Matrix,confident
+2345112,t43,t51,Cross Validation Techniques,Hyperparameter Tuning and Model Optimization Techniques,confident
+2345112,t44,t45,Confusion Matrix,Accuracy,confident
+2345112,t44,t46,Confusion Matrix,Precision,confident
+2345112,t44,t47,Confusion Matrix,Recall,confident
+2345112,t44,t49,Confusion Matrix,ROC Curve and AUC,confident
+2345112,t46,t48,Precision,F1-Score,confident
+2345112,t47,t48,Recall,F1-Score,confident
+2345112,t5,t17,Problem Formulation in AI,Constraint Satisfaction Problems (CSP),confident
+2345112,t5,t8,Problem Formulation in AI,State Space Representation,confident
+2345112,t50,t51,Overfitting and Underfitting,Hyperparameter Tuning and Model Optimization Techniques,confident
+2345112,t52,t53,Ethics,Emerging Trends & Applications AI Ethics and Responsible AI,confident
+2345112,t53,t54,Emerging Trends & Applications AI Ethics and Responsible AI,Bias and Fairness in AI,confident
+2345112,t53,t55,Emerging Trends & Applications AI Ethics and Responsible AI,Transparency & Accountability,confident
+2345112,t53,t57,Emerging Trends & Applications AI Ethics and Responsible AI,Human-in-the-Loop Systems,uncertain
+2345112,t55,t56,Transparency & Accountability,Introduction to Explainable AI (XAI),confident
+2345112,t56,t57,Introduction to Explainable AI (XAI),Human-in-the-Loop Systems,uncertain
+2345112,t6,t18,AI vs ML vs DL,Introduction to Machine Learning,confident
+2345112,t6,t60,AI vs ML vs DL,Introduction to Deep Learning,confident
+2345112,t6,t7,AI vs ML vs DL,Introduction to Data Science in AI,confident
+2345112,t60,t58,Introduction to Deep Learning,Generative AI,uncertain
+2345112,t7,t18,Introduction to Data Science in AI,Introduction to Machine Learning,uncertain
+2345112,t7,t39,Introduction to Data Science in AI,Feature Engineering Basics,confident
+2345112,t8,t13,State Space Representation,Informed Search Strategies,confident
+2345112,t8,t17,State Space Representation,Constraint Satisfaction Problems (CSP),confident
+2345112,t8,t9,State Space Representation,Uninformed Search Strategies,confident
+2345112,t9,t10,Uninformed Search Strategies,Breadth First Search,confident
+2345112,t9,t11,Uninformed Search Strategies,Depth First Search,confident
+2345112,t9,t12,Uninformed Search Strategies,Uniform Cost Search,confident
+2345112,t9,t13,Uninformed Search Strategies,Informed Search Strategies,confident
+2345113,t1,t10,Introduction to JavaScript,Events,confident
+2345113,t1,t12,Introduction to JavaScript,Client-side Form validation using JavaScript,uncertain
+2345113,t1,t13,Introduction to JavaScript,using properties and methods of built -in-objects,confident
+2345113,t1,t15,Introduction to JavaScript,Introduction to React,confident
+2345113,t1,t2,Introduction to JavaScript,Constants,confident
+2345113,t1,t3,Introduction to JavaScript,JS variables,confident
+2345113,t1,t42,Introduction to JavaScript,Node.js Environment setup,uncertain
+2345113,t1,t43,Introduction to JavaScript,Asynchronous programming,uncertain
+2345113,t1,t5,Introduction to JavaScript,JS Data Types,confident
+2345113,t1,t6,Introduction to JavaScript,JS Function,confident
+2345113,t1,t7,Introduction to JavaScript,JS Array,confident
+2345113,t1,t8,Introduction to JavaScript,Introduction to ES6,confident
+2345113,t1,t9,Introduction to JavaScript,Difference between ES5 and ES6,uncertain
+2345113,t10,t12,Events,Client-side Form validation using JavaScript,confident
+2345113,t11,t23,Arrow functions,Functional components,uncertain
+2345113,t15,t16,Introduction to React,Components,confident
+2345113,t15,t19,Introduction to React,React Router and Single page applications,uncertain
+2345113,t15,t21,Introduction to React,Forms,uncertain
+2345113,t15,t22,Introduction to React,Animations,uncertain
+2345113,t15,t29,Introduction to React,Flux,uncertain
+2345113,t15,t30,Introduction to React,Bundling the application,confident
+2345113,t15,t58,Introduction to React,Integrating with React,confident
+2345113,t16,t17,Components,Component lifecycle,confident
+2345113,t16,t18,Components,State and Props,confident
+2345113,t16,t19,Components,React Router and Single page applications,confident
+2345113,t16,t21,Components,Forms,confident
+2345113,t16,t22,Components,Animations,confident
+2345113,t16,t23,Components,Functional components,confident
+2345113,t16,t24,Components,Refs,confident
+2345113,t16,t29,Components,Flux,uncertain
+2345113,t18,t19,State and Props,React Router and Single page applications,uncertain
+2345113,t18,t21,State and Props,Forms,confident
+2345113,t18,t24,State and Props,Refs,confident
+2345113,t18,t29,State and Props,Flux,uncertain
+2345113,t23,t25,Functional components,use effects,confident
+2345113,t23,t26,Functional components,Hooks,confident
+2345113,t26,t25,Hooks,use effects,confident
+2345113,t27,t29,Flow architecture,Flux,uncertain
+2345113,t3,t4,JS variables,JS Variable scopes,confident
+2345113,t3,t6,JS variables,JS Function,confident
+2345113,t30,t31,Bundling the application,Web pack,confident
+2345113,t32,t33,Understanding MongoDB,MongoDB Data Types,confident
+2345113,t32,t34,Understanding MongoDB,Administering User Accounts,confident
+2345113,t32,t35,Understanding MongoDB,Configuring Access Control,uncertain
+2345113,t32,t36,Understanding MongoDB,CRUD Operations,confident
+2345113,t32,t37,Understanding MongoDB,Using Mongoose for Structured Schema and Validation,confident
+2345113,t33,t36,MongoDB Data Types,CRUD Operations,confident
+2345113,t33,t37,MongoDB Data Types,Using Mongoose for Structured Schema and Validation,confident
+2345113,t34,t35,Administering User Accounts,Configuring Access Control,confident
+2345113,t36,t34,CRUD Operations,Administering User Accounts,uncertain
+2345113,t36,t38,CRUD Operations,Using Express and Mongoose to interact with MongoDB,uncertain
+2345113,t37,t38,Using Mongoose for Structured Schema and Validation,Using Express and Mongoose to interact with MongoDB,confident
+2345113,t39,t40,Web Security Basics,SQL Injection,confident
+2345113,t39,t41,Web Security Basics,XSS,confident
+2345113,t39,t56,Web Security Basics,Authentication,confident
+2345113,t42,t38,Node.js Environment setup,Using Express and Mongoose to interact with MongoDB,uncertain
+2345113,t42,t43,Node.js Environment setup,Asynchronous programming,uncertain
+2345113,t42,t46,Node.js Environment setup,REPL,confident
+2345113,t42,t47,Node.js Environment setup,Event emitter,confident
+2345113,t42,t48,Node.js Environment setup,Networking module,confident
+2345113,t42,t49,Node.js Environment setup,Buffers,confident
+2345113,t42,t50,Node.js Environment setup,Streams,confident
+2345113,t42,t51,Node.js Environment setup,File system,confident
+2345113,t42,t52,Node.js Environment setup,Web module,confident
+2345113,t42,t53,Node.js Environment setup,Express router,confident
+2345113,t43,t44,Asynchronous programming,Callback concept,confident
+2345113,t43,t45,Asynchronous programming,Event loops,confident
+2345113,t43,t47,Asynchronous programming,Event emitter,uncertain
+2345113,t43,t48,Asynchronous programming,Networking module,confident
+2345113,t43,t51,Asynchronous programming,File system,confident
+2345113,t43,t52,Asynchronous programming,Web module,uncertain
+2345113,t44,t45,Callback concept,Event loops,confident
+2345113,t45,t47,Event loops,Event emitter,uncertain
+2345113,t48,t52,Networking module,Web module,confident
+2345113,t49,t50,Buffers,Streams,confident
+2345113,t5,t13,JS Data Types,using properties and methods of built -in-objects,confident
+2345113,t5,t6,JS Data Types,JS Function,confident
+2345113,t5,t7,JS Data Types,JS Array,confident
+2345113,t52,t53,Web module,Express router,confident
+2345113,t53,t54,Express router,REST API,confident
+2345113,t53,t56,Express router,Authentication,uncertain
+2345113,t53,t58,Express router,Integrating with React,uncertain
+2345113,t54,t56,REST API,Authentication,uncertain
+2345113,t54,t58,REST API,Integrating with React,uncertain
+2345113,t56,t57,Authentication,sessions,confident
+2345113,t6,t10,JS Function,Events,confident
+2345113,t6,t11,JS Function,Arrow functions,confident
+2345113,t6,t12,JS Function,Client-side Form validation using JavaScript,confident
+2345113,t6,t23,JS Function,Functional components,uncertain
+2345113,t6,t43,JS Function,Asynchronous programming,uncertain
+2345113,t6,t44,JS Function,Callback concept,confident
+2345113,t6,t55,JS Function,Generator,confident
+2345113,t8,t11,Introduction to ES6,Arrow functions,confident
+2345113,t8,t55,Introduction to ES6,Generator,confident
+2345113,t8,t9,Introduction to ES6,Difference between ES5 and ES6,confident
+23451141,t1,t2,Cyber Crime Vs Information Security,CIA Triad Cyber Security & Threats and security principles,confident
+23451141,t10,t11,cryptography,goals of cryptography,confident
+23451141,t10,t16,cryptography,Symmetric Key Cryptography-Concepts of symmetric encryption,confident
+23451141,t10,t20,cryptography,Asymmetric Key Cryptography-Concepts of public key cryptography,confident
+23451141,t10,t24,cryptography,Hash Functions-Modern hash functions,confident
+23451141,t10,t35,cryptography,VPN concepts and types,uncertain
+23451141,t11,t12,goals of cryptography,confidentiality,confident
+23451141,t11,t13,goals of cryptography,integrity,confident
+23451141,t11,t14,goals of cryptography,authentication,confident
+23451141,t11,t15,goals of cryptography,non-repudiation,confident
+23451141,t12,t16,confidentiality,Symmetric Key Cryptography-Concepts of symmetric encryption,confident
+23451141,t12,t20,confidentiality,Asymmetric Key Cryptography-Concepts of public key cryptography,uncertain
+23451141,t13,t24,integrity,Hash Functions-Modern hash functions,confident
+23451141,t14,t20,authentication,Asymmetric Key Cryptography-Concepts of public key cryptography,uncertain
+23451141,t14,t28,authentication,Digital Signatures and Public Key Infrastructure (PKI)-Digital signature process,uncertain
+23451141,t15,t28,non-repudiation,Digital Signatures and Public Key Infrastructure (PKI)-Digital signature process,uncertain
+23451141,t16,t17,Symmetric Key Cryptography-Concepts of symmetric encryption,block cipher and stream cipher,confident
+23451141,t16,t18,Symmetric Key Cryptography-Concepts of symmetric encryption,overview of algorithms,confident
+23451141,t16,t19,Symmetric Key Cryptography-Concepts of symmetric encryption,AES and DES,uncertain
+23451141,t16,t20,Symmetric Key Cryptography-Concepts of symmetric encryption,Asymmetric Key Cryptography-Concepts of public key cryptography,uncertain
+23451141,t16,t22,Symmetric Key Cryptography-Concepts of symmetric encryption,key generation and key exchange concepts,confident
+23451141,t16,t32,Symmetric Key Cryptography-Concepts of symmetric encryption,applications in secure communication,uncertain
+23451141,t16,t33,Symmetric Key Cryptography-Concepts of symmetric encryption,Secure Communication Protocols-Overview of TLS 1.2 and TLS 1.3,uncertain
+23451141,t17,t19,block cipher and stream cipher,AES and DES,uncertain
+23451141,t18,t19,overview of algorithms,AES and DES,confident
+23451141,t2,t3,CIA Triad Cyber Security & Threats and security principles,Types of cyber-attacks,confident
+23451141,t2,t85,CIA Triad Cyber Security & Threats and security principles,security and privacy aspects in cyber law,uncertain
+23451141,t2,t9,CIA Triad Cyber Security & Threats and security principles,Introduction to AI in Intrusion Detection and User Behavior Analysis,confident
+23451141,t20,t21,Asymmetric Key Cryptography-Concepts of public key cryptography,RSA and ECC,confident
+23451141,t20,t22,Asymmetric Key Cryptography-Concepts of public key cryptography,key generation and key exchange concepts,confident
+23451141,t20,t23,Asymmetric Key Cryptography-Concepts of public key cryptography,applications of public key cryptography,confident
+23451141,t20,t28,Asymmetric Key Cryptography-Concepts of public key cryptography,Digital Signatures and Public Key Infrastructure (PKI)-Digital signature process,confident
+23451141,t20,t32,Asymmetric Key Cryptography-Concepts of public key cryptography,applications in secure communication,uncertain
+23451141,t20,t33,Asymmetric Key Cryptography-Concepts of public key cryptography,Secure Communication Protocols-Overview of TLS 1.2 and TLS 1.3,uncertain
+23451141,t24,t25,Hash Functions-Modern hash functions,SHA-2,confident
+23451141,t24,t26,Hash Functions-Modern hash functions,SHA-3,confident
+23451141,t24,t27,Hash Functions-Modern hash functions,BLAKE2/BLAKE3,confident
+23451141,t24,t28,Hash Functions-Modern hash functions,Digital Signatures and Public Key Infrastructure (PKI)-Digital signature process,confident
+23451141,t28,t29,Digital Signatures and Public Key Infrastructure (PKI)-Digital signature process,X.509 digital certificates,confident
+23451141,t28,t31,Digital Signatures and Public Key Infrastructure (PKI)-Digital signature process,basic PKI architecture,uncertain
+23451141,t28,t32,Digital Signatures and Public Key Infrastructure (PKI)-Digital signature process,applications in secure communication,uncertain
+23451141,t29,t30,X.509 digital certificates,Certificate Authorities (CA),confident
+23451141,t29,t31,X.509 digital certificates,basic PKI architecture,confident
+23451141,t3,t4,Types of cyber-attacks,"Malware types (Ransomware, Rootkits, Botnets)",confident
+23451141,t3,t5,Types of cyber-attacks,Advanced Persistent Threats (APT),confident
+23451141,t3,t53,Types of cyber-attacks,Concept of vulnerabilities,uncertain
+23451141,t3,t59,Types of cyber-attacks,cloud threats and risks,uncertain
+23451141,t3,t6,Types of cyber-attacks,Cyber Kill Chain Model,confident
+23451141,t3,t64,Types of cyber-attacks,SQL Injection,uncertain
+23451141,t3,t65,Types of cyber-attacks,Cross -Site Scripting (XSS),uncertain
+23451141,t3,t7,Types of cyber-attacks,Social Engineering attacks,confident
+23451141,t3,t71,Types of cyber-attacks,Intrusion Detection and Prevention Systems (IDS/IPS),uncertain
+23451141,t3,t73,Types of cyber-attacks,Common network attacks,uncertain
+23451141,t3,t8,Types of cyber-attacks,AI-based malware and phishing detection,uncertain
+23451141,t3,t9,Types of cyber-attacks,Introduction to AI in Intrusion Detection and User Behavior Analysis,confident
+23451141,t30,t31,Certificate Authorities (CA),basic PKI architecture,confident
+23451141,t31,t32,basic PKI architecture,applications in secure communication,uncertain
+23451141,t31,t33,basic PKI architecture,Secure Communication Protocols-Overview of TLS 1.2 and TLS 1.3,confident
+23451141,t32,t33,applications in secure communication,Secure Communication Protocols-Overview of TLS 1.2 and TLS 1.3,uncertain
+23451141,t32,t35,applications in secure communication,VPN concepts and types,uncertain
+23451141,t33,t34,Secure Communication Protocols-Overview of TLS 1.2 and TLS 1.3,limitations of SSL,confident
+23451141,t33,t35,Secure Communication Protocols-Overview of TLS 1.2 and TLS 1.3,VPN concepts and types,uncertain
+23451141,t35,t36,VPN concepts and types,IPsec architecture (conceptual overview),confident
+23451141,t35,t72,VPN concepts and types,IP Security,uncertain
+23451141,t37,t38,Operating System Security Concepts,Basic security features in Windows and Linux,confident
+23451141,t37,t39,Operating System Security Concepts,user accounts and permissions,confident
+23451141,t37,t40,Operating System Security Concepts,importance of secure system configuration,confident
+23451141,t37,t41,Operating System Security Concepts,access control and authentication concepts,confident
+23451141,t37,t45,Operating System Security Concepts,Identity Federation and Authentication Operating System Security Concepts,uncertain
+23451141,t37,t51,Operating System Security Concepts,importance of antivirus,uncertain
+23451141,t37,t52,Operating System Security Concepts,Software Updates and Patch Management,uncertain
+23451141,t37,t53,Operating System Security Concepts,Concept of vulnerabilities,confident
+23451141,t39,t41,user accounts and permissions,access control and authentication concepts,confident
+23451141,t39,t44,user accounts and permissions,the role of identity management in system security,uncertain
+23451141,t4,t51,"Malware types (Ransomware, Rootkits, Botnets)",importance of antivirus,uncertain
+23451141,t4,t8,"Malware types (Ransomware, Rootkits, Botnets)",AI-based malware and phishing detection,confident
+23451141,t41,t42,access control and authentication concepts,"overview of access control models (DAC, MAC, RBAC – conceptual)",confident
+23451141,t41,t43,access control and authentication concepts,user authentication methods including password-based authentication and Multi-Factor Authentication (MFA),confident
+23451141,t41,t44,access control and authentication concepts,the role of identity management in system security,uncertain
+23451141,t41,t67,access control and authentication concepts,Broken Authentication (and basic access control issues),uncertain
+23451141,t43,t44,user authentication methods including password-based authentication and Multi-Factor Authentication (MFA),the role of identity management in system security,uncertain
+23451141,t43,t48,user authentication methods including password-based authentication and Multi-Factor Authentication (MFA),Single Sign-On (SSO) Password Security and System Protection,confident
+23451141,t43,t49,user authentication methods including password-based authentication and Multi-Factor Authentication (MFA),Common password attacks (brute force and dictionary attacks),confident
+23451141,t43,t50,user authentication methods including password-based authentication and Multi-Factor Authentication (MFA),basic password protection techniques,uncertain
+23451141,t43,t67,user authentication methods including password-based authentication and Multi-Factor Authentication (MFA),Broken Authentication (and basic access control issues),confident
+23451141,t44,t45,the role of identity management in system security,Identity Federation and Authentication Operating System Security Concepts,confident
+23451141,t44,t48,the role of identity management in system security,Single Sign-On (SSO) Password Security and System Protection,uncertain
+23451141,t44,t60,the role of identity management in system security,Identity and Access Management (IAM) concepts,confident
+23451141,t45,t46,Identity Federation and Authentication Operating System Security Concepts,Identity Federation and Authentication Technologies-SAML,confident
+23451141,t45,t47,Identity Federation and Authentication Operating System Security Concepts,SCIM Identity Providers (IdP),uncertain
+23451141,t45,t48,Identity Federation and Authentication Operating System Security Concepts,Single Sign-On (SSO) Password Security and System Protection,uncertain
+23451141,t46,t47,Identity Federation and Authentication Technologies-SAML,SCIM Identity Providers (IdP),uncertain
+23451141,t48,t49,Single Sign-On (SSO) Password Security and System Protection,Common password attacks (brute force and dictionary attacks),uncertain
+23451141,t49,t50,Common password attacks (brute force and dictionary attacks),basic password protection techniques,confident
+23451141,t52,t54,Software Updates and Patch Management,importance of regular updates and patch management,confident
+23451141,t53,t52,Concept of vulnerabilities,Software Updates and Patch Management,uncertain
+23451141,t53,t54,Concept of vulnerabilities,importance of regular updates and patch management,uncertain
+23451141,t54,t55,importance of regular updates and patch management,automated update mechanisms (conceptual overview),confident
+23451141,t56,t57,Introduction to Cloud Security,Introduction to cloud computing security,confident
+23451141,t57,t58,Introduction to cloud computing security,"cloud service models (IaaS, PaaS, SaaS)",confident
+23451141,t57,t59,Introduction to cloud computing security,cloud threats and risks,confident
+23451141,t57,t60,Introduction to cloud computing security,Identity and Access Management (IAM) concepts,confident
+23451141,t57,t61,Introduction to cloud computing security,Shared Responsibility Model in cloud environments,uncertain
+23451141,t58,t59,"cloud service models (IaaS, PaaS, SaaS)",cloud threats and risks,uncertain
+23451141,t58,t61,"cloud service models (IaaS, PaaS, SaaS)",Shared Responsibility Model in cloud environments,confident
+23451141,t59,t61,cloud threats and risks,Shared Responsibility Model in cloud environments,uncertain
+23451141,t62,t63,Web application architecture overview,Session management and cookies,confident
+23451141,t62,t64,Web application architecture overview,SQL Injection,confident
+23451141,t62,t65,Web application architecture overview,Cross -Site Scripting (XSS),confident
+23451141,t62,t66,Web application architecture overview,Cross-Site Request Forgery (CSRF),confident
+23451141,t62,t67,Web application architecture overview,Broken Authentication (and basic access control issues),confident
+23451141,t63,t66,Session management and cookies,Cross-Site Request Forgery (CSRF),confident
+23451141,t68,t69,Network security overview and its types,Benefits and challenges in network security,confident
+23451141,t68,t70,Network security overview and its types,Firewalls and their types,confident
+23451141,t68,t71,Network security overview and its types,Intrusion Detection and Prevention Systems (IDS/IPS),confident
+23451141,t68,t72,Network security overview and its types,IP Security,confident
+23451141,t68,t73,Network security overview and its types,Common network attacks,confident
+23451141,t7,t8,Social Engineering attacks,AI-based malware and phishing detection,confident
+23451141,t73,t74,Common network attacks,DoS / DDoS,confident
+23451141,t73,t75,Common network attacks,Man-in-the-Middle Attack ARP Spoofing,confident
+23451141,t76,t77,Security Standards and Frameworks,National Institute of Standards and Technology Cybersecurity Framework,confident
+23451141,t76,t78,Security Standards and Frameworks,U.S,confident
+23451141,t76,t80,Security Standards and Frameworks,PCI Security Standards Council PCI-DSS,confident
+23451141,t78,t79,U.S,Department of Health and Human Services HIPAA,confident
+23451141,t81,t82,Cyber Laws,Fundamental Concepts,confident
+23451141,t81,t83,Cyber Laws,Need and role of cyber laws in digital systems,uncertain
+23451141,t82,t83,Fundamental Concepts,Need and role of cyber laws in digital systems,confident
+23451141,t82,t84,Fundamental Concepts,contract aspects in cyber law including e-contracts and digital transactions,uncertain
+23451141,t82,t85,Fundamental Concepts,security and privacy aspects in cyber law,uncertain
+23451141,t83,t84,Need and role of cyber laws in digital systems,contract aspects in cyber law including e-contracts and digital transactions,uncertain
+23451141,t83,t85,Need and role of cyber laws in digital systems,security and privacy aspects in cyber law,uncertain
+23451142,t1,t2,Query processing in DBMS,Steps of Query Processing,confident
+23451142,t1,t3,Query processing in DBMS,Measures of Query Cost Selection Operation,uncertain
+23451142,t1,t4,Query processing in DBMS,Sorting,uncertain
+23451142,t1,t5,Query processing in DBMS,Join Operation,uncertain
+23451142,t1,t6,Query processing in DBMS,Evaluation of Expressions,uncertain
+23451142,t1,t7,Query processing in DBMS,Query Optimization Overview,confident
+23451142,t10,t11,Transformations Approaches of Query Optimization,Transformations of Relational Expression,uncertain
+23451142,t11,t10,Transformations of Relational Expression,Transformations Approaches of Query Optimization,uncertain
+23451142,t12,t13,Estimating Statistics of Expression Results,Choice of Evaluation Plans,confident
+23451142,t14,t15,Object Oriented Databases,Need for Complex Data Types,confident
+23451142,t14,t16,Object Oriented Databases,The Object-Oriented Data Model,confident
+23451142,t15,t16,Need for Complex Data Types,The Object-Oriented Data Model,confident
+23451142,t16,t17,The Object-Oriented Data Model,Object-Oriented Languages,confident
+23451142,t18,t19,Spatial Databases,Spatial Data Types,confident
+23451142,t18,t20,Spatial Databases,Spatial Relationships,uncertain
+23451142,t18,t21,Spatial Databases,Spatial Data Structures,uncertain
+23451142,t19,t20,Spatial Data Types,Spatial Relationships,confident
+23451142,t19,t21,Spatial Data Types,Spatial Data Structures,confident
+23451142,t2,t3,Steps of Query Processing,Measures of Query Cost Selection Operation,confident
+23451142,t2,t6,Steps of Query Processing,Evaluation of Expressions,confident
+23451142,t2,t7,Steps of Query Processing,Query Optimization Overview,uncertain
+23451142,t20,t21,Spatial Relationships,Spatial Data Structures,uncertain
+23451142,t25,t26,Mobile Databases,Location and Handoff Management,confident
+23451142,t25,t27,Mobile Databases,Mobile Transaction Models Multimedia Databases,confident
+23451142,t26,t27,Location and Handoff Management,Mobile Transaction Models Multimedia Databases,uncertain
+23451142,t28,t29,Distributed Data Processing,Distributed Database System,confident
+23451142,t29,t30,Distributed Database System,Architecture,confident
+23451142,t29,t31,Distributed Database System,Design Issues,uncertain
+23451142,t3,t12,Measures of Query Cost Selection Operation,Estimating Statistics of Expression Results,confident
+23451142,t3,t6,Measures of Query Cost Selection Operation,Evaluation of Expressions,confident
+23451142,t30,t31,Architecture,Design Issues,confident
+23451142,t31,t32,Design Issues,Data Fragmentation,confident
+23451142,t31,t33,Design Issues,Allocation in distributed databases,uncertain
+23451142,t32,t33,Data Fragmentation,Allocation in distributed databases,confident
+23451142,t34,t35,Data Warehousing,Dimensional Modelling and OLAP Data Warehouse Defined,confident
+23451142,t34,t36,Data Warehousing,Features of a Data Warehouse,confident
+23451142,t34,t37,Data Warehousing,Data Warehouse Architecture,confident
+23451142,t34,t40,Data Warehousing,Data Warehouse and Data Marts,confident
+23451142,t34,t41,Data Warehousing,Data Warehousing Design Strategies,confident
+23451142,t34,t42,Data Warehousing,Data Modeling,confident
+23451142,t34,t51,Data Warehousing,What is business intelligence,uncertain
+23451142,t34,t54,Data Warehousing,Need for Online Analytical Processing,uncertain
+23451142,t34,t65,Data Warehousing,Challenges in ETL Functions,confident
+23451142,t35,t36,Dimensional Modelling and OLAP Data Warehouse Defined,Features of a Data Warehouse,uncertain
+23451142,t35,t37,Dimensional Modelling and OLAP Data Warehouse Defined,Data Warehouse Architecture,uncertain
+23451142,t35,t40,Dimensional Modelling and OLAP Data Warehouse Defined,Data Warehouse and Data Marts,uncertain
+23451142,t35,t41,Dimensional Modelling and OLAP Data Warehouse Defined,Data Warehousing Design Strategies,confident
+23451142,t35,t42,Dimensional Modelling and OLAP Data Warehouse Defined,Data Modeling,uncertain
+23451142,t35,t43,Dimensional Modelling and OLAP Data Warehouse Defined,Dimensional Model,confident
+23451142,t35,t54,Dimensional Modelling and OLAP Data Warehouse Defined,Need for Online Analytical Processing,uncertain
+23451142,t36,t37,Features of a Data Warehouse,Data Warehouse Architecture,uncertain
+23451142,t37,t38,Data Warehouse Architecture,Enterprise or centralized,confident
+23451142,t37,t39,Data Warehouse Architecture,federated and multi tired architectures,confident
+23451142,t42,t35,Data Modeling,Dimensional Modelling and OLAP Data Warehouse Defined,uncertain
+23451142,t42,t43,Data Modeling,Dimensional Model,uncertain
+23451142,t43,t44,Dimensional Model,The Star Schema,confident
+23451142,t43,t45,Dimensional Model,How Does a Query Execute? The Snowflake Schema,uncertain
+23451142,t43,t46,Dimensional Model,Fact Tables and Dimension Tables,confident
+23451142,t43,t55,Dimensional Model,OLAP Operations in a cube,uncertain
+23451142,t44,t45,The Star Schema,How Does a Query Execute? The Snowflake Schema,confident
+23451142,t44,t46,The Star Schema,Fact Tables and Dimension Tables,confident
+23451142,t45,t46,How Does a Query Execute? The Snowflake Schema,Fact Tables and Dimension Tables,uncertain
+23451142,t46,t47,Fact Tables and Dimension Tables,Factless Fact Table,confident
+23451142,t46,t48,Fact Tables and Dimension Tables,Updates To Dimension Tables,confident
+23451142,t46,t49,Fact Tables and Dimension Tables,Primary Keys,uncertain
+23451142,t46,t50,Fact Tables and Dimension Tables,Surrogate Keys & Foreign Keys,uncertain
+23451142,t49,t50,Primary Keys,Surrogate Keys & Foreign Keys,confident
+23451142,t5,t6,Join Operation,Evaluation of Expressions,uncertain
+23451142,t51,t52,What is business intelligence,use of BI,confident
+23451142,t51,t53,What is business intelligence,Tools used in BI,uncertain
+23451142,t51,t54,What is business intelligence,Need for Online Analytical Processing,confident
+23451142,t52,t53,use of BI,Tools used in BI,confident
+23451142,t54,t55,Need for Online Analytical Processing,OLAP Operations in a cube,confident
+23451142,t54,t61,Need for Online Analytical Processing,OLAP Architectures,confident
+23451142,t55,t56,OLAP Operations in a cube,Roll-up,confident
+23451142,t55,t57,OLAP Operations in a cube,Drill-down,confident
+23451142,t55,t58,OLAP Operations in a cube,Slice,confident
+23451142,t55,t59,OLAP Operations in a cube,Dice,confident
+23451142,t55,t60,OLAP Operations in a cube,Pivot,confident
+23451142,t55,t61,OLAP Operations in a cube,OLAP Architectures,confident
+23451142,t6,t11,Evaluation of Expressions,Transformations of Relational Expression,uncertain
+23451142,t6,t12,Evaluation of Expressions,Estimating Statistics of Expression Results,confident
+23451142,t6,t13,Evaluation of Expressions,Choice of Evaluation Plans,uncertain
+23451142,t6,t7,Evaluation of Expressions,Query Optimization Overview,uncertain
+23451142,t61,t62,OLAP Architectures,MOLAP,confident
+23451142,t61,t63,OLAP Architectures,ROLAP,confident
+23451142,t61,t64,OLAP Architectures,DOLAP and HOLAP,confident
+23451142,t65,t66,Challenges in ETL Functions,Data Extraction,uncertain
+23451142,t65,t67,Challenges in ETL Functions,Identification of Data Sources,uncertain
+23451142,t65,t70,Challenges in ETL Functions,Data Transformation,uncertain
+23451142,t65,t72,Challenges in ETL Functions,Techniques of Data Loading,uncertain
+23451142,t66,t67,Data Extraction,Identification of Data Sources,uncertain
+23451142,t66,t68,Data Extraction,Immediate Data Extraction,confident
+23451142,t66,t69,Data Extraction,Deferred Data Extraction,confident
+23451142,t66,t70,Data Extraction,Data Transformation,confident
+23451142,t67,t66,Identification of Data Sources,Data Extraction,uncertain
+23451142,t7,t12,Query Optimization Overview,Estimating Statistics of Expression Results,uncertain
+23451142,t7,t13,Query Optimization Overview,Choice of Evaluation Plans,uncertain
+23451142,t7,t8,Query Optimization Overview,Goals of Query Optimization,confident
+23451142,t7,t9,Query Optimization Overview,Approaches of Query Optimization,confident
+23451142,t70,t71,Data Transformation,Tasks Involved in Data Transformation,confident
+23451142,t70,t72,Data Transformation,Techniques of Data Loading,confident
+23451142,t71,t72,Tasks Involved in Data Transformation,Techniques of Data Loading,uncertain
+23451142,t73,t74,NoSQL,CAP theorem,confident
+23451142,t73,t76,NoSQL,NoSQL data architecture patterns,confident
+23451142,t73,t77,NoSQL,Key-value stores,uncertain
+23451142,t73,t78,NoSQL,Graph stores,uncertain
+23451142,t73,t79,NoSQL,Column family stores,uncertain
+23451142,t73,t80,NoSQL,Document stores,uncertain
+23451142,t73,t88,NoSQL,Replication,uncertain
+23451142,t73,t89,NoSQL,Sharding,uncertain
+23451142,t74,t75,CAP theorem,BASE property,confident
+23451142,t74,t76,CAP theorem,NoSQL data architecture patterns,confident
+23451142,t75,t76,BASE property,NoSQL data architecture patterns,uncertain
+23451142,t76,t77,NoSQL data architecture patterns,Key-value stores,confident
+23451142,t76,t78,NoSQL data architecture patterns,Graph stores,confident
+23451142,t76,t79,NoSQL data architecture patterns,Column family stores,confident
+23451142,t76,t80,NoSQL data architecture patterns,Document stores,confident
+23451142,t79,t93,Column family stores,Cassandra,confident
+23451142,t8,t9,Goals of Query Optimization,Approaches of Query Optimization,confident
+23451142,t80,t81,Document stores,MongoDB Operation,confident
+23451142,t81,t82,MongoDB Operation,Insert,confident
+23451142,t81,t83,MongoDB Operation,Update,confident
+23451142,t81,t84,MongoDB Operation,Delete,confident
+23451142,t81,t85,MongoDB Operation,Query,confident
+23451142,t81,t86,MongoDB Operation,Indexing,uncertain
+23451142,t81,t87,MongoDB Operation,Application,confident
+23451142,t81,t88,MongoDB Operation,Replication,uncertain
+23451142,t81,t89,MongoDB Operation,Sharding,uncertain
+23451142,t81,t90,MongoDB Operation,Deployment,uncertain
+23451142,t81,t91,MongoDB Operation,Using MongoDB with PHP / JAVA,confident
+23451142,t81,t92,MongoDB Operation,Advanced MongoDB Features,confident
+23451142,t85,t86,Query,Indexing,uncertain
+23451142,t85,t87,Query,Application,uncertain
+23451142,t87,t91,Application,Using MongoDB with PHP / JAVA,uncertain
+23451142,t88,t89,Replication,Sharding,uncertain
+23451142,t89,t90,Sharding,Deployment,uncertain
+23451142,t9,t10,Approaches of Query Optimization,Transformations Approaches of Query Optimization,confident
+23451142,t9,t13,Approaches of Query Optimization,Choice of Evaluation Plans,uncertain
+23451142,t91,t92,Using MongoDB with PHP / JAVA,Advanced MongoDB Features,uncertain
+23451142,t93,t94,Cassandra,Data Model,confident
+23451142,t93,t96,Cassandra,Table Operations,uncertain
+23451142,t94,t95,Data Model,Key Space,confident
+23451142,t94,t96,Data Model,Table Operations,uncertain
+23451142,t95,t96,Key Space,Table Operations,uncertain
+23451142,t96,t97,Table Operations,CRUD Operations,confident
+23451142,t96,t98,Table Operations,CQL,uncertain
+23451142,t97,t98,CRUD Operations,CQL,confident
+23451143,t1,t10,Introduction to UI/UX,Role of UI/UX,uncertain
+23451143,t1,t16,Introduction to UI/UX,Layout and Grid System,confident
+23451143,t1,t2,Introduction to UI/UX,Evolution of UI,confident
+23451143,t1,t3,Introduction to UI/UX,Characteristics of Good and Bad Design,confident
+23451143,t1,t4,Introduction to UI/UX,Usability,confident
+23451143,t1,t44,Introduction to UI/UX,Current trends,uncertain
+23451143,t1,t5,Introduction to UI/UX,Learnability,uncertain
+23451143,t1,t6,Introduction to UI/UX,Accessibility,uncertain
+23451143,t1,t7,Introduction to UI/UX,Delight,uncertain
+23451143,t1,t8,Introduction to UI/UX,Overview of Interaction Design Lifecycle,confident
+23451143,t1,t9,Introduction to UI/UX,Importance of UI/UX in Product Development Lifecycle,uncertain
+23451143,t10,t11,Role of UI/UX,Understanding Problem Space,confident
+23451143,t10,t24,Role of UI/UX,User Centered Design,uncertain
+23451143,t11,t12,Understanding Problem Space,Human perception,uncertain
+23451143,t11,t17,Understanding Problem Space,Conceptual Models,uncertain
+23451143,t11,t24,Understanding Problem Space,User Centered Design,confident
+23451143,t11,t25,Understanding Problem Space,Task analysis and use cases,uncertain
+23451143,t11,t26,Understanding Problem Space,Translating requirements into design goals,uncertain
+23451143,t11,t27,Understanding Problem Space,"Design thinking process (Empathize, Define, Ideate, Prototype, Test)",uncertain
+23451143,t12,t13,Human perception,attention,confident
+23451143,t12,t14,Human perception,memory,confident
+23451143,t12,t15,Human perception,cognition,uncertain
+23451143,t12,t19,Human perception,Emotional design and affective computing,uncertain
+23451143,t12,t32,Human perception,Micro interactions and feedback mechanisms,uncertain
+23451143,t13,t15,attention,cognition,confident
+23451143,t14,t15,memory,cognition,confident
+23451143,t15,t17,cognition,Conceptual Models,confident
+23451143,t15,t18,cognition,Mental Models,uncertain
+23451143,t15,t19,cognition,Emotional design and affective computing,confident
+23451143,t15,t20,cognition,social interaction,confident
+23451143,t15,t22,cognition,persuasive design,confident
+23451143,t15,t23,cognition,Inclusive and accessible design principles,confident
+23451143,t15,t24,cognition,User Centered Design,uncertain
+23451143,t15,t50,cognition,AI-assisted interfaces,uncertain
+23451143,t15,t51,cognition,UX Laws,uncertain
+23451143,t16,t28,Layout and Grid System,Information architecture and navigation design,confident
+23451143,t16,t29,Layout and Grid System,"Design System (Component Library, Auto Layout Concept) Prototyping",uncertain
+23451143,t16,t42,Layout and Grid System,Responsive and adaptive design,confident
+23451143,t17,t18,Conceptual Models,Mental Models,confident
+23451143,t18,t19,Mental Models,Emotional design and affective computing,uncertain
+23451143,t18,t28,Mental Models,Information architecture and navigation design,uncertain
+23451143,t19,t22,Emotional design and affective computing,persuasive design,confident
+23451143,t19,t32,Emotional design and affective computing,Micro interactions and feedback mechanisms,uncertain
+23451143,t20,t21,social interaction,collaboration,confident
+23451143,t20,t22,social interaction,persuasive design,uncertain
+23451143,t20,t48,social interaction,Voice UI,uncertain
+23451143,t20,t49,social interaction,Conversational UI,uncertain
+23451143,t22,t43,persuasive design,Dark patterns and ethical UI design,confident
+23451143,t23,t41,Inclusive and accessible design principles,ISO/IEC usability standards and WCAG overview & guidelines,uncertain
+23451143,t24,t25,User Centered Design,Task analysis and use cases,confident
+23451143,t24,t26,User Centered Design,Translating requirements into design goals,confident
+23451143,t24,t27,User Centered Design,"Design thinking process (Empathize, Define, Ideate, Prototype, Test)",confident
+23451143,t25,t26,Task analysis and use cases,Translating requirements into design goals,confident
+23451143,t25,t59,Task analysis and use cases,Task Success Rate,confident
+23451143,t26,t27,Translating requirements into design goals,"Design thinking process (Empathize, Define, Ideate, Prototype, Test)",uncertain
+23451143,t26,t28,Translating requirements into design goals,Information architecture and navigation design,uncertain
+23451143,t27,t29,"Design thinking process (Empathize, Define, Ideate, Prototype, Test)","Design System (Component Library, Auto Layout Concept) Prototyping",uncertain
+23451143,t27,t52,"Design thinking process (Empathize, Define, Ideate, Prototype, Test)",Why and when to evaluate designs,uncertain
+23451143,t28,t29,Information architecture and navigation design,"Design System (Component Library, Auto Layout Concept) Prototyping",uncertain
+23451143,t28,t42,Information architecture and navigation design,Responsive and adaptive design,uncertain
+23451143,t29,t30,"Design System (Component Library, Auto Layout Concept) Prototyping",low-fidelity vs high-fidelity,confident
+23451143,t29,t31,"Design System (Component Library, Auto Layout Concept) Prototyping","Prototyping tools overview (Figma, Adobe XD, Sketch)",uncertain
+23451143,t29,t32,"Design System (Component Library, Auto Layout Concept) Prototyping",Micro interactions and feedback mechanisms,uncertain
+23451143,t3,t33,Characteristics of Good and Bad Design,Design Principles,confident
+23451143,t3,t4,Characteristics of Good and Bad Design,Usability,confident
+23451143,t3,t43,Characteristics of Good and Bad Design,Dark patterns and ethical UI design,uncertain
+23451143,t3,t5,Characteristics of Good and Bad Design,Learnability,uncertain
+23451143,t3,t6,Characteristics of Good and Bad Design,Accessibility,uncertain
+23451143,t3,t7,Characteristics of Good and Bad Design,Delight,confident
+23451143,t30,t31,low-fidelity vs high-fidelity,"Prototyping tools overview (Figma, Adobe XD, Sketch)",confident
+23451143,t32,t36,Micro interactions and feedback mechanisms,Feedback,uncertain
+23451143,t33,t34,Design Principles,Standards & Modern UI Trends Design principles,confident
+23451143,t33,t35,Design Principles,Consistency,confident
+23451143,t33,t36,Design Principles,Feedback,confident
+23451143,t33,t37,Design Principles,Simplicity,confident
+23451143,t33,t38,Design Principles,Visibility,confident
+23451143,t33,t39,Design Principles,Usability heuristics (Nielsen’s Heuristics),confident
+23451143,t33,t40,Design Principles,UI guidelines and standards,uncertain
+23451143,t33,t42,Design Principles,Responsive and adaptive design,uncertain
+23451143,t33,t43,Design Principles,Dark patterns and ethical UI design,uncertain
+23451143,t33,t44,Design Principles,Current trends,uncertain
+23451143,t33,t51,Design Principles,UX Laws,confident
+23451143,t34,t40,Standards & Modern UI Trends Design principles,UI guidelines and standards,uncertain
+23451143,t34,t44,Standards & Modern UI Trends Design principles,Current trends,uncertain
+23451143,t39,t40,Usability heuristics (Nielsen’s Heuristics),UI guidelines and standards,confident
+23451143,t39,t51,Usability heuristics (Nielsen’s Heuristics),UX Laws,uncertain
+23451143,t39,t55,Usability heuristics (Nielsen’s Heuristics),Heuristic evaluation and cognitive walkthrough,confident
+23451143,t4,t39,Usability,Usability heuristics (Nielsen’s Heuristics),confident
+23451143,t4,t5,Usability,Learnability,confident
+23451143,t4,t54,Usability,Usability testing methods,confident
+23451143,t4,t6,Usability,Accessibility,confident
+23451143,t40,t41,UI guidelines and standards,ISO/IEC usability standards and WCAG overview & guidelines,confident
+23451143,t44,t45,Current trends,Dark mode,confident
+23451143,t44,t46,Current trends,Neumorphism,confident
+23451143,t44,t47,Current trends,Glassmorphism,confident
+23451143,t44,t48,Current trends,Voice UI,confident
+23451143,t44,t50,Current trends,AI-assisted interfaces,confident
+23451143,t48,t49,Voice UI,Conversational UI,confident
+23451143,t52,t53,Why and when to evaluate designs,Formative vs Summative evaluation,confident
+23451143,t52,t54,Why and when to evaluate designs,Usability testing methods,uncertain
+23451143,t52,t56,Why and when to evaluate designs,UX metrics,confident
+23451143,t52,t60,Why and when to evaluate designs,DECIDE Framework and case studies,confident
+23451143,t53,t54,Formative vs Summative evaluation,Usability testing methods,uncertain
+23451143,t53,t55,Formative vs Summative evaluation,Heuristic evaluation and cognitive walkthrough,uncertain
+23451143,t54,t55,Usability testing methods,Heuristic evaluation and cognitive walkthrough,uncertain
+23451143,t54,t60,Usability testing methods,DECIDE Framework and case studies,confident
+23451143,t55,t60,Heuristic evaluation and cognitive walkthrough,DECIDE Framework and case studies,uncertain
+23451143,t56,t57,UX metrics,SUS,confident
+23451143,t56,t58,UX metrics,NPS,confident
+23451143,t56,t59,UX metrics,Task Success Rate,confident
+23451143,t6,t23,Accessibility,Inclusive and accessible design principles,confident
+23451143,t6,t41,Accessibility,ISO/IEC usability standards and WCAG overview & guidelines,uncertain
+23451143,t7,t32,Delight,Micro interactions and feedback mechanisms,uncertain
+23451143,t8,t24,Overview of Interaction Design Lifecycle,User Centered Design,uncertain
+23451143,t8,t52,Overview of Interaction Design Lifecycle,Why and when to evaluate designs,uncertain
+23451143,t8,t9,Overview of Interaction Design Lifecycle,Importance of UI/UX in Product Development Lifecycle,confident
+23451143,t9,t10,Importance of UI/UX in Product Development Lifecycle,Role of UI/UX,confident
+23451143,t9,t52,Importance of UI/UX in Product Development Lifecycle,Why and when to evaluate designs,uncertain
+23451144,t1,t10,Image Fundamentals,Point Processing Techniques,uncertain
+23451144,t1,t16,Image Fundamentals,Mask Processing Techniques,uncertain
+23451144,t1,t2,Image Fundamentals,Image Definition,confident
+23451144,t1,t22,Image Fundamentals,Histogram Processing,uncertain
+23451144,t1,t3,Image Fundamentals,Steps and Components of Image Processing,confident
+23451144,t1,t4,Image Fundamentals,Image Sensing and Acquisition,uncertain
+23451144,t1,t46,Image Fundamentals,Image Segmentation,uncertain
+23451144,t1,t5,Image Fundamentals,Image Sampling and Quantization,uncertain
+23451144,t1,t57,Image Fundamentals,Methods,uncertain
+23451144,t1,t6,Image Fundamentals,Relationship Between Pixels,uncertain
+23451144,t10,t11,Point Processing Techniques,Image Negative,confident
+23451144,t10,t12,Point Processing Techniques,Contrast Stretching,confident
+23451144,t10,t13,Point Processing Techniques,Thresholding,confident
+23451144,t10,t14,Point Processing Techniques,Gray Level Slicing,confident
+23451144,t10,t15,Point Processing Techniques,Bit Plane Slicing,confident
+23451144,t16,t17,Mask Processing Techniques,Filtering in Spatial Domain,confident
+23451144,t16,t18,Mask Processing Techniques,2D Correlation and Convolution,uncertain
+23451144,t17,t18,Filtering in Spatial Domain,2D Correlation and Convolution,confident
+23451144,t17,t19,Filtering in Spatial Domain,"Smoothing Filters (Average, Weighted Average)",uncertain
+23451144,t17,t20,Filtering in Spatial Domain,Sharpening Filters,uncertain
+23451144,t17,t21,Filtering in Spatial Domain,"Order Statistic Filters (Min, Max, Median)",uncertain
+23451144,t17,t49,Filtering in Spatial Domain,"Edge Detection Methods (Gradient operators: Sobel, Prewitt)",uncertain
+23451144,t18,t19,2D Correlation and Convolution,"Smoothing Filters (Average, Weighted Average)",confident
+23451144,t18,t20,2D Correlation and Convolution,Sharpening Filters,confident
+23451144,t18,t21,2D Correlation and Convolution,"Order Statistic Filters (Min, Max, Median)",uncertain
+23451144,t18,t49,2D Correlation and Convolution,"Edge Detection Methods (Gradient operators: Sobel, Prewitt)",uncertain
+23451144,t2,t10,Image Definition,Point Processing Techniques,uncertain
+23451144,t2,t16,Image Definition,Mask Processing Techniques,uncertain
+23451144,t2,t22,Image Definition,Histogram Processing,uncertain
+23451144,t2,t3,Image Definition,Steps and Components of Image Processing,confident
+23451144,t2,t4,Image Definition,Image Sensing and Acquisition,uncertain
+23451144,t2,t46,Image Definition,Image Segmentation,uncertain
+23451144,t2,t5,Image Definition,Image Sampling and Quantization,uncertain
+23451144,t2,t57,Image Definition,Methods,uncertain
+23451144,t2,t6,Image Definition,Relationship Between Pixels,uncertain
+23451144,t22,t23,Histogram Processing,Histogram Equalization and Histogram Specification/Matching,confident
+23451144,t24,t25,Discrete Fourier Transform (DFT),2D-DFT Transform Pair,confident
+23451144,t24,t26,Discrete Fourier Transform (DFT),"Properties (Translation, Rotation, Periodicity)",uncertain
+23451144,t24,t28,Discrete Fourier Transform (DFT),Other Discrete Transforms,confident
+23451144,t25,t26,2D-DFT Transform Pair,"Properties (Translation, Rotation, Periodicity)",confident
+23451144,t25,t27,2D-DFT Transform Pair,Filtering in the Frequency Domain (Low-pass and High-pass),confident
+23451144,t26,t27,"Properties (Translation, Rotation, Periodicity)",Filtering in the Frequency Domain (Low-pass and High-pass),confident
+23451144,t28,t29,Other Discrete Transforms,Discrete Cosine Transform (DCT),confident
+23451144,t28,t30,Other Discrete Transforms,Discrete Hadamard Transform,confident
+23451144,t28,t31,Other Discrete Transforms,Discrete Haar Transform,confident
+23451144,t29,t45,Discrete Cosine Transform (DCT),Introduction to JPEG Compression Standard,confident
+23451144,t3,t4,Steps and Components of Image Processing,Image Sensing and Acquisition,uncertain
+23451144,t32,t33,Entropy,"Redundancy (Coding, Inter-pixel, Psycho-visual)",confident
+23451144,t33,t34,"Redundancy (Coding, Inter-pixel, Psycho-visual)",Compression Ratio,uncertain
+23451144,t33,t36,"Redundancy (Coding, Inter-pixel, Psycho-visual)",Lossless Compression,confident
+23451144,t33,t42,"Redundancy (Coding, Inter-pixel, Psycho-visual)",Lossy Compression,confident
+23451144,t34,t35,Compression Ratio,Fidelity Criteria,uncertain
+23451144,t34,t36,Compression Ratio,Lossless Compression,confident
+23451144,t34,t42,Compression Ratio,Lossy Compression,confident
+23451144,t35,t36,Fidelity Criteria,Lossless Compression,uncertain
+23451144,t35,t42,Fidelity Criteria,Lossy Compression,confident
+23451144,t36,t37,Lossless Compression,Run-Length Encoding,confident
+23451144,t36,t38,Lossless Compression,Huffman Coding,confident
+23451144,t36,t39,Lossless Compression,Arithmetic Coding,confident
+23451144,t36,t40,Lossless Compression,LZW Coding,confident
+23451144,t36,t41,Lossless Compression,Lossless Predictive Coding,confident
+23451144,t36,t45,Lossless Compression,Introduction to JPEG Compression Standard,uncertain
+23451144,t4,t5,Image Sensing and Acquisition,Image Sampling and Quantization,confident
+23451144,t42,t43,Lossy Compression,Lossy Predictive Coding,confident
+23451144,t42,t44,Lossy Compression,Vector Quantization,confident
+23451144,t42,t45,Lossy Compression,Introduction to JPEG Compression Standard,confident
+23451144,t46,t47,Image Segmentation,Point,confident
+23451144,t46,t48,Image Segmentation,Line,confident
+23451144,t46,t49,Image Segmentation,"Edge Detection Methods (Gradient operators: Sobel, Prewitt)",confident
+23451144,t46,t51,Image Segmentation,"Region-Based Segmentation (Region Growing, Region Splitting and Merging)",confident
+23451144,t46,t52,Image Segmentation,Image Representation,uncertain
+23451144,t48,t50,Line,Hough Transform for line detection,confident
+23451144,t49,t50,"Edge Detection Methods (Gradient operators: Sobel, Prewitt)",Hough Transform for line detection,confident
+23451144,t5,t10,Image Sampling and Quantization,Point Processing Techniques,confident
+23451144,t5,t16,Image Sampling and Quantization,Mask Processing Techniques,uncertain
+23451144,t5,t22,Image Sampling and Quantization,Histogram Processing,confident
+23451144,t5,t24,Image Sampling and Quantization,Discrete Fourier Transform (DFT),uncertain
+23451144,t5,t32,Image Sampling and Quantization,Entropy,uncertain
+23451144,t5,t34,Image Sampling and Quantization,Compression Ratio,uncertain
+23451144,t5,t35,Image Sampling and Quantization,Fidelity Criteria,uncertain
+23451144,t5,t46,Image Sampling and Quantization,Image Segmentation,uncertain
+23451144,t5,t52,Image Sampling and Quantization,Image Representation,uncertain
+23451144,t5,t57,Image Sampling and Quantization,Methods,uncertain
+23451144,t5,t6,Image Sampling and Quantization,Relationship Between Pixels,confident
+23451144,t52,t53,Image Representation,Chain Codes,confident
+23451144,t52,t54,Image Representation,Shape Numbers,uncertain
+23451144,t52,t55,Image Representation,Polygon Approximation,confident
+23451144,t52,t56,Image Representation,Statistical Moments,confident
+23451144,t53,t54,Chain Codes,Shape Numbers,uncertain
+23451144,t57,t58,Methods,Structuring Elements,confident
+23451144,t57,t59,Methods,Erosion,uncertain
+23451144,t57,t60,Methods,Dilation,uncertain
+23451144,t57,t63,Methods,Hit-or-Miss Transformation,uncertain
+23451144,t58,t59,Structuring Elements,Erosion,confident
+23451144,t58,t60,Structuring Elements,Dilation,confident
+23451144,t58,t63,Structuring Elements,Hit-or-Miss Transformation,confident
+23451144,t59,t61,Erosion,Opening,confident
+23451144,t59,t62,Erosion,Closing,confident
+23451144,t59,t64,Erosion,Advanced Morphological Methods,confident
+23451144,t59,t65,Erosion,Boundary Extraction,confident
+23451144,t6,t16,Relationship Between Pixels,Mask Processing Techniques,confident
+23451144,t6,t46,Relationship Between Pixels,Image Segmentation,uncertain
+23451144,t6,t57,Relationship Between Pixels,Methods,confident
+23451144,t6,t7,Relationship Between Pixels,Adjacency,confident
+23451144,t6,t8,Relationship Between Pixels,Connectivity,uncertain
+23451144,t6,t9,Relationship Between Pixels,Distance Measures,uncertain
+23451144,t60,t61,Dilation,Opening,confident
+23451144,t60,t62,Dilation,Closing,confident
+23451144,t60,t64,Dilation,Advanced Morphological Methods,confident
+23451144,t63,t64,Hit-or-Miss Transformation,Advanced Morphological Methods,confident
+23451144,t63,t66,Hit-or-Miss Transformation,Thinning,uncertain
+23451144,t63,t67,Hit-or-Miss Transformation,Thickening,uncertain
+23451144,t64,t65,Advanced Morphological Methods,Boundary Extraction,uncertain
+23451144,t64,t66,Advanced Morphological Methods,Thinning,confident
+23451144,t64,t67,Advanced Morphological Methods,Thickening,confident
+23451144,t64,t68,Advanced Morphological Methods,Pruning,uncertain
+23451144,t64,t69,Advanced Morphological Methods,Skeletonization,uncertain
+23451144,t66,t68,Thinning,Pruning,uncertain
+23451144,t66,t69,Thinning,Skeletonization,confident
+23451144,t67,t68,Thickening,Pruning,uncertain
+23451144,t7,t8,Adjacency,Connectivity,confident
+23451144,t7,t9,Adjacency,Distance Measures,uncertain
+23451144,t8,t46,Connectivity,Image Segmentation,uncertain
+23451144,t8,t51,Connectivity,"Region-Based Segmentation (Region Growing, Region Splitting and Merging)",confident
+23451144,t8,t9,Connectivity,Distance Measures,confident
+2346111,t1,t17,Fundamentals of Information Security,Authentication,confident
+2346111,t1,t18,Fundamentals of Information Security,access control and security governance,confident
+2346111,t1,t2,Fundamentals of Information Security,CIA Triad,confident
+2346111,t1,t3,Fundamentals of Information Security,Threats,confident
+2346111,t1,t31,Fundamentals of Information Security,Legal and Ethical aspects,confident
+2346111,t1,t4,Fundamentals of Information Security,Vulnerabilities,confident
+2346111,t1,t5,Fundamentals of Information Security,Risk,confident
+2346111,t1,t6,Fundamentals of Information Security,Introduction to cryptography,confident
+2346111,t1,t92,Fundamentals of Information Security,Security concepts,confident
+2346111,t10,t11,Hash functions,"Hashing Techniques (HMAC, CMAC, SHA256, and SHA512) Digital Signatures",confident
+2346111,t10,t48,Hash functions,block hash and block height,confident
+2346111,t10,t50,Hash functions,Merkle tree,uncertain
+2346111,t10,t9,Hash functions,DES Hashing,uncertain
+2346111,t100,t101,Vulnerabilities in a smart contracts and Dapps,secure coding practices,confident
+2346111,t102,t103,Wallet security mechanisms,Key Management strategies,uncertain
+2346111,t104,t105,Enterprise Blockchain Security and Use-cases,Financial services,uncertain
+2346111,t104,t106,Enterprise Blockchain Security and Use-cases,Supply Chain management,uncertain
+2346111,t104,t107,Enterprise Blockchain Security and Use-cases,Healthcare systems,uncertain
+2346111,t104,t108,Enterprise Blockchain Security and Use-cases,E-Governance,uncertain
+2346111,t11,t13,"Hashing Techniques (HMAC, CMAC, SHA256, and SHA512) Digital Signatures",DSS,confident
+2346111,t11,t14,"Hashing Techniques (HMAC, CMAC, SHA256, and SHA512) Digital Signatures",Digital Certificates,uncertain
+2346111,t12,t11,RSA,"Hashing Techniques (HMAC, CMAC, SHA256, and SHA512) Digital Signatures",uncertain
+2346111,t12,t13,RSA,DSS,confident
+2346111,t12,t14,RSA,Digital Certificates,confident
+2346111,t12,t16,RSA,Public Key Infrastructure,uncertain
+2346111,t13,t14,DSS,Digital Certificates,uncertain
+2346111,t14,t15,Digital Certificates,X.509 standard,confident
+2346111,t14,t16,Digital Certificates,Public Key Infrastructure,confident
+2346111,t15,t16,X.509 standard,Public Key Infrastructure,confident
+2346111,t16,t103,Public Key Infrastructure,Key Management strategies,confident
+2346111,t17,t19,Authentication,Authentication & Access Control,confident
+2346111,t17,t20,Authentication,Password management policies,confident
+2346111,t17,t22,Authentication,Authentication Mechanisms,confident
+2346111,t18,t19,access control and security governance,Authentication & Access Control,confident
+2346111,t18,t24,access control and security governance,"Access Control Models (Bell-LaPadula, Biba)",uncertain
+2346111,t18,t25,access control and security governance,Risk Management & Security Governance,confident
+2346111,t18,t28,access control and security governance,Security Policies,uncertain
+2346111,t19,t24,Authentication & Access Control,"Access Control Models (Bell-LaPadula, Biba)",uncertain
+2346111,t19,t94,Authentication & Access Control,Identity and access Management,confident
+2346111,t20,t21,Password management policies,"Password attacks (Brute Force, Dictionary)",confident
+2346111,t22,t23,Authentication Mechanisms,Single Sign-on (KerberosV4 and V5),confident
+2346111,t25,t26,Risk Management & Security Governance,Risk Identification,confident
+2346111,t25,t28,Risk Management & Security Governance,Security Policies,uncertain
+2346111,t26,t27,Risk Identification,Assessment and Mitigation,confident
+2346111,t28,t29,Security Policies,Standards and Procedures (ISO 27001),confident
+2346111,t29,t30,Standards and Procedures (ISO 27001),COBIT framework,confident
+2346111,t3,t4,Threats,Vulnerabilities,uncertain
+2346111,t3,t5,Threats,Risk,confident
+2346111,t31,t32,Legal and Ethical aspects,IT Act 2000 and Amendments,confident
+2346111,t31,t33,Legal and Ethical aspects,Ethical and Privacy Issues,confident
+2346111,t31,t95,Legal and Ethical aspects,Regulatory Compliance,uncertain
+2346111,t32,t95,IT Act 2000 and Amendments,Regulatory Compliance,uncertain
+2346111,t34,t105,Definition and Evolution of Blockchain,Financial services,uncertain
+2346111,t34,t106,Definition and Evolution of Blockchain,Supply Chain management,uncertain
+2346111,t34,t107,Definition and Evolution of Blockchain,Healthcare systems,uncertain
+2346111,t34,t108,Definition and Evolution of Blockchain,E-Governance,uncertain
+2346111,t34,t35,Definition and Evolution of Blockchain,DLT vs Blockchain,confident
+2346111,t34,t36,Definition and Evolution of Blockchain,Blockchain characteristics and key concepts,confident
+2346111,t34,t40,Definition and Evolution of Blockchain,CAP Theorem,uncertain
+2346111,t34,t52,Definition and Evolution of Blockchain,Bitcoin Blockchain,uncertain
+2346111,t34,t59,Definition and Evolution of Blockchain,Ethereum Blockchain,uncertain
+2346111,t34,t66,Definition and Evolution of Blockchain,Hyperledger Blockchain,uncertain
+2346111,t36,t37,Blockchain characteristics and key concepts,types of blockchain,confident
+2346111,t36,t38,Blockchain characteristics and key concepts,Blockchain Limitations,confident
+2346111,t36,t41,Blockchain characteristics and key concepts,Blockchain architecture,confident
+2346111,t36,t44,Blockchain characteristics and key concepts,"Consensus algorithms (PoW, PoS, PoA)",uncertain
+2346111,t36,t52,Blockchain characteristics and key concepts,Bitcoin Blockchain,uncertain
+2346111,t36,t59,Blockchain characteristics and key concepts,Ethereum Blockchain,uncertain
+2346111,t36,t66,Blockchain characteristics and key concepts,Hyperledger Blockchain,uncertain
+2346111,t36,t92,Blockchain characteristics and key concepts,Security concepts,confident
+2346111,t36,t93,Blockchain characteristics and key concepts,security attributes of Blockchain (CIAR),confident
+2346111,t37,t52,types of blockchain,Bitcoin Blockchain,uncertain
+2346111,t37,t59,types of blockchain,Ethereum Blockchain,uncertain
+2346111,t37,t66,types of blockchain,Hyperledger Blockchain,uncertain
+2346111,t37,t71,types of blockchain,Permissioned blockchain networks,confident
+2346111,t38,t39,Blockchain Limitations,Blockchain Trilemma,confident
+2346111,t39,t40,Blockchain Trilemma,CAP Theorem,uncertain
+2346111,t4,t100,Vulnerabilities,Vulnerabilities in a smart contracts and Dapps,uncertain
+2346111,t4,t5,Vulnerabilities,Risk,confident
+2346111,t41,t42,Blockchain architecture,Layers,confident
+2346111,t41,t43,Blockchain architecture,components of a blockchain,confident
+2346111,t41,t52,Blockchain architecture,Bitcoin Blockchain,uncertain
+2346111,t41,t54,Blockchain architecture,architecture,uncertain
+2346111,t41,t59,Blockchain architecture,Ethereum Blockchain,uncertain
+2346111,t41,t66,Blockchain architecture,Hyperledger Blockchain,uncertain
+2346111,t43,t44,components of a blockchain,"Consensus algorithms (PoW, PoS, PoA)",uncertain
+2346111,t43,t45,components of a blockchain,Block structure,uncertain
+2346111,t43,t46,components of a blockchain,Block definition,uncertain
+2346111,t44,t55,"Consensus algorithms (PoW, PoS, PoA)",Bitcoin mining,confident
+2346111,t44,t64,"Consensus algorithms (PoW, PoS, PoA)",Mining,confident
+2346111,t44,t70,"Consensus algorithms (PoW, PoS, PoA)",pBFT and DPOS,confident
+2346111,t44,t96,"Consensus algorithms (PoW, PoS, PoA)",Bribery attack,confident
+2346111,t44,t97,"Consensus algorithms (PoW, PoS, PoA)",Collusion attack,uncertain
+2346111,t44,t99,"Consensus algorithms (PoW, PoS, PoA)",51% attack,uncertain
+2346111,t45,t46,Block structure,Block definition,uncertain
+2346111,t45,t47,Block structure,header components,uncertain
+2346111,t45,t48,Block structure,block hash and block height,uncertain
+2346111,t45,t50,Block structure,Merkle tree,confident
+2346111,t45,t58,Block structure,Transaction structure and Bitcoin Script in the Bitcoin Network,uncertain
+2346111,t46,t45,Block definition,Block structure,uncertain
+2346111,t46,t47,Block definition,header components,uncertain
+2346111,t46,t49,Block definition,Genesis block,confident
+2346111,t47,t48,header components,block hash and block height,uncertain
+2346111,t48,t51,block hash and block height,linking blocks in the Blockchain,confident
+2346111,t49,t51,Genesis block,linking blocks in the Blockchain,uncertain
+2346111,t5,t25,Risk,Risk Management & Security Governance,confident
+2346111,t51,t57,linking blocks in the Blockchain,Block Propagation and Relay,uncertain
+2346111,t52,t53,Bitcoin Blockchain,brief evolution,confident
+2346111,t52,t54,Bitcoin Blockchain,architecture,confident
+2346111,t52,t55,Bitcoin Blockchain,Bitcoin mining,uncertain
+2346111,t52,t58,Bitcoin Blockchain,Transaction structure and Bitcoin Script in the Bitcoin Network,uncertain
+2346111,t54,t55,architecture,Bitcoin mining,uncertain
+2346111,t54,t57,architecture,Block Propagation and Relay,confident
+2346111,t54,t58,architecture,Transaction structure and Bitcoin Script in the Bitcoin Network,uncertain
+2346111,t55,t56,Bitcoin mining,Proof of Work and Hashcash in Bitcoin,confident
+2346111,t55,t99,Bitcoin mining,51% attack,uncertain
+2346111,t56,t99,Proof of Work and Hashcash in Bitcoin,51% attack,uncertain
+2346111,t58,t98,Transaction structure and Bitcoin Script in the Bitcoin Network,Finney attack,confident
+2346111,t59,t60,Ethereum Blockchain,Smart contracts,confident
+2346111,t59,t62,Ethereum Blockchain,Ethereum Classic,confident
+2346111,t59,t63,Ethereum Blockchain,Ethereum components,confident
+2346111,t59,t64,Ethereum Blockchain,Mining,confident
+2346111,t59,t65,Ethereum Blockchain,transaction workflow,uncertain
+2346111,t59,t89,Ethereum Blockchain,Metamask (Ethereum Wallet) setup,uncertain
+2346111,t6,t10,Introduction to cryptography,Hash functions,uncertain
+2346111,t6,t11,Introduction to cryptography,"Hashing Techniques (HMAC, CMAC, SHA256, and SHA512) Digital Signatures",uncertain
+2346111,t6,t12,Introduction to cryptography,RSA,confident
+2346111,t6,t7,Introduction to cryptography,Classical Encryption techniques (substitution and transposition cipher) Block cipher algorithms,confident
+2346111,t6,t9,Introduction to cryptography,DES Hashing,uncertain
+2346111,t60,t61,Smart contracts,Ethereum Virtual Machine (EVM),confident
+2346111,t60,t72,Smart contracts,Smart Contract,confident
+2346111,t61,t79,Ethereum Virtual Machine (EVM),Smart Contract Deployment,uncertain
+2346111,t61,t83,Ethereum Virtual Machine (EVM),Solidity Programming,uncertain
+2346111,t63,t65,Ethereum components,transaction workflow,confident
+2346111,t66,t104,Hyperledger Blockchain,Enterprise Blockchain Security and Use-cases,uncertain
+2346111,t66,t67,Hyperledger Blockchain,Hyperledger Ecosystem,confident
+2346111,t66,t68,Hyperledger Blockchain,Hyperledger Fabric architecture,uncertain
+2346111,t66,t71,Hyperledger Blockchain,Permissioned blockchain networks,uncertain
+2346111,t67,t68,Hyperledger Ecosystem,Hyperledger Fabric architecture,uncertain
+2346111,t68,t69,Hyperledger Fabric architecture,components,confident
+2346111,t68,t70,Hyperledger Fabric architecture,pBFT and DPOS,uncertain
+2346111,t7,t8,Classical Encryption techniques (substitution and transposition cipher) Block cipher algorithms,AES,confident
+2346111,t7,t9,Classical Encryption techniques (substitution and transposition cipher) Block cipher algorithms,DES Hashing,uncertain
+2346111,t71,t104,Permissioned blockchain networks,Enterprise Blockchain Security and Use-cases,uncertain
+2346111,t71,t70,Permissioned blockchain networks,pBFT and DPOS,uncertain
+2346111,t72,t100,Smart Contract,Vulnerabilities in a smart contracts and Dapps,confident
+2346111,t72,t73,Smart Contract,Definition and characteristics,confident
+2346111,t72,t76,Smart Contract,Role and types of Oracles,confident
+2346111,t72,t77,Smart Contract,Smart contract industry use cases,confident
+2346111,t72,t78,Smart Contract,Opportunities and Risks,uncertain
+2346111,t72,t79,Smart Contract,Smart Contract Deployment,confident
+2346111,t72,t83,Smart Contract,Solidity Programming,confident
+2346111,t72,t91,Smart Contract,Dapp integration,uncertain
+2346111,t73,t74,Definition and characteristics,types of smart contract,confident
+2346111,t73,t75,Definition and characteristics,Smart contract lifecycle,confident
+2346111,t73,t77,Definition and characteristics,Smart contract industry use cases,uncertain
+2346111,t75,t79,Smart contract lifecycle,Smart Contract Deployment,uncertain
+2346111,t77,t104,Smart contract industry use cases,Enterprise Blockchain Security and Use-cases,uncertain
+2346111,t77,t78,Smart contract industry use cases,Opportunities and Risks,uncertain
+2346111,t79,t80,Smart Contract Deployment,Introduction to Truffle,confident
+2346111,t79,t81,Smart Contract Deployment,Remix IDE,confident
+2346111,t79,t82,Smart Contract Deployment,Ganache blockchain simulator and test networks for deployment,confident
+2346111,t79,t89,Smart Contract Deployment,Metamask (Ethereum Wallet) setup,uncertain
+2346111,t79,t90,Smart Contract Deployment,deployment on test networks,confident
+2346111,t82,t89,Ganache blockchain simulator and test networks for deployment,Metamask (Ethereum Wallet) setup,uncertain
+2346111,t82,t90,Ganache blockchain simulator and test networks for deployment,deployment on test networks,confident
+2346111,t83,t101,Solidity Programming,secure coding practices,confident
+2346111,t83,t84,Solidity Programming,Development environment setup,confident
+2346111,t83,t85,Solidity Programming,basic programming concepts,confident
+2346111,t83,t91,Solidity Programming,Dapp integration,uncertain
+2346111,t85,t86,basic programming concepts,program structure,confident
+2346111,t85,t87,basic programming concepts,variables and data types,confident
+2346111,t85,t88,basic programming concepts,functions and modifiers,uncertain
+2346111,t86,t88,program structure,functions and modifiers,uncertain
+2346111,t87,t88,variables and data types,functions and modifiers,confident
+2346111,t89,t102,Metamask (Ethereum Wallet) setup,Wallet security mechanisms,confident
+2346111,t89,t90,Metamask (Ethereum Wallet) setup,deployment on test networks,confident
+2346111,t9,t10,DES Hashing,Hash functions,uncertain
+2346111,t90,t91,deployment on test networks,Dapp integration,confident
+2346111,t91,t100,Dapp integration,Vulnerabilities in a smart contracts and Dapps,confident
+2346111,t92,t100,Security concepts,Vulnerabilities in a smart contracts and Dapps,uncertain
+2346111,t92,t102,Security concepts,Wallet security mechanisms,confident
+2346111,t92,t103,Security concepts,Key Management strategies,uncertain
+2346111,t92,t104,Security concepts,Enterprise Blockchain Security and Use-cases,confident
+2346111,t92,t93,Security concepts,security attributes of Blockchain (CIAR),confident
+2346111,t92,t94,Security concepts,Identity and access Management,confident
+2346111,t92,t95,Security concepts,Regulatory Compliance,uncertain
+2346111,t92,t96,Security concepts,Bribery attack,confident
+2346111,t92,t97,Security concepts,Collusion attack,uncertain
+2346111,t92,t98,Security concepts,Finney attack,confident
+2346111,t92,t99,Security concepts,51% attack,confident
+2346111,t96,t97,Bribery attack,Collusion attack,uncertain
+23461131,t1,t2,architecture and environment setup,working with data types,confident
+23461131,t1,t3,architecture and environment setup,variables,uncertain
+23461131,t10,t11,AngularJS modules,built-in and custom directives,confident
+23461131,t10,t12,AngularJS modules,expressions,confident
+23461131,t10,t13,AngularJS modules,data binding,uncertain
+23461131,t10,t14,AngularJS modules,filters,uncertain
+23461131,t10,t15,AngularJS modules,controllers,confident
+23461131,t10,t16,AngularJS modules,scope,uncertain
+23461131,t10,t17,AngularJS modules,Dependency injection and services,confident
+23461131,t10,t19,AngularJS modules,routing using ng-Route (including ng-view),confident
+23461131,t10,t21,AngularJS modules,built-in helper functions,confident
+23461131,t10,t22,AngularJS modules,integration of AngularJS with TypeScript,confident
+23461131,t10,t23,AngularJS modules,Angular JS versus Angular,confident
+23461131,t11,t18,built-in and custom directives,form validation,confident
+23461131,t11,t20,built-in and custom directives,use of directives such as ng-repeat and ng-style,confident
+23461131,t12,t13,expressions,data binding,confident
+23461131,t12,t14,expressions,filters,confident
+23461131,t13,t15,data binding,controllers,uncertain
+23461131,t13,t18,data binding,form validation,confident
+23461131,t13,t20,data binding,use of directives such as ng-repeat and ng-style,uncertain
+23461131,t15,t16,controllers,scope,confident
+23461131,t15,t17,controllers,Dependency injection and services,uncertain
+23461131,t15,t18,controllers,form validation,uncertain
+23461131,t15,t19,controllers,routing using ng-Route (including ng-view),confident
+23461131,t15,t22,controllers,integration of AngularJS with TypeScript,uncertain
+23461131,t16,t13,scope,data binding,uncertain
+23461131,t16,t17,scope,Dependency injection and services,uncertain
+23461131,t16,t19,scope,routing using ng-Route (including ng-view),uncertain
+23461131,t2,t3,working with data types,variables,confident
+23461131,t2,t4,working with data types,operators,uncertain
+23461131,t23,t24,Angular JS versus Angular,Angular architecture,confident
+23461131,t24,t25,Angular architecture,components,confident
+23461131,t24,t26,Angular architecture,modules,confident
+23461131,t24,t30,Angular architecture,services with dependency injection,confident
+23461131,t24,t31,Angular architecture,routing,uncertain
+23461131,t24,t35,Angular architecture,testing,uncertain
+23461131,t24,t36,Angular architecture,deployment,confident
+23461131,t25,t26,components,modules,uncertain
+23461131,t25,t27,components,templates,confident
+23461131,t25,t28,components,directives,confident
+23461131,t25,t29,components,pipes,uncertain
+23461131,t25,t30,components,services with dependency injection,uncertain
+23461131,t25,t31,components,routing,confident
+23461131,t25,t32,components,forms,uncertain
+23461131,t25,t33,components,HTTP client with RxJS,uncertain
+23461131,t25,t34,components,basics of state management,uncertain
+23461131,t25,t35,components,testing,confident
+23461131,t26,t30,modules,services with dependency injection,uncertain
+23461131,t26,t31,modules,routing,uncertain
+23461131,t26,t35,modules,testing,uncertain
+23461131,t27,t28,templates,directives,uncertain
+23461131,t27,t29,templates,pipes,confident
+23461131,t27,t32,templates,forms,confident
+23461131,t3,t4,variables,operators,confident
+23461131,t3,t5,variables,implementing decision-making statements and loops,uncertain
+23461131,t3,t6,variables,developing functions,uncertain
+23461131,t30,t33,services with dependency injection,HTTP client with RxJS,confident
+23461131,t30,t34,services with dependency injection,basics of state management,confident
+23461131,t37,t38,Next.js Introduction to Next.js & Setup,Next.js Basics and Built-In Components,confident
+23461131,t37,t39,Next.js Introduction to Next.js & Setup,Pages and Routing,uncertain
+23461131,t37,t45,Next.js Introduction to Next.js & Setup,API Routes,uncertain
+23461131,t38,t39,Next.js Basics and Built-In Components,Pages and Routing,confident
+23461131,t38,t40,Next.js Basics and Built-In Components,Styling in Next.js,confident
+23461131,t38,t41,Next.js Basics and Built-In Components,Data Fetching Methods,uncertain
+23461131,t38,t42,Next.js Basics and Built-In Components,Optimizing Next.js Applications,uncertain
+23461131,t38,t43,Next.js Basics and Built-In Components,State Management,confident
+23461131,t38,t44,Next.js Basics and Built-In Components,Testing Next.js,confident
+23461131,t39,t41,Pages and Routing,Data Fetching Methods,confident
+23461131,t39,t45,Pages and Routing,API Routes,confident
+23461131,t39,t46,Pages and Routing,Securing App with Next Auth,uncertain
+23461131,t4,t5,operators,implementing decision-making statements and loops,confident
+23461131,t41,t42,Data Fetching Methods,Optimizing Next.js Applications,confident
+23461131,t45,t46,API Routes,Securing App with Next Auth,confident
+23461131,t47,t48,Introduction to FastAPI,REST APIs with FastAPI,confident
+23461131,t48,t49,REST APIs with FastAPI,Working with Data and Files in FastAPI,confident
+23461131,t48,t50,REST APIs with FastAPI,Handling Request & Response Data in FastAPI,confident
+23461131,t48,t51,REST APIs with FastAPI,Database Integration in FastAPI using MongoDB,uncertain
+23461131,t49,t50,Working with Data and Files in FastAPI,Handling Request & Response Data in FastAPI,uncertain
+23461131,t49,t51,Working with Data and Files in FastAPI,Database Integration in FastAPI using MongoDB,uncertain
+23461131,t5,t6,implementing decision-making statements and loops,developing functions,confident
+23461131,t50,t51,Handling Request & Response Data in FastAPI,Database Integration in FastAPI using MongoDB,uncertain
+23461131,t52,t53,Architecture and working of search engines,search engine crawling,confident
+23461131,t52,t54,Architecture and working of search engines,indexing,uncertain
+23461131,t52,t55,Architecture and working of search engines,ranking mechanisms,uncertain
+23461131,t52,t56,Architecture and working of search engines,on-page and off-page SEO techniques,uncertain
+23461131,t53,t54,search engine crawling,indexing,confident
+23461131,t54,t55,indexing,ranking mechanisms,confident
+23461131,t55,t56,ranking mechanisms,on-page and off-page SEO techniques,uncertain
+23461131,t56,t57,on-page and off-page SEO techniques,website performance using SEO tools,confident
+23461131,t56,t58,on-page and off-page SEO techniques,Basic SEO strategies for web applications,confident
+23461131,t57,t58,website performance using SEO tools,Basic SEO strategies for web applications,uncertain
+23461131,t6,t7,developing functions,creating classes and objects using object-oriented concepts,confident
+23461131,t6,t8,developing functions,organizing code using TypeScript modules,uncertain
+23461131,t7,t8,creating classes and objects using object-oriented concepts,organizing code using TypeScript modules,confident
+23461131,t8,t10,organizing code using TypeScript modules,AngularJS modules,uncertain
+23461131,t8,t22,organizing code using TypeScript modules,integration of AngularJS with TypeScript,confident
+23461131,t8,t23,organizing code using TypeScript modules,Angular JS versus Angular,uncertain
+23461131,t9,t10,modern web development,AngularJS modules,confident
+23461131,t9,t37,modern web development,Next.js Introduction to Next.js & Setup,uncertain
+23461133,t1,t18,Introduction to GIS,"Data Acquisition Methods (Satellite, Survey, Drone, GPS)",uncertain
+23461133,t1,t2,Introduction to GIS,"Components of GIS (Hardware, Software, Data, People, Methods)",confident
+23461133,t1,t29,Introduction to GIS,Introduction to GIS using Python,uncertain
+23461133,t1,t3,Introduction to GIS,Historical Development of GIS,confident
+23461133,t1,t4,Introduction to GIS,Components of GIS,uncertain
+23461133,t1,t47,Introduction to GIS,Integration of GIS,uncertain
+23461133,t1,t5,Introduction to GIS,Data,uncertain
+23461133,t1,t53,Introduction to GIS,Web GIS,uncertain
+23461133,t10,t11,Line,Polygon,uncertain
+23461133,t12,t14,Raster Data,Vector and Raster Data Structures,confident
+23461133,t12,t22,Raster Data,Georeferencing & Digitization,uncertain
+23461133,t12,t40,Raster Data,Imaging Basics,uncertain
+23461133,t13,t14,Database Structures,Vector and Raster Data Structures,confident
+23461133,t13,t19,Database Structures,Spatial Databases,confident
+23461133,t14,t15,Vector and Raster Data Structures,Files,uncertain
+23461133,t14,t24,Vector and Raster Data Structures,Spatial Analysis Concepts,uncertain
+23461133,t15,t16,Files,File Formats,confident
+23461133,t17,t18,Spatial Data Types,"Data Acquisition Methods (Satellite, Survey, Drone, GPS)",uncertain
+23461133,t17,t19,Spatial Data Types,Spatial Databases,confident
+23461133,t17,t22,Spatial Data Types,Georeferencing & Digitization,uncertain
+23461133,t17,t24,Spatial Data Types,Spatial Analysis Concepts,uncertain
+23461133,t18,t22,"Data Acquisition Methods (Satellite, Survey, Drone, GPS)",Georeferencing & Digitization,confident
+23461133,t18,t45,"Data Acquisition Methods (Satellite, Survey, Drone, GPS)",Satellite vs Drone Imaging,uncertain
+23461133,t19,t20,Spatial Databases,Introduction to Spatial DBMS,confident
+23461133,t2,t4,"Components of GIS (Hardware, Software, Data, People, Methods)",Components of GIS,uncertain
+23461133,t2,t5,"Components of GIS (Hardware, Software, Data, People, Methods)",Data,uncertain
+23461133,t20,t21,Introduction to Spatial DBMS,SQL for Spatial Data,confident
+23461133,t22,t23,Georeferencing & Digitization,Data Cleaning and Preprocessing,confident
+23461133,t24,t25,Spatial Analysis Concepts,Buffering,confident
+23461133,t24,t26,Spatial Analysis Concepts,Overlay,confident
+23461133,t24,t27,Spatial Analysis Concepts,Network Analysis,confident
+23461133,t24,t28,Spatial Analysis Concepts,Thematic Mapping,confident
+23461133,t24,t29,Spatial Analysis Concepts,Introduction to GIS using Python,uncertain
+23461133,t24,t47,Spatial Analysis Concepts,Integration of GIS,uncertain
+23461133,t24,t49,Spatial Analysis Concepts,AI/ML in Geospatial Analysis,confident
+23461133,t24,t53,Spatial Analysis Concepts,Web GIS,uncertain
+23461133,t29,t30,Introduction to GIS using Python,Libraries,confident
+23461133,t29,t33,Introduction to GIS using Python,Automation in GIS,confident
+23461133,t30,t31,Libraries,GeoPandas,confident
+23461133,t30,t32,Libraries,Shapely (concept level),confident
+23461133,t31,t33,GeoPandas,Automation in GIS,uncertain
+23461133,t34,t35,Introduction to UAV / Drone Technology,"Types of Drones (Fixed Wing, Multi-rotor)",confident
+23461133,t34,t36,Introduction to UAV / Drone Technology,"Drone Components (Frame, Motors, Propellers, Battery, Controller, GPS)",confident
+23461133,t34,t38,Introduction to UAV / Drone Technology,Drone Regulations in India (DGCA basics),confident
+23461133,t34,t40,Introduction to UAV / Drone Technology,Imaging Basics,uncertain
+23461133,t34,t45,Introduction to UAV / Drone Technology,Satellite vs Drone Imaging,uncertain
+23461133,t34,t47,Introduction to UAV / Drone Technology,Integration of GIS,confident
+23461133,t35,t37,"Types of Drones (Fixed Wing, Multi-rotor)",Flight Planning Concepts,confident
+23461133,t36,t37,"Drone Components (Frame, Motors, Propellers, Battery, Controller, GPS)",Flight Planning Concepts,confident
+23461133,t37,t39,Flight Planning Concepts,Safety & Ethical considerations,uncertain
+23461133,t37,t41,Flight Planning Concepts,Image Stitching (Photogrammetry concept),uncertain
+23461133,t38,t39,Drone Regulations in India (DGCA basics),Safety & Ethical considerations,confident
+23461133,t40,t41,Imaging Basics,Image Stitching (Photogrammetry concept),confident
+23461133,t40,t44,Imaging Basics,Remote Sensing Fundamentals,confident
+23461133,t41,t42,Image Stitching (Photogrammetry concept),Orthomosaic Creation,confident
+23461133,t41,t43,Image Stitching (Photogrammetry concept),3D Mapping Basics,confident
+23461133,t44,t45,Remote Sensing Fundamentals,Satellite vs Drone Imaging,confident
+23461133,t44,t46,Remote Sensing Fundamentals,NDVI concept,confident
+23461133,t44,t49,Remote Sensing Fundamentals,AI/ML in Geospatial Analysis,uncertain
+23461133,t47,t48,Integration of GIS,Drones & Emerging Technologies IoT + GIS,confident
+23461133,t47,t49,Integration of GIS,AI/ML in Geospatial Analysis,uncertain
+23461133,t47,t50,Integration of GIS,Real,confident
+23461133,t47,t52,Integration of GIS,Smart Cities Case Studies,confident
+23461133,t48,t54,Drones & Emerging Technologies IoT + GIS,Future Trends in Geospatial Technology,confident
+23461133,t49,t54,AI/ML in Geospatial Analysis,Future Trends in Geospatial Technology,confident
+23461133,t5,t13,Data,Database Structures,confident
+23461133,t5,t15,Data,Files,uncertain
+23461133,t5,t6,Data,Types of Data,confident
+23461133,t50,t51,Real,Time Mapping Systems,confident
+23461133,t6,t7,Types of Data,Spatial and Non-spatial,confident
+23461133,t7,t12,Spatial and Non-spatial,Raster Data,confident
+23461133,t7,t17,Spatial and Non-spatial,Spatial Data Types,confident
+23461133,t7,t18,Spatial and Non-spatial,"Data Acquisition Methods (Satellite, Survey, Drone, GPS)",uncertain
+23461133,t7,t8,Spatial and Non-spatial,Vector Data,confident
+23461133,t8,t10,Vector Data,Line,confident
+23461133,t8,t11,Vector Data,Polygon,confident
+23461133,t8,t14,Vector Data,Vector and Raster Data Structures,confident
+23461133,t8,t9,Vector Data,Point,confident
+23461133,t9,t10,Point,Line,uncertain
+23461141,t1,t2,Goals of Software Testing,"Software Testing Definitions (Error, Defect, Failure, Root Cause)",confident
+23461141,t1,t3,Goals of Software Testing,Model for Software Testing,confident
+23461141,t1,t4,Goals of Software Testing,Effective Software Testing vs Exhaustive Software Testing,confident
+23461141,t1,t7,Goals of Software Testing,Software Testing Life Cycle (STLC),confident
+23461141,t1,t84,Goals of Software Testing,Relationship between Testing,uncertain
+23461141,t10,t11,Verification and Validation concept,activities,confident
+23461141,t10,t12,Verification and Validation concept,their role in early defect prevention,confident
+23461141,t10,t13,Verification and Validation concept,Verification requirements,confident
+23461141,t10,t16,Verification and Validation concept,validation,confident
+23461141,t10,t17,Verification and Validation concept,Dynamic Testing,uncertain
+23461141,t10,t32,Verification and Validation concept,Static Testing Validation Activities,confident
+23461141,t11,t12,activities,their role in early defect prevention,uncertain
+23461141,t11,t13,activities,Verification requirements,uncertain
+23461141,t13,t14,Verification requirements,Verification of high level design,confident
+23461141,t14,t15,Verification of high level design,Verification of low level design,confident
+23461141,t14,t55,Verification of high level design,architectural design,uncertain
+23461141,t16,t17,validation,Dynamic Testing,confident
+23461141,t16,t32,validation,Static Testing Validation Activities,uncertain
+23461141,t17,t18,Dynamic Testing,Black Box Testing,confident
+23461141,t17,t24,Dynamic Testing,White Box Testing Techniques,confident
+23461141,t17,t32,Dynamic Testing,Static Testing Validation Activities,uncertain
+23461141,t17,t33,Dynamic Testing,Integration,uncertain
+23461141,t17,t37,Dynamic Testing,Regression Testing,uncertain
+23461141,t17,t64,Dynamic Testing,categorization,uncertain
+23461141,t17,t78,Dynamic Testing,Web based system,uncertain
+23461141,t18,t19,Black Box Testing,Boundary Value Analysis,confident
+23461141,t18,t20,Black Box Testing,Equivalence Class Testing,confident
+23461141,t18,t21,Black Box Testing,State Table Based testing,confident
+23461141,t18,t22,Black Box Testing,Cause-Effect Graphing Based Testing,confident
+23461141,t18,t23,Black Box Testing,Error Guessing,confident
+23461141,t18,t33,Black Box Testing,Integration,uncertain
+23461141,t18,t34,Black Box Testing,Function,uncertain
+23461141,t2,t3,"Software Testing Definitions (Error, Defect, Failure, Root Cause)",Model for Software Testing,uncertain
+23461141,t2,t5,"Software Testing Definitions (Error, Defect, Failure, Root Cause)",Software Failure Case Studies,confident
+23461141,t2,t6,"Software Testing Definitions (Error, Defect, Failure, Root Cause)",Software Testing Terminology,confident
+23461141,t2,t63,"Software Testing Definitions (Error, Defect, Failure, Root Cause)",Root Cause Analysis (RCA),confident
+23461141,t2,t8,"Software Testing Definitions (Error, Defect, Failure, Root Cause)",Classification of Bugs and its Life Cycle,confident
+23461141,t24,t25,White Box Testing Techniques,need,confident
+23461141,t24,t26,White Box Testing Techniques,Logic Coverage Criteria,confident
+23461141,t24,t31,White Box Testing Techniques,Mutation testing,confident
+23461141,t24,t33,White Box Testing Techniques,Integration,uncertain
+23461141,t26,t27,Logic Coverage Criteria,Basis Path Testing,confident
+23461141,t26,t29,Logic Coverage Criteria,Loop Testing,confident
+23461141,t26,t30,Logic Coverage Criteria,Data Flow testing,confident
+23461141,t27,t28,Basis Path Testing,Graph Matrices,confident
+23461141,t3,t4,Model for Software Testing,Effective Software Testing vs Exhaustive Software Testing,uncertain
+23461141,t33,t34,Integration,Function,confident
+23461141,t33,t35,Integration,System,uncertain
+23461141,t34,t35,Function,System,confident
+23461141,t35,t36,System,Acceptance Testing,confident
+23461141,t35,t37,System,Regression Testing,uncertain
+23461141,t37,t38,Regression Testing,Progressive vs,confident
+23461141,t37,t40,Regression Testing,Regression Testability,confident
+23461141,t37,t41,Regression Testing,Objectives of Regression Testing,confident
+23461141,t37,t42,Regression Testing,Regression Testing Types,confident
+23461141,t38,t39,Progressive vs,Regressive,confident
+23461141,t41,t42,Objectives of Regression Testing,Regression Testing Types,uncertain
+23461141,t41,t43,Objectives of Regression Testing,Define Problem,uncertain
+23461141,t42,t43,Regression Testing Types,Define Problem,uncertain
+23461141,t42,t44,Regression Testing Types,Regression Testing Techniques,confident
+23461141,t44,t58,Regression Testing Techniques,Efficient Test Suite Management,confident
+23461141,t45,t46,Test Management,test organization,confident
+23461141,t45,t48,Test Management,test planning,confident
+23461141,t45,t50,Test Management,Software Metrics,confident
+23461141,t45,t58,Test Management,Efficient Test Suite Management,uncertain
+23461141,t45,t64,Test Management,categorization,confident
+23461141,t45,t83,Test Management,Management,confident
+23461141,t46,t47,test organization,structure and of testing group,confident
+23461141,t48,t49,test planning,detailed test design and test Specification,confident
+23461141,t48,t54,test planning,estimation model for testing effort,uncertain
+23461141,t48,t55,test planning,architectural design,uncertain
+23461141,t49,t58,detailed test design and test Specification,Efficient Test Suite Management,uncertain
+23461141,t50,t51,Software Metrics,definition and Classification of software matrices,confident
+23461141,t50,t52,Software Metrics,Testing Metrics for Monitoring and Controlling the Testing Process,uncertain
+23461141,t50,t54,Software Metrics,estimation model for testing effort,uncertain
+23461141,t50,t56,Software Metrics,information flow matrix used for testing,uncertain
+23461141,t50,t57,Software Metrics,function point and test point analysis,uncertain
+23461141,t51,t52,definition and Classification of software matrices,Testing Metrics for Monitoring and Controlling the Testing Process,confident
+23461141,t51,t53,definition and Classification of software matrices,attributes and corresponding metrics,uncertain
+23461141,t52,t53,Testing Metrics for Monitoring and Controlling the Testing Process,attributes and corresponding metrics,uncertain
+23461141,t52,t54,Testing Metrics for Monitoring and Controlling the Testing Process,estimation model for testing effort,uncertain
+23461141,t52,t63,Testing Metrics for Monitoring and Controlling the Testing Process,Root Cause Analysis (RCA),uncertain
+23461141,t54,t55,estimation model for testing effort,architectural design,uncertain
+23461141,t54,t57,estimation model for testing effort,function point and test point analysis,confident
+23461141,t55,t56,architectural design,information flow matrix used for testing,confident
+23461141,t58,t59,Efficient Test Suite Management,minimizing the test suite and its benefits,confident
+23461141,t58,t61,Efficient Test Suite Management,test suite prioritization its type,confident
+23461141,t59,t60,minimizing the test suite and its benefits,test suite minimization problem,confident
+23461141,t6,t7,Software Testing Terminology,Software Testing Life Cycle (STLC),confident
+23461141,t60,t62,test suite minimization problem,techniques and measuring effectiveness,uncertain
+23461141,t61,t62,test suite prioritization its type,techniques and measuring effectiveness,confident
+23461141,t64,t65,categorization,selection and cost in testing tool,confident
+23461141,t64,t67,categorization,guidelines for testing tools,uncertain
+23461141,t65,t66,selection and cost in testing tool,Test Automation Strategy & ROI,confident
+23461141,t65,t67,selection and cost in testing tool,guidelines for testing tools,uncertain
+23461141,t65,t68,selection and cost in testing tool,Study of testing tools,uncertain
+23461141,t67,t68,guidelines for testing tools,Study of testing tools,confident
+23461141,t68,t69,Study of testing tools,JIRA,confident
+23461141,t68,t70,Study of testing tools,Bugzilla,confident
+23461141,t68,t71,Study of testing tools,TestDirector and IBM Rational Functional Tester,confident
+23461141,t68,t72,Study of testing tools,Selenium,confident
+23461141,t68,t73,Study of testing tools,Apache JMeter,confident
+23461141,t7,t17,Software Testing Life Cycle (STLC),Dynamic Testing,uncertain
+23461141,t7,t45,Software Testing Life Cycle (STLC),Test Management,confident
+23461141,t7,t74,Software Testing Life Cycle (STLC),Agile Testing,confident
+23461141,t7,t8,Software Testing Life Cycle (STLC),Classification of Bugs and its Life Cycle,confident
+23461141,t7,t9,Software Testing Life Cycle (STLC),Software Testing methodology Verification and Validation,confident
+23461141,t74,t75,Agile Testing,Agile Testing and its Life Cycle,confident
+23461141,t75,t76,Agile Testing and its Life Cycle,Testing in Scrum phases,confident
+23461141,t75,t77,Agile Testing and its Life Cycle,Challenges in Agile Testing Testing Web based Systems,confident
+23461141,t78,t79,Web based system,web technology evaluation,confident
+23461141,t78,t80,Web based system,differences between traditional software and web based software,confident
+23461141,t8,t12,Classification of Bugs and its Life Cycle,their role in early defect prevention,uncertain
+23461141,t8,t63,Classification of Bugs and its Life Cycle,Root Cause Analysis (RCA),uncertain
+23461141,t8,t69,Classification of Bugs and its Life Cycle,JIRA,confident
+23461141,t8,t70,Classification of Bugs and its Life Cycle,Bugzilla,confident
+23461141,t80,t81,differences between traditional software and web based software,challenges in testing for web based software,confident
+23461141,t81,t82,challenges in testing for web based software,strategies for testing web-based applications,confident
+23461141,t83,t84,Management,Relationship between Testing,confident
+23461141,t84,t85,Relationship between Testing,Quality Assurance,confident
+23461141,t85,t86,Quality Assurance,Quality Management Product Quality,confident
+23461141,t86,t87,Quality Management Product Quality,McCall’s quality factors and criteria,confident
+23461141,t86,t88,Quality Management Product Quality,Process Quality,confident
+23461141,t88,t89,Process Quality,Overview of ISO9000,confident
+23461141,t89,t90,Overview of ISO9000,2000 and SIX sigma,confident
+23461141,t9,t10,Software Testing methodology Verification and Validation,Verification and Validation concept,confident
+23461142,t1,t2,(NLP) system,levels of NLP,confident
+23461142,t1,t5,(NLP) system,stages in NLP,uncertain
+23461142,t1,t7,(NLP) system,Applications of NLP,confident
+23461142,t10,t35,Bag of words,Words and Vectors,uncertain
+23461142,t10,t36,Bag of words,Term Frequency-Inverse Document Frequency (TFIDF),uncertain
+23461142,t10,t59,Bag of words,Bag-of-words Generative Classifier,confident
+23461142,t10,t60,Bag of words,BOW Discriminative Model,confident
+23461142,t11,t12,N-gram language model,N-gram for spelling correction,confident
+23461142,t11,t16,N-gram language model,Noisy Channel Model,confident
+23461142,t11,t18,N-gram language model,Evaluation of Language Models,confident
+23461142,t12,t17,N-gram for spelling correction,Non-word errors Real-word errors,uncertain
+23461142,t13,t12,Edit distance Dynamic Programming Approach,N-gram for spelling correction,uncertain
+23461142,t13,t14,Edit distance Dynamic Programming Approach,Weighted Edit Distance,confident
+23461142,t13,t15,Edit distance Dynamic Programming Approach,Finding Dictionary Entries with Small Edit Distances,confident
+23461142,t13,t16,Edit distance Dynamic Programming Approach,Noisy Channel Model,uncertain
+23461142,t13,t17,Edit distance Dynamic Programming Approach,Non-word errors Real-word errors,uncertain
+23461142,t19,t20,Processes,Morphological Analysis,uncertain
+23461142,t19,t22,Processes,Regular expression,uncertain
+23461142,t2,t3,levels of NLP,Knowledge in language processing,confident
+23461142,t2,t4,levels of NLP,Ambiguity in Natural language,uncertain
+23461142,t20,t19,Morphological Analysis,Processes,uncertain
+23461142,t20,t21,Morphological Analysis,Inflectional morphology & Derivational morphology,confident
+23461142,t20,t25,Morphological Analysis,Morphological parsing with FST,uncertain
+23461142,t20,t27,Morphological Analysis,Two -level Morphology,uncertain
+23461142,t21,t20,Inflectional morphology & Derivational morphology,Morphological Analysis,uncertain
+23461142,t22,t23,Regular expression,Finite State Automata,uncertain
+23461142,t22,t26,Regular expression,Lexicon free FST Porter stemmer,uncertain
+23461142,t23,t24,Finite State Automata,Finite State Transducer,confident
+23461142,t24,t25,Finite State Transducer,Morphological parsing with FST,confident
+23461142,t24,t27,Finite State Transducer,Two -level Morphology,uncertain
+23461142,t25,t26,Morphological parsing with FST,Lexicon free FST Porter stemmer,uncertain
+23461142,t28,t29,Introduction to POS Tagging,Probabilistic Tagging,confident
+23461142,t28,t33,Introduction to POS Tagging,Named Entities and Named Entity Tagging,confident
+23461142,t28,t34,Introduction to POS Tagging,Context-Free Grammars-Derivation,uncertain
+23461142,t29,t30,Probabilistic Tagging,Markov Models,uncertain
+23461142,t29,t31,Probabilistic Tagging,Hidden Markov Models (HMM) for POS Tagging,uncertain
+23461142,t3,t4,Knowledge in language processing,Ambiguity in Natural language,uncertain
+23461142,t30,t31,Markov Models,Hidden Markov Models (HMM) for POS Tagging,confident
+23461142,t31,t32,Hidden Markov Models (HMM) for POS Tagging,Conditional Random Fields (CRF),confident
+23461142,t34,t50,Context-Free Grammars-Derivation,Constituency Parsing,confident
+23461142,t34,t51,Context-Free Grammars-Derivation,Dependency Parsing,confident
+23461142,t35,t36,Words and Vectors,Term Frequency-Inverse Document Frequency (TFIDF),uncertain
+23461142,t35,t37,Words and Vectors,Word2vec,confident
+23461142,t35,t42,Words and Vectors,Bias and Embedding's Evaluating Vector Models,uncertain
+23461142,t35,t43,Words and Vectors,Cosine for measuring similarity,confident
+23461142,t35,t44,Words and Vectors,Pointwise Mutual Information (PMI),confident
+23461142,t35,t45,Words and Vectors,PPMI vector models,uncertain
+23461142,t35,t46,Words and Vectors,Word Senses -Relations Between Senses,uncertain
+23461142,t37,t38,Word2vec,Continuous Bag of Words,confident
+23461142,t37,t39,Word2vec,ELMO,confident
+23461142,t37,t40,Word2vec,GloVe Vector Visualizing Embedding's,confident
+23461142,t37,t41,Word2vec,Semantic properties of embedding's,confident
+23461142,t4,t6,Ambiguity in Natural language,challenges of NLP,confident
+23461142,t41,t42,Semantic properties of embedding's,Bias and Embedding's Evaluating Vector Models,uncertain
+23461142,t44,t45,Pointwise Mutual Information (PMI),PPMI vector models,confident
+23461142,t46,t47,Word Senses -Relations Between Senses,WordNet,uncertain
+23461142,t46,t49,Word Senses -Relations Between Senses,Word Sense Disambiguation Alternate WSD algorithms and Tasks,confident
+23461142,t47,t48,WordNet,A Database of Lexical Relations,confident
+23461142,t5,t1,stages in NLP,(NLP) system,uncertain
+23461142,t52,t53,Discourse Coherence,Coherence Relation,confident
+23461142,t52,t54,Discourse Coherence,Discourse Structure Parsing,confident
+23461142,t52,t55,Discourse Coherence,Centering and Entity,confident
+23461142,t52,t56,Discourse Coherence,Based Coherence,uncertain
+23461142,t52,t57,Discourse Coherence,Global Coherence,confident
+23461142,t55,t56,Centering and Entity,Based Coherence,uncertain
+23461142,t58,t59,datasets,Bag-of-words Generative Classifier,uncertain
+23461142,t58,t60,datasets,BOW Discriminative Model,uncertain
+23461142,t58,t64,datasets,Statistical significance testing,confident
+23461142,t58,t65,datasets,Dataset understanding and creation,confident
+23461142,t59,t61,Bag-of-words Generative Classifier,Multi-class Classification,uncertain
+23461142,t60,t61,BOW Discriminative Model,Multi-class Classification,uncertain
+23461142,t60,t62,BOW Discriminative Model,Softmax,uncertain
+23461142,t60,t63,BOW Discriminative Model,Gradient Descent,uncertain
+23461142,t61,t62,Multi-class Classification,Softmax,uncertain
+23461142,t62,t63,Softmax,Gradient Descent,uncertain
+23461142,t8,t10,Segmentation,Bag of words,uncertain
+23461142,t8,t11,Segmentation,N-gram language model,uncertain
+23461142,t8,t13,Segmentation,Edit distance Dynamic Programming Approach,uncertain
+23461142,t8,t9,Segmentation,Lemmatization,uncertain
+23461143,t1,t10,Introduction to Ethical Hacking,Social Engineering Attacks,confident
+23461143,t1,t11,Introduction to Ethical Hacking,Introduction to Vulnerability Assessment and Penetration Testing (VAPT),confident
+23461143,t1,t16,Introduction to Ethical Hacking,Impact of cybercrime on e-governance and e-commerce,confident
+23461143,t1,t17,Introduction to Ethical Hacking,Reconnaissance,uncertain
+23461143,t1,t18,Introduction to Ethical Hacking,Scanning and Vulnerability Assessment Information Gathering,uncertain
+23461143,t1,t2,Introduction to Ethical Hacking,Goals of Ethical Hacking,confident
+23461143,t1,t3,Introduction to Ethical Hacking,Types of Hackers,confident
+23461143,t1,t34,Introduction to Ethical Hacking,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,uncertain
+23461143,t1,t7,Introduction to Ethical Hacking,Phases of Ethical Hacking,confident
+23461143,t11,t12,Introduction to Vulnerability Assessment and Penetration Testing (VAPT),Need for Vulnerability Assessment,confident
+23461143,t11,t13,Introduction to Vulnerability Assessment and Penetration Testing (VAPT),Types of Penetration Testing,confident
+23461143,t11,t14,Introduction to Vulnerability Assessment and Penetration Testing (VAPT),"Penetration Testing Methodologies (PTES, OSSTMM, NIST)",confident
+23461143,t11,t15,Introduction to Vulnerability Assessment and Penetration Testing (VAPT),Difference between VA and PT,confident
+23461143,t12,t15,Need for Vulnerability Assessment,Difference between VA and PT,uncertain
+23461143,t17,t18,Reconnaissance,Scanning and Vulnerability Assessment Information Gathering,uncertain
+23461143,t17,t19,Reconnaissance,Footprinting,confident
+23461143,t18,t20,Scanning and Vulnerability Assessment Information Gathering,Vulnerability Scanning and Enumeration,confident
+23461143,t18,t21,Scanning and Vulnerability Assessment Information Gathering,Password cracking,confident
+23461143,t18,t22,Scanning and Vulnerability Assessment Information Gathering,keyloggers (SN),confident
+23461143,t18,t23,Scanning and Vulnerability Assessment Information Gathering,Active Vs,uncertain
+23461143,t18,t24,Scanning and Vulnerability Assessment Information Gathering,Passive Vulnerability scanning,uncertain
+23461143,t18,t25,Scanning and Vulnerability Assessment Information Gathering,Enumeration Techniques,confident
+23461143,t18,t26,Scanning and Vulnerability Assessment Information Gathering,SNMP,uncertain
+23461143,t18,t27,Scanning and Vulnerability Assessment Information Gathering,SMB,uncertain
+23461143,t18,t28,Scanning and Vulnerability Assessment Information Gathering,LDAP,uncertain
+23461143,t18,t29,Scanning and Vulnerability Assessment Information Gathering,DNS Enumeration,uncertain
+23461143,t18,t30,Scanning and Vulnerability Assessment Information Gathering,Network Scanning Techniques,confident
+23461143,t18,t31,Scanning and Vulnerability Assessment Information Gathering,Port Scanning,uncertain
+23461143,t18,t32,Scanning and Vulnerability Assessment Information Gathering,Service Detection,uncertain
+23461143,t23,t24,Active Vs,Passive Vulnerability scanning,uncertain
+23461143,t25,t26,Enumeration Techniques,SNMP,uncertain
+23461143,t25,t27,Enumeration Techniques,SMB,uncertain
+23461143,t25,t28,Enumeration Techniques,LDAP,uncertain
+23461143,t25,t29,Enumeration Techniques,DNS Enumeration,uncertain
+23461143,t3,t4,Types of Hackers,White Hat,confident
+23461143,t3,t5,Types of Hackers,Black Hat,confident
+23461143,t3,t6,Types of Hackers,Grey Hat,confident
+23461143,t3,t8,Types of Hackers,Difference between Hackers,confident
+23461143,t3,t9,Types of Hackers,Crackers and Phreakers,confident
+23461143,t30,t31,Network Scanning Techniques,Port Scanning,uncertain
+23461143,t31,t32,Port Scanning,Service Detection,uncertain
+23461143,t33,t34,Digital Forensics,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,uncertain
+23461143,t34,t33,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Digital Forensics,uncertain
+23461143,t34,t35,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Need and Objectives of Digital Forensics,confident
+23461143,t34,t36,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Phases involved in Digital Forensics,confident
+23461143,t34,t37,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Types of Digital Forensics,confident
+23461143,t34,t38,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Rules of Digital Forensic,confident
+23461143,t34,t39,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Anti Forensics,confident
+23461143,t34,t40,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Role of AI in Digital Forensics Introduction to Digital evidences,confident
+23461143,t34,t41,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Digital Evidence and its Types,confident
+23461143,t34,t42,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Rules of Digital Evidences,uncertain
+23461143,t34,t45,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Incident Response Process,uncertain
+23461143,t34,t46,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Incident and Incident Response,uncertain
+23461143,t34,t49,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Forensic Duplication,uncertain
+23461143,t34,t57,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Computer Forensics,uncertain
+23461143,t34,t58,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Introduction to Computer Forensics,uncertain
+23461143,t34,t67,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Network Forensics,confident
+23461143,t34,t83,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Mobile Forensics,uncertain
+23461143,t34,t89,Digital Evidences and Incident Response Fundamentals Introduction to Digital Forensics,Goals of Report,uncertain
+23461143,t41,t42,Digital Evidence and its Types,Rules of Digital Evidences,uncertain
+23461143,t41,t43,Digital Evidence and its Types,Chain of Custody,confident
+23461143,t41,t44,Digital Evidence and its Types,Challenges in digital evidence Handling,confident
+23461143,t45,t46,Incident Response Process,Incident and Incident Response,uncertain
+23461143,t46,t45,Incident and Incident Response,Incident Response Process,uncertain
+23461143,t46,t47,Incident and Incident Response,Incident Response Methodology,confident
+23461143,t46,t48,Incident and Incident Response,Roles of CSIRT in handling incident,uncertain
+23461143,t47,t48,Incident Response Methodology,Roles of CSIRT in handling incident,uncertain
+23461143,t49,t50,Forensic Duplication,Forensic Image Formats,confident
+23461143,t49,t51,Forensic Duplication,Traditional Duplication Vs Forensic duplication,confident
+23461143,t49,t52,Forensic Duplication,Need for the forensic duplication,confident
+23461143,t49,t53,Forensic Duplication,Live System Duplication,confident
+23461143,t49,t54,Forensic Duplication,Data imaging and hashing,confident
+23461143,t49,t55,Forensic Duplication,Image Acquisition,uncertain
+23461143,t54,t55,Data imaging and hashing,Image Acquisition,uncertain
+23461143,t55,t56,Image Acquisition,File Recovery & Data Carving,uncertain
+23461143,t55,t59,Image Acquisition,"Evidence collection (Disk and file system, Memory, Registry, Logs etc)",uncertain
+23461143,t57,t58,Computer Forensics,Introduction to Computer Forensics,uncertain
+23461143,t58,t49,Introduction to Computer Forensics,Forensic Duplication,uncertain
+23461143,t58,t56,Introduction to Computer Forensics,File Recovery & Data Carving,uncertain
+23461143,t58,t57,Introduction to Computer Forensics,Computer Forensics,uncertain
+23461143,t58,t59,Introduction to Computer Forensics,"Evidence collection (Disk and file system, Memory, Registry, Logs etc)",uncertain
+23461143,t58,t60,Introduction to Computer Forensics,"Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)",uncertain
+23461143,t58,t61,Introduction to Computer Forensics,Media Analysis Hard drives,uncertain
+23461143,t58,t62,Introduction to Computer Forensics,RAM,uncertain
+23461143,t58,t63,Introduction to Computer Forensics,flash memory,uncertain
+23461143,t58,t64,Introduction to Computer Forensics,PDAs,uncertain
+23461143,t58,t66,Introduction to Computer Forensics,Challenges in Computer Forensics,uncertain
+23461143,t58,t83,Introduction to Computer Forensics,Mobile Forensics,uncertain
+23461143,t59,t60,"Evidence collection (Disk and file system, Memory, Registry, Logs etc)","Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)",uncertain
+23461143,t59,t61,"Evidence collection (Disk and file system, Memory, Registry, Logs etc)",Media Analysis Hard drives,uncertain
+23461143,t59,t62,"Evidence collection (Disk and file system, Memory, Registry, Logs etc)",RAM,uncertain
+23461143,t59,t63,"Evidence collection (Disk and file system, Memory, Registry, Logs etc)",flash memory,uncertain
+23461143,t59,t64,"Evidence collection (Disk and file system, Memory, Registry, Logs etc)",PDAs,uncertain
+23461143,t60,t65,"Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)",AI-Assisted Disk and Memory Analysis,uncertain
+23461143,t60,t66,"Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)",Challenges in Computer Forensics,uncertain
+23461143,t61,t65,Media Analysis Hard drives,AI-Assisted Disk and Memory Analysis,uncertain
+23461143,t62,t65,RAM,AI-Assisted Disk and Memory Analysis,uncertain
+23461143,t67,t68,Network Forensics,Exploiting Network Based Vulnerabilities,confident
+23461143,t67,t73,Network Forensics,Sources of Network based evidences,confident
+23461143,t67,t74,Network Forensics,Investigating Routers,uncertain
+23461143,t67,t75,Network Forensics,Introduction to Wireless forensics,confident
+23461143,t67,t81,Network Forensics,Tools used in network forensics,confident
+23461143,t67,t82,Network Forensics,Challenges in Network forensics,confident
+23461143,t68,t69,Exploiting Network Based Vulnerabilities,DNS Cache Poisoning,confident
+23461143,t68,t70,Exploiting Network Based Vulnerabilities,SNMP Exploits,confident
+23461143,t68,t71,Exploiting Network Based Vulnerabilities,SMTP Exploits,confident
+23461143,t68,t72,Exploiting Network Based Vulnerabilities,FTP Exploits,confident
+23461143,t7,t17,Phases of Ethical Hacking,Reconnaissance,uncertain
+23461143,t73,t74,Sources of Network based evidences,Investigating Routers,uncertain
+23461143,t75,t76,Introduction to Wireless forensics,exploiting wireless vulnerabilities,confident
+23461143,t75,t77,Introduction to Wireless forensics,Wireless Network Hacking,uncertain
+23461143,t75,t78,Introduction to Wireless forensics,WEP,uncertain
+23461143,t75,t79,Introduction to Wireless forensics,WPA,uncertain
+23461143,t75,t80,Introduction to Wireless forensics,WPA2 Attacks,uncertain
+23461143,t76,t77,exploiting wireless vulnerabilities,Wireless Network Hacking,uncertain
+23461143,t77,t78,Wireless Network Hacking,WEP,uncertain
+23461143,t77,t79,Wireless Network Hacking,WPA,uncertain
+23461143,t79,t80,WPA,WPA2 Attacks,uncertain
+23461143,t83,t84,Mobile Forensics,Evidence Collection and Acquisition,confident
+23461143,t83,t86,Mobile Forensics,Challenges in mobile forensics,uncertain
+23461143,t83,t87,Mobile Forensics,Tools used in mobile forensics,uncertain
+23461143,t83,t88,Mobile Forensics,Traditional Mobile Forensics vs AI-Enabled Mobile Forensics,uncertain
+23461143,t84,t85,Evidence Collection and Acquisition,Analysis of Evidences,confident
+23461143,t85,t86,Analysis of Evidences,Challenges in mobile forensics,uncertain
+23461143,t85,t87,Analysis of Evidences,Tools used in mobile forensics,uncertain
+23461143,t85,t89,Analysis of Evidences,Goals of Report,uncertain
+23461143,t87,t88,Tools used in mobile forensics,Traditional Mobile Forensics vs AI-Enabled Mobile Forensics,uncertain
+23461143,t89,t90,Goals of Report,Layout of an Investigative Report,confident
+23461143,t89,t91,Goals of Report,Guidelines for Writing a Report,confident
+23461143,t91,t92,Guidelines for Writing a Report,sample for writing a forensic report,confident
+23461144,t1,t12,Definition and Scope,Working of Augmented Reality,uncertain
+23461144,t1,t13,Definition and Scope,Applications of AR,confident
+23461144,t1,t2,Definition and Scope,A Brief History of Augmented Reality,confident
+23461144,t1,t3,Definition and Scope,Architecture of AR,uncertain
+23461144,t1,t7,Definition and Scope,Strong vs Weak AR,confident
+23461144,t1,t9,Definition and Scope,Ingredients of an AR Experience Dimensionality,uncertain
+23461144,t10,t22,Depth Cues,Advanced Spatial Concepts,uncertain
+23461144,t11,t14,Registration and Latency,Challenges in AR,uncertain
+23461144,t11,t86,Registration and Latency,Latency & Fidelity,uncertain
+23461144,t12,t15,Working of Augmented Reality,Reality Software Components,uncertain
+23461144,t12,t17,Working of Augmented Reality,Interaction in Augmented Reality,uncertain
+23461144,t13,t36,Applications of AR,AR applications and future visions,confident
+23461144,t13,t39,Applications of AR,applications augmented reality,confident
+23461144,t15,t16,Reality Software Components,Software Tools for Content Creation,uncertain
+23461144,t16,t30,Software Tools for Content Creation,Augmented Reality Requirement of AR Authoring,uncertain
+23461144,t17,t18,Interaction in Augmented Reality,Augmented Reality Techniques,uncertain
+23461144,t17,t25,Interaction in Augmented Reality,Tangible Interfaces,uncertain
+23461144,t17,t27,Interaction in Augmented Reality,Multi-view Interfaces,uncertain
+23461144,t18,t19,Augmented Reality Techniques,Marker based and Marker less tracking,uncertain
+23461144,t18,t21,Augmented Reality Techniques,Mobile Augmented Reality,uncertain
+23461144,t18,t22,Augmented Reality Techniques,Advanced Spatial Concepts,uncertain
+23461144,t18,t26,Augmented Reality Techniques,Virtual User Interfaces on Real Surfaces,uncertain
+23461144,t19,t20,Marker based and Marker less tracking,Markerless Tracking & SLAM,confident
+23461144,t2,t40,A Brief History of Augmented Reality,History of VR and MR,uncertain
+23461144,t23,t29,Output Modalities,Multimodal Interaction,uncertain
+23461144,t24,t28,Input Modalities,Haptic Interaction,uncertain
+23461144,t24,t29,Input Modalities,Multimodal Interaction,uncertain
+23461144,t25,t26,Tangible Interfaces,Virtual User Interfaces on Real Surfaces,uncertain
+23461144,t3,t12,Architecture of AR,Working of Augmented Reality,uncertain
+23461144,t3,t4,Architecture of AR,General Architecture of Mixed Reality System,confident
+23461144,t3,t6,Architecture of AR,"Displays (Multimodal Displays, Spatial Display Model, and Visual Displays)",uncertain
+23461144,t3,t8,Architecture of AR,"Augmented Reality Hardware (Sensors, Processors, Displays)",uncertain
+23461144,t30,t31,Augmented Reality Requirement of AR Authoring,Elements of Authoring,uncertain
+23461144,t31,t30,Elements of Authoring,Augmented Reality Requirement of AR Authoring,uncertain
+23461144,t31,t32,Elements of Authoring,Stand-alone,confident
+23461144,t31,t33,Elements of Authoring,Authoring Solutions,confident
+23461144,t31,t34,Elements of Authoring,Plug-in Approaches,uncertain
+23461144,t31,t37,Elements of Authoring,Designing an AR application,uncertain
+23461144,t33,t34,Authoring Solutions,Plug-in Approaches,uncertain
+23461144,t33,t35,Authoring Solutions,Web Technology and dynamic content,uncertain
+23461144,t33,t37,Authoring Solutions,Designing an AR application,uncertain
+23461144,t36,t38,AR applications and future visions,Technology adoption and acceptance,uncertain
+23461144,t4,t5,General Architecture of Mixed Reality System,Algorithm Steps in Mixed Reality,uncertain
+23461144,t40,t41,History of VR and MR,Classical components and design of a VR system,confident
+23461144,t41,t42,Classical components and design of a VR system,Important factors in a virtual reality system,uncertain
+23461144,t41,t43,Classical components and design of a VR system,Types of virtual reality systems,uncertain
+23461144,t41,t45,Classical components and design of a VR system,VR Input devices,uncertain
+23461144,t41,t46,Classical components and design of a VR system,Graphics display interfaces,uncertain
+23461144,t41,t47,Classical components and design of a VR system,Sound display and interface,uncertain
+23461144,t41,t54,Classical components and design of a VR system,of Virtual World,uncertain
+23461144,t41,t77,Classical components and design of a VR system,User Interface Metaphors,uncertain
+23461144,t42,t85,Important factors in a virtual reality system,Immersion,uncertain
+23461144,t42,t86,Important factors in a virtual reality system,Latency & Fidelity,uncertain
+23461144,t42,t89,Important factors in a virtual reality system,Musculoskeletal Issues,uncertain
+23461144,t43,t44,Types of virtual reality systems,advantages of virtual reality,uncertain
+23461144,t43,t90,Types of virtual reality systems,Emerging VR Technologies,uncertain
+23461144,t44,t53,advantages of virtual reality,Applications of virtual reality,uncertain
+23461144,t45,t46,VR Input devices,Graphics display interfaces,uncertain
+23461144,t45,t47,VR Input devices,Sound display and interface,uncertain
+23461144,t45,t48,VR Input devices,Examples of input devices,confident
+23461144,t45,t49,VR Input devices,Haptic feedback,uncertain
+23461144,t46,t50,Graphics display interfaces,Graphical rendering pipeline,uncertain
+23461144,t46,t52,Graphics display interfaces,OpenGL rendering pipeline,uncertain
+23461144,t47,t51,Sound display and interface,Haptic rendering pipeline,uncertain
+23461144,t47,t64,Sound display and interface,Aural Rendering Systems,uncertain
+23461144,t47,t66,Sound display and interface,Sound-Generation Hardware,uncertain
+23461144,t49,t51,Haptic feedback,Haptic rendering pipeline,uncertain
+23461144,t50,t52,Graphical rendering pipeline,OpenGL rendering pipeline,confident
+23461144,t50,t57,Graphical rendering pipeline,Rendering Systems,uncertain
+23461144,t50,t60,Graphical rendering pipeline,Geometrically Based Rendering Systems,uncertain
+23461144,t50,t63,Graphical rendering pipeline,Computer Graphics System Requirements,uncertain
+23461144,t50,t72,Graphical rendering pipeline,Culling Techniques,uncertain
+23461144,t50,t73,Graphical rendering pipeline,Anti-Aliasing in VR,uncertain
+23461144,t50,t75,Graphical rendering pipeline,Post-processing effects.Introduction to Real-time rendering techniques,confident
+23461144,t50,t76,Graphical rendering pipeline,Graphics processing units (GPU) in VR,confident
+23461144,t51,t49,Haptic rendering pipeline,Haptic feedback,uncertain
+23461144,t51,t68,Haptic rendering pipeline,Haptic Rendering Systems,uncertain
+23461144,t51,t69,Haptic rendering pipeline,Haptic Rendering Methods,uncertain
+23461144,t53,t94,Applications of virtual reality,VR in Industry 4.0 Ethics,uncertain
+23461144,t54,t55,of Virtual World,Visual Representation in Virtual Reality,uncertain
+23461144,t54,t56,of Virtual World,Aural and Haptic Representation in Virtual Reality,uncertain
+23461144,t54,t67,of Virtual World,Internal Computer Representation,uncertain
+23461144,t55,t57,Visual Representation in Virtual Reality,Rendering Systems,uncertain
+23461144,t56,t57,Aural and Haptic Representation in Virtual Reality,Rendering Systems,uncertain
+23461144,t57,t58,Rendering Systems,Visual Rendering Systems,confident
+23461144,t57,t64,Rendering Systems,Aural Rendering Systems,uncertain
+23461144,t57,t68,Rendering Systems,Haptic Rendering Systems,uncertain
+23461144,t58,t59,Visual Rendering Systems,Visual Rendering Methods,uncertain
+23461144,t59,t60,Visual Rendering Methods,Geometrically Based Rendering Systems,uncertain
+23461144,t59,t61,Visual Rendering Methods,Non-geometric Rendering Systems,uncertain
+23461144,t6,t23,"Displays (Multimodal Displays, Spatial Display Model, and Visual Displays)",Output Modalities,uncertain
+23461144,t6,t8,"Displays (Multimodal Displays, Spatial Display Model, and Visual Displays)","Augmented Reality Hardware (Sensors, Processors, Displays)",uncertain
+23461144,t60,t59,Geometrically Based Rendering Systems,Visual Rendering Methods,uncertain
+23461144,t60,t62,Geometrically Based Rendering Systems,Rendering Complex Visual Scenes,confident
+23461144,t60,t72,Geometrically Based Rendering Systems,Culling Techniques,uncertain
+23461144,t60,t73,Geometrically Based Rendering Systems,Anti-Aliasing in VR,uncertain
+23461144,t61,t62,Non-geometric Rendering Systems,Rendering Complex Visual Scenes,uncertain
+23461144,t62,t63,Rendering Complex Visual Scenes,Computer Graphics System Requirements,uncertain
+23461144,t64,t65,Aural Rendering Systems,Rendering Complex Sounds,confident
+23461144,t65,t66,Rendering Complex Sounds,Sound-Generation Hardware,uncertain
+23461144,t68,t69,Haptic Rendering Systems,Haptic Rendering Methods,uncertain
+23461144,t69,t70,Haptic Rendering Methods,Rendering Complex Haptic Scenes with Force Displays,confident
+23461144,t69,t71,Haptic Rendering Methods,Haptic Rendering Techniques,confident
+23461144,t73,t74,Anti-Aliasing in VR,Multi-sample Anti-Aliasing (MSAA) vs,uncertain
+23461144,t77,t78,User Interface Metaphors,manipulating a Virtual World,uncertain
+23461144,t77,t84,User Interface Metaphors,interacting with the VR System,uncertain
+23461144,t78,t79,manipulating a Virtual World,Properties of Manipulation,uncertain
+23461144,t78,t80,manipulating a Virtual World,Manipulation Operations,uncertain
+23461144,t78,t81,manipulating a Virtual World,navigating in a Virtual World-Way finding and Travelling,uncertain
+23461144,t79,t80,Properties of Manipulation,Manipulation Operations,uncertain
+23461144,t8,t11,"Augmented Reality Hardware (Sensors, Processors, Displays)",Registration and Latency,uncertain
+23461144,t8,t12,"Augmented Reality Hardware (Sensors, Processors, Displays)",Working of Augmented Reality,uncertain
+23461144,t8,t21,"Augmented Reality Hardware (Sensors, Processors, Displays)",Mobile Augmented Reality,uncertain
+23461144,t8,t24,"Augmented Reality Hardware (Sensors, Processors, Displays)",Input Modalities,uncertain
+23461144,t81,t82,navigating in a Virtual World-Way finding and Travelling,Classes of Travel Methods Interacting with Others-Shared Experience,uncertain
+23461144,t82,t83,Classes of Travel Methods Interacting with Others-Shared Experience,Collaborative Interaction,uncertain
+23461144,t85,t86,Immersion,Latency & Fidelity,uncertain
+23461144,t85,t87,Immersion,"The ""Uncanny Valley"" in XR",uncertain
+23461144,t87,t88,"The ""Uncanny Valley"" in XR",Why hyper-realism can sometimes backfire in user experience,uncertain
+23461144,t89,t96,Musculoskeletal Issues,Cybersickness (VRSickness),uncertain
+23461144,t89,t97,Musculoskeletal Issues,Visual Pathologies,uncertain
+23461144,t9,t10,Ingredients of an AR Experience Dimensionality,Depth Cues,uncertain
+23461144,t90,t91,Emerging VR Technologies,Metaverse platforms,uncertain
+23461144,t90,t92,Emerging VR Technologies,Digital twins,uncertain
+23461144,t90,t93,Emerging VR Technologies,Spatial computing,uncertain
+23461144,t94,t95,VR in Industry 4.0 Ethics,Privacy & Safety Standards,uncertain
