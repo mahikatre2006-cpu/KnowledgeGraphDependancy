@@ -115,3 +115,4 @@ def test_classifier_serving_v5():
     prob = ClassifierInferenceService.predict_edge_probability(vec)
     assert isinstance(prob, float)
     assert 0.0 <= prob <= 1.0
+

@@ -174,3 +174,4 @@ def pair_features(
     pca_features = pca_model.transform(diff_prod.reshape(1, -1))[0].astype(np.float32)
 
     return np.concatenate([base_features, pca_features]).astype(np.float32)
+
