@@ -19,7 +19,7 @@ import tempfile
 import os
 from time import perf_counter
 from typing import List, Dict, Tuple, Optional
-
+from app.parser.nep_parse_v2 import * 
 # ---------------------------------------------------------------------------
 # Compiled regexes
 # ---------------------------------------------------------------------------
@@ -35,7 +35,7 @@ _COURSE_HEADER_RE = re.compile(
 
 # Full syllabus section markers
 _DETAILED_SYLLABUS_START_RE = re.compile(
-    r'(?:DETAILED\s+SYLLABUS|Detailed\s+Syllabus)',
+    r'(?:DETAILED\s+SYLLABUS|Detailed\s+Syllabus)\s*:?',
     re.IGNORECASE
 )
 _TOTAL_HOURS_RE = re.compile(r'\bTotal\s+Hours\b', re.IGNORECASE)
@@ -167,7 +167,15 @@ def parse_nep_pdf_bytes(pdf_bytes: bytes) -> Tuple[bool, List[NEPCourse], float]
         doc = fitz.open(tmp_path)
         pages_text = []
         for pg in range(doc.page_count):
-            pages_text.append(doc.load_page(pg).get_text("text"))
+            page = doc.load_page(pg)
+            blocks = [b for b in page.get_text("blocks") if b[6] == 0]
+            blocks_sorted = sorted(blocks, key=lambda b: (b[1], b[0]))
+            page_lines = []
+            for b in blocks_sorted:
+                for line in b[4].splitlines():
+                    if line.strip():
+                        page_lines.append(line.strip())
+            pages_text.append('\n'.join(page_lines))
         doc.close()
     finally:
         os.unlink(tmp_path)
@@ -242,7 +250,7 @@ def _segment_and_parse(full_text: str) -> List[NEPCourse]:
         course_lines = lines[line_start:line_end]
         course_text = '\n'.join(course_lines)
 
-        kind = _detect_kind(title)
+        kind = _detect_kind(title, course_text=course_text, code=code)
         course = NEPCourse(code=code, title=title, kind=kind)
 
         # Check if there's a Detailed Syllabus section
@@ -260,34 +268,41 @@ def _segment_and_parse(full_text: str) -> List[NEPCourse]:
 
 def _extract_title_near(lines: List[str], idx: int, code: str) -> Optional[str]:
     """
-    Extract course title from the line containing the code or adjacent lines.
-    NEP format: line may be "2345113 Web Technology" or code on one line,
-    title on next.
+    Title = join header lines until the 'Teaching Scheme' line.
     """
+    title_parts: List[str] = []
     line = lines[idx].strip()
-    # Remove the code itself and see what's left
-    remainder = _COURSE_CODE_RE.sub('', line).strip()
-    remainder = re.sub(r'^[\|\s]+|[\|\s]+$', '', remainder)
+    rem = _COURSE_CODE_RE.sub('', line)
+    rem = re.sub(r'Course\s+Code\s*\|\s*Course\s+Name(?:\s*\|\s*Teaching\s+Scheme)?', '', rem, flags=re.IGNORECASE)
+    rem = re.sub(r'^[\|\s\-]+|[\|\s\-]+$', '', rem).strip()
+    if rem and not re.search(r'\b(Teaching\s+Scheme|Theory|Practical|Tutorial|Credits?|Marks?)\b', rem, re.IGNORECASE):
+        title_parts.append(rem)
 
-    if len(remainder) >= 4 and not re.fullmatch(r'[\d\s\|\-]+', remainder):
-        return remainder
+    j = idx + 1
+    while j < len(lines):
+        nxt = lines[j].strip()
+        if re.search(r'\b(Teaching\s+Scheme|Theory\s+Practical)\b', nxt, re.IGNORECASE):
+            break
+        cleaned = re.sub(r'^[\|\s\-]+|[\|\s\-]+$', '', nxt).strip()
+        if cleaned and not _COURSE_CODE_RE.search(cleaned):
+            if not re.search(r'\b(Credits?|Marks?|Hours?)\b', cleaned, re.IGNORECASE):
+                title_parts.append(cleaned)
+        j += 1
 
-    # Check next 1-2 lines
-    for delta in [1, 2]:
-        if idx + delta < len(lines):
-            nxt = lines[idx + delta].strip()
-            # Skip if it's just numbers/pipes/headers
-            if nxt and len(nxt) >= 4 and not re.fullmatch(r'[\d\s\|\-]+', nxt):
-                if not _COURSE_CODE_RE.fullmatch(nxt):
-                    # Verify it's not a teaching scheme line
-                    if not re.search(r'\b(Theory|Practical|Tutorial|Credits?|Marks?)\b', nxt, re.IGNORECASE):
-                        return nxt
+    if title_parts:
+        return ' '.join(title_parts).strip()
 
     return None
 
 
-def _detect_kind(title: str) -> str:
-    """Returns 'lab' if title suggests a lab/project course, else 'theory'."""
+def _detect_kind(title: str, course_text: str = "", code: str = "") -> str:
+    """Kind = lab if the code is the lab code per the 'Lab Description' table or the text contains 'Lab Objectives'."""
+    if "lab objectives" in course_text.lower():
+        return "lab"
+    if "lab description" in course_text.lower():
+        return "lab"
+    if code.endswith("L") or code.endswith("P"):
+        return "lab"
     lab_markers = re.compile(
         r'\b(Lab|Laboratory|Mini\s+Project|Professional\s+Skill|Indian\s+Knowledge)\b',
         re.IGNORECASE
@@ -314,6 +329,15 @@ def _parse_detailed_syllabus_section(course: NEPCourse, text: str) -> None:
     end_m = _TOTAL_HOURS_RE.search(body)
     if end_m:
         body = body[:end_m.start()]
+
+    # Dump ONLY the text between "Detailed Syllabus" and "Total Hours" for course 2345113 to /tmp/c.txt
+    if course.code == '2345113':
+        try:
+            os.makedirs('/tmp', exist_ok=True)
+            with open('/tmp/c.txt', 'w', encoding='utf-8') as f:
+                f.write(body.strip() + '\n')
+        except Exception:
+            pass
 
     # Now parse module rows out of `body`
     # The table has: Sr.No | Name of Module | Detailed Content | Hours | CO Mapping
@@ -350,7 +374,7 @@ def _extract_modules_from_body(course: NEPCourse, body: str) -> None:
 
         # Try to detect a module header row
         # Pattern: line starts with "0", "1"-"6", or Roman "I".."VI"
-        m = re.match(r'^(0|[1-6]|I{1,3}V?|VI?|IV|IX|V?I{0,3})\s+(.+)', stripped, re.IGNORECASE)
+        m = re.match(r'^\s*([0-6]|I{1,3}V?|VI?|IV|IX|V?I{0,3})\s+(\S.*)', stripped, re.IGNORECASE)
         if m:
             raw_num = m.group(1)
             rest = m.group(2).strip()
@@ -480,7 +504,7 @@ def _split_outside_parens(text: str) -> List[str]:
             current.append(c)
         elif depth == 0:
             # Check for split patterns
-            if c in (',', ';'):
+            if c in (',', ';', ':'):
                 parts.append(''.join(current))
                 current = []
             elif c == ' ' and i + 2 < len(text) and text[i:i+3] in (' - ', ' – ', ' — '):

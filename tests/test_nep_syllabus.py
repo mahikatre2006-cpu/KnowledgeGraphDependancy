@@ -19,10 +19,7 @@ FIXTURE_PATH = Path(__file__).parent / "fixtures" / "nep_sem5_6.pdf"
 def ensure_fixture():
     if not FIXTURE_PATH.exists():
         import subprocess, sys
-        subprocess.run(
-            [sys.executable, str(Path(__file__).parent / "create_fixture_pdf.py")],
-            check=True
-        )
+       
     assert FIXTURE_PATH.exists(), f"Fixture not found: {FIXTURE_PATH}"
 
 
@@ -104,6 +101,16 @@ def _assert_zero_self_learning(course):
 def test_web_technology_modules(parsed_courses):
     c = parsed_courses["2345113"]
     assert len(c.modules) == 6, f"Expected 6 modules, got {len(c.modules)}"
+    expected_titles = [
+        "Web Fundamentals and JavaScript",
+        "React.js Frontend Development",
+        "Node.js and Express Backend",
+        "Database Integration",
+        "MVC and Design Patterns",
+        "Security and Deployment",
+    ]
+    actual_titles = [m["title"] for m in c.modules]
+    assert actual_titles == expected_titles, f"Module titles mismatch: {actual_titles}"
 
 
 def test_web_technology_topic_count(parsed_courses):
@@ -137,7 +144,7 @@ def test_web_technology_must_not_contain(parsed_courses):
     must_not = [
         "asynchronous javascript", "react vs angular", "next.js framework",
         "fastapi", "react native", "query optimization",
-        "environment setup", "first app", "installation",
+        "environment setup", "first app", "installation", "internet basics",
     ]
     found = [t for t in must_not if any(t in n for n in names)]
     assert not found, f"Banned topics found: {found}"
