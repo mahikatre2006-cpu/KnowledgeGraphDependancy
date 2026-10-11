@@ -46,7 +46,7 @@
   ],
   "threshold": 0.29,
   "data_hash": "8ffbde6b329a76e827e1f3caca10e0f3b60abda07d15316db8a38fc652f2ebb4",
-  "git_commit": "c09723e04ec43bc396ce19f790e25f45494c1964",
+  "git_commit": "3eb274c8d76f3cd2596d21e9979b1f876f2360b3",
   "best_depth": 4,
   "train_courses": [
     "2345111",
