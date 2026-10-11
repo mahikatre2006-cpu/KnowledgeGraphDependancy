@@ -1,16 +1,17 @@
 """
-relationship_inferencer.py — Phase 2: speed + graph sanity (fix/nep-parser)
+relationship_inferencer.py — Prerequisite relationship inference engine (Model V5).
 
-Optimisations vs original:
-- Embed unique topic names in ONE batch (name->vector cache)
-- Build pair features vectorised
+Optimisations & specifications:
+- Embed unique topic names (name only) in ONE batch
+- Build pair features using canonical app.ml.features_v5.pair_features
 - ONE predict_proba call over all candidate pairs
-- Candidate pairs: forward only (i<j), same-course scope implied
-- Window constraint: same module OR j-i <= 12
-- Graph rules: in-degree <=3, out-degree <=6, reject cycles, transitive reduction
+- Candidate pairs: forward only (i<j), within course syllabus
+- Window constraint: same module OR (j - i) <= max(12, n)
+- Graph rules: in-degree <= 3, out-degree <= 6, reject cycles, transitive reduction
 - NO orphan attachment
-- Per-stage timing logs
+- 100% offline operation (no external APIs or network calls)
 """
+
 import re
 from time import perf_counter
 from typing import List, Dict, Tuple, Optional
@@ -20,7 +21,7 @@ from app.graph.engine import KnowledgeGraph
 from app.graph.models import DependencyEdge, ConceptNode
 from app.services.embedding_service import LocalEmbeddingService
 from app.services.sequence_engine import SequenceEngine
-from app.ml.feature_engineering import compute_keyword_overlap
+from app.ml.features_v5 import pair_features, compute_keyword_overlap
 from app.services.classifier_inference_service import ClassifierInferenceService
 
 FOUNDATIONAL_KEYWORDS = {
@@ -65,24 +66,16 @@ class RelationshipInferencer:
         t_total = perf_counter()
 
         if min_confidence is None:
-            try:
-                import json
-                from pathlib import Path
-                thresh_path = Path(__file__).resolve().parent.parent / "ml" / "model_artifact_v4_meta.json"
-                with open(thresh_path) as f:
-                    meta = json.load(f)
-                    min_confidence = meta.get("optimal_threshold") or meta.get("threshold", 0.40)
-            except Exception:
-                min_confidence = 0.40
+            min_confidence = ClassifierInferenceService.get_threshold()
 
         nodes = graph.get_all_nodes()
         n = len(nodes)
         if n < 2:
             return []
 
-        # ── 1. Embed unique topic names with unit context in ONE batch ─────────
+        # ── 1. Embed unique topic names (name only) in ONE batch ─────────────
         t0 = perf_counter()
-        unique_texts = list({f"{nd.name}. {nd.unit}." if nd.unit else nd.name for nd in nodes})
+        unique_texts = list({nd.name for nd in nodes})
         to_embed = [txt for txt in unique_texts if txt not in cls._embedding_cache]
         if to_embed:
             vecs = LocalEmbeddingService.encode_batch(to_embed)
@@ -90,7 +83,7 @@ class RelationshipInferencer:
                 cls._embedding_cache[txt] = vec
         # Build per-node embedding matrix
         emb_matrix = np.array([
-            cls._embedding_cache[f"{nd.name}. {nd.unit}." if nd.unit else nd.name]
+            cls._embedding_cache[nd.name]
             for nd in nodes
         ], dtype=np.float32)
         print(f"[TIMING] embed={perf_counter()-t0:.3f}s  unique={len(unique_texts)}")
@@ -125,30 +118,47 @@ class RelationshipInferencer:
         if not pair_i:
             return []
 
-        # ── 3. Vectorised feature computation ────────────────────────────────
+        # ── 3. Feature computation ────────────────────────────────────────────
         t0 = perf_counter()
-        sims = sim_matrix[pair_i, pair_j]
-        deltas = np.array([j - i for i, j in zip(pair_i, pair_j)], dtype=np.float32)
-        kw_overlaps = np.array([
-            compute_keyword_overlap(nodes[i].name, nodes[j].name)
-            for i, j in zip(pair_i, pair_j)
-        ], dtype=np.float32)
+        model_version = ClassifierInferenceService.get_model_version()
+        model = ClassifierInferenceService.get_model()
 
-        # Feature matrix: [embedding_similarity, keyword_overlap, order_delta]
-        X = np.column_stack([sims, kw_overlaps, deltas]).astype(np.float32)
-        print(f"[TIMING] feature_build={perf_counter()-t0:.3f}s  pairs={len(pair_i)}")
+        if model_version == "v5":
+            X = np.array([
+                pair_features(
+                    a=nodes[i].name,
+                    b=nodes[j].name,
+                    n_topics=n,
+                    unit_a=unit_nums[i],
+                    unit_b=unit_nums[j],
+                    pos_a=i,
+                    pos_b=j,
+                    emb_a=emb_matrix[i],
+                    emb_b=emb_matrix[j],
+                )
+                for i, j in zip(pair_i, pair_j)
+            ], dtype=np.float32)
+        else:
+            # Fallback Model V4 3-feature representation
+            sims = sim_matrix[pair_i, pair_j]
+            deltas = np.array([j - i for i, j in zip(pair_i, pair_j)], dtype=np.float32)
+            kw_overlaps = np.array([
+                compute_keyword_overlap(nodes[i].name, nodes[j].name)
+                for i, j in zip(pair_i, pair_j)
+            ], dtype=np.float32)
+            X = np.column_stack([sims, kw_overlaps, deltas]).astype(np.float32)
+
+        print(f"[TIMING] feature_build={perf_counter()-t0:.3f}s  pairs={len(pair_i)} (model={model_version})")
 
         # ── 4. ONE predict_proba call ─────────────────────────────────────────
         t0 = perf_counter()
-        from pathlib import Path
-        import json
-        model = ClassifierInferenceService.get_model()
         probs = model.predict_proba(X)[:, 1]  # P(prerequisite=1)
         print(f"[TIMING] predict={perf_counter()-t0:.3f}s")
 
         # ── 5. Graph rules ────────────────────────────────────────────────────
         t0 = perf_counter()
         inferred_edges: List[DependencyEdge] = []
+        sims_diag = sim_matrix[pair_i, pair_j]
 
         # Sort by probability descending so high-confidence edges win caps first
         order = np.argsort(-probs)
@@ -180,7 +190,7 @@ class RelationshipInferencer:
 
             reason_str = (
                 f"Inferred via local SentenceTransformer embeddings "
-                f"(similarity: {sims[k]:.2f}, delta: {int(deltas[k])}, p={probs[k]:.2f})"
+                f"(similarity: {sims_diag[k]:.2f}, p={probs[k]:.2f})"
             )
 
             if auto_add_to_graph:
