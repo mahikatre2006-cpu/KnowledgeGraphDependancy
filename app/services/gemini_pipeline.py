@@ -10,21 +10,18 @@ Self-contained and stateless: it never touches the app's global graph.
 Delete together with gemini_service.py / gemini_router.py / gemini_app.py to remove.
 """
 
-import json
 import re
-from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 import numpy as np
 
 from app.graph.engine import KnowledgeGraph
-from app.ml.feature_engineering import compute_keyword_overlap
+from app.ml.features_v5 import compute_keyword_overlap, pair_features
 from app.services.analytics_engine import AnalyticsEngine
-from app.services.classifier_inference_service import ClassifierInferenceService, FEATURE_KEYS
+from app.services.classifier_inference_service import ClassifierInferenceService
 from app.services.embedding_service import LocalEmbeddingService
 from app.services.sequence_engine import SequenceEngine
 
-THRESHOLD_PATH = Path(__file__).resolve().parent.parent / "ml" / "decision_threshold.json"
 MAX_PREREQS_PER_TOPIC = 3   # keep the diagram readable
 MIN_FALLBACK_PROB = 0.05    # connect otherwise-isolated topics to their best predecessor
 
@@ -34,10 +31,8 @@ def _slug(text: str) -> str:
 
 
 def _threshold() -> float:
-    try:
-        return float(json.loads(THRESHOLD_PATH.read_text()).get("optimal_threshold", 0.5))
-    except Exception:
-        return 0.5
+    """Decision threshold stored with the loaded model (so it always matches the model)."""
+    return ClassifierInferenceService.get_threshold()
 
 
 def _clean_topics(raw_topics: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -61,29 +56,39 @@ def _clean_topics(raw_topics: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 
 def _predict_edges(topics: List[Dict[str, Any]]) -> List[Tuple[int, int, float]]:
-    """Scores every forward pair (i < j in syllabus order) with one batched XGBoost call."""
+    """
+    Scores every forward pair (i < j in syllabus order) with one batched model call.
+
+    Uses the same feature recipe as training and as the app's own inferencer
+    (app.ml.features_v5.pair_features), with name-only embeddings computed once.
+    """
     n = len(topics)
     if n < 2:
         return []
 
-    emb = LocalEmbeddingService.encode_batch([t["name"] for t in topics])
-    norms = np.linalg.norm(emb, axis=1, keepdims=True)
-    norms[norms == 0] = 1e-10
-    emb = emb / norms
-    sim = emb @ emb.T
+    names = [t["name"] for t in topics]
+    units = [t["unit_number"] for t in topics]
+    emb = LocalEmbeddingService.encode_batch(names)
+    pairs = [(i, j) for i in range(n) for j in range(i + 1, n)]
 
-    pairs, rows = [], []
-    for i in range(n):
-        for j in range(i + 1, n):
-            pairs.append((i, j))
-            features = {
-                "embedding_similarity": float(sim[i, j]),
-                "keyword_overlap": compute_keyword_overlap(topics[i]["name"], topics[j]["name"]),
-                "order_delta": abs(topics[j]["unit_number"] - topics[i]["unit_number"]),
-            }
-            rows.append([features[k] for k in FEATURE_KEYS])
+    model = ClassifierInferenceService.get_model()
+    if ClassifierInferenceService.get_model_version() == "v5":
+        rows = [
+            pair_features(a=names[i], b=names[j], n_topics=n, unit_a=units[i], unit_b=units[j],
+                          pos_a=i, pos_b=j, emb_a=emb[i], emb_b=emb[j])
+            for i, j in pairs
+        ]
+    else:
+        # Older 3-feature model: [embedding_similarity, keyword_overlap, order_delta]
+        norms = np.linalg.norm(emb, axis=1, keepdims=True)
+        norms[norms == 0] = 1e-10
+        unit_emb = emb / norms
+        rows = [
+            [float(unit_emb[i] @ unit_emb[j]), compute_keyword_overlap(names[i], names[j]), float(j - i)]
+            for i, j in pairs
+        ]
 
-    probs = ClassifierInferenceService.get_model().predict_proba(np.array(rows, dtype=np.float32))[:, 1]
+    probs = model.predict_proba(np.array(rows, dtype=np.float32))[:, 1]
     return [(i, j, float(p)) for (i, j), p in zip(pairs, probs)]
 
 
